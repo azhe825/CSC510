@@ -14,6 +14,9 @@ subject_body_separator = " ****** "
 ThresBodyLength = 10
 ThresSubjectLength = 10
 
+#these two folder contains all the emails received and sent. No useful for our email labling jobs.
+CategoryRemoveList = ['all_documents', '_sent_mail' 'inbox', 'outbox', 'sent_items', 'sent']
+
 # Given path of the root folder of email data set
 if len(sys.argv) != 2:
     print("Usage: emailParser.py <path to root directory of email data set.>")
@@ -36,6 +39,19 @@ for classdir, subdirs, files in os.walk(rootdir):
         #fpath = sp.abspath(fm)
         class_tag = classdir.split(rootdir)[1]
         #print class_tag
+        header = class_tag.split('/')
+        if(len(header) == 3):
+            userID = header[1]
+            category = ''.join(header[2:])
+        elif(len(header) > 3):
+            userID = header[1]
+            category = '/'.join(header[2:])
+        else:
+            userID = ''
+            category = ''
+        if category in CategoryRemoveList:
+            print "Ignored above folder..."
+            break
         try:
             #print 'open', classdir+'/'+fm
             fmail = open(classdir+'/'+fm, 'r')
