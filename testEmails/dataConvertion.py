@@ -10,8 +10,25 @@ ThresLength = 3
 class_attr_separator = " ::::::>>>>>> "
 subject_boday_separator = " ****** "
 ThresEmailCount = 5
-CategoryRemoveList = ['all_documents', '_sent_mail']
 NumberOfFeatures = 300
+
+#these two folder contains all the emails received and sent. No useful for our email labling jobs.
+CategoryRemoveList = ['all_documents', '_sent_mail']
+
+## Directly defined here. No need to download form nltk. Source is nltk.corpus.stopwords.words('english')
+StopWords = ['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your', 'yours',
+'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers',
+'herself', 'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves',
+'what', 'which', 'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are',
+'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does',
+'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until',
+'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 'between', 'into',
+'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 'down',
+'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here',
+'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more',
+'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so',
+'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', 'should', 'now']
+
 
 #if len(sys.argv) != 2:
     #print "python dataConversion.py <path_to_datafile>"
@@ -34,7 +51,8 @@ def load_data(path_to_dir):
     textdata = []
     user_set = set();
     categories = []
-    stopwords = set(nltk.corpus.stopwords.words('english'))
+    stopwords =[unicode(i) for i in StopWords]
+    #stopwords = set(nltk.corpus.stopwords.words('english'))  ## requires to use nltk.download() at first. Removed for easy running.
     with open(path_to_datafile, "r") as ftext:
         for line in ftext:
             words = [w.lower() for w in line.strip().split() if len(w)>=ThresLength and w not in stopwords]

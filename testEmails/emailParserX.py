@@ -12,6 +12,9 @@ from email.parser import Parser
 class_attr_separator = " ::::::>>>>>> "
 subject_body_separator = " ****** "
 
+#these two folder contains all the emails received and sent. No useful for our email labling jobs.
+CategoryRemoveList = ['all_documents', '_sent_mail']
+
 # Given path of the root folder of email data set
 if len(sys.argv) != 2:
     print("Usage: emailParser.py <path to root directory of email data set.>")
@@ -33,6 +36,19 @@ for classdir, subdirs, files in os.walk(rootdir):
     for fm in files: 
         #fpath = sp.abspath(fm)
         class_tag = classdir.split(rootdir)[1]
+        header = class_tag.split('/')
+        if(len(header) == 3):
+            userID = header[1]
+            category = ''.join(header[2:])
+        elif(len(header) > 3):
+            userID = header[1]
+            category = '/'.join(header[2:])
+        else:
+            userID = ''
+            category = ''
+        if category in CategoryRemoveList:
+            print "Ignored above folder..."
+            break
         #print class_tag
         try:
             #print 'open', classdir+'/'+fm
@@ -58,7 +74,7 @@ for classdir, subdirs, files in os.walk(rootdir):
             body_keywords = ' '.join(body_segments.split(' '))
             subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject))
             subject_keywords = ' '.join(subject_segments.split(' '))
-            user_mail_entry = class_tag + class_attr_separator + subject_keywords + subject_boday_separator +  body_keywords
+            user_mail_entry = class_tag + class_attr_separator + subject_keywords + subject_body_separator +  body_keywords
             userdata.append(user_mail_entry)
             #print user_mail_entry
             fmail.close()
