@@ -11,6 +11,8 @@ from email.parser import Parser
 
 class_attr_separator = " ::::::>>>>>> "
 subject_body_separator = " ****** "
+ThresBodyLength = 10
+ThresSubjectLength = 10
 
 # Given path of the root folder of email data set
 if len(sys.argv) != 2:
@@ -43,6 +45,7 @@ for classdir, subdirs, files in os.walk(rootdir):
             subject = content['subject']
             #print subject
             if subject is None: # discard mail without subject
+                fmail.close()
                 continue
             body = []
             #print 'half'
@@ -52,13 +55,20 @@ for classdir, subdirs, files in os.walk(rootdir):
             else:
                 body.append(content.get_payload())
             if body is None: # discard mail without body
+                fmail.close()
                 continue
             #print 'done'
-            body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(body))
+            body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(body))
             body_keywords = ' '.join(body_segments.split(' '))
-            subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject))
+            if len(body_keywords) < ThresBodyLength:
+                fmail.close()
+                continue
+            subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject))
             subject_keywords = ' '.join(subject_segments.split(' '))
-            user_mail_entry = class_tag + class_attr_separator + subject_keywords + subject_boday_separator +  body_keywords
+            if len(subject_keywords) < ThresSubjectLength:
+                fmail.close()
+                continue
+            user_mail_entry = class_tag + class_attr_separator + subject_keywords + subject_body_separator +  body_keywords
             userdata.append(user_mail_entry)
             #print user_mail_entry
             fmail.close()
