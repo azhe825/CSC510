@@ -83,10 +83,11 @@ def convert_to_vector(user_set, user_cat_text_Dict):
                 text.extend(term[0])
                 text.extend(term[1])
             email_words.append(' '.join(text))
+            print cat + ' - ' + str(len(email_words))
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=NumberOfFeatures, stop_words='english')
         tf = tf_vectorizer.fit_transform(email_words)
         label_list.append(labels)
-        wordVectors.append(tf)
+        wordVectors.append(tf.toarray())
     return wordVectors, label_list
 
 def saveFeatures(user_set, category_list, wordVectors):
