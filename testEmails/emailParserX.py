@@ -10,6 +10,7 @@ import email
 from email.parser import Parser
 
 class_attr_separator = " ::::::>>>>>> "
+subject_body_separator = " ****** "
 
 # Given path of the root folder of email data set
 if len(sys.argv) != 2:
@@ -57,7 +58,7 @@ for classdir, subdirs, files in os.walk(rootdir):
             body_keywords = ' '.join(body_segments.split(' '))
             subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject))
             subject_keywords = ' '.join(subject_segments.split(' '))
-            user_mail_entry = class_tag + class_attr_separator + subject_keywords + " " + body_keywords
+            user_mail_entry = class_tag + class_attr_separator + subject_keywords + subject_boday_separator +  body_keywords
             userdata.append(user_mail_entry)
             #print user_mail_entry
             fmail.close()
