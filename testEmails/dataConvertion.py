@@ -71,38 +71,33 @@ def convert_to_vector(user_set, user_cat_text_Dict):
     wordVectors = []
     label_list = []
     for userID in user_set:
-        print userID
         labels = []
         email_words = []
         category_list = user_cat_text_Dict[userID].keys()
         for cat in category_list:
             text = []
-            if len(user_cat_text_Dict[userID][cat]) < ThresEmailCount:
+            if len(user_cat_text_Dict[userID][cat]) < ThresEmailCount or len(user_cat_text_Dict[userID][cat]) > 100:
                 continue
-            labels.append(cat)
             for term in user_cat_text_Dict[userID][cat]:
                 text.extend(term[0])
                 text.extend(term[1])
                 email_words.append(' '.join(text))
-            print cat + ' - ' + str(len(user_cat_text_Dict[userID][cat]))
-        tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=NumberOfFeatures, stop_words='english')
-        print len(email_words)
-        tf = tf_vectorizer.fit_transform(email_words)
+                labels.append(cat)
         label_list.append(labels)
-        wordVectors.append(tf.toarray())
+        tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=NumberOfFeatures, stop_words='english')
+        tf = tf_vectorizer.fit_transform(email_words)
+        wordVectors.append(tf.toarray().tolist())
     return wordVectors, label_list
 
-def saveFeatures(user_set, category_list, wordVectors):
+def saveFeatures(user_set, label_list, wordVectors):
+    fout = open("wordVectors.txt", 'w')
     user_index = 0
-    fout = open("output.txt", 'w')
     for userID in user_set:
         fout.write("<<<<<<" + userID + "\n")
-        cat_index = 0
-        for cat in category_list[user_index]:
-            fout.write(cat + "; \n")
-            fout.write(str(wordVectors[user_index][cat_index]))
+        for label_index, wvec in enumerate(wordVectors[user_index]):
+            fout.write(label_list[user_index][label_index] + "; \n")
+            fout.write(str(wvec))
             fout.write("\n")
-            cat_index += 1
         user_index += 1
         fout.write(">>>>>>"+'\n')
     fout.close()
