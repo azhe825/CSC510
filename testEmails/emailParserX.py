@@ -75,12 +75,12 @@ for classdir, subdirs, files in os.walk(rootdir):
                 continue
             #print 'done'
             body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(body))
-            body_keywords = ' '.join(body_segments.split(' '))
+            body_keywords = re.sub('\s+', ' ', body_segments)
             if len(body_keywords) < ThresBodyLength:
                 fmail.close()
                 continue
             subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject))
-            subject_keywords = ' '.join(subject_segments.split(' '))
+            subject_keywords = re.sub('\s+', ' ', subject_segments)
             if len(subject_keywords) < ThresSubjectLength:
                 fmail.close()
                 continue
@@ -90,7 +90,5 @@ for classdir, subdirs, files in os.walk(rootdir):
             fmail.close()
         except:
             continue
-#dataset.extend(userdata)
-#ft.write('\n'.join(dataset))
 ft.write('\n'.join(userdata))
 ft.close()
