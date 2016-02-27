@@ -13,7 +13,7 @@ from email.parser import Parser
 class_attr_separator = " ::::::>>>>>> "
 
 
-
+# Set directory
 Dir='/Users/zhe/PycharmProjects/Email_Data'
 category=""
 
