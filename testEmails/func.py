@@ -75,8 +75,7 @@ def split_data(label,num_each=10):
     for ll in set(label):
         index=[i for i in xrange(len(label)) if label[i]==ll]
         train.extend(list(np.random.choice(index,size=num_each,replace=False)))
-    test=np.array(list(set(range(len(label)))-set(train)))
-    train=np.array(train)
+    test=list(set(range(len(label)))-set(train))
     return train,test
 
 "Classifier: linear SVM"
