@@ -1,11 +1,11 @@
 import os
 import scipy
-import numpy
+import numpy as np
 import nltk
 import gensim
 import cPickle
 
-vector_size = 200
+
 
 def train():
     sentences = cPickle.load(open('user_corpus.p', 'rb'))
@@ -18,8 +18,12 @@ def load():
     return user_set, user_cat_text_Dict
 
 def main():
-    train()
-    model = gensim.models.Word2Vec.load('./Word2VectorModel')
+    #train()
+    ## use model trained by user's corpus
+    #model = gensim.models.Word2Vec.load('./Word2VectorModel')
+    ##
+    model = gensim.models.Word2Vec.load_word2vec_format('/Users/Jack/Downloads/GoogleNews-vectors-negative300.bin', binary=True)  # C binary format
+    vector_size = 300
     user_set, user_cat_text_Dict = load()
 
     wordVectors = []
@@ -50,7 +54,8 @@ def main():
                     for word in text:
                         try:
                             word_vector = model[word]
-                            doc_vector = [x + y for x, y in zip(doc_vector,word_vector)]
+                            #doc_vector = [x + y for x, y in zip(doc_vector,word_vector)]
+                            doc_vector = np.add(doc_vector,word_vector)
                         except KeyError:
                             #print word + 'not in training corpus'
                             pass
@@ -59,12 +64,12 @@ def main():
                     print userID + ':' + cat
             training_vector.append(category_vector)
             training_label.append(category_label)
-            cPickle.dump(training_vector,open('./subdata/training_vector_'+cat+'.p','wb'))
-            cPickle.dump(training_label,open('./subdata/training_label_'+cat+'.p','wb'))
+            cPickle.dump(training_vector,open('./new_subdata/training_vector_'+cat+'.p','wb'))
+            cPickle.dump(training_label,open('./new_subdata/training_label_'+cat+'.p','wb'))
         user_training_vector.append(training_vector)
         user_training_label.append(training_label)
-        cPickle.dump(user_training_vector,open('./subdata/user_training_vector_'+userID+'.p','wb'))
-        cPickle.dump(user_training_label,open('./subdata/user_training_label_'+userID+'.p','wb'))
+        cPickle.dump(user_training_vector,open('./new_subdata/user_training_vector_'+userID+'.p','wb'))
+        cPickle.dump(user_training_label,open('./new_subdata/user_training_label_'+userID+'.p','wb'))
 
 
 # for word in sentences[0]:
