@@ -17,22 +17,23 @@ categories = {}
 stopwords = set(nltk.corpus.stopwords.words('english'))
 CategoryRemoveList = ['all_documents', '_sent_mail', 'inbox', 'outbox', 'sent_items', 'sent', 'deleted_items']
 
-with open('./dataset.txt', "r") as data:
-    for line in data:
-            words = [w.lower() for w in line.strip().split() if len(w)>=3 and w not in stopwords]
-            header = words[0].split('/')
-            userID = header[1]
-            category = ''.join(header[2:])
-            if category in CategoryRemoveList:
-                continue
-            user_set.add(userID)
-            if not categories.has_key(category):
-                training_count = 1
-                categories.update({category: training_count})
-            print userID + '' + category
+for classdir, users, files in os.walk('../Cleaned_Data/'):
+    break
+for file in files:
+    userID = file.split('.')[0]
+    user_set.add(userID)
+    print userID
+    with open(classdir+'/'+file, "r") as data:
+        for line in data:
+            words = [w.lower() for w in line.strip().split() if w not in stopwords]
+            category = line.strip().split()[0]
             words = words[2:]
-            rm = words.index(subject_boday_separator.strip())
-            words.pop(rm)
+            if not categories.has_key(category):
+                training_count = 0
+                categories.update({category: training_count})
+                if category == class_attr_separator:
+                    print category
+                print category
             if u_count != len(user_set):
                 user_corpus.append([])
                 u_count = u_count + 1
@@ -42,6 +43,29 @@ with open('./dataset.txt', "r") as data:
                 categories.update({category: training_count})
             else:
                 continue
+            #words = [w.lower() for w in line.strip().split() if len(w)>=3 and w not in stopwords]
+            #header = words[0].split('/')
+            #userID = header[1]
+            #category = ''.join(header[2:])
+            #if category in CategoryRemoveList:
+            #    continue
+            # user_set.add(userID)
+            # if not categories.has_key(category):
+            #     training_count = 1
+            #     categories.update({category: training_count})
+            # print userID + '' + category
+            # words = words[2:]
+            # rm = words.index(subject_boday_separator.strip())
+            # words.pop(rm)
+            # if u_count != len(user_set):
+            #     user_corpus.append([])
+            #     u_count = u_count + 1
+            # if categories.get(category) < MAX_Training_Emails:
+            #     user_corpus[u_count-1] = user_corpus[u_count-1] + words
+            #     training_count = training_count + 1
+            #     categories.update({category: training_count})
+            # else:
+            #     continue
             # subjectFlag = True
             # subject_words = []
             # body_words = []
@@ -64,7 +88,7 @@ with open('./dataset.txt', "r") as data:
             #     user_cat_text_Dict[userID] = {}
             #     user_cat_text_Dict[userID][category] = [text_Tuple]
 
-    print 'done 1'
-    cPickle.dump(user_corpus,open('user_corpus.p','wb'))
-    b = cPickle.load(open('user_corpus.p', 'rb'))
-    print 'done 2'
+print 'done 1'
+cPickle.dump(user_corpus,open('user_corpus.p','wb'))
+b = cPickle.load(open('user_corpus.p', 'rb'))
+print 'done 2'
