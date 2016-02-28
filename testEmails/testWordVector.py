@@ -5,11 +5,11 @@ import nltk
 import gensim
 import cPickle
 
-vector_size = 100
+vector_size = 200
 
 def train():
     sentences = cPickle.load(open('user_corpus.p', 'rb'))
-    model = model = gensim.models.Word2Vec(sentences, size=vector_size, window=5, min_count=2, workers=4)
+    model = model = gensim.models.Word2Vec(sentences, size=vector_size, window=5, min_count=1, workers=4)
     model.save('./Word2VectorModel')
 
 def load():
@@ -18,6 +18,7 @@ def load():
     return user_set, user_cat_text_Dict
 
 def main():
+    train()
     model = gensim.models.Word2Vec.load('./Word2VectorModel')
     user_set, user_cat_text_Dict = load()
 
