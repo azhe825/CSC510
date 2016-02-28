@@ -55,6 +55,7 @@ def preprocess(filename):
     label, corpus=readfile(filename)
     matrix=vsm(corpus)
     matrix=hash(matrix)
+    matrix=l2normalize(matrix)
     return label, matrix
 
 "Shuffle"
@@ -68,6 +69,15 @@ def shuffle_tuple(my_tuple):
         aa.append(array[tmp])
     return tuple(aa)
 
+"L2 normalization"
+def l2normalize(mat):
+    mat=mat.asfptype()
+    for i in xrange(mat.shape[0]):
+        nor=np.linalg.norm(mat[i].data,2)
+        if not nor==0:
+            for k in mat[i].indices:
+                mat[i,k]=mat[i,k]/nor
+    return mat
 
 "Split data into training and testing"
 def split_data(label,num_each=10):
