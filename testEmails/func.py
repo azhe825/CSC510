@@ -4,6 +4,7 @@ from pdb import set_trace
 from time import time
 from scipy.sparse import csr_matrix
 
+from sklearn.neighbors import NearestNeighbors
 from random import randint,random,shuffle
 from sklearn import svm
 from sklearn.feature_extraction import FeatureHasher
@@ -88,8 +89,62 @@ def split_data(label,num_each=10):
     test=list(set(range(len(label)))-set(train))
     return train,test
 
+
+"Concatenate two csr into one (equal num of columns)"
+def csr_vstack(a,b):
+    data=np.array(list(a.data)+list(b.data))
+    ind=np.array(list(a.indices)+list(b.indices))
+    indp=list(a.indptr)+list(b.indptr+a.indptr[-1])[1:]
+    return csr_matrix((data,ind,indp),shape=(a.shape[0]+b.shape[0],a.shape[1]))
+
+"smote only oversample"
+def smote_most(data,label,k=5):
+    labelCont=Counter(label)
+    # num=int(sum(labelCont.values())/len(labelCont.values()))
+    num=int(np.max(labelCont.values()))
+    labelmade=[]
+    balanced=[]
+    for l in labelCont:
+        id=[i for i,x in enumerate(label) if x==l]
+        sub=data[id]
+        labelmade+=[l]*num
+        if labelCont[l]<num:
+            num_s=num-labelCont[l]
+            nbrs = NearestNeighbors(n_neighbors=k+1, algorithm='brute').fit(sub)
+            distances, indices = nbrs.kneighbors(sub)
+            row=[]
+            column=[]
+            new=[]
+            for i in xrange(num_s):
+                mid=randint(0,sub.shape[0]-1)
+                nn=indices[mid,randint(1,k)]
+                indx=list(set(list(sub[mid].indices)+list(sub[nn].indices)))
+                datamade=[]
+                for j in indx:
+                    gap=random()
+                    datamade.append((sub[nn,j]-sub[mid,j])*gap+sub[mid,j])
+                row.extend([i]*len(indx))
+                column.extend(indx)
+                new.extend(datamade)
+            mat=csr_matrix((new, (row, column)), shape=(num_s, sub.shape[1]))
+            if balanced == []:
+                balanced=mat
+            else:
+                balanced=csr_vstack(balanced,mat)
+            balanced=csr_vstack(balanced,sub)
+        else:
+            ind=np.random.choice(labelCont[l],num,replace=False)
+            if balanced == []:
+                balanced=sub[ind]
+            else:
+                balanced=csr_vstack(balanced,sub[ind])
+    labelmade=np.array(labelmade)
+    return balanced, labelmade
+
+
 "Classifier: linear SVM"
 def do_SVM(label,data):
+    data,label=smote_most(data,label)
     clf = svm.SVC(probability=True,kernel='linear')
     clf.fit(data,label)
     return clf

@@ -2,6 +2,7 @@ from __future__ import print_function, division
 from func import *
 import pickle
 from demos import cmd
+import matplotlib.pyplot as plt
 
 def no_incremental(label,matrix,Classify):
     train,test=split_data(label)
@@ -85,7 +86,7 @@ def incremental2(label,matrix,Classify):
     for key in set(label):
         dict[key]={}
     dict['F_M']={}
-    XX=map(str,range(10,10+total,step))
+    XX=map(str,range(100,100+total*100,step*100))
 
     train,test=split_data(label)
     clf=Classify(label[train],matrix[train])
@@ -107,7 +108,7 @@ def incremental2(label,matrix,Classify):
             prediction=clf.predict(matrix[test_new])
             dict_tmp=evaluate(label[test_new],prediction)
             for key in dict_tmp:
-                dict[key][str(10+step_count)]=dict_tmp[key]
+                dict[key][str(100+step_count*100)]=dict_tmp[key]
             step_count=step_count+step
             if step_count>total:
                 break
@@ -128,8 +129,45 @@ def _test(filename):
     for i in xrange(repeats):
         dict_tmp=experiment(label,matrix,Classify)
         dict_add(result,dict_tmp)
-    print(result)
-    print(result['F_M'])
+        print("finished")
+    with open('./dump/semi_'+filename+'.pickle', 'wb') as handle:
+        pickle.dump(result, handle)
+
+def col_result():
+    datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
+    for dataset in datalist:
+        _test(dataset)
+
+def draw(what):
+    font = {'family' : 'normal',
+            'weight' : 'bold',
+            'size'   : 20}
+
+    plt.rc('font', **font)
+    paras={'lines.linewidth': 5,'legend.fontsize': 20, 'axes.labelsize': 30, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    plt.rcParams.update(paras)
+
+    datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
+
+
+    plt.figure()
+    result={}
+    for filename in datalist:
+        with open('./dump/'+what+'_'+filename+'.pickle', 'rb') as handle:
+            result[filename] = pickle.load(handle)
+        tmp=result[filename]['F_M']
+        ind=np.argsort(map(int,tmp.keys()))
+        X=np.array(tmp.keys())[ind]
+        Y=np.array(tmp.values())[ind]
+        line,=plt.plot(X,map(np.median,Y),label=filename+" median")
+        plt.plot(X,map(iqr,Y),"-.",color=line.get_color(),label=filename+" iqr")
+    plt.yticks(np.arange(0,1.0,0.2))
+    plt.ylabel("F_M score")
+    plt.xlabel("Training Size")
+    plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
+    plt.savefig("../Results/semi.eps")
+    plt.savefig("../Results/semi.png")
+
 
 
 
