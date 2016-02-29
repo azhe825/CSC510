@@ -7,6 +7,7 @@ from scipy.sparse import csr_matrix
 from random import randint,random,shuffle
 from sklearn import svm
 from sklearn import neighbors
+from sklearn.naive_bayes import GaussianNB,  MultinomialNB
 from sklearn.feature_extraction import FeatureHasher
 from sklearn import naive_bayes
 from sklearn import tree
@@ -108,9 +109,22 @@ def do_SVM(label,data):
 def do_KNN(label,data):
     # tried 5, 10 , 15, 20.   10 performs best.
     n_neighbors = 10
-    clf = neighbors.KNeighborsClassifier(n_neighbors, weights='uniform')  # or 'distance'
-    clf.fit(data, label)
+    knn = neighbors.KNeighborsClassifier(n_neighbors, weights='uniform')  # or 'distance'
+    clf = knn.fit(data, label)
     return clf
+
+# "Classifier: Gaussian Naive-Bayes"
+# def do_GNB(label,data):
+#     gnb = GaussianNB()
+#     clf = gnb.fit(data, label)
+#     return clf
+
+"Classifier: Multinomial Naive-Bayes"
+def do_MNB(label,data):
+    mnb = MultinomialNB()
+    clf = mnb.fit(data, label)
+    return clf
+
 
 "Evaluation"
 def evaluate(true_label,prediction):

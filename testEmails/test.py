@@ -119,10 +119,11 @@ def incremental2(label,matrix,Classify):
 def _test(filename):
     filepath='../Cleaned_Data/'
     filetype='.txt'
-    classifiers = [do_SVM, do_KNN]
-    c_name = ['SVM_','KNN_']
+    classifiers = [do_SVM, do_KNN, do_MNB]
+    c_name = ['SVM_','KNN_','MNB_']
     # **** spicify the classifier below.  ****
-    c_id = 0
+    c_id = 2
+    # ****************************************
     Classify=classifiers[c_id] #do_SVM
     repeats=10
     experiment=incremental2
