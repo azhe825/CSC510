@@ -15,6 +15,7 @@ build/
 develop-eggs/
 ssh-keys/
 dist/
+Lda/
 downloads/
 eggs/
 .eggs/
