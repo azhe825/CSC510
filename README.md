@@ -4,7 +4,7 @@ Course Project for CSC 510, 2016 spring
 ## File Organization
 - Save the results in **./Results** folder. (using `save()` and `load()` in `testEmails/func.py`)
 - Raw data are stored in the **./testEmails** within each user's sub-folder.
-- Processed data is in *./Cleaned_Data**
+- Processed data is in **./Cleaned_Data**
 
 ## Group Members:
  - Zhe Yu (unit ID: zyu9, github ID: azhe825)
