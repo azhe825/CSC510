@@ -1,6 +1,7 @@
 from __future__ import print_function, division
 from func import *
 import pickle
+import cPickle
 from demos import cmd
 
 def no_incremental(label,matrix,Classify):
@@ -118,7 +119,11 @@ def incremental2(label,matrix,Classify):
 def _test(filename):
     filepath='../Cleaned_Data/'
     filetype='.txt'
-    Classify=do_SVM
+    classifiers = [do_SVM, do_KNN]
+    c_name = ['SVM_','KNN_']
+    # **** spicify the classifier below.  ****
+    c_id = 0
+    Classify=classifiers[c_id] #do_SVM
     repeats=10
     experiment=incremental2
 
@@ -130,7 +135,7 @@ def _test(filename):
         dict_add(result,dict_tmp)
     print(result)
     print(result['F_M'])
-
+    save(result,c_name[c_id]+filename)
 
 
 if __name__ == '__main__':
