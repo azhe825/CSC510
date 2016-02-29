@@ -1,6 +1,7 @@
 from __future__ import print_function, division
 from func import *
 import pickle
+import cPickle
 from demos import cmd
 import matplotlib.pyplot as plt
 
@@ -114,12 +115,14 @@ def incremental2(label,matrix,Classify):
                 break
     return dict
 
-
-
 def _test(filename):
     filepath='../Cleaned_Data/'
     filetype='.txt'
-    Classify=do_SVM
+    classifiers = [do_SVM, do_KNN, do_MNB]
+    # **** spicify the classifier below.  ****
+    c_id = 2
+    # ****************************************
+    Classify=classifiers[c_id] #do_SVM
     repeats=10
     experiment=incremental2
 
@@ -132,6 +135,27 @@ def _test(filename):
         print("finished")
     with open('./dump/semi_'+filename+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
+
+def _test2(filename):
+    filepath='../Cleaned_Data/'
+    filetype='.txt'
+    classifiers = [do_SVM, do_KNN, do_MNB]
+    c_name = ['SVM_','KNN_','MNB_']
+    # **** spicify the classifier below.  ****
+    c_id = 2
+    # ****************************************
+    Classify=classifiers[c_id] #do_SVM
+    repeats=10
+    experiment=incremental2
+
+    label,matrix=preprocess(filepath+filename+filetype)
+    result={}
+
+    for i in xrange(repeats):
+        dict_tmp=experiment(label,matrix,Classify)
+        dict_add(result,dict_tmp)
+        print("finished")
+    save(result,c_name[c_id]+filename)
 
 def col_result():
     datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
@@ -167,6 +191,8 @@ def draw(what):
     plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
     plt.savefig("../Results/semi.eps")
     plt.savefig("../Results/semi.png")
+
+
 
 
 

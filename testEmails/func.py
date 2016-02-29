@@ -7,6 +7,8 @@ from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
 from random import randint,random,shuffle
 from sklearn import svm
+from sklearn import neighbors
+from sklearn.naive_bayes import GaussianNB,  MultinomialNB
 from sklearn.feature_extraction import FeatureHasher
 from sklearn import naive_bayes
 from sklearn import tree
@@ -16,6 +18,15 @@ from collections import Counter
 import numpy as np
 import pickle
 from ABCD import ABCD
+import cPickle
+
+"save results"
+def save(data,filename):
+    cPickle.dump(data,open('../Results/'+filename+'.p','wb'))
+
+"load results"
+def load(filename):
+    return cPickle.load(open('../Results/'+filename+'.p', 'rb'))
 
 "Load data from txt"
 def readfile(filename):
@@ -149,6 +160,27 @@ def do_SVM(label,data):
     clf.fit(data,label)
     return clf
 
+"Classifier: KNN"
+def do_KNN(label,data):
+    # tried 5, 10 , 15, 20.   10 performs best.
+    n_neighbors = 10
+    knn = neighbors.KNeighborsClassifier(n_neighbors, weights='uniform')  # or 'distance'
+    clf = knn.fit(data, label)
+    return clf
+
+# "Classifier: Gaussian Naive-Bayes"
+# def do_GNB(label,data):
+#     gnb = GaussianNB()
+#     clf = gnb.fit(data, label)
+#     return clf
+
+"Classifier: Multinomial Naive-Bayes"
+def do_MNB(label,data):
+    mnb = MultinomialNB()
+    clf = mnb.fit(data, label)
+    return clf
+
+
 "Evaluation"
 def evaluate(true_label,prediction):
     dict={}
@@ -156,7 +188,7 @@ def evaluate(true_label,prediction):
     abcd=ABCD(before=true_label,after=prediction)
     tmp = np.array([k.stats() for k in abcd()])
     for i,label in enumerate(labellist):
-        dict[label]=tmp[i,-2]
+        dict[label]=tmp[i,-2]  # f-score
     pre=np.mean(tmp[:,1])
     rec=np.mean(tmp[:,0])
     dict['F_M']=2*pre*rec/(pre+rec)

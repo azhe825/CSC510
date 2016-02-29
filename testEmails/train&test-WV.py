@@ -38,6 +38,7 @@ clf = svm.SVC()
 clf.fit(training_folder_vector, new_training_folder_label)
 predict = clf.predict(test_folder_vector)
 actual = new_test_folder_label
+predict = predict.tolist()
 abcd = ABCD(actual,predict)
 F = np.array([k.stats()[4] for k in abcd()])
 recall = np.array([k.stats()[0] for k in abcd()])
