@@ -5,6 +5,9 @@ import cPickle
 from demos import cmd
 import matplotlib.pyplot as plt
 
+classifiers = [do_SVM, do_KNN, do_MNB]
+c_name = ['SVM_','KNN_','MNB_']
+
 def no_incremental(label,matrix,Classify):
     train,test=split_data(label)
     clf=Classify(label[train],matrix[train])
@@ -115,14 +118,15 @@ def incremental2(label,matrix,Classify):
                 break
     return dict
 
-def _test(filename):
+def _test(filename, classifier_id):
     filepath='../Cleaned_Data/'
     filetype='.txt'
-    classifiers = [do_SVM, do_KNN, do_MNB]
+    # classifiers = [do_SVM, do_KNN, do_MNB]
+    # c_name = ['SVM_','KNN_','MNB_']
     # **** spicify the classifier below.  ****
-    c_id = 2
+    #c_id = 2
     # ****************************************
-    Classify=classifiers[c_id] #do_SVM
+    Classify=classifiers[classifier_id] #do_SVM
     repeats=10
     experiment=incremental2
 
@@ -133,14 +137,14 @@ def _test(filename):
         dict_tmp=experiment(label,matrix,Classify)
         dict_add(result,dict_tmp)
         print("finished")
-    with open('./dump/semi_'+filename+'.pickle', 'wb') as handle:
+    with open('./dump/'+c_name[classifier_id]+'_'+filename+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
 
 def _test2(filename):
     filepath='../Cleaned_Data/'
     filetype='.txt'
-    classifiers = [do_SVM, do_KNN, do_MNB]
-    c_name = ['SVM_','KNN_','MNB_']
+    # classifiers = [do_SVM, do_KNN, do_MNB]
+    # c_name = ['SVM_','KNN_','MNB_']
     # **** spicify the classifier below.  ****
     c_id = 2
     # ****************************************
@@ -158,9 +162,12 @@ def _test2(filename):
     save(result,c_name[c_id]+filename)
 
 def col_result():
-    datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
-    for dataset in datalist:
-        _test(dataset)
+    # datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
+    # for dataset in datalist:
+    #     for i in xrange(len(classifiers)):
+    #         f = _test(dataset,i)
+    for what in c_name:
+        draw(what)
 
 def draw(what):
     font = {'family' : 'normal',
@@ -189,8 +196,8 @@ def draw(what):
     plt.ylabel("F_M score")
     plt.xlabel("Training Size")
     plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("../Results/semi.eps")
-    plt.savefig("../Results/semi.png")
+    plt.savefig("../Results/semi" + what + ".eps")
+    plt.savefig("../Results/semi" + what + ".png")
 
 
 
