@@ -162,12 +162,16 @@ def _test2(filename):
     save(result,c_name[c_id]+filename)
 
 def col_result():
-    # datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
-    # for dataset in datalist:
-    #     for i in xrange(len(classifiers)):
-    #         f = _test(dataset,i)
+    ## to get the results
+    datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
+    for dataset in datalist:
+        for i in xrange(len(classifiers)):
+            f = _test(dataset,i)
+    ## load the results and pic them for different folders.
     for what in c_name:
         draw(what)
+    ## load the resultsa dn pic them for different classifiers.
+    draw2()
 
 def draw(what):
     font = {'family' : 'normal',
@@ -199,7 +203,51 @@ def draw(what):
     plt.savefig("../Results/semi" + what + ".eps")
     plt.savefig("../Results/semi" + what + ".png")
 
+def draw2():
+    font = {'family' : 'normal',
+            'weight' : 'bold',
+            'size'   : 20}
 
+    plt.rc('font', **font)
+    paras={'lines.linewidth': 5,'legend.fontsize': 20, 'axes.labelsize': 30, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    plt.rcParams.update(paras)
+
+    datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
+
+
+    plt.figure()
+    result={}
+    Y_ave = []
+    # Y_total = []
+    for classifier in c_name:
+        for filename in datalist:
+            with open('./dump/'+classifier+'_'+filename+'.pickle', 'rb') as handle:
+                result[filename] = pickle.load(handle)
+            tmp=result[filename]['F_M']
+            if(tmp.__contains__('1100')):
+                tmp.pop('1100')
+            ind=np.argsort(map(int,tmp.keys()))
+            X=np.array(tmp.keys())[ind]
+            Y=np.array(tmp.values())[ind]
+            if Y_ave == []:
+                Y_ave = map(np.median,Y)
+            else:
+                tmp = map(np.median,Y)
+                Y_ave = np.add(Y_ave, tmp)
+            # if Y_total == [] :
+            #     Y_total = Y
+            # else:
+            #     Y_total = np.add(Y_total, Y)
+        Y_ave = map(lambda x:x/10.0,Y_ave)
+        # Y_total = map(lambda x:x/10.0,Y_total)
+        line,=plt.plot(X,map(np.median,Y_ave),label=classifier+" median")
+        # plt.plot(X,map(iqr,Y_total),"-.",color=line.get_color(),label=classifier+" iqr")
+    plt.yticks(np.arange(0,1.0,0.2))
+    plt.ylabel("F_M score")
+    plt.xlabel("Training Size")
+    plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
+    plt.savefig("../Results/semi_classifier.eps")
+    plt.savefig("../Results/semi_classifier.png")
 
 
 
