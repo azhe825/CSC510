@@ -15,7 +15,7 @@ Academic Project - CSC 510 - Software Engineering
 3. [Repo's contributor page](https://github.com/azhe825/CSC510/graphs/contributors) <br />
 
 ## Reports
-a. [Data management + Preprocessing by Shijie Li]()
+a. [Data management + Preprocessing by Shijie Li](https://github.com/azhe825/CSC510/blob/master/report/Mar/Data.Collection.and.Pre-processing.md) <br />
 
 b. Three solutions to improve performance: <br />
 [Solution1 by Di Chen] () <br />
