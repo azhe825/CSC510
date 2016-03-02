@@ -23,7 +23,7 @@ a. [Data management + Preprocessing by Shijie Li](https://github.com/azhe825/CSC
 
 b. Three solutions to improve performance: <br />
 [Solution1 by Di Chen] () <br />
-[Solution2 by Zhe Yu] (https://github.com/azhe825/CSC510/edit/master/report/Mar/semi-supervised.md) <br />
+[Solution2 by Zhe Yu] (https://github.com/azhe825/CSC510/blob/master/report/Mar/semi-supervised.md) <br />
 [Solution3 Amritanshu Agrawal] () <br />
 
 ## Plan for March:
