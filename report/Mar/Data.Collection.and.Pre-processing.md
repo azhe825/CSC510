@@ -1,4 +1,4 @@
-## Data Collection
+## Data Collection And Preprocessing
 
 ### Enron Email Dataset:
 We use the enron email dataset as our experiment data. It contains a large quantity of email files in standard MIME format. We pick up the first seven user folders with the most email files in this stage.
