@@ -230,7 +230,7 @@ def _test_LDA(file='cs'):
         plt.plot(X, Y_iqr, "-.", color=line.get_color(), label="iqr")
         plt.xticks(X, (final_label[0:5]), size='xx-small')
         plt.ylabel("F score")
-        plt.xlabel("Datasets")
+        plt.xlabel(file1)
         plt.legend(bbox_to_anchor=(1.05, 1.0), loc=2, borderaxespad=0.)
         plt.savefig("../Results/lda_"+file1+".png")
         with open('../Results/lda_dump/' + file1 + '.pickle', 'wb') as handle:
