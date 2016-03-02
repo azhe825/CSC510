@@ -5,8 +5,8 @@ import cPickle
 from demos import cmd
 import matplotlib.pyplot as plt
 
-classifiers = [do_SVM, do_KNN, do_MNB]
-c_name = ['SVM_','KNN_','MNB_']
+classifiers = [do_SVM, do_KNN, do_DT]
+c_name = ['SVM_','KNN_','DT_']
 
 def no_incremental(label,matrix,Classify):
     train,test=split_data(label)
@@ -136,7 +136,7 @@ def _test(filename, classifier_id):
     for i in xrange(repeats):
         dict_tmp=experiment(label,matrix,Classify)
         dict_add(result,dict_tmp)
-        print("finished")
+        print(str(i)+" finished")
     with open('./dump/'+c_name[classifier_id]+'_'+filename+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
 
@@ -158,19 +158,23 @@ def _test2(filename):
     for i in xrange(repeats):
         dict_tmp=experiment(label,matrix,Classify)
         dict_add(result,dict_tmp)
-        print("finished")
-    save(result,c_name[c_id]+filename)
+        print(str(i)+" finished")
+    with open('./dump/'+c_name[c_id]+'_'+filename+'.pickle', 'wb') as handle:
+        pickle.dump(result, handle)
+    #save(result,c_name[c_id]+filename)
 
 def col_result():
     ## to get the results
     datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
-    for dataset in datalist:
-        for i in xrange(len(classifiers)):
-            f = _test(dataset,i)
-    ## load the results and pic them for different folders.
+    # for dataset in datalist:
+    #     # f = _test2(dataset)
+    #     for i in xrange(len(classifiers)):
+    #         f = _test(dataset,i)
+
+    # load the results and pic them for different folders.
     for what in c_name:
         draw(what)
-    ## load the resultsa dn pic them for different classifiers.
+    # load the resultsa dn pic them for different classifiers.
     draw2()
 
 def draw(what):
@@ -200,8 +204,8 @@ def draw(what):
     plt.ylabel("F_M score")
     plt.xlabel("Training Size")
     plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("../Results/semi" + what + ".eps")
-    plt.savefig("../Results/semi" + what + ".png")
+    plt.savefig("../Results/semi_" + what + ".eps")
+    plt.savefig("../Results/semi_" + what + ".png")
 
 def draw2():
     font = {'family' : 'normal',
