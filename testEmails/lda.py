@@ -166,17 +166,16 @@ def _test_LDA(file='cs'):
     fileB = [
         'beck-s.txt', 'farmer-d.txt', 'kaminski-v.txt', 'kitchen-l.txt', 'lokay-m.txt', 'sanders-r.txt', 'williams-w3.txt']
 
-    filename = "../Cleaned_Data/"
+    filepath = "../Cleaned_Data/"
 
     F_final = {}
-    for file1 in fileB:
-        with open(filename + str(file1), 'r') as f:
-            file = open(filename + str(file1) + "1", "w+")
+    for j, file1 in enumerate(fileB):
+        with open(filepath + str(file1), 'r') as f:
+            file = open(filepath + str(file1) + "1", "w+")
             for doc in f.readlines():
                 file.write(re.sub(r'\s+', ' ', doc) + "\n")
 
-        label, data_samples = readfile1(filename + str(file1) + "1")
-        target_label = 'pos'
+        label, data_samples = readfile1(filepath + str(file1) + "1")
 
         print("Extracting tf features for LDA...")
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=n_features,
@@ -195,26 +194,47 @@ def _test_LDA(file='cs'):
         corpus = get_top_words(lda, tf_feature_names, n_top_words)
         #data, label1 = make_feature(corpus, n_features=1000)
         #print(corpus)
-        split = split_two(corpus=tf_new, label=label, target_label=label[0])
-        pos = split['pos']
-        neg = split['neg']
-        result = []
-        folds = 5
-        for i in range(folds):
-            tmp = range(0, len(pos))
-            shuffle(tmp)
-            pos = pos[tmp]
-            tmp = range(0, len(neg))
-            shuffle(tmp)
-            neg = neg[tmp]
-            for index in range(folds):
-                data_train, data_test, label_train, label_test = \
-                    train_test(pos, neg, folds=folds, index=index)
-                "SVM"
-                result.append(do_SVM(data_train, data_test, label_train, label_test))
-        F_final[file1] = result
-    with open('../Results/lda_dump/' + 'r_100' + '.pickle', 'wb') as handle:
-        pickle.dump(F_final, handle)
+        F_final = {}
+        final_label=list(set(label))
+        print(final_label[0:5])
+        for x in range(5):
+            split = split_two(corpus=tf_new, label=label, target_label=final_label[x])
+            pos = split['pos']
+            neg = split['neg']
+            result = []
+            folds = 5
+            for i in range(folds):
+                tmp = range(0, len(pos))
+                shuffle(tmp)
+                pos = pos[tmp]
+                tmp = range(0, len(neg))
+                shuffle(tmp)
+                neg = neg[tmp]
+                for index in range(folds):
+                    data_train, data_test, label_train, label_test = \
+                        train_test(pos, neg, folds=folds, index=index)
+                    "SVM"
+                    result.append(do_SVM(data_train, data_test, label_train, label_test))
+            F_final[final_label[x]] = result
+        plt.figure(num=j, figsize=(20, 6))
+        plt.subplot(121)
+        X = range(5)
+        Y_median = []
+        Y_iqr = []
+        for i, filename in enumerate(final_label[0:5]):
+            Y = F_final[filename]
+            Y_median.append(np.median(Y))
+            Y_iqr.append(np.percentile(Y, 75) - np.percentile(Y, 25))
+
+        line, = plt.plot(X, Y_median, label="median")
+        plt.plot(X, Y_iqr, "-.", color=line.get_color(), label="iqr")
+        plt.xticks(X, (final_label[0:5]), size='xx-small')
+        plt.ylabel("F score")
+        plt.xlabel("Datasets")
+        plt.legend(bbox_to_anchor=(1.05, 1.0), loc=2, borderaxespad=0.)
+        plt.savefig("../Results/lda_"+file1+".png")
+        with open('../Results/lda_dump/' + file1 + '.pickle', 'wb') as handle:
+            pickle.dump(F_final, handle)
 
 
 if __name__ == '__main__':
