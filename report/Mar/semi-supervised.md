@@ -17,6 +17,10 @@
 
 6. go to 2.
 
+### Code
+
+[See](https://github.com/azhe825/CSC510/blob/master/testEmails/test.py)
+
 ### Result for March 1st
 
 ![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
