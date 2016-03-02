@@ -180,6 +180,12 @@ def do_MNB(label,data):
     clf = mnb.fit(data, label)
     return clf
 
+"Classifier: Decision Tree"
+def do_DT(label,data):
+    clf = tree.DecisionTreeClassifier()
+    clf = clf.fit(data, label)
+    return clf
+
 
 "Evaluation"
 def evaluate(true_label,prediction):
