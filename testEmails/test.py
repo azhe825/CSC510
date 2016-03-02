@@ -192,7 +192,7 @@ def draw(what):
     plt.figure()
     result={}
     for filename in datalist:
-        with open('./dump/'+what+'_'+filename+'.pickle', 'rb') as handle:
+        with open('./dump/'+what+'__'+filename+'.pickle', 'rb') as handle:
             result[filename] = pickle.load(handle)
         tmp=result[filename]['F_M']
         ind=np.argsort(map(int,tmp.keys()))
@@ -200,6 +200,7 @@ def draw(what):
         Y=np.array(tmp.values())[ind]
         line,=plt.plot(X,map(np.median,Y),label=filename+" median")
         plt.plot(X,map(iqr,Y),"-.",color=line.get_color(),label=filename+" iqr")
+    plt.xticks(np.arange(100,1100,100))
     plt.yticks(np.arange(0,1.0,0.2))
     plt.ylabel("F_M score")
     plt.xlabel("Training Size")
