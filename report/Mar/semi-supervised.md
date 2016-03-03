@@ -31,12 +31,26 @@ For 4 and 5 shown above, three different attempts have been tried.
 
 ### Result for March 1st
 
+**Brutal**
+
+![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
+
+**Credit**
+
+![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
+
+**Wrong**
+
+![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
+
+**Comparison**
+
 ![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
 
 ### Conclusion
 
 Performance does improve after adding new training examples. 
 
-**Wrong** is performing the best.
+c) **Wrong** is performing the best.
 
 Need to incorporate this solution into the product.
