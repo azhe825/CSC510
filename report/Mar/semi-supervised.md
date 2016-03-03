@@ -33,24 +33,24 @@ For 4 and 5 shown above, three different attempts have been tried.
 
 **Brutal**
 
-![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
+![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_brutal.png)
 
 **Credit**
 
-![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
+![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_credit.png)
 
 **Wrong**
 
-![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
+![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_wrong.png)
 
 **Comparison**
 
-![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_SVM_.png)
+![file](https://github.com/azhe825/CSC510/blob/master/Results/semi_methods.png)
 
 ### Conclusion
 
 Performance does improve after adding new training examples. 
 
-c) **Wrong** is performing the best.
+a) **Brutal** is performing the best.
 
 Need to incorporate this solution into the product.
