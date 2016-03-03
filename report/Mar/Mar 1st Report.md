@@ -22,7 +22,7 @@ NO demos yet, have not developed the GUI. Our plan is to both code and test solu
 a. [Data management + Preprocessing by Shijie Li](https://github.com/azhe825/CSC510/blob/master/report/Mar/Data.Collection.and.Pre-processing.md) <br />
 
 b. Three solutions to improve performance: <br />
-[Solution1 by Di Chen] () <br />
+[Solution1 by Di Chen] (https://github.com/azhe825/CSC510/blob/master/report/Mar/supervised_learning.md) <br />
 [Solution2 by Zhe Yu] (https://github.com/azhe825/CSC510/blob/master/report/Mar/semi-supervised.md) <br />
 [Solution3 Amritanshu Agrawal] (https://github.com/azhe825/CSC510/blob/master/report/Mar/Unsupervised_Learning.md) <br />
 
