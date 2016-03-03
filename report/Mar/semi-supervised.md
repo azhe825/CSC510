@@ -17,6 +17,14 @@
 
 6. go to 2.
 
+### Three Different Attempts
+
+For 4 and 5 shown above, three different attempts have been tried.
+
+ - **a) Brutal**: ignore all the credits, just put everything we get into training set when the threshold is reached.
+ - **b) Credit**:
+ - **c) Wrong**:
+
 ### Code
 
 [See](https://github.com/azhe825/CSC510/blob/master/testEmails/test.py)
