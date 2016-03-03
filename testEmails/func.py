@@ -155,7 +155,7 @@ def smote_most(data,label,k=5):
 
 "Classifier: linear SVM"
 def do_SVM(label,data):
-    data,label=smote_most(data,label)
+    # data,label=smote_most(data,label)
     clf = svm.SVC(probability=True,kernel='linear')
     clf.fit(data,label)
     return clf
