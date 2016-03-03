@@ -14,9 +14,19 @@ Academic Project - CSC 510 - Software Engineering
 
 3. [Repo's contributor page](https://github.com/azhe825/CSC510/graphs/contributors) <br />
 
+
 ## Demos
 
 NO demos yet, have not developed the GUI. Our plan is to both code and test solution in Feb and build GUI with the best combination of solutions in Mar.
+
+## Problem and Solutions
+
+a. **Problem:** Training set is small. Has only 10 examples in each class.
+
+b. **Solutions:**
+ - **Supervised Learning**: Try different classification methods to find the best classifier on small training set.
+ - **Semi-supervised Learning**: Add examples into training set according to user activities. Retrain classifier.
+ - **Unsupervised Learning**: Clustering before training to provide extra knowledge (topics). 
 
 ## Reports
 a. [Data management + Preprocessing by Shijie Li](https://github.com/azhe825/CSC510/blob/master/report/Mar/Data.Collection.and.Pre-processing.md) <br />
