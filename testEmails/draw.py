@@ -8,11 +8,10 @@ import pickle
 if __name__ == '__main__':
     # "draw"
     F_final1 = {}
-    path = '../Results/lda/dump/'
+    path = '/home/amrit/NCSU STUDY/Spring 16/CSC 510/CSC510/Results/lda_dump/'
     for root, dirs, files in os.walk(path, topdown=False):
         for name in files:
             a = os.path.join(root, name)
-            print(a)
             with open(a, 'rb') as handle:
                 F_final = {}
                 F_final = pickle.load(handle)
@@ -25,7 +24,6 @@ if __name__ == '__main__':
     plt.figure(num=0, figsize=(20, 6))
     plt.subplot(121)
     X = range(len(filenamelist))
-    print(F_final1)
     Y_median = []
     Y_iqr = []
     for i, filename in enumerate(filenamelist):
@@ -39,4 +37,4 @@ if __name__ == '__main__':
     plt.ylabel("F score")
     plt.xlabel("Datasets")
     plt.legend(bbox_to_anchor=(1.05, 1.0), loc=2, borderaxespad=0.)
-    plt.savefig("lda_SVM_100.png")
+    plt.savefig("../Results/lda_SVM_100.png")

@@ -257,9 +257,10 @@ def draw_all():
     #         f = _test(dataset,i)
 
     # load the results and pic them for different folders.
-    for what in c_name:
-        draw(what)
+    # for what in c_name:
+    #     draw(what)
     # load the resultsa dn pic them for different classifiers.
+
 
 
 
@@ -271,6 +272,7 @@ def run_test():
         for dataset in datalist:
             _test2(dataset,method)
         draw(method)
+    draw3()
 
 def draw(what):
     font = {'family' : 'normal',
@@ -336,6 +338,40 @@ def draw_inc():
     plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
     plt.savefig("../Results/semi_methods_half.eps")
     plt.savefig("../Results/semi_methods_half.png")
+
+def draw3():
+    font = {'family' : 'normal',
+            'weight' : 'bold',
+            'size'   : 20}
+
+    plt.rc('font', **font)
+    paras={'lines.linewidth': 5,'legend.fontsize': 20, 'axes.labelsize': 30, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    plt.rcParams.update(paras)
+
+    datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
+
+
+    plt.figure()
+    result={}
+    for classifier in c_name:
+        Y_100 = list()
+        for filename in datalist:
+            with open('./dump/'+classifier+'_'+filename+'.pickle', 'rb') as handle:
+                result[filename] = pickle.load(handle)
+            tmp = result[filename]['F_M']
+            tmp100 = np.median(tmp['100'])
+            t = Y_100 + [tmp100]
+            Y_100 = t
+        line,=plt.plot(range( len(datalist) ),Y_100,label=classifier)
+
+    plt.xticks(range( len(datalist) ), (datalist))
+    plt.yticks(np.arange(0,1.0,0.2))
+    plt.ylabel("F_M score")
+    plt.xlabel("Training Folder")
+    plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
+
+    plt.savefig("../Results/comp_classifier.eps")
+    plt.savefig("../Results/comp_classifier.png")
 
 
 
