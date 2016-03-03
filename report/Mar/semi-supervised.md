@@ -21,9 +21,9 @@
 
 For 4 and 5 shown above, three different attempts have been tried.
 
- - **a) Brutal**: ignore all the credits, just put everything we get into training set when the threshold is reached.
- - **b) Credit**:
- - **c) Wrong**:
+ - **a) Brutal**: ignore all the credits, just put everything we get into training set when the threshold is reached. **Benefit**: simple.
+ - **b) Credit**: Shown in Design. Put emails with top N credit of each folder into the training set. **Benefit**: more balance over folders, wrongly predicted emails have more chance to get into the training set.
+ - **c) Wrong**: During each iteration, only put the wrongly predicted emails into the training set. **Benefit**: wrongly predicted emails are guaranteed to be put into training set, correctly predicted emails will be totally ignored.
 
 ### Code
 
@@ -35,4 +35,8 @@ For 4 and 5 shown above, three different attempts have been tried.
 
 ### Conclusion
 
-Performance does improve after adding new training examples. Need to incorporate this solution into the product.
+Performance does improve after adding new training examples. 
+
+**Wrong** is performing the best.
+
+Need to incorporate this solution into the product.
