@@ -100,6 +100,17 @@ def split_data(label,num_each=10):
     test=list(set(range(len(label)))-set(train))
     return train,test
 
+"Split each sub-folder into training(50%) and testing(50%)"
+def split_data_50(label,num_each=10):
+    train=[]
+    for ll in set(label):
+        index=[i for i in xrange(len(label)) if label[i]==ll]
+        train.extend(list(np.random.choice(index,size=len(index)*0.5,replace=False)))
+    test=list(set(range(len(label)))-set(train))
+    return train,test
+
+
+
 
 "Concatenate two csr into one (equal num of columns)"
 def csr_vstack(a,b):
@@ -152,6 +163,12 @@ def smote_most(data,label,k=5):
     labelmade=np.array(labelmade)
     return balanced, labelmade
 
+
+"Classifier: linear SVM"
+def do_SVM_noSMOTE(label,data):
+    clf = svm.SVC(probability=True,kernel='linear')
+    clf.fit(data,label)
+    return clf
 
 "Classifier: linear SVM"
 def do_SVM(label,data):
