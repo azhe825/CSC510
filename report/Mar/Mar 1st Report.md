@@ -19,6 +19,29 @@ Academic Project - CSC 510 - Software Engineering
 
 NO demos yet, have not developed the GUI. Our plan is to both code and test solution in Feb and build GUI with the best combination of solutions in Mar.
 
+
+### Overall Design
+
+1. user define the folders. (folder names, put at least 10 emails in each folder)
+
+2. train classifier
+
+3. new email comes in, classifier predict a folder and put the email into that folder.
+
+4. user manipulates emails (reply, forward, delete, star, move into another folder...)
+
+5. 3 and 4 can happens not in a specific sequence.
+
+**Information** of new comming emails can be retrieved from 4:
+ - if user move it into another folder, it is definitely wrongly predicted at first and now we get the true answer. This kind of email is most valuable.
+ - if user reply, forward it, it is probably true that the email is correctly predicted. This kind of email has some value.
+
+### Assumptions
+
+User is OK with having at least 10 training examples in each folder.
+
+All the folders user defined are content-related.
+
 ## Problem and Solutions
 
 a. **Problem:** Training set is small. Has only 10 examples in each class.
