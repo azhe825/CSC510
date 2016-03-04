@@ -13,7 +13,7 @@
  - b) user reply, read, forward the email without moving it into another folder. Assign a credit of 0.5. (correctly predicted emails)
  - c) user move the email into another folder. Assign a credit of 1.0. (wrongly predicted emails)
 
-5. once the total credit of the unused email has exceed a certain threshold (e.g. 100), emails with top N (e.g. 10) credit in each folder are put into the training set.
+5. once the total credit of the unused email has exceed a certain threshold (e.g. 100), emails with top N (e.g. 10) credit (not including 0s) in each folder are put into the training set.
 
 6. go to 2.
 
