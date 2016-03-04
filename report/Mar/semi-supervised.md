@@ -51,6 +51,6 @@ For 4 and 5 shown above, three different attempts have been tried.
 
 Performance does improve after adding new training examples. 
 
-a) **Brutal** is performing the best.
+a) **Credit** is performing the best.
 
 Need to incorporate this solution into the product.
