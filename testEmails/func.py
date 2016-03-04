@@ -12,6 +12,7 @@ from sklearn.naive_bayes import GaussianNB,  MultinomialNB
 from sklearn.feature_extraction import FeatureHasher
 from sklearn import naive_bayes
 from sklearn import tree
+from sklearn.decomposition import LatentDirichletAllocation
 
 from sklearn.feature_extraction.text import CountVectorizer
 from collections import Counter
@@ -62,13 +63,25 @@ def hash(matrix,feature_number=4000):
     X=hasher.transform(matrix)
     return X
 
-"Preprocessing"
+"Preprocessing, Vector space model"
 def preprocess(filename):
     label, corpus=readfile(filename)
     matrix=vsm(corpus)
     matrix=hash(matrix)
     matrix=l2normalize(matrix)
     return label, matrix
+
+
+"Topic Model"
+def LDA(matrix,preserve,n_topics=100):
+
+    lda = LatentDirichletAllocation(n_topics=n_topics, max_iter=10,
+                                        learning_method='online', learning_offset=50.,
+                                        random_state=randint(1,100))
+    lda.fit(matrix[preserve])
+    topic_model=lda.transform(matrix)
+
+    return topic_model
 
 "Shuffle"
 def shuffle_tuple(my_tuple):
@@ -197,7 +210,10 @@ def evaluate(true_label,prediction):
         dict[label]=tmp[i,-2]  # f-score
     pre=np.mean(tmp[:,1])
     rec=np.mean(tmp[:,0])
-    dict['F_M']=2*pre*rec/(pre+rec)
+    if pre==0 or rec==0:
+        dict['F_M']=0
+    else:
+        dict['F_M']=2*pre*rec/(pre+rec)
     return dict
 
 
