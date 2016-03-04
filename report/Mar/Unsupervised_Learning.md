@@ -10,13 +10,16 @@
 
 ### Results
 
-- Results with top 100 topics
+- Top 20 topics but with multi-labels (Random picks).
+  - [Figures] (https://github.com/azhe825/CSC510/issues/41)
+
+- Top 100 topics with 1 random label
 ![file](https://github.com/azhe825/CSC510/blob/master/Results/lda/lda_SVM_100.png?raw=true)
 
-- Results with top 50 topics
+- Top 50 topics with 1 random label
 ![file](https://github.com/azhe825/CSC510/blob/master/Results/lda/lda_SVM_50.png?raw=true)
 
-- Results with top 20 topics
+- Top 20 topics with 1 random label
 ![file](https://github.com/azhe825/CSC510/blob/master/Results/lda/lda_SVM_20.png?raw=true)
 
 ### Conclusion
