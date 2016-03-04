@@ -10,7 +10,7 @@ import sys
 import numpy as np
 from sklearn import svm
 from sklearn.feature_extraction import FeatureHasher
-from random import randint, random, seed, shuffle
+from random import randint, random, seed, shuffle, sample
 from time import time
 from ABCD import ABCD
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
@@ -196,7 +196,7 @@ def _test_LDA(file='cs'):
         #print(corpus)
         F_final = {}
         final_label=list(set(label))
-        print(final_label[0:5])
+        final_label = sample(final_label, 5)
         for x in range(5):
             split = split_two(corpus=tf_new, label=label, target_label=final_label[x])
             pos = split['pos']
