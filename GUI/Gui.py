@@ -56,12 +56,10 @@ class Application(Frame):
         self.INBOX = Button(self.m, text = "INBOX", fg   = "red", command =  self.inbox_command, state=ACTIVE)
         self.SPAM = Button(self.m, text = "SPAM", fg   = "red", command =  self.spam_command, state=ACTIVE)
         self.TRASH = Button(self.m, text = "TRASH", fg   = "red", command =  self.trash_command, state=ACTIVE)
-        self.CREATE_Labels = Button(self.m, text = "CREATE_LABELS", fg   = "red", command =  self.c_labels_command, state=ACTIVE)
         self.m.add(self.INBOX)
         self.m.add(self.SPAM)
         self.m.add(self.TRASH)
         #self.USER.pack(side=BOTTOM, anchor=W, fill=X)
-        self.m.add(self.CREATE_Labels)
         self.m2 = PanedWindow(self, orient=VERTICAL)
         self.m2.pack(fill=BOTH, side= LEFT, expand=1)
         #self.m.add(self.m2)
@@ -93,8 +91,10 @@ class Application(Frame):
         self.m3.pack(side=RIGHT, expand=1)
         self.delete = Button(self, text="DELETE", command=lambda lb=self.unread: lb.delete(ANCHOR))
         self.mov = Button(self, text="MOVE", command=self.mov_command)
+        self.CREATE_Labels = Button(self, text = "CREATE_LABELS", fg   = "red", command =  self.c_labels_command, state=ACTIVE)
         self.m3.add(self.delete)
         self.m3.add(self.mov)
+        self.m3.add(self.CREATE_Labels)
 
     def popup(self):
         self.w=popupWindow(self.Frame)
