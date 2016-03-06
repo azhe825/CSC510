@@ -2,32 +2,69 @@ __author__ = 'amrit'
 
 from Tkinter import *
 import ttk
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+Mails_directory="/../Cleaned_Data/beck-s.txt1"
+
+def readfile(filename):
+    corpus=[]
+    with open(filename,'r') as f:
+        for doc in f.readlines():
+            try:
+                corpus.append(doc.split(" ::::::>>>>>> ")[1][:-2])
+            except:
+                pass
+
+    return corpus
 
 class Application(Frame):
-    def say_hi(self):
-        print "hi there, everyone!"
+
+
+    def inbox_command(self):
+        mails= readfile(BASE_DIR+Mails_directory)
+        self.unread.delete(first=0, last=self.unread.size())
+        for i in range(len(mails)):
+            self.unread.insert('end', "%0.4d : %s" % (i, mails[i]))
+
+    def spam_command(self):
+        mails= readfile(BASE_DIR+Mails_directory)
+        self.unread.delete(first=0, last=self.unread.size())
+        for i in range(len(mails)):
+            self.unread.insert('end', "%0.4d : %s" % (i, mails[i]))
+
+    def trash_command(self):
+        mails= readfile(BASE_DIR+Mails_directory)
+        self.unread.delete(first=0, last=self.unread.size())
+        for i in range(len(mails)):
+            self.unread.insert('end', "%0.4d : %s" % (i, mails[i]))
+
+    def mov_command(self):
+        print "Move"
+
+    def c_labels_command(self):
+        self.popup()
+        if (self.entryValue()!=''):
+            self.buttons.append(self.entryValue())
+            x1=Button(self.m, text = self.buttons[self.count], fg   = "red", command =  self.spam_command, state=ACTIVE)
+            self.count+=1
+            self.m.add(x1)
 
     def createWidgets(self):
         self.m = PanedWindow(self, orient=VERTICAL)
-        self.m.pack(fill=BOTH, side=LEFT, expand=1)
-        self.INBOX = Button(self.m, text = "INBOX", fg   = "red", command =  self.quit)
-        self.INBOX.pack(side=TOP, anchor=W, fill=X, expand=YES)
+        self.m.pack(side=LEFT, expand=1)
+        self.INBOX = Button(self.m, text = "INBOX", fg   = "red", command =  self.inbox_command, state=ACTIVE)
+        self.SPAM = Button(self.m, text = "SPAM", fg   = "red", command =  self.spam_command, state=ACTIVE)
+        self.TRASH = Button(self.m, text = "TRASH", fg   = "red", command =  self.trash_command, state=ACTIVE)
+        self.CREATE_Labels = Button(self.m, text = "CREATE_LABELS", fg   = "red", command =  self.c_labels_command, state=ACTIVE)
         self.m.add(self.INBOX)
-        self.SPAM = Button(self.m, text = "SPAM", fg   = "red", command =  self.quit)
-        self.SPAM.pack(side=BOTTOM, anchor=W, fill=X, expand=YES)
         self.m.add(self.SPAM)
-        self.RANDOM = Button(self.m, text = "RANDOM", fg   = "red", command =  self.quit)
-        self.RANDOM.pack(side=BOTTOM, anchor=W, fill=X, expand=YES )
-        self.m.add(self.RANDOM)
-        self.USER = Button(self.m, text = "USER", fg   = "red", command =  self.quit)
-        self.USER.pack(side=BOTTOM, anchor=W, fill=X, expand=YES)
-        self.m.add(self.USER)
+        self.m.add(self.TRASH)
+        #self.USER.pack(side=BOTTOM, anchor=W, fill=X)
+        self.m.add(self.CREATE_Labels)
         self.m2 = PanedWindow(self, orient=VERTICAL)
-        self.m2.pack(fill=BOTH, side= RIGHT, expand=1)
+        self.m2.pack(fill=BOTH, side= LEFT, expand=1)
         #self.m.add(self.m2)
-
-        #.hi_there = Button(self.m2, text = "Hello", command = self.say_hi)
-        #self.m2.add(self.hi_there)
 
         self.top_right = Label(self.m2, text="Unread")
         self.m2.add(self.top_right)
@@ -37,8 +74,7 @@ class Application(Frame):
         self.s = Scrollbar(command=self.unread.yview, orient='vertical')
         #self.s.grid(column=0, row=0, sticky="ns")
         self.unread.config(yscrollcommand = self.s.set)
-        for i in range(100):
-            self.unread.insert('end', "Email %d" % i)
+        self.unread.insert('end', "Unread Mails")
         self.unread.pack()
         self.m2.add(self.unread)
 
@@ -49,15 +85,45 @@ class Application(Frame):
         self.s = Scrollbar(command=self.read.yview, orient='vertical')
         #self.s.grid(column=0, row=0, sticky="ns")
         self.read.config(yscrollcommand = self.s.set)
-        for i in range(100):
-            self.read.insert('end', "Email %d" % i)
+        self.read.insert('end', "Read Mails")
         self.read.pack()
         self.m2.add(self.read)
 
+        self.m3 = PanedWindow(self, orient=VERTICAL)
+        self.m3.pack(side=RIGHT, expand=1)
+        self.delete = Button(self, text="DELETE", command=lambda lb=self.unread: lb.delete(ANCHOR))
+        self.mov = Button(self, text="MOVE", command=self.mov_command)
+        self.m3.add(self.delete)
+        self.m3.add(self.mov)
+
+    def popup(self):
+        self.w=popupWindow(self.Frame)
+        self.Frame.wait_window(self.w.top)
+
+    def entryValue(self):
+        return self.w.value
+
     def __init__(self, master=None):
-        Frame.__init__(self, master)
+        Frame.__init__(self,master)
+        self.Frame =master
+        self.count=0
+        self.buttons=[]
         self.pack()
         self.createWidgets()
+
+class popupWindow(object):
+    def __init__(self,master):
+        top=self.top=Toplevel(master)
+        self.l=Label(top,text="Label Creation")
+        self.l.pack()
+        self.e=Entry(top)
+        self.e.pack()
+        self.b=Button(top,text='Ok',command=self.cleanup)
+        self.b.pack()
+    def cleanup(self):
+        self.value=self.e.get()
+        self.top.destroy()
+
 
 root = Tk()
 root.title("Mailbox")
@@ -65,28 +131,3 @@ root.minsize(width=1000,height=600 )
 app = Application(master=root)
 app.mainloop()
 root.destroy()
-'''
-root = Tk()
-root.title("Mailbox")
-root.minsize(width=1000,height=600 )
-#root.resizable(width=1000,height=1000)
-PanedWindow
-l = Tkinter.Listbox(height=5)
-l.grid(column=0, row=0, sticky='nwes')
-s = ttk.Scrollbar(command=l.yview, orient='vertical')
-l['yscrollcommand'] = s.set
-s.grid(column=1, row=0, sticky="ns")
-
-stat = ttk.Label(text="Status message here", anchor='w')
-stat.grid(column=0, row=1, sticky='we')
-
-sz = ttk.Sizegrip()
-sz.grid(column=1, row=1, sticky='se')
-
-root.grid_columnconfigure(0, weight=1)
-root.grid_rowconfigure(0, weight=1)
-
-for i in range(100):
-    l.insert('end', "Line %d of 100" % i)
-
-root.mainloop()'''
