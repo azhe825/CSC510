@@ -80,9 +80,15 @@ def incremental(label,matrix,Classify):
                 break
     return dict
 
-def incremental2(label,matrix,Classify):
+"Reserve a test set"
+def pre_inc(label):
+    preserve,val=split_data(label,num_each=5)
+    train,test=split_data(label[val])
+    train=list(np.array(val)[train])
+    test=list(np.array(val)[test])
+    return preserve,val,train,test
 
-
+def incremental2(label,matrix,Classify,is_LDA=False):
     step_count=1
     step=1
     total=10
@@ -90,12 +96,18 @@ def incremental2(label,matrix,Classify):
     for key in set(label):
         dict[key]={}
     dict['F_M']={}
-    XX=map(str,range(100,100+total*100,step*100))
+    XX=map(str,range(100,100+total*10,step*10))
 
-    train,test=split_data(label)
-    clf=Classify(label[train],matrix[train])
-    prediction=clf.predict(matrix[test])
-    dict_tmp=evaluate(label[test],prediction)
+    preserve,val,train,test=pre_inc(label)
+
+    if is_LDA:
+        topic_model=LDA(matrix,preserve)
+    else:
+        topic_model=matrix
+
+    clf=Classify(label[train],topic_model[train])
+    prediction=clf.predict(topic_model[preserve])
+    dict_tmp=evaluate(label[preserve],prediction)
     for key in dict:
         dict[key][XX[0]]=dict_tmp[key]
 
@@ -104,23 +116,21 @@ def incremental2(label,matrix,Classify):
     for ind in test:
         collect.append(ind)
 
-        if len(collect)==step_count*100:
+        if len(collect)==step_count*10:
             add=collect
 
-            test_new=list(set(test)-set(collect))
-            clf=Classify(label[train+add],matrix[train+add])
-            prediction=clf.predict(matrix[test_new])
-            dict_tmp=evaluate(label[test_new],prediction)
+            # test_new=list(set(test)-set(collect))
+            clf=Classify(label[train+add],topic_model[train+add])
+            prediction=clf.predict(topic_model[preserve])
+            dict_tmp=evaluate(label[preserve],prediction)
             for key in dict_tmp:
-                dict[key][str(100+step_count*100)]=dict_tmp[key]
+                dict[key][str(100+step_count*10)]=dict_tmp[key]
             step_count=step_count+step
-            if step_count>total:
+            if step_count==total:
                 break
     return dict
 
-def incremental_credit(label,matrix,Classify):
-
-
+def incremental_credit(label,matrix,Classify,is_LDA=False):
     step_count=1
     step=1
     total=10
@@ -128,12 +138,18 @@ def incremental_credit(label,matrix,Classify):
     for key in set(label):
         dict[key]={}
     dict['F_M']={}
-    XX=map(str,range(100,100+total*100,step*100))
+    XX=map(str,range(100,100+total*10,step*10))
 
-    train,test=split_data(label)
-    clf=Classify(label[train],matrix[train])
-    prediction=clf.predict(matrix[test])
-    dict_tmp=evaluate(label[test],prediction)
+    preserve,val,train,test=pre_inc(label)
+
+    if is_LDA:
+        topic_model=LDA(matrix,preserve)
+    else:
+        topic_model=matrix
+
+    clf=Classify(label[train],topic_model[train])
+    prediction=clf.predict(topic_model[preserve])
+    dict_tmp=evaluate(label[preserve],prediction)
     for key in dict:
         dict[key][XX[0]]=dict_tmp[key]
 
@@ -142,8 +158,8 @@ def incremental_credit(label,matrix,Classify):
     pool=[]
     for ind in test:
         pool.append(ind)
-        if clf.predict(matrix[ind])==label[ind]:
-            score=0.5
+        if clf.predict(topic_model[ind])==label[ind]:
+            score=1-clf.predict_proba(topic_model[ind])[0,list(clf.classes_).index(label[ind])]
         else:
             score=1.0
         try:
@@ -157,20 +173,18 @@ def incremental_credit(label,matrix,Classify):
             for ll in collect:
                 add.extend(list(np.array(collect[ll].keys())[np.argsort(collect[ll].values())][-num:]))
 
-            test_new=list(set(test)-set(pool))
-            clf=Classify(label[train+add],matrix[train+add])
-            prediction=clf.predict(matrix[test_new])
-            dict_tmp=evaluate(label[test_new],prediction)
+            # test_new=list(set(test)-set(pool))
+            clf=Classify(label[train+add],topic_model[train+add])
+            prediction=clf.predict(topic_model[preserve])
+            dict_tmp=evaluate(label[preserve],prediction)
             for key in dict_tmp:
-                dict[key][str(100+step_count*100)]=dict_tmp[key]
+                dict[key][str(100+step_count*10)]=dict_tmp[key]
             step_count=step_count+step
-            if step_count>total:
+            if step_count==total:
                 break
     return dict
 
-def incremental_wrong(label,matrix,Classify):
-
-
+def incremental_wrong(label,matrix,Classify,is_LDA=False):
     step_count=1
     step=1
     total=10
@@ -178,12 +192,18 @@ def incremental_wrong(label,matrix,Classify):
     for key in set(label):
         dict[key]={}
     dict['F_M']={}
-    XX=map(str,range(100,100+total*100,step*100))
+    XX=map(str,range(100,100+total*10,step*10))
 
-    train,test=split_data(label)
-    clf=Classify(label[train],matrix[train])
-    prediction=clf.predict(matrix[test])
-    dict_tmp=evaluate(label[test],prediction)
+    preserve,val,train,test=pre_inc(label)
+
+    if is_LDA:
+        topic_model=LDA(matrix,preserve)
+    else:
+        topic_model=matrix
+
+    clf=Classify(label[train],topic_model[train])
+    prediction=clf.predict(topic_model[preserve])
+    dict_tmp=evaluate(label[preserve],prediction)
     for key in dict:
         dict[key][XX[0]]=dict_tmp[key]
 
@@ -192,20 +212,20 @@ def incremental_wrong(label,matrix,Classify):
     pool=[]
     for ind in test:
         pool.append(ind)
-        if not clf.predict(matrix[ind])==label[ind]:
+        if not clf.predict(topic_model[ind])==label[ind]:
             wrong.append(ind)
 
 
-        if len(pool)==step_count*100:
+        if len(pool)==step_count*10:
 
-            test_new=list(set(test)-set(pool))
-            clf=Classify(label[train+wrong],matrix[train+wrong])
-            prediction=clf.predict(matrix[test_new])
-            dict_tmp=evaluate(label[test_new],prediction)
+            # test_new=list(set(test)-set(pool))
+            clf=Classify(label[train+wrong],topic_model[train+wrong])
+            prediction=clf.predict(topic_model[preserve])
+            dict_tmp=evaluate(label[preserve],prediction)
             for key in dict_tmp:
-                dict[key][str(100+step_count*100)]=dict_tmp[key]
+                dict[key][str(100+step_count*10)]=dict_tmp[key]
             step_count=step_count+step
-            if step_count>total:
+            if step_count==total:
                 break
     return dict
 
@@ -244,8 +264,7 @@ def _test2(filename,method):
         dict_tmp=experiment(label,matrix,Classify)
         dict_add(result,dict_tmp)
         print(str(i)+" finished")
-    with open('./dump/'+method+'_'+filename+'.pickle', 'wb') as handle:
-        pickle.dump(result, handle)
+    return result
     #save(result,c_name[c_id]+filename)
 
 def draw_all():
@@ -267,10 +286,12 @@ def draw_all():
 def run_test():
     ## to get the results
     datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
-    methods=["wrong","brutal","credit"]
+    methods=["credit","wrong","brutal"]
     for method in methods:
         for dataset in datalist:
-            _test2(dataset,method)
+            result=_test2(dataset,method)
+            with open('./dump/'+method+'_'+dataset+'.pickle', 'wb') as handle:
+                pickle.dump(result, handle)
         draw(method)
     draw3()
 
@@ -297,7 +318,7 @@ def draw(what):
         Y=np.array(tmp.values())[ind]
         line,=plt.plot(X,map(np.median,Y),label=filename+" median")
         plt.plot(X,map(iqr,Y),"-.",color=line.get_color(),label=filename+" iqr")
-    plt.xticks(np.arange(100,1100,100))
+    plt.xticks(np.arange(100,200,10))
     plt.yticks(np.arange(0,1.0,0.2))
     plt.ylabel("F_M score")
     plt.xlabel("Training Size")
@@ -327,7 +348,7 @@ def draw_inc():
         for filename in datalist:
             with open('./dump/'+method+'_'+filename+'.pickle', 'rb') as handle:
                 result[filename] = pickle.load(handle)
-            tmp=result[filename]['F_M']['1000']
+            tmp=result[filename]['F_M']['180']
             Y[method].append(tmp)
         line,=plt.plot(X,map(np.median,Y[method]),label=method+" median")
         plt.plot(X,map(iqr,Y[method]),"-.",color=line.get_color(),label=method+" iqr")
@@ -336,8 +357,8 @@ def draw_inc():
     plt.ylabel("F_M score")
     plt.xlabel("Data sets")
     plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("../Results/semi_methods_half.eps")
-    plt.savefig("../Results/semi_methods_half.png")
+    plt.savefig("../Results/semi_methods.eps")
+    plt.savefig("../Results/semi_methods.png")
 
 def draw3():
     font = {'family' : 'normal',

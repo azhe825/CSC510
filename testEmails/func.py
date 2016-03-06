@@ -12,6 +12,7 @@ from sklearn.naive_bayes import GaussianNB,  MultinomialNB
 from sklearn.feature_extraction import FeatureHasher
 from sklearn import naive_bayes
 from sklearn import tree
+from sklearn.decomposition import LatentDirichletAllocation
 
 from sklearn.feature_extraction.text import CountVectorizer
 from collections import Counter
@@ -62,13 +63,25 @@ def hash(matrix,feature_number=4000):
     X=hasher.transform(matrix)
     return X
 
-"Preprocessing"
+"Preprocessing, Vector space model"
 def preprocess(filename):
     label, corpus=readfile(filename)
     matrix=vsm(corpus)
     matrix=hash(matrix)
     matrix=l2normalize(matrix)
     return label, matrix
+
+
+"Topic Model"
+def LDA(matrix,preserve,n_topics=100):
+
+    lda = LatentDirichletAllocation(n_topics=n_topics, max_iter=10,
+                                        learning_method='online', learning_offset=50.,
+                                        random_state=randint(1,100))
+    lda.fit(matrix[preserve])
+    topic_model=lda.transform(matrix)
+
+    return topic_model
 
 "Shuffle"
 def shuffle_tuple(my_tuple):
@@ -99,6 +112,17 @@ def split_data(label,num_each=10):
         train.extend(list(np.random.choice(index,size=num_each,replace=False)))
     test=list(set(range(len(label)))-set(train))
     return train,test
+
+"Split each sub-folder into training(50%) and testing(50%)"
+def split_data_50(label,num_each=10):
+    train=[]
+    for ll in set(label):
+        index=[i for i in xrange(len(label)) if label[i]==ll]
+        train.extend(list(np.random.choice(index,size=len(index)*0.5,replace=False)))
+    test=list(set(range(len(label)))-set(train))
+    return train,test
+
+
 
 
 "Concatenate two csr into one (equal num of columns)"
@@ -154,6 +178,12 @@ def smote_most(data,label,k=5):
 
 
 "Classifier: linear SVM"
+def do_SVM_noSMOTE(label,data):
+    clf = svm.SVC(probability=True,kernel='linear')
+    clf.fit(data,label)
+    return clf
+
+"Classifier: linear SVM"
 def do_SVM(label,data):
     # data,label=smote_most(data,label)
     clf = svm.SVC(probability=True,kernel='linear')
@@ -197,7 +227,10 @@ def evaluate(true_label,prediction):
         dict[label]=tmp[i,-2]  # f-score
     pre=np.mean(tmp[:,1])
     rec=np.mean(tmp[:,0])
-    dict['F_M']=2*pre*rec/(pre+rec)
+    if pre==0 or rec==0:
+        dict['F_M']=0
+    else:
+        dict['F_M']=2*pre*rec/(pre+rec)
     return dict
 
 
