@@ -249,7 +249,7 @@ def _test(filename, classifier_id):
     with open('./dump/'+c_name[classifier_id]+'_'+filename+'.pickle', 'wb') as handle:
         pickle.dump(result, handle)
 
-def _test2(filename,method):
+def _test2(filename,method,is_LDA=False):
     filepath='../Cleaned_Data/'
     filetype='.txt'
     Classify=do_SVM
@@ -261,7 +261,7 @@ def _test2(filename,method):
     result={}
 
     for i in xrange(repeats):
-        dict_tmp=experiment(label,matrix,Classify)
+        dict_tmp=experiment(label,matrix,Classify,is_LDA=is_LDA)
         dict_add(result,dict_tmp)
         print(str(i)+" finished")
     return result
@@ -279,6 +279,16 @@ def draw_all():
     # for what in c_name:
     #     draw(what)
     # load the resultsa dn pic them for different classifiers.
+
+def run_test2():
+    ## to get the results
+    datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
+    methods=["credit","wrong","brutal"]
+    for method in methods:
+        for dataset in datalist:
+            result=_test2(dataset,method,is_LDA=True)
+            with open('./dump/LDA_'+method+'_'+dataset+'.pickle', 'wb') as handle:
+                pickle.dump(result, handle)
 
 
 
@@ -359,6 +369,40 @@ def draw_inc():
     plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
     plt.savefig("../Results/semi_methods.eps")
     plt.savefig("../Results/semi_methods.png")
+
+def draw_LDA():
+    font = {'family' : 'normal',
+            'weight' : 'bold',
+            'size'   : 20}
+
+    plt.rc('font', **font)
+    paras={'lines.linewidth': 5,'legend.fontsize': 20, 'axes.labelsize': 30, 'legend.frameon': False,'figure.autolayout': True,'figure.figsize': (16,8)}
+    plt.rcParams.update(paras)
+
+    datalist=['beck-s','farmer-d','kaminski-v','kitchen-l','lokay-m','sanders-r','williams-w3']
+
+
+    plt.figure()
+    result={}
+    methods=["wrong","brutal","credit"]
+    Y={}
+    X=range(len(datalist))
+    for method in methods:
+        Y[method]=[]
+        for filename in datalist:
+            with open('./dump/LDA_'+method+'_'+filename+'.pickle', 'rb') as handle:
+                result[filename] = pickle.load(handle)
+            tmp=result[filename]['F_M']['180']
+            Y[method].append(tmp)
+        line,=plt.plot(X,map(np.median,Y[method]),label=method+" median")
+        plt.plot(X,map(iqr,Y[method]),"-.",color=line.get_color(),label=method+" iqr")
+    plt.yticks(np.arange(0,1.1,0.1))
+    plt.xticks(X, datalist, rotation=70)
+    plt.ylabel("F_M score")
+    plt.xlabel("Data sets")
+    plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
+    plt.savefig("../Results/LDA_semi_methods.eps")
+    plt.savefig("../Results/LDA_semi_methods.png")
 
 def draw3():
     font = {'family' : 'normal',
