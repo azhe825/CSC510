@@ -114,60 +114,6 @@ def check_credit():
 
 
 
-def incremental_credit(label,matrix,Classify,is_LDA=False):
-    step_count=1
-    step=1
-    total=10
-    dict={}
-    for key in set(label):
-        dict[key]={}
-    dict['F_M']={}
-    XX=map(str,range(100,100+total*10,step*10))
-
-    preserve,val,train,test=pre_inc(label)
-
-    if is_LDA:
-        topic_model=LDA(matrix,preserve)
-    else:
-        topic_model=matrix
-
-    clf=Classify(label[train],topic_model[train])
-    prediction=clf.predict(topic_model[preserve])
-    dict_tmp=evaluate(label[preserve],prediction)
-    for key in dict:
-        dict[key][XX[0]]=dict_tmp[key]
-
-    shuffle(test)
-    collect={}
-    pool=[]
-    for ind in test:
-        pool.append(ind)
-        if clf.predict(topic_model[ind])==label[ind]:
-            score=1-clf.predict_proba(topic_model[ind])[0,list(clf.classes_).index(label[ind])]
-        else:
-            score=1.0
-        try:
-            collect[label[ind]][ind]=score
-        except:
-            collect[label[ind]]={ind:score}
-
-        if len(pool)==step_count*100:
-            num=int(len(pool)/len(set(label)))
-            add=[]
-            for ll in collect:
-                add.extend(list(np.array(collect[ll].keys())[np.argsort(collect[ll].values())][-num:]))
-
-            # test_new=list(set(test)-set(pool))
-            clf=Classify(label[train+add],topic_model[train+add])
-            prediction=clf.predict(topic_model[preserve])
-            dict_tmp=evaluate(label[preserve],prediction)
-            for key in dict_tmp:
-                dict[key][str(100+step_count*10)]=dict_tmp[key]
-            step_count=step_count+step
-            if step_count==total:
-                break
-    return dict
-
 
 
 
