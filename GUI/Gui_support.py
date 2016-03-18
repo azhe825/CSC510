@@ -96,7 +96,7 @@ def activity_yes(email,current_folder):
 def activity_no(email,target_folder):
     global pool
     email.set_label(target_folder)
-    email.set_credit(1)
+    email.set_credit(1-email.proba[current_folder])
     if email not in pool:
         pool.append(email)
 
