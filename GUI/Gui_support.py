@@ -68,6 +68,10 @@ class Email(object):
         self.label=''
         self.credit=0
         self.proba={}
+        self.read=False
+    
+    def set_read(self):
+        self.read=True
 
     def set_label(self,label):
         self.label=label
