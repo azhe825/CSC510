@@ -23,7 +23,8 @@ class Folder(object):
     def addfolder(self,name):
         self.names.append(name)
         self.num=self.num+1
-
+    
+    "call this to train the classifier"
     def train(self,training_set):
         labels=[]
         bodies=[]
@@ -35,7 +36,8 @@ class Folder(object):
             else:
                 bodies=tmp
         self.classifier=do_SVM(labels,bodies)
-
+    
+    "return the list of folder names the email would belong to, also will change mail.folder"
     def predict(self,mail):
         proba=self.classifier.predict_proba(mail.mat)
         mail.folder=[]
@@ -104,7 +106,7 @@ def activity_no(email,target_folder):
     if email not in pool:
         pool.append(email)
 
-"Runs every mid-night? Retrain the classifier"
+"Runs every mid-night? Retrain the classifier or not"
 def check_credit():
     global pool,prog,step,my_folder,saturation
     if len(pool) >= my_folder.num*prog*step:
