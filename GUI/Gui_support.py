@@ -1,7 +1,25 @@
 from __future__ import print_function, division
 from func_GUI import *
+import re
+import email
 
-
+"convert the original email to string list"
+def email_parser(mailText):
+    content = email.message_from_string(mailText) # extract email content totally
+    subject = content['subject'] # parse for email subject
+    body = []
+    if content.is_multipart(): # parse for email body
+        for payload in content.get_payload():
+            body.append(payload.get_payload())
+    else:
+        body.append(content.get_payload())
+    body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(body)) # filter characters for email body
+    body_keywords = re.sub('\s+', ' ', body_segments)
+    subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject)) # filter characters for email subject
+    subject_keywords = re.sub('\s+', ' ', subject_segments)
+    mail_subject = subject_keywords.lower()
+    mail_body = body_keywords.lower()
+    return subject, body, mail_subject, mail_body # return original subject, body, and processed subject and body
 
 "format email, str to csr"
 def format(email):
@@ -102,7 +120,7 @@ def activity_yes(email,current_folder):
 def activity_no(email,target_folder):
     global pool
     email.set_label(target_folder)
-    email.set_credit(1-email.proba[current_folder])
+    email.set_credit(1-email.proba[target_folder])
     if email not in pool:
         pool.append(email)
 
