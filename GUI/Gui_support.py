@@ -5,24 +5,19 @@ import email
 
 "convert the original email to string list"
 def email_parser(emailText):
-    # print mailText
-    content = email.message_from_string(mailText)
-    subject = content['subject']
+    content = email.message_from_string(mailText) # extract email content totally
+    subject = content['subject'] # parse for email subject
     body = []
-    # print 'half'
-    if content.is_multipart():
+    if content.is_multipart(): # parse for email body
         for payload in content.get_payload():
             body.append(payload.get_payload())
     else:
         body.append(content.get_payload())
-    body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '',
-                           ''.join(body)) # filter characters for email body
+    body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(body)) # filter characters for email body
     body_keywords = re.sub('\s+', ' ', body_segments)
-
-    subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '',
-                              ''.join(subject)) # filter characters for email subject
+    subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject)) # filter characters for email subject
     subject_keywords = re.sub('\s+', ' ', subject_segments)
-    mail_processed = subject_keywords.lower() + ' ' + body_keywords.lower()
+    mail_processed = subject_keywords.lower() + ' ' + body_keywords.lower() # return pure string list of the email
     return mail_processed
 
 "format email, str to csr"
