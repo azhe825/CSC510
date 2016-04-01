@@ -365,7 +365,7 @@ if __name__ == '__main__':
     list_mails.append(email)
     list_labels_mails.append(['unread', 'inbox'])
     pool=list_mails
-    check_credit()
+    #check_credit()
     # GUI
     root = Tk()
     root.title("Mailbox")

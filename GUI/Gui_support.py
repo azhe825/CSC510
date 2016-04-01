@@ -1,7 +1,15 @@
 from __future__ import print_function, division
 from func_GUI import *
+import re
+import email
+from pdb import set_trace
+from email.parser import Parser
 
-
+"convert the original email to string list"
+def email_parser(emailText):
+    # print mailText
+    content = email.message_from_string(mailText)
+    subject = content['subject']
 
 "format email, str to csr"
 def format(email):
