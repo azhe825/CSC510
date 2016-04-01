@@ -11,14 +11,14 @@ Mails_directory="/../Mails/struct.txt"
 
 list_mails=[]
 list_labels_mails=[]
-labels_gui=['inbox', 'uncertain','trash']
+labels_gui=['inbox', 'calendar','commoditylogic','congratulations', 'doorstep']
 def readfile(filename):
     corpus=[]
     labels=[]
     with open(filename,'r') as f:
         for doc in f.readlines():
             try:
-                x=Email(doc.split(" >>> ")[1])
+                x=Email(doc.split(" >>> ")[1].strip())
                 x.set_label(doc.split(" >>> ")[0].split()[1])
                 x.credit=1
                 x.folder.append(doc.split(" >>> ")[0].split()[1])
@@ -101,23 +101,25 @@ class Application(Frame):
 
     def c_labels_command(self):
         self.popup()
+        global labels_gui
         if (self.entryValue()!=''):
             a=self.entryValue()
             self.buttons.append(a)
-            labels_gui.append(a)
-            x1=Button(self.m, text = self.buttons[self.count], fg   = "red", command =  lambda: self.button_command(a), state=ACTIVE)
+            labels_gui.append(a.lower())
+            #print(labels_gui)
+            x1=Button(self.m, text = self.buttons[self.count], fg   = "red", command =  lambda a=a: self.button_command(a), state=ACTIVE)
             self.count+=1
             self.m.add(x1)
+            #self.aMenu.add_command(label=a, command=lambda a=a : self.mov_command(a.lower()))
 
     def createWidgets(self):
         self.m = PanedWindow(self, orient=VERTICAL)
         self.m.pack(side=LEFT, expand=1)
-        self.INBOX = Button(self.m, text = "INBOX", fg   = "red", command =  lambda: self.button_command('inbox'), state=ACTIVE)
-        self.UNCERTAIN = Button(self.m, text = "UNCERTAIN", fg   = "red", command =  lambda: self.button_command('uncertain'), state=ACTIVE)
-        self.TRASH = Button(self.m, text = "TRASH", fg   = "red", command =  lambda: self.button_command('trash'), state=ACTIVE)
-        self.m.add(self.INBOX)
-        self.m.add(self.UNCERTAIN)
-        self.m.add(self.TRASH)
+        for i in labels_gui:
+            self.buttons.append(i)
+            x1=Button(self.m, text = self.buttons[self.count], fg   = "red", command =  lambda i=i: self.button_command(i), state=ACTIVE)
+            self.count+=1
+            self.m.add(x1)
         #self.USER.pack(side=BOTTOM, anchor=W, fill=X)
         self.m2 = PanedWindow(self, orient=VERTICAL)
         self.m2.pack(fill=BOTH, side= LEFT, expand=1)
@@ -146,6 +148,7 @@ class Application(Frame):
         self.read.config(yscrollcommand = self.s.set)
         self.read.insert('end', "Read Mails")
         self.read.bind("<Double-Button-1>", self.read_user)
+
         self.read.bind("<Button-3>", self.popup_menu)
 
         self.read.pack()
@@ -162,16 +165,16 @@ class Application(Frame):
         self.m3.add(self.mov)
         self.m3.add(self.CREATE_Labels)
 
-        self.aMenu = Menu(self, tearoff=0)
-        for i in labels_gui:
-            self.aMenu.add_command(label=i, command=lambda i=i : self.mov_command(i.lower()))
+
 
 
     def popup_menu(self, event):
         w = event.widget
+        self.aMenu = Menu(self, tearoff=0)
+        #print(labels_gui)
+        for i in labels_gui:
+            self.aMenu.add_command(label=i, command=lambda i=i : self.mov_command(i.lower()))
         self.waste=w.get(w.curselection()).split(' : ')[0]
-        #self.popup1(w.get(w.curselection()).split(' : ')[1])
-        #x = int(w.get(w.curselection()).split(' : ')[0])
         self.aMenu.post(event.x_root, event.y_root)
 
     def popup(self):
