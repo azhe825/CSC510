@@ -95,7 +95,7 @@ class Application(Frame):
         e.folder= []
         e.folder.append(i)
         list_labels_mails[int(self.waste)]=[list_labels_mails[int(self.waste)][0],i]
-        activity_no(e,prev_label,i)
+        activity_no(e,i,prev_label)
         pool[int(self.waste)].set_label(i)
         print("Move")
 
@@ -164,7 +164,8 @@ class Application(Frame):
 
         self.aMenu = Menu(self, tearoff=0)
         for i in labels_gui:
-            self.aMenu.add_command(label=i.upper(), command=lambda: self.mov_command(i.lower()))
+            self.aMenu.add_command(label=i, command=lambda i=i : self.mov_command(i.lower()))
+
 
     def popup_menu(self, event):
         w = event.widget
@@ -364,7 +365,7 @@ if __name__ == '__main__':
     list_mails.append(email)
     list_labels_mails.append(['unread', 'inbox'])
     pool=list_mails
-    #check_credit()
+    check_credit()
     # GUI
     root = Tk()
     root.title("Mailbox")
