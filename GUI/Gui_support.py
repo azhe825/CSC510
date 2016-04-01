@@ -2,8 +2,6 @@ from __future__ import print_function, division
 from func_GUI import *
 import re
 import email
-from pdb import set_trace
-from email.parser import Parser
 
 "convert the original email to string list"
 def email_parser(emailText):
@@ -18,11 +16,11 @@ def email_parser(emailText):
     else:
         body.append(content.get_payload())
     body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '',
-                           ''.join(body))
+                           ''.join(body)) # filter characters for email body
     body_keywords = re.sub('\s+', ' ', body_segments)
 
     subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '',
-                              ''.join(subject))
+                              ''.join(subject)) # filter characters for email subject
     subject_keywords = re.sub('\s+', ' ', subject_segments)
     mail_processed = subject_keywords.lower() + ' ' + body_keywords.lower()
     return mail_processed
