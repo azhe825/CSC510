@@ -10,6 +10,22 @@ def email_parser(emailText):
     # print mailText
     content = email.message_from_string(mailText)
     subject = content['subject']
+    body = []
+    # print 'half'
+    if content.is_multipart():
+        for payload in content.get_payload():
+            body.append(payload.get_payload())
+    else:
+        body.append(content.get_payload())
+    body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '',
+                           ''.join(body))
+    body_keywords = re.sub('\s+', ' ', body_segments)
+
+    subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '',
+                              ''.join(subject))
+    subject_keywords = re.sub('\s+', ' ', subject_segments)
+    mail_processed = subject_keywords.lower() + ' ' + body_keywords.lower()
+    return mail_processed
 
 "format email, str to csr"
 def format(email):
