@@ -4,7 +4,7 @@ import re
 import email
 
 "convert the original email to string list"
-def email_parser(emailText):
+def email_parser(mailText):
     content = email.message_from_string(mailText) # extract email content totally
     subject = content['subject'] # parse for email subject
     body = []
@@ -119,7 +119,7 @@ def activity_yes(email,current_folder):
 def activity_no(email,target_folder):
     global pool
     email.set_label(target_folder)
-    email.set_credit(1-email.proba[current_folder])
+    email.set_credit(1-email.proba[target_folder])
     if email not in pool:
         pool.append(email)
 
