@@ -17,8 +17,9 @@ def email_parser(mailText):
     body_keywords = re.sub('\s+', ' ', body_segments)
     subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject)) # filter characters for email subject
     subject_keywords = re.sub('\s+', ' ', subject_segments)
-    mail_processed = subject_keywords.lower() + ' ' + body_keywords.lower() # return pure string list of the email
-    return mail_processed
+    mail_subject = subject_keywords.lower()
+    mail_body = body_keywords.lower()
+    return subject, body, mail_subject, mail_body # return original subject, body, and processed subject and body
 
 "format email, str to csr"
 def format(email):
