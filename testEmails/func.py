@@ -57,6 +57,8 @@ def vsm(corpus):
     return [Counter(row.split()) for row in corpus]
 
 
+
+
 "Hash"
 def hash(matrix,feature_number=4000):
     hasher = FeatureHasher(n_features=feature_number, non_negative=True)

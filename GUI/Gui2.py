@@ -1,14 +1,38 @@
 from __future__ import print_function, division
 
-__author__ = 'amrit'
+__author__ = 'Amrit, Zhe, Jerry, Jack'
 
 from Tkinter import *
 import os
 from func_GUI import *
+import re
+from email import message_from_string
+
 
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-Mails_directory="../Mails/struct.txt"
+Mails_directory="../Mails/struct2.txt"
 
+
+"convert the original email to string list"
+def email_parser(mailText):
+    content = message_from_string(mailText) # extract email content totally
+    subject = content['subject'] # parse for email subject
+    body = []
+    if content.is_multipart(): # parse for email body
+        for payload in content.get_payload():
+            body.append(payload.get_payload())
+    else:
+        body.append(content.get_payload())
+    body_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(body)) # filter characters for email body
+    body_keywords = re.sub('\s+', ' ', body_segments)
+    subject_segments = re.sub(r"\n|(\\(.*?){)|}|[!$%^&*#()_+|~\-={}\[\]:\";'<>?,.\/\\]|[0-9]|[@]", '', ''.join(subject)) # filter characters for email subject
+    subject_keywords = re.sub('\s+', ' ', subject_segments)
+    mail_subject = subject_keywords.lower()
+    mail_body = body_keywords.lower()
+    return subject, body, mail_subject, mail_body # return original subject, body, and processed subject and body
+
+
+"read the initial setup from struct2.txt"
 def readfile(filename):
     global my_folder,pool,list_mails
     with open(filename,'r') as f:
@@ -18,7 +42,10 @@ def readfile(filename):
                 x.set_label(doc.split(" >>> ")[0].split()[1])
                 x.credit=1
                 x.folder.append(doc.split(" >>> ")[0].split()[1])
-                x.read=True
+                if doc.split(" >>> ")[0].split()[0] == "read":
+                    x.read=True
+                else:
+                    x.read=False
                 if not x.label in my_folder.names:
                     my_folder.addfolder(x.label)
                 pool.append(x)
@@ -28,11 +55,21 @@ def readfile(filename):
     my_folder.train(pool)
     list_mails=pool
 
+"when new email comes in"
+def new_email(mailText):
+    global list_mails,my_folder
+    subject, body, mail_subject, mail_body=email_parser(mailText)
+    mail_body=mail_subject+ mail_body
+    newmail=Email(mail_body)
+    list_mails.append(newmail)
+    my_folder.predict(newmail)
+
 
 class Application(Frame):
 
     def button_command(self, a):
-        global list_mails
+        global list_mails,currentfolder
+        currentfolder=a
         self.unread.delete(first=0, last=self.unread.size())
         self.read.delete(first=0, last=self.read.size())
         for i,mail in enumerate(list_mails):
@@ -68,52 +105,45 @@ class Application(Frame):
     def read_user(self, event):
         w = event.widget
         self.popup1(w.get(w.curselection()).split(' : ')[1])
-        global list_mails
-        activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], list_labels_mails[int(w.get(w.curselection()).split(' : ')[0])][1])
-        "how do we get the folder we are working in?"
+        global list_mails,currentfolder
+        if not(currentfolder=='uncertain' or currentfolder=='trash'):
+            activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
+
 
     def unread_user(self,event):
         w = event.widget
         self.popup1(w.get(w.curselection()).split(' : ')[1])
-        x = int(w.get(w.curselection()).split(' : ')[0])
-        for i,k in enumerate(list_labels_mails[x]):
-            if k == "unread":
-                list_labels_mails[x][i] = "read"
-        if "inbox" in list_labels_mails[x]:
-            self.button_command('inbox')
-        if "uncertain" in list_labels_mails[x]:
-            self.button_command('uncertain')
-        if "trash" in list_labels_mails[x]:
-            self.button_command('trash')
+        global list_mails,currentfolder
+        list_mails[int(w.get(w.curselection()).split(' : ')[0])].set_read()
+        if not(currentfolder=='uncertain' or currentfolder=='trash'):
+            activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
 
-    def mov_command(self,i):
-        print(i)
-        prev_label = pool[int(self.waste)].get_label()
-        e = pool[int(self.waste)]
-        e.folder= []
-        e.folder.append(i)
-        list_labels_mails[int(self.waste)]=[list_labels_mails[int(self.waste)][0],i]
-        activity_no(e,i,prev_label)
-        pool[int(self.waste)].set_label(i)
-        print("Move")
+    def mov_command(self,targetfolder):
+        global list_mails,currentfolder
+        list_mails[int(self.waste)].folder=[targetfolder]
+        if not(targetfolder=='uncertain' or targetfolder=='trash'):
+            activity_no(list_mails[int(self.waste)],targetfolder)
+
 
     def c_labels_command(self):
         self.popup()
         if (self.entryValue()!=''):
             a=self.entryValue()
-            self.buttons.append(a)
             global my_folder
             my_folder.names.append(a)
-            x1=Button(self.m, text = a, fg   = "red", command =  lambda: self.button_command(a), state=ACTIVE)
-            self.count+=1
-            self.m.add(x1)
+            self.create_folder(a)
+
+    def create_folder(self,name):
+        self.buttons.append(name)
+        x1=Button(self.m, text = name, fg   = "red", command =  lambda: self.button_command(name), state=ACTIVE)
+        self.m.add(x1)
+        self.count+=1
 
     def createWidgets(self):
         self.m = PanedWindow(self, orient=VERTICAL)
         self.m.pack(side=LEFT, expand=1)
         for name in my_folder.names:
-            self.NEW=Button(self.m, text = name, fg   = "red", command =  lambda: self.button_command('name'), state=ACTIVE)
-            self.m.add(self.NEW)
+            self.create_folder(name)
         #self.USER.pack(side=BOTTOM, anchor=W, fill=X)
         self.m2 = PanedWindow(self, orient=VERTICAL)
         self.m2.pack(fill=BOTH, side= LEFT, expand=1)
@@ -164,6 +194,7 @@ class Application(Frame):
     def popup_menu(self, event):
         w = event.widget
         self.waste=w.get(w.curselection()).split(' : ')[0]
+        print(self.waste)
         #self.popup1(w.get(w.curselection()).split(' : ')[1])
         #x = int(w.get(w.curselection()).split(' : ')[0])
         self.aMenu.post(event.x_root, event.y_root)
@@ -249,6 +280,7 @@ class Folder(object):
 
     "return the list of folder names the email would belong to, also will change mail.folder"
     def predict(self,mail):
+        global features
         proba=self.classifier.predict_proba(mail.mat)
         mail.folder=[]
         for ind,label in enumerate(self.classifier.classes_):
@@ -257,6 +289,10 @@ class Folder(object):
                 mail.folder.append(label)
         if not mail.folder:
             mail.folder=['uncertain']
+        if not features[2]:
+            if len(mail.folder)>1:
+                mail.folder=[self.classifier.classes_[np.argmax(proba)]]
+
         return mail.folder
 
 
@@ -306,19 +342,25 @@ class Email(object):
 
 "If user read, forward, reply this email. Will not trigger if current_folder is uncertain or trash"
 def activity_yes(email,current_folder):
-    global pool
-    email.set_label(current_folder)
-    email.set_credit(1-email.proba[current_folder])
-    if email not in pool:
-        pool.append(email)
+    global pool,features
+    if features[0]:
+        email.set_label(current_folder)
+        if email.proba:
+            email.set_credit(1-email.proba[current_folder])
+        if email not in pool:
+            pool.append(email)
+    check_credit()
 
 "If user move this email into a target_folder. Will not trigger if target_folder is uncertain or trash."
-def activity_no(email,target_folder, current_folder):
-    global pool
-    email.set_label(target_folder)
-    email.set_credit(1-email.proba[current_folder])
-    if email not in pool:
-        pool.append(email)
+def activity_no(email,target_folder):
+    global pool,features
+    if features[0] or features[1]:
+        email.set_label(target_folder)
+        if email.proba:
+            email.set_credit(1-email.proba[target_folder])
+        if email not in pool:
+            pool.append(email)
+    check_credit()
 
 "Runs every mid-night? Retrain the classifier or not"
 def check_credit():
@@ -342,7 +384,7 @@ def check_credit():
 
 if __name__ == '__main__':
 
-    global feature_number,hashemail,my_folder,pool,prog,step,saturation
+    global feature_number,hashemail,my_folder,pool,prog,step,saturation,currentfolder,features
 
     "Global variables, need to be initialized"
     feature_number=4000
@@ -352,12 +394,14 @@ if __name__ == '__main__':
     prog=1
     step=10
     saturation=10
+    currentfolder="uncertain"
+    features=[True,True,True]
+    "feature[0]: implicit user feedback; feature[1]: explicit user feedback; feature[2]: multi-folder"
 
     #pool of mails with intial labels.
     readfile(Mails_directory)
     #check_credit()
     # GUI
-    set_trace()
     root = Tk()
     root.title("Mailbox")
     root.minsize(width=1000,height=600 )

@@ -1,11 +1,11 @@
 from __future__ import print_function, division
 from func_GUI import *
 import re
-import email
+from email import message_from_string
 
 "convert the original email to string list"
 def email_parser(mailText):
-    content = email.message_from_string(mailText) # extract email content totally
+    content = message_from_string(mailText) # extract email content totally
     subject = content['subject'] # parse for email subject
     body = []
     if content.is_multipart(): # parse for email body
