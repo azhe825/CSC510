@@ -6,73 +6,71 @@ from Tkinter import *
 import os
 from func_GUI import *
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-Mails_directory="/../Mails/struct.txt"
+# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+Mails_directory="../Mails/struct.txt"
 
-list_mails=[]
-list_labels_mails=[]
-labels_gui=['inbox', 'calendar','commoditylogic','congratulations', 'doorstep']
 def readfile(filename):
-    corpus=[]
-    labels=[]
+    global my_folder,pool,list_mails
     with open(filename,'r') as f:
         for doc in f.readlines():
             try:
-                x=Email(doc.split(" >>> ")[1].strip())
+                x=Email(doc.split(" >>> ")[1])
                 x.set_label(doc.split(" >>> ")[0].split()[1])
                 x.credit=1
                 x.folder.append(doc.split(" >>> ")[0].split()[1])
-                corpus.append(x)
-                labels.append(doc.split(" >>> ")[0].split())
+                x.read=True
+                if not x.label in my_folder.names:
+                    my_folder.addfolder(x.label)
+                pool.append(x)
             except:
                 pass
 
-    global list_mails
-    list_mails = corpus
-    global list_labels_mails
-    list_labels_mails = labels
+    my_folder.train(pool)
+    list_mails=pool
 
 
 class Application(Frame):
 
     def button_command(self, a):
+        global list_mails
         self.unread.delete(first=0, last=self.unread.size())
         self.read.delete(first=0, last=self.read.size())
-        for i in range(len(list_mails)):
-            if a in list_labels_mails[i]:
-                if "unread" in list_labels_mails[i]:
-                    self.unread.insert('end', "%0.4d : %s" % (i, list_mails[i].get_body()))
-                if "read" in list_labels_mails[i]:
-                    self.read.insert('end', "%0.4d : %s" % (i, list_mails[i].get_body()))
+        for i,mail in enumerate(list_mails):
+            if a in mail.folder:
+                if mail.read:
+                    self.read.insert('end', "%0.4d : %s" % (i, mail.get_body()))
+                else:
+                    self.unread.insert('end', "%0.4d : %s" % (i, mail.get_body()))
 
 
-    def del_un(self):
-        x= int(self.unread.get(ANCHOR).split(' : ')[0])
-        self.unread.delete(ANCHOR)
-        for i,k in enumerate(list_labels_mails[x]):
-            if k == "trash":
-                list_labels_mails[x][i] = ""
-            if k == "inbox":
-                list_labels_mails[x][i] = "trash"
-            if k == "uncertain":
-                list_labels_mails[x][i] = "trash"
-
-    def del_re(self):
-        x= int(self.read.get(ANCHOR).split(' : ')[0])
-        self.read.delete(ANCHOR)
-        for i,k in enumerate(list_labels_mails[x]):
-            if k == "trash":
-                list_labels_mails[x][i] = ""
-            if k == "inbox":
-                list_labels_mails[x][i] = "trash"
-            if k == "uncertain":
-                list_labels_mails[x][i] = "trash"
+    # def del_un(self):
+    #     x= int(self.unread.get(ANCHOR).split(' : ')[0])
+    #     self.unread.delete(ANCHOR)
+    #     for i,k in enumerate(list_labels_mails[x]):
+    #         if k == "trash":
+    #             list_labels_mails[x][i] = ""
+    #         if k == "inbox":
+    #             list_labels_mails[x][i] = "trash"
+    #         if k == "uncertain":
+    #             list_labels_mails[x][i] = "trash"
+    #
+    # def del_re(self):
+    #     x= int(self.read.get(ANCHOR).split(' : ')[0])
+    #     self.read.delete(ANCHOR)
+    #     for i,k in enumerate(list_labels_mails[x]):
+    #         if k == "trash":
+    #             list_labels_mails[x][i] = ""
+    #         if k == "inbox":
+    #             list_labels_mails[x][i] = "trash"
+    #         if k == "uncertain":
+    #             list_labels_mails[x][i] = "trash"
 
     def read_user(self, event):
         w = event.widget
         self.popup1(w.get(w.curselection()).split(' : ')[1])
-        global pool
-        activity_yes(pool[int(w.get(w.curselection()).split(' : ')[0])], list_labels_mails[int(w.get(w.curselection()).split(' : ')[0])][1])
+        global list_mails
+        activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], list_labels_mails[int(w.get(w.curselection()).split(' : ')[0])][1])
+        "how do we get the folder we are working in?"
 
     def unread_user(self,event):
         w = event.widget
@@ -101,25 +99,21 @@ class Application(Frame):
 
     def c_labels_command(self):
         self.popup()
-        global labels_gui
         if (self.entryValue()!=''):
             a=self.entryValue()
             self.buttons.append(a)
-            labels_gui.append(a.lower())
-            #print(labels_gui)
-            x1=Button(self.m, text = self.buttons[self.count], fg   = "red", command =  lambda a=a: self.button_command(a), state=ACTIVE)
+            global my_folder
+            my_folder.names.append(a)
+            x1=Button(self.m, text = a, fg   = "red", command =  lambda: self.button_command(a), state=ACTIVE)
             self.count+=1
             self.m.add(x1)
-            #self.aMenu.add_command(label=a, command=lambda a=a : self.mov_command(a.lower()))
 
     def createWidgets(self):
         self.m = PanedWindow(self, orient=VERTICAL)
         self.m.pack(side=LEFT, expand=1)
-        for i in labels_gui:
-            self.buttons.append(i)
-            x1=Button(self.m, text = self.buttons[self.count], fg   = "red", command =  lambda i=i: self.button_command(i), state=ACTIVE)
-            self.count+=1
-            self.m.add(x1)
+        for name in my_folder.names:
+            self.NEW=Button(self.m, text = name, fg   = "red", command =  lambda: self.button_command('name'), state=ACTIVE)
+            self.m.add(self.NEW)
         #self.USER.pack(side=BOTTOM, anchor=W, fill=X)
         self.m2 = PanedWindow(self, orient=VERTICAL)
         self.m2.pack(fill=BOTH, side= LEFT, expand=1)
@@ -148,7 +142,6 @@ class Application(Frame):
         self.read.config(yscrollcommand = self.s.set)
         self.read.insert('end', "Read Mails")
         self.read.bind("<Double-Button-1>", self.read_user)
-
         self.read.bind("<Button-3>", self.popup_menu)
 
         self.read.pack()
@@ -156,25 +149,23 @@ class Application(Frame):
 
         self.m3 = PanedWindow(self, orient=VERTICAL)
         self.m3.pack(side=RIGHT, expand=1)
-        self.delete_un = Button(self, text="DELETE UNREAD", command=self.del_un)
-        self.delete_re = Button(self, text="DELETE READ", command=self.del_re)
+        # self.delete_un = Button(self, text="DELETE UNREAD", command=self.del_un)
+        # self.delete_re = Button(self, text="DELETE READ", command=self.del_re)
         self.mov = Button(self, text="MOVE", command=self.mov_command)
         self.CREATE_Labels = Button(self, text = "CREATE_LABELS", fg   = "red", command =  self.c_labels_command, state=ACTIVE)
-        self.m3.add(self.delete_un)
-        self.m3.add(self.delete_re)
-        self.m3.add(self.mov)
+
         self.m3.add(self.CREATE_Labels)
 
-
+        self.aMenu = Menu(self, tearoff=0)
+        for i in my_folder.names:
+            self.aMenu.add_command(label=i, command=lambda i=i : self.mov_command(i.lower()))
 
 
     def popup_menu(self, event):
         w = event.widget
-        self.aMenu = Menu(self, tearoff=0)
-        #print(labels_gui)
-        for i in labels_gui:
-            self.aMenu.add_command(label=i, command=lambda i=i : self.mov_command(i.lower()))
         self.waste=w.get(w.curselection()).split(' : ')[0]
+        #self.popup1(w.get(w.curselection()).split(' : ')[1])
+        #x = int(w.get(w.curselection()).split(' : ')[0])
         self.aMenu.post(event.x_root, event.y_root)
 
     def popup(self):
@@ -225,7 +216,7 @@ class popupWindow(object):
 "format email, str to csr"
 def format(email):
     global hashemail
-    x=vsm(email)
+    x=vsm([email])
     x=hashemail(x)
     x=l2normalize(x)
     return x
@@ -250,8 +241,8 @@ class Folder(object):
         for mail in training_set:
             labels.append(mail.label)
             tmp=mail.mat
-            if bodies:
-                csr_vstack(bodies,tmp)
+            if not bodies==[]:
+                bodies=csr_vstack(bodies,tmp)
             else:
                 bodies=tmp
         self.classifier=do_SVM(labels,bodies)
@@ -268,14 +259,6 @@ class Folder(object):
             mail.folder=['uncertain']
         return mail.folder
 
-"Global variables, need to be initialized"
-feature_number=4000
-hashemail=hasher(feature_number)
-my_folder=Folder()
-pool=[]
-prog=10
-step=10
-saturation=100
 
 
 class Email(object):
@@ -355,21 +338,26 @@ def check_credit():
     else:
         return False
 
+
+
 if __name__ == '__main__':
-    # An incoming mail
-    text='abc hfsb hasb bsh'
-    email= Email(text)
-    email.credit=1
-    email.label='inbox'
-    email.folder.append('inbox')
+
+    global feature_number,hashemail,my_folder,pool,prog,step,saturation
+
+    "Global variables, need to be initialized"
+    feature_number=4000
+    hashemail=hasher(feature_number)
+    my_folder=Folder()
+    pool=[]
+    prog=1
+    step=10
+    saturation=10
 
     #pool of mails with intial labels.
-    readfile(BASE_DIR+Mails_directory)
-    list_mails.append(email)
-    list_labels_mails.append(['unread', 'inbox'])
-    pool=list_mails
+    readfile(Mails_directory)
     #check_credit()
     # GUI
+    set_trace()
     root = Tk()
     root.title("Mailbox")
     root.minsize(width=1000,height=600 )
