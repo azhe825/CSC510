@@ -67,17 +67,21 @@ def new_email(mailText):
 
 class Application(Frame):
 
-    def button_command(self, a):
+    def refresh(self):
         global list_mails,currentfolder
-        currentfolder=a
         self.unread.delete(first=0, last=self.unread.size())
         self.read.delete(first=0, last=self.read.size())
         for i,mail in enumerate(list_mails):
-            if a in mail.folder:
+            if currentfolder in mail.folder:
                 if mail.read:
                     self.read.insert('end', "%0.4d : %s" % (i, mail.get_body()))
                 else:
                     self.unread.insert('end', "%0.4d : %s" % (i, mail.get_body()))
+
+    def button_command(self, a):
+        global currentfolder
+        currentfolder=a
+        self.refresh()
 
 
     # def del_un(self):
@@ -108,6 +112,7 @@ class Application(Frame):
         global list_mails,currentfolder
         if not(currentfolder=='uncertain' or currentfolder=='trash'):
             activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
+        self.refresh()
 
 
     def unread_user(self,event):
@@ -117,12 +122,14 @@ class Application(Frame):
         list_mails[int(w.get(w.curselection()).split(' : ')[0])].set_read()
         if not(currentfolder=='uncertain' or currentfolder=='trash'):
             activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
+        self.refresh()
 
     def mov_command(self,targetfolder):
         global list_mails,currentfolder
         list_mails[int(self.waste)].folder=[targetfolder]
         if not(targetfolder=='uncertain' or targetfolder=='trash'):
             activity_no(list_mails[int(self.waste)],targetfolder)
+        self.refresh()
 
 
     def c_labels_command(self):
