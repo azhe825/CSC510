@@ -146,6 +146,21 @@ class Application(Frame):
         self.m.add(x1)
         self.count+=1
 
+    def change_checkbox(self,bv,id):
+        now = bv.get()
+        self.checkbox[id] = now
+        #print (now)
+        features[id] = now
+        print (features)
+
+    def create_checkbox(self,id, default = True):
+        bv = BooleanVar()
+        bv.set(default)
+        bv.trace("w", lambda name, index, mode, bv=bv: self.change_checkbox(bv,id))
+        self.checkbox[id] = bv
+        c = Checkbutton(self.m3, text=feature_names[id], variable=bv)
+        self.m3.add(c)
+
 
     def createWidgets(self):
         self.m = PanedWindow(self, orient=VERTICAL)
@@ -193,6 +208,9 @@ class Application(Frame):
         self.CREATE_Labels = Button(self, text = "CREATE_LABELS", fg   = "red", command =  self.c_labels_command, state=ACTIVE)
 
         self.m3.add(self.CREATE_Labels)
+
+        for feature_id in range(len(features)):
+            self.create_checkbox(feature_id)
 
 
         self.aMenu = Menu(self, tearoff=0)
