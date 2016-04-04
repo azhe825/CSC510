@@ -38,7 +38,7 @@ def readfile(filename):
     with open(filename,'r') as f:
         for doc in f.readlines():
             try:
-                x=Email(doc.split(" >>> ")[1])
+                x=Email(doc.split(" >>> ")[1].strip())
                 x.set_label(doc.split(" >>> ")[0].split()[1])
                 x.credit=1
                 x.folder.append(doc.split(" >>> ")[0].split()[1])
@@ -142,7 +142,7 @@ class Application(Frame):
 
     def create_folder(self,name):
         self.buttons.append(name)
-        x1=Button(self.m, text = name, fg   = "red", command =  lambda: self.button_command(name), state=ACTIVE)
+        x1=Button(self.m, text = name, fg   = "red", command =  lambda name=name: self.button_command(name), state=ACTIVE)
         self.m.add(x1)
         self.count+=1
 
@@ -213,17 +213,13 @@ class Application(Frame):
             self.create_checkbox(feature_id)
 
 
-        self.aMenu = Menu(self, tearoff=0)
-        for i in my_folder.names:
-            self.aMenu.add_command(label=i, command=lambda i=i : self.mov_command(i.lower()))
-
-
     def popup_menu(self, event):
         w = event.widget
+        self.aMenu = Menu(self, tearoff=0)
+        #print(labels_gui)
+        for i in my_folder.names:
+            self.aMenu.add_command(label=i, command=lambda i=i : self.mov_command(i.lower()))
         self.waste=w.get(w.curselection()).split(' : ')[0]
-        print(self.waste)
-        #self.popup1(w.get(w.curselection()).split(' : ')[1])
-        #x = int(w.get(w.curselection()).split(' : ')[0])
         self.aMenu.post(event.x_root, event.y_root)
 
     def popup(self):

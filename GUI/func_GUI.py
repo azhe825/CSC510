@@ -27,8 +27,8 @@ def readfile(filename):
     with open(filename,'r') as f:
         for doc in f.readlines():
             try:
-                corpus.append(doc.split(" ::::::>>>>>> ")[1][:-2])
-                label.append(doc.split(" ::::::>>>>>> ")[0])
+                corpus.append(doc.split(" ::::::>>>>>> ")[1][:-2].strip())
+                label.append(doc.split(" ::::::>>>>>> ")[0].strip())
             except:
                 pass
 
