@@ -1,0 +1,160 @@
+<!DOCTYPE html> <!-- Use the templates on w3schools.com -->
+<html>
+<head>
+    <title>Email Browser Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../lib/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../lib/font-awesome-4.5.0/css/font-awesome.min.css">
+    <style>
+        html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif;}
+        .w3-sidenav a {padding:16px;}
+    </style>
+</head>
+<body>
+
+<!-- side navigation -->
+<nav class="w3-sidenav w3-collapse w3-white w3-animate-left w3-card-2" style="z-index:3;width:320px;">
+    <a href="javascript:void(0)" class="w3-light-green"><img src="../image/img_avatar3.png" style="width:10%;"> User icon and name</a>
+    <a href="javascript:void(0)" onclick="to_close()" class="w3-hide-large w3-closenav w3-large">Close X</a>
+    <a href="javascript:void(0)" class="w3-white w3-btn w3-hover-red w3-left-align" onclick="document.getElementById('new_mail').style.display='block'">New Mail <i class="fa fa-edit"></i></a>
+    <div class="w3-accordion"> <!-- show list of emails in inbox folder -->
+        <a id="Inbox" onclick="showMail(this.id)" href="javascript:void(0)"><i class="fa fa-inbox"></i> Inbox <i class="fa fa-caret-down"></i></a>
+        <div id="InboxList" class="w3-accordion-content w3-animate-left">
+            <!--a href="javascript:void(0)" class="w3-boder-bottom email w3-hover-light-grey" onclick="openMail('inboxFolder');to_close();" id="tab1">
+                <div class="w3-container">
+                    <span class="w3-opacity w3-large">Sender#1</span>
+                    <h6>Subject: hello world</h6>
+                    <p>Hello this is email#1....</p>
+                </div>
+            </a-->
+        </div>
+    </div>
+</nav>
+
+<!-- Model pop-up for new mail editor-->
+<div id="new_mail" class="w3-modal" style="z-index: 4">
+    <div class="w3-modal-content w3-animate-zoom">
+        <div class="w3-container w3-padding w3-red">
+            <span onclick="document.getElementById('new_mail').style.display='none'" class="w3-right w3-xxlarge w3-closebtn"><i class="fa fa-remove"></i></span>
+            <h2>New Mail</h2>
+        </div>
+        <div class="w3-container">
+            <form class="w3-container" action="MAILTO:" method="post" enctype="text/plain">
+                <p>
+                    <label>To:</label>
+                    <input id="dest_address" class="w3-input w3-border" type="text">
+                </p>
+                <p>
+                    <label>Subject:</label>
+                    <input id="subject" class="w3-input w3-border" type="text">
+                </p>
+                <p>
+                    <textarea id="body" class="w3-input w3-border" style="height:200px" placeholder="New message starts here ..."></textarea>
+                </p>
+                <p>
+                    <a class="w3-btn w3-large w3-red" onclick="document.getElementById('new_mail').style.display='none'">Cancel <i class="fa fa-remove"></i></a>
+                    <input class="w3-btn w3-large w3-right w3-light-green" onclick="sendMail()" type="submit" value="Send"></input>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Overlay effect when opening the side navigation on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer"></div>
+
+<!-- Page content -->
+<div class="w3-main" style="margin-left:320px">
+    <i class="fa fa-bars w3-opennav w3-hide-large w3-xlarge w3-margin-left w3-margin-top" onclick="to_open()"></i>
+    <a href="javascript:void(0)" class="w3-hide-large w3-red w3-btn w3-right w3-margin-top w3-margin-right" onclick="document.getElementById('new_mail').style.display='block'"><i class="fa fa-pencil"></i></a>
+
+    <div id="mail_display" class="w3-container person">
+        <!--br>
+        <img class="w3-round  w3-animate-top" src="img_avatar3.png" style="width:20%;">
+        <h5 class="w3-opacity">Subject: Remember Me</h5>
+        <h4><i class="fa fa-clock-o"></i> From Borge Refsnes, Sep 27, 2015.</h4>
+        <a class="w3-btn w3-light-grey">Reply  <i class="fa fa-mail-reply"></i></a> <a class="w3-btn w3-light-grey">Forward  <i class="fa fa-arrow-right"></i></a>
+        <hr>
+        <p>Hello, i just wanted to let you know that i'll be home at lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Best Regards, <br>Borge Refsnes</p-->
+    </div>
+
+</div>
+
+<script>
+    var openInbox = document.getElementById("Inbox");
+    openInbox.click();
+
+    var mails = {
+        "Inbox":
+                [
+                    {"index":"0", "email":"name1", "sender":"Jim", "subject":"hello","body":"hello world in email.", "category":"work"},
+                    {"index":"1", "email":"name2", "sender":"Kate", "subject":"world","body":"hello world again. This is to make the mail longer. Stop here!", "category":"party"}
+                ]
+        };
+
+    function to_close(){
+        document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+        document.getElementsByClassName("w3-overlay")[0].style.display = "none";
+    }
+    function to_open(){
+        document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+        document.getElementsByClassName("w3-overlay")[0].style.display = "block";
+    }
+    function showMail(id){
+        subid = id + 'List';
+        var cur_div = document.getElementById(subid);
+        /*var xmlhttp = new XMLHttpRequest();
+        var url = "../file/mailbox.json";
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                mails = JSON.parse(xmlhttp.responseText);
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();*/
+        var numOfEmail = mails[id].length;
+        var cur_mail = mails[id];
+        /*for (var node in cur_div.childNodes){
+            cur_div.removeChild(node);
+        }*/
+        for (var i=0; i<numOfEmail; i++){
+            var new_mail = document.createElement('a');
+            new_mail.setAttribute("href","javascript:void(0)");
+            new_mail.setAttribute("id", id+"-Email-"+cur_mail[i].index);
+            new_mail.setAttribute("class", "w3-boder-bottom email w3-hover-light-grey");
+            new_mail.setAttribute("onclick", "openMail(this.id);to_close();");
+            var new_mail_content = document.createElement('div');
+            new_mail_content.setAttribute('class', "w3-container");
+            new_mail_content.innerHTML = "<span class='w3-opacity w3-large'>" + cur_mail[i].sender + "</span><h5>" + cur_mail[i].subject +"</h5><span class='w3-tag w3-light-green'>"+cur_mail[i].category+"</span><p>"+ cur_mail[i].body.substr(0,30) +"...</p>";
+            new_mail.appendChild(new_mail_content);
+            cur_div.appendChild(new_mail);
+        }
+        document.getElementById(subid).classList.toggle("w3-show");
+        document.getElementById(subid).previousElementSibling.classList.toggle("w3-red");
+    }
+    function openMail(id) {
+        var mail_display = document.getElementById("mail_display");
+        mail_display.style.display = "none";
+        var id_text = id.split('-');
+        var mail_index = id_text[id_text.length-1];
+        var mail_cat = id_text[0];
+        var subject =  "<h2>" + mails[mail_cat][mail_index].subject + "</h2>";
+        var buttons = "<a class='w3-btn w3-light-grey'>Reply  <i class='fa fa-mail-reply'></i></a> <a class='w3-btn w3-light-grey'>Forward  <i class='fa fa-arrow-right'></i></a>";
+        var content = "<pre>" + mails[mail_cat][mail_index].body + "</pre>";
+        mail_display.style.display = "block";
+        mail_display.innerHTML = "<br>" + subject + "<br>" + buttons + "<hr>" + content;
+    }
+    function sendMail(){
+        // not work
+        var dest_address = document.getElementById("dest_address").valueOf();
+        var subject = document.getElementById("subject").valueOf();
+        var body = document.getElementById("body").valueOf();
+        var message = subject + "\n\n" + body;
+    }
+</script>
+
+</body>
+</html>
