@@ -146,6 +146,22 @@ class Application(Frame):
         self.m.add(x1)
         self.count+=1
 
+    def change_checkbox(self,bv,id):
+        now = bv.get()
+        self.checkbox[id] = now
+        #print (now)
+        features[id] = now
+        print (features)
+
+    def create_checkbox(self,id, default = True):
+        bv = BooleanVar()
+        bv.set(default)
+        bv.trace("w", lambda name, index, mode, bv=bv: self.change_checkbox(bv,id))
+        self.checkbox[id] = bv
+        c = Checkbutton(self.m3, text=feature_names[id], variable=bv)
+        self.m3.add(c)
+
+
     def createWidgets(self):
         self.m = PanedWindow(self, orient=VERTICAL)
         self.m.pack(side=LEFT, expand=1)
@@ -193,6 +209,9 @@ class Application(Frame):
 
         self.m3.add(self.CREATE_Labels)
 
+        for feature_id in range(len(features)):
+            self.create_checkbox(feature_id)
+
         self.aMenu = Menu(self, tearoff=0)
         for i in my_folder.names:
             self.aMenu.add_command(label=i, command=lambda i=i : self.mov_command(i.lower()))
@@ -222,6 +241,7 @@ class Application(Frame):
         self.Frame =master
         self.count=0
         self.buttons=[]
+        self.checkbox={}
         self.pack()
         self.waste=''
         self.createWidgets()
@@ -391,7 +411,7 @@ def check_credit():
 
 if __name__ == '__main__':
 
-    global feature_number,hashemail,my_folder,pool,prog,step,saturation,currentfolder,features
+    global feature_number,hashemail,my_folder,pool,prog,step,saturation,currentfolder,features,feature_names
 
     "Global variables, need to be initialized"
     feature_number=4000
@@ -403,6 +423,7 @@ if __name__ == '__main__':
     saturation=10
     currentfolder="uncertain"
     features=[True,True,True]
+    feature_names = ['feature1','feature2','feature3']
     "feature[0]: implicit user feedback; feature[1]: explicit user feedback; feature[2]: multi-folder"
 
     #pool of mails with intial labels.
