@@ -212,6 +212,8 @@ class Application(Frame):
         for feature_id in range(len(features)):
             self.create_checkbox(feature_id)
 
+        self.button_command('uncertain')
+
 
     def popup_menu(self, event):
         w = event.widget
@@ -420,7 +422,7 @@ if __name__ == '__main__':
     saturation=10
     currentfolder="uncertain"
     features=[True,True,True]
-    feature_names = ['feature1','feature2','feature3']
+    feature_names = ['implicit feedback','explicit feedback','multi-folder']
     "feature[0]: implicit user feedback; feature[1]: explicit user feedback; feature[2]: multi-folder"
 
     #pool of mails with intial labels.
