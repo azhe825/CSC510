@@ -1,0 +1,8 @@
+[
+  {"Inbox":
+  [
+    {"email":"#1", "sender":"u1", "subject":"hello","body":"hello world in email."},
+    {"email":"#2", "sender":"u2", "subject":"world","body":"hello world again."}
+  ]
+  }
+]
