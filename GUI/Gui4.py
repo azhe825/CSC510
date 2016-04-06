@@ -72,7 +72,7 @@ def readnew():
 def new_email(mailText):
     global list_mails, my_folder
     subject, body, mail_subject, mail_body = email_parser(mailText)
-    mail_body = mail_subject + mail_body
+    mail_body = mail_subject +' ' +mail_body
     print(mail_body)
     newmail = Email(mail_body)
     newmail.read=False
@@ -86,7 +86,7 @@ class Application(Frame):
         global list_mails, currentfolder
         self.unread.delete(first=0, last=self.unread.size())
         self.read.delete(first=0, last=self.read.size())
-        folder_unreadNum = {}
+        folder_unreadNum = {'uncertain':0,'trash':0}
         for i, mail in enumerate(list_mails):
             # Count the unread emails for each folder.
             for f in mail.folder:
@@ -101,8 +101,8 @@ class Application(Frame):
                 else:
                     self.unread.insert('end', "%0.4d : %s" % (i, mail.get_body()))
         for folder, button in self.folderName_button.iteritems():
-            if folder in ['uncertain', 'trash']:
-                continue
+            # if folder in ['uncertain', 'trash']:
+            #     continue
             unreadNum = folder_unreadNum[folder]
             if unreadNum == 0:
                 button.config(text=folder)
@@ -329,7 +329,7 @@ def format(email):
 
 
 class Folder(object):
-    def __init__(self, thres=0.3):
+    def __init__(self, thres=0.35):
         self.names = ['uncertain', 'trash']
         self.classifier = []
         self.thres = thres
