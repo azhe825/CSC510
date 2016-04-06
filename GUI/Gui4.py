@@ -144,7 +144,6 @@ class Application(Frame):
 
     def incoming(self):
         x=random.randint(0,len(new_mails)-1)
-        print(x)
         l=''
         with open(new_mails.pop(x), 'r') as f:
             for doc in f.readlines():
