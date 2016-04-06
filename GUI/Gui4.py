@@ -81,6 +81,7 @@ def new_email(mailText):
 
 
 class Application(Frame):
+
     def refresh(self):
         global list_mails, currentfolder
         self.unread.delete(first=0, last=self.unread.size())
@@ -107,6 +108,7 @@ class Application(Frame):
                 button.config(text=folder)
             else:
                 button.config(text=folder + ' (' + str(unreadNum) + ')' )
+
     def button_command(self, a):
         global currentfolder
         currentfolder = a
@@ -146,11 +148,11 @@ class Application(Frame):
         x=random.randint(0,len(new_mails)-1)
         print(x)
         l=''
-        with open(new_mails[x], 'r') as f:
+        with open(new_mails.pop(x), 'r') as f:
             for doc in f.readlines():
                 l+=doc
         new_email(l)
-        new_mails.pop(x)
+
         self.refresh()
 
 
@@ -355,7 +357,7 @@ class Folder(object):
 
     def predict(self, mail):
         global features
-        proba = self.classifier.predict_proba(mail.mat)
+        proba = self.classifier.predict_proba(mail.mat)[0]
         mail.folder = []
         for ind, label in enumerate(self.classifier.classes_):
             mail.proba[label] = proba[ind]
@@ -366,7 +368,6 @@ class Folder(object):
         if not features[2]:
             if len(mail.folder) > 1:
                 mail.folder = [self.classifier.classes_[np.argmax(proba)]]
-
         return mail.folder
 
 
@@ -461,22 +462,21 @@ def check_credit():
         return False
 
 
-new_mails = []
-
 if __name__ == '__main__':
-    global feature_number, hashemail, my_folder, pool, prog, step, saturation, currentfolder, features, feature_names
+    global feature_number, hashemail, my_folder, pool, prog, step, saturation, currentfolder, features, feature_names, new_mails
 
     "Global variables, need to be initialized"
     feature_number = 4000
     hashemail = hasher(feature_number)
     my_folder = Folder()
     pool = []
-    prog = 1
-    step = 10
-    saturation = 10
+    prog = 10
+    step = 1
+    saturation = 100
     currentfolder = "uncertain"
     features = [True, True, True]
     feature_names = ['implicit feedback', 'explicit feedback', 'multi-folder']
+    new_mails=[]
     "feature[0]: implicit user feedback; feature[1]: explicit user feedback; feature[2]: multi-folder"
 
     #new mail reading
