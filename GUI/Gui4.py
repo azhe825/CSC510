@@ -100,6 +100,8 @@ class Application(Frame):
                 else:
                     self.unread.insert('end', "%0.4d : %s" % (i, mail.get_body()))
         for folder, button in self.folderName_button.iteritems():
+            if folder in ['uncertain', 'trash']:
+                continue
             unreadNum = folder_unreadNum[folder]
             if unreadNum == 0:
                 button.config(text=folder)
