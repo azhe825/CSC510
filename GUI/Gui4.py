@@ -81,6 +81,7 @@ def new_email(mailText):
 
 
 class Application(Frame):
+
     def refresh(self):
         global list_mails, currentfolder
         self.unread.delete(first=0, last=self.unread.size())
@@ -107,6 +108,7 @@ class Application(Frame):
                 button.config(text=folder)
             else:
                 button.config(text=folder + ' (' + str(unreadNum) + ')' )
+
     def button_command(self, a):
         global currentfolder
         currentfolder = a
@@ -468,9 +470,9 @@ if __name__ == '__main__':
     hashemail = hasher(feature_number)
     my_folder = Folder()
     pool = []
-    prog = 1
-    step = 10
-    saturation = 10
+    prog = 10
+    step = 1
+    saturation = 100
     currentfolder = "uncertain"
     features = [True, True, True]
     feature_names = ['implicit feedback', 'explicit feedback', 'multi-folder']
