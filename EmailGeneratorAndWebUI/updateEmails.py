@@ -1,8 +1,7 @@
 import imaplib
-import sys
 
 def loginMail(loginID, password):
-    status = 'Unconnected'
+    status = ('Unconnected',[])
     mailbox = imaplib.IMAP4_SSL('imap.gmail.com')
     if '@gmail.com' not in loginID:
         print "We currently support gmail only!"
