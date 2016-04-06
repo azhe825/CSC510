@@ -73,7 +73,6 @@ def new_email(mailText):
     global list_mails, my_folder
     subject, body, mail_subject, mail_body = email_parser(mailText)
     mail_body = mail_subject + mail_body
-    print(mail_body)
     newmail = Email(mail_body)
     newmail.read=False
     list_mails.append(newmail)
@@ -147,7 +146,7 @@ class Application(Frame):
     def incoming(self):
         x=random.randint(0,len(new_mails)-1)
         l=''
-        with open(new_mails.pop(x), 'r') as f:
+        with open("../"+new_mails.pop(x), 'r') as f:
             for doc in f.readlines():
                 l+=doc
         new_email(l)
