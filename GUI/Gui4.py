@@ -259,7 +259,8 @@ class Application(Frame):
         self.aMenu = Menu(self, tearoff=0)
         # print(labels_gui)
         for i in my_folder.names:
-            self.aMenu.add_command(label=i, command=lambda i=i: self.mov_command(i.lower()))
+            if i != 'uncertain' and i != 'trash':
+                self.aMenu.add_command(label=i, command=lambda i=i: self.mov_command(i.lower()))
         self.waste = w.get(w.curselection()).split(' : ')[0]
         self.aMenu.post(event.x_root, event.y_root)
 

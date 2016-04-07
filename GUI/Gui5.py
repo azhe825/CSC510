@@ -109,7 +109,6 @@ def new_email(mailText):
     global list_mails, my_folder
     subject, body, mail_subject, mail_body = email_parser(mailText)
     mail_body = mail_subject + mail_body
-    print(mail_body)
     newmail = Email(mail_body)
     newmail.read=False
     list_mails.append(newmail)
@@ -117,6 +116,23 @@ def new_email(mailText):
 
 
 class Application(Frame):
+
+    def __init__(self, master=None):
+        Frame.__init__(self, master)
+        self.Frame = master
+        self.count = 0
+        self.buttons = []
+        self.folderName_button = {}
+        self.checkbox = {}
+        self.pack()
+        self.waste = ''
+        self.poplogin()
+        if (self.entryValue() == 1):
+            readfile(Mails_directory)
+            self.createWidgets()
+        else:
+            root.destroy()
+
 
     def refresh(self):
         global list_mails, currentfolder
@@ -299,7 +315,9 @@ class Application(Frame):
         self.aMenu = Menu(self, tearoff=0)
         # print(labels_gui)
         for i in my_folder.names:
-            self.aMenu.add_command(label=i, command=lambda i=i: self.mov_command(i.lower()))
+            #print(i)
+            if i != 'uncertain' and i != 'trash':
+                self.aMenu.add_command(label=i, command=lambda i=i: self.mov_command(i.lower()))
         self.waste = w.get(w.curselection()).split(' : ')[0]
         self.aMenu.post(event.x_root, event.y_root)
 
@@ -318,18 +336,6 @@ class Application(Frame):
 
     def entryValue(self):
         return self.w.value
-
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
-        self.Frame = master
-        self.count = 0
-        self.buttons = []
-        self.folderName_button = {}
-        self.checkbox = {}
-        self.pack()
-        self.waste = ''
-        self.createWidgets()
-        # print(Application.__getitem__(self, Button)
 
 
 class popupWindow1(object):
@@ -378,9 +384,13 @@ class popupWindowLogin(object): ## not working now
         status, mailPort = loginMail(login_id, pass_word)
         if status[0] == 'OK':
             id_list, mailList = fetchMail(mailPort)
-            pool.extend(mailList)
-            record_id_list = id_list
+            numberOfNewMail = len(id_list) - len(record_id_list)
+            if numberOfNewMail != 0:
+                for i in range(numberOfNewMail):
+                    new_mails.append(mailList[-(i + 1)])
+            self.value=1
         else:
+            self.value=0
             print("Connection Failed.")
         self.top.destroy()
 
@@ -397,7 +407,7 @@ def format(email):
 
 
 class Folder(object):
-    def __init__(self, thres=0.3):
+    def __init__(self, thres=0.35):
         self.names = ['uncertain', 'trash']
         self.classifier = []
         self.thres = thres
@@ -554,7 +564,6 @@ if __name__ == '__main__':
     #readnew()
 
     # pool of mails with intial labels.
-    readfile(Mails_directory)
     # check_credit()
     # GUI
     root = Tk()
