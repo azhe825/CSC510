@@ -68,13 +68,25 @@ def readnew():
             new_mails.append(doc.strip())
 
 
+def get_true_label(raw_email):
+    for line in raw_email.split('\r\n'):
+        if line.startswith('X-Folder:'):
+            folder = line.split('X-Folder:')[1]
+            true_lable = folder.split('\\')[-1]
+            print ('folder: ' + true_lable)
+            return true_lable
+
+
 "when new email comes in"
 def new_email(mailText):
     global list_mails, my_folder
     subject, body, mail_subject, mail_body = email_parser(mailText)
+    true_lable = get_true_label(mailText)
     mail_body = mail_subject + mail_body
     newmail = Email(mail_body)
     newmail.read=False
+    newmail.raw_email = body[0]
+    newmail.trueLabel = true_lable
     list_mails.append(newmail)
     my_folder.predict(newmail)
 
@@ -105,6 +117,7 @@ class Application(Frame):
             unreadNum = folder_unreadNum[folder]
             if unreadNum == 0:
                 button.config(text=folder)
+                button.config(bg='White')
             else:
                 button.config(text=folder + ' (' + str(unreadNum) + ')' )
 
@@ -136,9 +149,16 @@ class Application(Frame):
     #             list_labels_mails[x][i] = "trash"
 
     def read_user(self, event):
-        w = event.widget
-        self.popup1(w.get(w.curselection()).split(' : ')[1])
         global list_mails, currentfolder
+        w = event.widget
+        email_id = w.get(w.curselection()).split(' : ')[0]
+        email = list_mails[int(email_id)]
+        true_label = email.get_trueLabel()
+        if email.get_raw() == '':
+            pop_message = email.get_body()
+        else:
+            pop_message = '*** '+ true_label + ' *** \n' + email.get_raw()
+        self.popup1(pop_message)
         if not (currentfolder == 'uncertain' or currentfolder == 'trash'):
             activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
         self.refresh()
@@ -155,9 +175,20 @@ class Application(Frame):
 
 
     def unread_user(self, event):
-        w = event.widget
-        self.popup1(w.get(w.curselection()).split(' : ')[1])
+        # w = event.widget
+        # self.popup1(w.get(w.curselection()).split(' : ')[1])
+        # global list_mails, currentfolder
         global list_mails, currentfolder
+        w = event.widget
+        email_id = w.get(w.curselection()).split(' : ')[0]
+        email = list_mails[int(email_id)]
+        true_label = email.get_trueLabel()
+        if email.get_raw() == '':
+            pop_message = email.get_body()
+        else:
+            pop_message = '*** '+ true_label + ' *** \n' + email.get_raw()
+        self.popup1(pop_message)
+
         list_mails[int(w.get(w.curselection()).split(' : ')[0])].set_read()
         if not (currentfolder == 'uncertain' or currentfolder == 'trash'):
             activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
@@ -379,9 +410,11 @@ class Email(object):
             self.mat = []
         self.folder = []
         self.label = ''
+        self.trueLabel = ''
         self.credit = 0
         self.proba = {}
         self.read = False
+        self.raw_email = ''
 
     def set_read(self):
         self.read = True
@@ -402,11 +435,17 @@ class Email(object):
     def get_body(self):
         return self.body
 
+    def get_raw(self):
+        return self.raw_email
+
     def get_probab(self):
         return self.proba
 
     def get_label(self):
         return self.label
+
+    def get_trueLabel(self):
+        return self.trueLabel
 
     def get_credit(self):
         return self.credit
