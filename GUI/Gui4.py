@@ -253,7 +253,7 @@ class Application(Frame):
         self.unread.config(yscrollcommand=self.s.set)
         self.unread.insert('end', "Unread Mails")
         self.unread.bind("<Double-Button-1>", self.unread_user)
-        self.unread.bind("<Button-3>", self.popup_menu)
+        self.unread.bind("<Button-2>", self.popup_menu)
         self.unread.pack()
         self.m2.add(self.unread)
 
@@ -266,7 +266,7 @@ class Application(Frame):
         self.read.config(yscrollcommand=self.s.set)
         self.read.insert('end', "Read Mails")
         self.read.bind("<Double-Button-1>", self.read_user)
-        self.read.bind("<Button-3>", self.popup_menu)
+        self.read.bind("<Button-2>", self.popup_menu)
 
         self.read.pack()
         self.m2.add(self.read)
