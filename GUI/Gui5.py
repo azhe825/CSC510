@@ -3,14 +3,12 @@ from __future__ import print_function, division
 __author__ = 'Amrit, Zhe, Jerry, Jack'
 
 from Tkinter import *
-import os
 from func_GUI import *
 import re
 import random
 from email import message_from_string
+import imaplib
 
-
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 Mails_directory = "../Mails/struct2.txt"
 
 "convert the original email to string list"
@@ -34,6 +32,34 @@ def email_parser(mailText):
     mail_subject = subject_keywords.lower()
     mail_body = body_keywords.lower()
     return subject, body, mail_subject, mail_body  # return original subject, body, and processed subject and body
+
+"login the gmail account and extract all emails"
+
+def loginMail(loginID, password):
+    status = ('Unconnected',[])
+    mailbox = imaplib.IMAP4_SSL('imap.gmail.com')
+    if '@gmail.com' not in loginID:
+        print('We currently support gmail only')
+    status = mailbox.login(loginID, password)
+    if  status[0] != 'OK':
+        print('Login failed: Check ID and password.')
+    return status, mailbox
+
+def fetchMail(mailbox):
+    # mail.list() # list all folder in the email account
+    # Out: list of "folders" aka labels in gmail.
+    mailList = list()
+    mailbox.select("inbox")  # connect to inbox.
+    result, emailIndex = mailbox.search(None, "ALL") # select all emails, result = 'OK' if succeed
+    ids = emailIndex[0]  # emailIndex is a list.
+    id_list = ids.split()  # ids is a space separated string
+    for id in id_list:
+        result, mailtext = mailbox.fetch(id, "(RFC822)") # fetch the email body (RFC822) for the given ID
+        if result == 'OK':
+            mailList.append(mailtext[0][1])
+        else:
+            print("Email not available")
+    return id_list, mailList
 
 
 "read the initial setup from struct2.txt"
@@ -63,41 +89,56 @@ def readfile(filename):
 
 
 def readnew():
-    with open("../Mails/newmails.txt", 'r') as f:
-        for doc in f.readlines():
-            new_mails.append(doc.strip())
-
-
-def get_true_label(raw_email):
-    for line in raw_email.split('\r\n'):
-        if line.startswith('X-Folder:'):
-            folder = line.split('X-Folder:')[1]
-            true_lable = folder.split('\\')[-1]
-            print ('folder: ' + true_lable)
-            return true_lable
+    # with open("../Mails/newmails.txt", 'r') as f:
+    #     for doc in f.readlines():
+    #         new_mails.append(doc.strip())
+    global record_id_list, new_mails
+    status, mailPort = loginMail(login_id, pass_word)
+    mailList = list()
+    if status[0] == 'OK':
+        id_list, mailList = fetchMail(mailPort)
+    # check for new mail update
+    numberOfNewMail = len(id_list) - len(record_id_list)
+    if numberOfNewMail != 0:
+        for i in range(numberOfNewMail):
+            new_mails.append(mailList[-(i + 1)])
 
 
 "when new email comes in"
 def new_email(mailText):
     global list_mails, my_folder
     subject, body, mail_subject, mail_body = email_parser(mailText)
-    true_lable = get_true_label(mailText)
     mail_body = mail_subject + mail_body
     newmail = Email(mail_body)
     newmail.read=False
-    newmail.raw_email = body[0]
-    newmail.trueLabel = true_lable
     list_mails.append(newmail)
     my_folder.predict(newmail)
 
 
 class Application(Frame):
 
+    def __init__(self, master=None):
+        Frame.__init__(self, master)
+        self.Frame = master
+        self.count = 0
+        self.buttons = []
+        self.folderName_button = {}
+        self.checkbox = {}
+        self.pack()
+        self.waste = ''
+        self.poplogin()
+        if (self.entryValue() == 1):
+            readfile(Mails_directory)
+            self.createWidgets()
+        else:
+            root.destroy()
+
+
     def refresh(self):
         global list_mails, currentfolder
         self.unread.delete(first=0, last=self.unread.size())
         self.read.delete(first=0, last=self.read.size())
-        folder_unreadNum = {'uncertain':0,'trash':0}
+        folder_unreadNum = {}
         for i, mail in enumerate(list_mails):
             # Count the unread emails for each folder.
             for f in mail.folder:
@@ -112,16 +153,15 @@ class Application(Frame):
                 else:
                     self.unread.insert('end', "%0.4d : %s" % (i, mail.get_body()))
         for folder, button in self.folderName_button.iteritems():
-            # if folder in ['uncertain', 'trash']:
-            #     continue
+            if folder in ['uncertain', 'trash']:
+                continue
             unreadNum = folder_unreadNum[folder]
             if unreadNum == 0:
                 button.config(text=folder)
-                button.config(bg='White')
             else:
                 button.config(text=folder + ' (' + str(unreadNum) + ')' )
 
-    def button_command(self, a):
+    def button_command(self, a): # set the currentfolder to a
         global currentfolder
         currentfolder = a
         self.refresh()
@@ -149,24 +189,18 @@ class Application(Frame):
     #             list_labels_mails[x][i] = "trash"
 
     def read_user(self, event):
-        global list_mails, currentfolder
         w = event.widget
-        email_id = w.get(w.curselection()).split(' : ')[0]
-        email = list_mails[int(email_id)]
-        true_label = email.get_trueLabel()
-        if email.get_raw() == '':
-            pop_message = email.get_body()
-        else:
-            pop_message = '*** '+ true_label + ' *** \n' + email.get_raw()
-        self.popup1(pop_message)
+        self.popup1(w.get(w.curselection()).split(' : ')[1])
+        global list_mails, currentfolder
         if not (currentfolder == 'uncertain' or currentfolder == 'trash'):
             activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
         self.refresh()
 
     def incoming(self):
         x=random.randint(0,len(new_mails)-1)
+        print(x)
         l=''
-        with open("../"+new_mails.pop(x), 'r') as f:
+        with open(new_mails.pop(x), 'r') as f:
             for doc in f.readlines():
                 l+=doc
         new_email(l)
@@ -175,20 +209,9 @@ class Application(Frame):
 
 
     def unread_user(self, event):
-        # w = event.widget
-        # self.popup1(w.get(w.curselection()).split(' : ')[1])
-        # global list_mails, currentfolder
-        global list_mails, currentfolder
         w = event.widget
-        email_id = w.get(w.curselection()).split(' : ')[0]
-        email = list_mails[int(email_id)]
-        true_label = email.get_trueLabel()
-        if email.get_raw() == '':
-            pop_message = email.get_body()
-        else:
-            pop_message = '*** '+ true_label + ' *** \n' + email.get_raw()
-        self.popup1(pop_message)
-
+        self.popup1(w.get(w.curselection()).split(' : ')[1])
+        global list_mails, currentfolder
         list_mails[int(w.get(w.curselection()).split(' : ')[0])].set_read()
         if not (currentfolder == 'uncertain' or currentfolder == 'trash'):
             activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
@@ -253,7 +276,7 @@ class Application(Frame):
         self.unread.config(yscrollcommand=self.s.set)
         self.unread.insert('end', "Unread Mails")
         self.unread.bind("<Double-Button-1>", self.unread_user)
-        self.unread.bind("<Button-3>", self.popup_menu)
+        self.unread.bind("<Button-2>", self.popup_menu)
         self.unread.pack()
         self.m2.add(self.unread)
 
@@ -266,7 +289,7 @@ class Application(Frame):
         self.read.config(yscrollcommand=self.s.set)
         self.read.insert('end', "Read Mails")
         self.read.bind("<Double-Button-1>", self.read_user)
-        self.read.bind("<Button-3>", self.popup_menu)
+        self.read.bind("<Button-2>", self.popup_menu)
 
         self.read.pack()
         self.m2.add(self.read)
@@ -279,6 +302,8 @@ class Application(Frame):
         self.newm = Button(self, text="New Mail", fg="red", command=self.incoming, state=ACTIVE)
         self.m3.add(self.newm)
         self.m3.add(self.CREATE_Labels)
+        self.Login = Button(self, text="Login", fg="red", command=self.poplogin, state=ACTIVE)
+        self.m3.add(self.Login)
 
         for feature_id in range(len(features)):
             self.create_checkbox(feature_id)
@@ -290,6 +315,7 @@ class Application(Frame):
         self.aMenu = Menu(self, tearoff=0)
         # print(labels_gui)
         for i in my_folder.names:
+            #print(i)
             if i != 'uncertain' and i != 'trash':
                 self.aMenu.add_command(label=i, command=lambda i=i: self.mov_command(i.lower()))
         self.waste = w.get(w.curselection()).split(' : ')[0]
@@ -303,20 +329,13 @@ class Application(Frame):
         self.w = popupWindow1(self.Frame, data)
         self.Frame.wait_window(self.w.top)
 
+    def poplogin(self):
+        self.w = popupWindowLogin(self.Frame)
+        self.Frame.wait_window(self.w.top)
+
+
     def entryValue(self):
         return self.w.value
-
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
-        self.Frame = master
-        self.count = 0
-        self.buttons = []
-        self.folderName_button = {}
-        self.checkbox = {}
-        self.pack()
-        self.waste = ''
-        self.createWidgets()
-        # print(Application.__getitem__(self, Button)
 
 
 class popupWindow1(object):
@@ -344,6 +363,35 @@ class popupWindow(object):
 
     def cleanup(self):
         self.value = self.e.get()
+        self.top.destroy()
+
+class popupWindowLogin(object): ## not working now
+    def __init__(self, master):
+        top = self.top = Toplevel(master)
+        self.l1 = Label(top, text="Login ID:")
+        self.l1.pack()
+        self.id = Entry(top)
+        self.id.pack()
+        self.l2 = Label(top, text="Password:")
+        self.l2.pack()
+        self.pwd = Entry(top)
+        self.pwd.pack()
+        self.b = Button(top, text='Submit', command=self.cleanup)
+        self.b.pack()
+    def cleanup(self):
+        login_id = self.id.get()
+        pass_word = self.pwd.get()
+        status, mailPort = loginMail(login_id, pass_word)
+        if status[0] == 'OK':
+            id_list, mailList = fetchMail(mailPort)
+            numberOfNewMail = len(id_list) - len(record_id_list)
+            if numberOfNewMail != 0:
+                for i in range(numberOfNewMail):
+                    new_mails.append(mailList[-(i + 1)])
+            self.value=1
+        else:
+            self.value=0
+            print("Connection Failed.")
         self.top.destroy()
 
 
@@ -410,11 +458,9 @@ class Email(object):
             self.mat = []
         self.folder = []
         self.label = ''
-        self.trueLabel = ''
         self.credit = 0
         self.proba = {}
         self.read = False
-        self.raw_email = ''
 
     def set_read(self):
         self.read = True
@@ -435,17 +481,11 @@ class Email(object):
     def get_body(self):
         return self.body
 
-    def get_raw(self):
-        return self.raw_email
-
     def get_probab(self):
         return self.proba
 
     def get_label(self):
         return self.label
-
-    def get_trueLabel(self):
-        return self.trueLabel
 
     def get_credit(self):
         return self.credit
@@ -501,7 +541,7 @@ def check_credit():
 
 
 if __name__ == '__main__':
-    global feature_number, hashemail, my_folder, pool, prog, step, saturation, currentfolder, features, feature_names, new_mails
+    global feature_number, hashemail, my_folder, pool, prog, step, saturation, currentfolder, features, feature_names, new_mails, login_id, pass_word, record_id_list
 
     "Global variables, need to be initialized"
     feature_number = 4000
@@ -515,13 +555,15 @@ if __name__ == '__main__':
     features = [True, True, True]
     feature_names = ['implicit feedback', 'explicit feedback', 'multi-folder']
     new_mails=[]
+    login_id = ''
+    pass_word = ''
+    record_id_list = []
     "feature[0]: implicit user feedback; feature[1]: explicit user feedback; feature[2]: multi-folder"
 
     #new mail reading
-    readnew()
+    #readnew()
 
     # pool of mails with intial labels.
-    readfile(Mails_directory)
     # check_credit()
     # GUI
     root = Tk()
