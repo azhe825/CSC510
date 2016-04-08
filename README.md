@@ -9,6 +9,6 @@ Project AOEC
 
 4. [Solution Code] (https://github.com/azhe825/CSC510/tree/master/GUI) <br />
 
-5. [Presentation slides] (https://github.com/azhe825/CSC510/tree/master/report/April) <br />
+5. [Presentation slides] (https://github.com/azhe825/CSC510/blob/master/report/April/CSC510%20project%20AOEC.pdf) <br />
 
 6. [Project report] (https://github.com/azhe825/CSC510/tree/master/report/April) <br />
