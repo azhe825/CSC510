@@ -1,13 +1,14 @@
-# CSC510
-Course Project for CSC 510, 2016 spring
+# CSC_510_group_c
+Project 1 - CSC 510 - Software Engineering
 
-## File Organization
-- Save the results in **./Results** folder. (using `save()` and `load()` in `testEmails/func.py`)
-- Raw data are stored in the **./testEmails** within each user's sub-folder.
-- Processed data is in **./Cleaned_Data**
+1. [Repo's issue page] (https://github.com/azhe825/CSC510/issues) <br />
 
-## Group Members:
- - Zhe Yu (unit ID: zyu9, github ID: azhe825)
- - Amritanshu Agrawal (unit ID: aagrawa8, github ID: amritbhanu)
- - Di Chen (unit ID: dchen20, github ID: dichen001)
- - Shijie Li (unit ID: sli41, github ID: imaginationsuper)
+2. [Repo's milestone page] (https://github.com/azhe825/CSC510/milestones) <br />
+
+3. [Repo's contributors' page] (https://github.com/azhe825/CSC510/graphs/contributors) <br />
+
+4. [Code] (https://github.com/azhe825/CSC510/tree/master/GUI) <br />
+
+5. [Presentation slides] (https://github.com/azhe825/CSC510/tree/master/report/April) <br />
+
+6. [Project report] (https://github.com/azhe825/CSC510/tree/master/report/April) <br />
