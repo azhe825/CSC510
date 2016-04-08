@@ -11,4 +11,4 @@ Project AOEC
 
 5. [Presentation slides] (https://github.com/azhe825/CSC510/blob/master/report/April/CSC510%20project%20AOEC.pdf) <br />
 
-6. [Project report] (https://github.com/azhe825/CSC510/tree/master/report/April) <br />
+6. [Project report] (https://github.com/azhe825/CSC510/blob/master/report/April/AprilReport.pdf) <br />
