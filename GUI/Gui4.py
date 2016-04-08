@@ -86,7 +86,7 @@ def new_email(mailText):
     newmail = Email(mail_body)
     newmail.read=False
     newmail.raw_email = body[0]
-    newmail.trueLabel = true_lable
+    newmail.trueLabel = true_lable.lower()
     list_mails.append(newmail)
     my_folder.predict(newmail)
 
@@ -364,10 +364,19 @@ class Folder(object):
         self.classifier = []
         self.thres = thres
         self.num = 0
+        self.T={}
+        self.F={}
+        self.P=0
+        self.R=0
+        self.F1=0
+        self.FR={}
 
     def addfolder(self, name):
         self.names.append(name)
         self.num = self.num + 1
+        self.T[name]=0
+        self.F[name]=0
+        self.FR[name]=0
 
     "call this to train the classifier"
 
@@ -398,6 +407,28 @@ class Folder(object):
         if not features[2]:
             if len(mail.folder) > 1:
                 mail.folder = [self.classifier.classes_[np.argmax(proba)]]
+
+        for fold in mail.folder:
+            if fold == mail.trueLabel:
+                try:
+                    self.T[fold]=self.T[fold]+1
+                except:
+                    self.T[fold]=1
+            else:
+                try:
+                    self.F[fold]=self.F[fold]+1
+                except:
+                    self.F[fold]=1
+        if mail.trueLabel not in mail.folder:
+            try:
+                self.FR[mail.trueLabel]=self.FR[mail.trueLabel]+1
+            except:
+                self.FR[mail.trueLabel]=1
+        print(self.T)
+        print(self.F)
+        print(self.FR)
+
+
         return mail.folder
 
 
