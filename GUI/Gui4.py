@@ -163,6 +163,16 @@ class Application(Frame):
             activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
         self.refresh()
 
+    def showscore(self):
+        global my_folder
+        message1="Precision: %f" %my_folder.P
+        message2="Recall: %f" %my_folder.R
+        message3="F1: %f" %my_folder.F1
+        print("Precision: %f" %my_folder.P)
+        print("Recall: %f" %my_folder.R)
+        print("F1: %f" %my_folder.F1)
+        self.popup1(message1+'\n'+message2+'\n'+message3)
+
     def incoming(self):
         try:
             x=random.randint(0,len(new_mails)-1)
@@ -174,13 +184,8 @@ class Application(Frame):
 
             self.refresh()
         except:
-            message1="Precision: %f" %my_folder.P
-            message2="Recall: %f" %my_folder.R
-            message3="F1: %f" %my_folder.F1
-            print("Precision: %f" %my_folder.P)
-            print("Recall: %f" %my_folder.R)
-            print("F1: %f" %my_folder.F1)
-            self.popup1("Done!\n"+message1+'\n'+message2+'\n'+message3)
+            self.showscore()
+
 
 
 
@@ -287,8 +292,10 @@ class Application(Frame):
         # self.delete_re = Button(self, text="DELETE READ", command=self.del_re)
         self.CREATE_Labels = Button(self, text="CREATE_LABELS", fg="red", command=self.c_labels_command, state=ACTIVE)
         self.newm = Button(self, text="New Mail", fg="red", command=self.incoming, state=ACTIVE)
+        self.show = Button(self, text="Show Score", fg="red", command=self.showscore, state=ACTIVE)
         self.m3.add(self.newm)
         self.m3.add(self.CREATE_Labels)
+        self.m3.add(self.show)
 
         for feature_id in range(len(features)):
             self.create_checkbox(feature_id)
