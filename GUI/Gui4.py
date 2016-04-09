@@ -94,10 +94,10 @@ def new_email(mailText):
 class Application(Frame):
 
     def refresh(self):
-        global list_mails, currentfolder
+        global list_mails, currentfolder, my_folder
         self.unread.delete(first=0, last=self.unread.size())
         self.read.delete(first=0, last=self.read.size())
-        folder_unreadNum = {'uncertain':0,'trash':0}
+        folder_unreadNum = {foldername: 0 for foldername in my_folder.names}
         for i, mail in enumerate(list_mails):
             # Count the unread emails for each folder.
             for f in mail.folder:
@@ -164,14 +164,24 @@ class Application(Frame):
         self.refresh()
 
     def incoming(self):
-        x=random.randint(0,len(new_mails)-1)
-        l=''
-        with open("../"+new_mails.pop(x), 'r') as f:
-            for doc in f.readlines():
-                l+=doc
-        new_email(l)
+        try:
+            x=random.randint(0,len(new_mails)-1)
+            l=''
+            with open("../"+new_mails.pop(x), 'r') as f:
+                for doc in f.readlines():
+                    l+=doc
+            new_email(l)
 
-        self.refresh()
+            self.refresh()
+        except:
+            message1="Precision: %f" %my_folder.P
+            message2="Recall: %f" %my_folder.R
+            message3="F1: %f" %my_folder.F1
+            print("Precision: %f" %my_folder.P)
+            print("Recall: %f" %my_folder.R)
+            print("F1: %f" %my_folder.F1)
+            self.popup1("Done!\n"+message1+'\n'+message2+'\n'+message3)
+
 
 
     def unread_user(self, event):
@@ -206,7 +216,7 @@ class Application(Frame):
         if (self.entryValue() != ''):
             a = self.entryValue()
             global my_folder
-            my_folder.names.append(a)
+            my_folder.addfolder(a)
             self.create_folder(a)
 
     def create_folder(self, name):
@@ -378,6 +388,28 @@ class Folder(object):
         self.F[name]=0
         self.FR[name]=0
 
+    def update(self):
+        folders=self.names[2:]
+        self.P=0
+        self.R=0
+        self.F1=0
+        if folders:
+            for fold in folders:
+                if self.T[fold]==0:
+                    self.P=self.P+0
+                    self.R=self.R+0
+                else:
+                    self.P=self.P+self.T[fold]/(self.T[fold]+self.F[fold])
+                    self.R=self.R+self.T[fold]/(self.T[fold]+self.FR[fold])
+            self.P=self.P/len(folders)
+            self.R=self.R/len(folders)
+            if self.P and self.R:
+                self.F1=self.P*self.R*2/(self.P+self.R)
+            else:
+                self.F1=0
+
+
+
     "call this to train the classifier"
 
     def train(self, training_set):
@@ -424,10 +456,7 @@ class Folder(object):
                 self.FR[mail.trueLabel]=self.FR[mail.trueLabel]+1
             except:
                 self.FR[mail.trueLabel]=1
-        print(self.T)
-        print(self.F)
-        print(self.FR)
-
+        self.update()
 
         return mail.folder
 
