@@ -11,7 +11,7 @@ from email import message_from_string
 
 
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-Mails_directory = "../Mails/struct2.txt"
+Mails_directory = "../Mails/initial.txt"
 
 "convert the original email to string list"
 
@@ -36,7 +36,7 @@ def email_parser(mailText):
     return subject, body, mail_subject, mail_body  # return original subject, body, and processed subject and body
 
 
-"read the initial setup from struct2.txt"
+"read the initial setup from initial.txt"
 
 
 def readfile(filename):
@@ -44,20 +44,26 @@ def readfile(filename):
     with open(filename, 'r') as f:
         for doc in f.readlines():
             try:
-                x = Email(doc.split(" >>> ")[1].strip())
-                x.set_label(doc.split(" >>> ")[0].split()[1])
-                x.credit = 1
-                x.folder.append(doc.split(" >>> ")[0].split()[1])
-                if doc.split(" >>> ")[0].split()[0] == "read":
-                    x.read = True
-                else:
-                    x.read = False
-                if not x.label in my_folder.names:
-                    my_folder.addfolder(x.label)
-                pool.append(x)
+                mailText=''
+                with open("../"+doc.strip(), 'r') as fd:
+                    for docc in fd.readlines():
+                        mailText+=docc
+                subject, body, mail_subject, mail_body = email_parser(mailText)
+                true_label = get_true_label(mailText).lower()
+                mail_body = mail_subject + " "+mail_body
+                newmail = Email(mail_body)
+                newmail.set_read()
+                newmail.raw_email = body[0]
+                newmail.subject=subject
+                newmail.trueLabel = true_label
+                newmail.set_folder(true_label)
+                newmail.set_label(true_label)
+                newmail.credit=1
+                if not newmail.label in my_folder.names:
+                    my_folder.addfolder(newmail.label)
+                pool.append(newmail)
             except:
                 pass
-
     my_folder.train(pool)
     list_mails = pool
 
@@ -81,12 +87,12 @@ def get_true_label(raw_email):
 def new_email(mailText):
     global list_mails, my_folder
     subject, body, mail_subject, mail_body = email_parser(mailText)
-    true_lable = get_true_label(mailText)
-    mail_body = mail_subject + mail_body
+    true_label = get_true_label(mailText).lower()
+    mail_body = mail_subject + " "+mail_body
     newmail = Email(mail_body)
-    newmail.read=False
     newmail.raw_email = body[0]
-    newmail.trueLabel = true_lable.lower()
+    newmail.trueLabel = true_label
+    newmail.subject=subject
     list_mails.append(newmail)
     my_folder.predict(newmail)
 
@@ -108,9 +114,9 @@ class Application(Frame):
             ## update Read and Unread Box Widget
             if currentfolder in mail.folder:
                 if mail.read:
-                    self.read.insert('end', "%0.4d : %s" % (i, mail.get_body()))
+                    self.read.insert('end', "%0.4d : %s" % (i, mail.subject))
                 else:
-                    self.unread.insert('end', "%0.4d : %s" % (i, mail.get_body()))
+                    self.unread.insert('end', "%0.4d : %s" % (i, mail.subject))
         for folder, button in self.folderName_button.iteritems():
             # if folder in ['uncertain', 'trash']:
             #     continue
@@ -157,7 +163,7 @@ class Application(Frame):
         if email.get_raw() == '':
             pop_message = email.get_body()
         else:
-            pop_message = '*** '+ true_label + ' *** \n' + email.get_raw()
+            pop_message = '*** '+ true_label + ' *** \n' + email.get_raw()[:500]
         self.popup1(pop_message)
         if not (currentfolder == 'uncertain' or currentfolder == 'trash'):
             activity_yes(list_mails[int(w.get(w.curselection()).split(' : ')[0])], currentfolder)
@@ -201,7 +207,7 @@ class Application(Frame):
         if email.get_raw() == '':
             pop_message = email.get_body()
         else:
-            pop_message = '*** '+ true_label + ' *** \n' + email.get_raw()
+            pop_message = '*** '+ true_label + ' *** \n' + email.get_raw()[:500]
         self.popup1(pop_message)
 
         list_mails[int(w.get(w.curselection()).split(' : ')[0])].set_read()
@@ -482,6 +488,7 @@ class Email(object):
         self.proba = {}
         self.read = False
         self.raw_email = ''
+        self.subject=""
 
     def set_read(self):
         self.read = True
@@ -568,13 +575,14 @@ def check_credit():
 
 
 if __name__ == '__main__':
-    global feature_number, hashemail, my_folder, pool, prog, step, saturation, currentfolder, features, feature_names, new_mails
+    global feature_number, hashemail, my_folder, pool, prog, step, saturation, currentfolder, features, feature_names, new_mails, list_mails
 
     "Global variables, need to be initialized"
     feature_number = 4000
     hashemail = hasher(feature_number)
     my_folder = Folder()
     pool = []
+    list_mails=[]
     prog = 10
     step = 1
     saturation = 100
