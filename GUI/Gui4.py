@@ -11,7 +11,7 @@ from email import message_from_string
 
 
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-Mails_directory = "../Mails/initial.txt"
+Mails_directory = "../Mails/initial2.txt"
 
 "convert the original email to string list"
 
@@ -532,8 +532,10 @@ def activity_yes(email, current_folder):
     global pool, features
     if features[0]:
         email.set_label(current_folder)
-        if email.proba:
+        try:
             email.set_credit(1 - email.proba[current_folder])
+        except:
+            pass
         if email not in pool:
             pool.append(email)
     check_credit()
@@ -546,8 +548,10 @@ def activity_no(email, target_folder):
     global pool, features
     if features[0] or features[1]:
         email.set_label(target_folder)
-        if email.proba:
+        try:
             email.set_credit(1 - email.proba[target_folder])
+        except:
+            email.set_credit(1)
         if email not in pool:
             pool.append(email)
     check_credit()
@@ -557,25 +561,23 @@ def activity_no(email, target_folder):
 
 
 def check_credit():
-    global pool, prog, step, my_folder, saturation
-    if len(pool) >= my_folder.num * prog * step:
-        can = []
-        for label in my_folder.classifier.classes_:
-            collect = [x for x in pool if x.label == label]
-            credits = [x.credit for x in collect]
-            can.extend(list(np.array(collect)[np.argsort(credits)[-prog * step:]]))
+    global pool, my_folder, saturation, lastcan
+    can = []
+    for label in my_folder.classifier.classes_:
+        collect = [x for x in pool if x.label == label]
+        credits = [x.credit for x in collect]
+        many=int(len(pool)/(len(my_folder.names)-2))
+        can.extend(list(np.array(collect)[np.argsort(credits)[-many:]]))
+    if can!=lastcan:
         my_folder.train(can)
-        if prog <= saturation:
-            prog = prog + 1
-        else:
-            pool = can
-        return True
-    else:
-        return False
+        lastcan=can
+    if len(pool) > saturation:
+        pool=can
+    return True
 
 
 if __name__ == '__main__':
-    global feature_number, hashemail, my_folder, pool, prog, step, saturation, currentfolder, features, feature_names, new_mails, list_mails
+    global feature_number, hashemail, my_folder, pool, saturation, currentfolder, features, feature_names, new_mails, list_mails, lastcan
 
     "Global variables, need to be initialized"
     feature_number = 4000
@@ -583,14 +585,13 @@ if __name__ == '__main__':
     my_folder = Folder()
     pool = []
     list_mails=[]
-    prog = 10
-    step = 1
-    saturation = 100
+    saturation = 1000
     currentfolder = "uncertain"
     features = [True, True, True]
     feature_names = ['implicit feedback', 'explicit feedback', 'multi-folder']
-    new_mails=[]
     "feature[0]: implicit user feedback; feature[1]: explicit user feedback; feature[2]: multi-folder"
+    new_mails=[]
+    lastcan=[]
 
     #new mail reading
     readnew()
