@@ -384,25 +384,29 @@ def draw_LDA():
 
     plt.figure()
     result={}
-    methods=["wrong","brutal","credit"]
+    methods=["LDA_",""]
     Y={}
     X=range(len(datalist))
     for method in methods:
         Y[method]=[]
         for filename in datalist:
-            with open('./dump/LDA_'+method+'_'+filename+'.pickle', 'rb') as handle:
+            with open('./dump/'+method+'credit_'+filename+'.pickle', 'rb') as handle:
                 result[filename] = pickle.load(handle)
             tmp=result[filename]['F_M']['180']
             Y[method].append(tmp)
-        line,=plt.plot(X,map(np.median,Y[method]),label=method+" median")
-        plt.plot(X,map(iqr,Y[method]),"-.",color=line.get_color(),label=method+" iqr")
+        if method=="":
+            x="no_LDA"
+        else:
+            x="LDA"
+        line,=plt.plot(X,map(np.median,Y[method]),label=x+" median")
+        plt.plot(X,map(iqr,Y[method]),"-.",color=line.get_color(),label=x+" iqr")
     plt.yticks(np.arange(0,1.1,0.1))
     plt.xticks(X, datalist, rotation=70)
     plt.ylabel("F_M score")
     plt.xlabel("Data sets")
     plt.legend(bbox_to_anchor=(0.35, 1), loc=1, ncol = 1, borderaxespad=0.)
-    plt.savefig("../Results/LDA_semi_methods.eps")
-    plt.savefig("../Results/LDA_semi_methods.png")
+    plt.savefig("../Results/LDA_semi.eps")
+    plt.savefig("../Results/LDA_semi.png")
 
 def draw3():
     font = {'family' : 'normal',
