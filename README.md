@@ -13,4 +13,4 @@ Project AOEC
 
 6. [Project report] (https://github.com/azhe825/CSC510/blob/master/report/April/AprilReport.pdf) <br />
 
-7. [Project Demo] (https://www.youtube.com/watch?v=zz12TbEqilg&feature=em-upload_owner)
+7. [Project Demo] (https://youtu.be/Sn1lAosQ9-I)
