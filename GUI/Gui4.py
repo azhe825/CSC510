@@ -237,6 +237,7 @@ class Application(Frame):
         self.folderName_button[name] = x1
         self.count += 1
 
+
     def change_checkbox(self, bv, id):
         now = bv.get()
         self.checkbox[id] = now
@@ -563,7 +564,8 @@ def activity_no(email, target_folder):
 def check_credit():
     global pool, my_folder, saturation, lastcan
     can = []
-    for label in my_folder.classifier.classes_:
+    for label in my_folder.names:
+        if label=='uncertain' or label=='trash': continue
         collect = [x for x in pool if x.label == label]
         credits = [x.credit for x in collect]
         many=int(len(pool)/(len(my_folder.names)-2))
