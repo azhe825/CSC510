@@ -29,6 +29,7 @@ from __future__ import print_function
 import urllib2
 import json
 import re,datetime
+from pdb import set_trace
 import sys
  
 class L():
@@ -53,7 +54,7 @@ def secs(d0):
   return delta.total_seconds()
  
 def dump1(u,issues):
-  token = "INSERT TOKEN HERE" # <===
+  token = "669fec749c588c61bb28eb0bb6a7060a085ea459" # <===
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -86,11 +87,11 @@ def dump(u,issues):
     print("Contact TA")
     return False
 
-def launchDump():
+def launchDump(RepoName):
   page = 1
   issues = dict()
   while(True):
-    doNext = dump('https://api.github.com/repos/opensciences/opensciences.github.io/issues/events?page=' + str(page), issues)
+    doNext = dump('https://api.github.com/repos/'+RepoName+'/issues/events?page=' + str(page), issues)
     print("page "+ str(page))
     page += 1
     if not doNext : break
@@ -98,8 +99,9 @@ def launchDump():
     print("ISSUE " + str(issue))
     for event in events: print(event.show())
     print('')
+  set_trace()
     
-launchDump()
+launchDump("azhe825/CSC510")
 
 
   
