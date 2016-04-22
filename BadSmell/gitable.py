@@ -15,6 +15,8 @@ Here is how you do it.
 
 curl -i -u <your_username> -d '{"scopes": ["repo", "user"], "note": "OpenSciences"}' https://api.github.com/authorizations
 
+My case: curl -i -u azhe825 -d '{"scopes": ["repo", "user"], "note": "OpenSciences"}' https://api.github.com/authorizations
+
 2) Enter ur password on prompt. You will get a JSON response. 
 In that response there will be a key called "token" . 
 Copy the value for that key and paste it on line marked "token" in the attached source code. 
@@ -30,6 +32,7 @@ import urllib2
 import json
 import re,datetime
 from pdb import set_trace
+from random import shuffle
 import sys
  
 class L():
@@ -54,7 +57,7 @@ def secs(d0):
   return delta.total_seconds()
  
 def dump1(u,issues):
-  token = "669fec749c588c61bb28eb0bb6a7060a085ea459" # <===
+  token = "YOUR TOKEN HERE" # <===
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -97,11 +100,45 @@ def launchDump(RepoName):
     if not doNext : break
   for issue, events in issues.iteritems():
     print("ISSUE " + str(issue))
-    for event in events: print(event.show())
+    for event in events:
+      print(event.show())
     print('')
+  return issues
+
+"Closure of mask"
+def masking():
+  masks={}
+  number=59
+  randnumlist=range(number)
+  shuffle(randnumlist)
+  with open("names.txt",'r') as f:
+    for m in f.readlines():
+      masks[m.strip()]='user'+str(randnumlist.pop())
+
+  def mask(uncleaned):
+    cleaned=uncleaned
+    for what in masks:
+      cleaned = re.sub(what, masks[what],cleaned)
+    return cleaned
+
+  return mask
+
+
+
+
+if __name__ == '__main__':
+  mask=masking()
+
+  with open("repos.txt",'r') as f:
+    for m in f.readlines():
+      reponame=m.strip()
+      issues=launchDump(reponame)
+      a=""
+      for issue, events in issues.iteritems():
+        a=a+events[0].show()+"\n"
+      with open("dump/log_"+mask(reponame.split('/')[0])+".txt",'w') as f:
+        f.write(mask(a))
   set_trace()
-    
-launchDump("azhe825/CSC510")
 
 
   

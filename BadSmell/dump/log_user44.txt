@@ -1,0 +1,28 @@
+action : labeled,	what : proj1 feedback,	when : 1454342666.0,	user : timm
+action : labeled,	what : data-collection,	when : 1454893122.0,	user : user44,	milestone : Data Collection
+action : labeled,	what : data-collection,	when : 1454893449.0,	user : user8,	milestone : Data Collection
+action : labeled,	what : Text mining,	when : 1454893828.0,	user : user5,	milestone : Text Mining using NLTK
+action : labeled,	what : Text mining,	when : 1454894009.0,	user : user55,	milestone : Text Mining using NLTK
+action : labeled,	what : plugin-development,	when : 1454894143.0,	user : user44,	milestone : Creating the Plugin that uses the Recommendation System
+action : labeled,	what : enhancement,	when : 1454895359.0,	user : user5
+action : labeled,	what : data-collection,	when : 1455653305.0,	user : user44,	milestone : Data Collection
+action : labeled,	what : data-collection,	when : 1455948467.0,	user : user44,	milestone : Data Collection
+action : labeled,	what : data-collection,	when : 1455951751.0,	user : user44,	milestone : Data Collection
+action : labeled,	what : Text mining,	when : 1455991125.0,	user : user44
+action : labeled,	what : data-collection,	when : 1456086179.0,	user : user44,	milestone : Data Collection
+action : labeled,	what : data-collection,	when : 1456086281.0,	user : user44,	milestone : Data Collection
+action : labeled,	what : data-collection,	when : 1456088645.0,	user : user44,	milestone : Data Collection
+action : labeled,	what : plugin-development,	when : 1456192489.0,	user : user5,	milestone : Creating the Plugin that uses the Recommendation System
+action : labeled,	what : plugin-development,	when : 1456192572.0,	user : user5,	milestone : Creating the Plugin that uses the Recommendation System
+action : labeled,	what : front-end,	when : 1456464223.0,	user : user44,	milestone : Front End
+action : labeled,	what : front-end,	when : 1456719089.0,	user : user8
+action : labeled,	what : Text mining,	when : 1456761280.0,	user : user55,	milestone : Solution #1
+action : labeled,	what : Text mining,	when : 1456761377.0,	user : user55,	milestone : Solution #1
+action : labeled,	what : help wanted,	when : 1456761676.0,	user : user5,	milestone : Solution #2
+action : labeled,	what : help wanted,	when : 1456855631.0,	user : user44,	milestone : Solution #1
+action : labeled,	what : front-end,	when : 1456855932.0,	user : user44,	milestone : Solution #1
+action : labeled,	what : front-end,	when : 1456868055.0,	user : user8,	milestone : Solution #2
+action : labeled,	what : Text mining,	when : 1457040340.0,	user : user44,	milestone : Solution #2
+action : labeled,	what : data-collection,	when : 1460697217.0,	user : user44,	milestone : Project 2 - Data Collection
+action : labeled,	what : data-collection,	when : 1460697286.0,	user : user44,	milestone : Project 2 - Data Collection
+action : labeled,	what : data-collection,	when : 1460697369.0,	user : user44,	milestone : Project 2 - Data Collection
