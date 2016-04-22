@@ -57,7 +57,7 @@ def secs(d0):
   return delta.total_seconds()
  
 def dump1(u,issues):
-  token = "YOUR TOKEN HERE" # <===
+  token = "TOKEN HERE" # <===
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -135,7 +135,9 @@ if __name__ == '__main__':
       issues=launchDump(reponame)
       a=""
       for issue, events in issues.iteritems():
-        a=a+events[0].show()+"\n"
+        for event in events:
+          a=a+event.show()+" | "
+        a=a+"\n"
       with open("dump/log_"+mask(reponame.split('/')[0])+".txt",'w') as f:
         f.write(mask(a))
   set_trace()

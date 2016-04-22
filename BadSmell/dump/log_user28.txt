@@ -1,0 +1,31 @@
+action : labeled,	what : proj1 feedback,	when : 1454342998.0,	user : timm | 
+action : labeled,	what : 1. Task,	when : 1454625451.0,	user : user1,	milestone : Implementation Complete Mar 1 | 
+action : labeled,	what : 1. Task,	when : 1454625548.0,	user : user1,	milestone : Implementation Complete Mar 1 | 
+action : labeled,	what : 1. Task,	when : 1454625687.0,	user : user1,	milestone : Implementation Complete Mar 1 | 
+action : labeled,	what : 1. Task,	when : 1454625745.0,	user : user1,	milestone : Implementation Complete Mar 1 | 
+action : labeled,	what : 1. Task,	when : 1455669882.0,	user : user28,	milestone : semi-supervised learning solutions | 
+action : labeled,	what : 1. Task,	when : 1455669875.0,	user : user28,	milestone : semi-supervised learning solutions | 
+action : labeled,	what : Suggestion,	when : 1456937626.0,	user : user1 | 
+action : labeled,	what : Suggestion,	when : 1456778542.0,	user : user28 | 
+action : labeled,	what : Suggestion,	when : 1456778554.0,	user : user28 | 
+action : labeled,	what : Suggestion,	when : 1456778533.0,	user : user28 | action : labeled,	what : 1. Task,	when : 1456691615.0,	user : user3 | action : labeled,	what : help wanted,	when : 1456691615.0,	user : user3 | 
+action : labeled,	what : bug,	when : 1456715095.0,	user : user3 | action : labeled,	what : 3. Results,	when : 1456691625.0,	user : user3 | 
+action : labeled,	what : 3. Results,	when : 1456725832.0,	user : user3 | 
+action : labeled,	what : 3. Results,	when : 1456771733.0,	user : user1,	milestone : Implementation Complete Mar 1 | 
+action : labeled,	what : Suggestion,	when : 1456778513.0,	user : user28 | 
+action : labeled,	what : enhancement,	when : 1456937539.0,	user : user1,	milestone : Implement best solution with GUI | 
+action : labeled,	what : 1. Task,	when : 1456937697.0,	user : user1,	milestone : Combine all three solutions to have the best | 
+action : labeled,	what : 1. Task,	when : 1456937736.0,	user : user1,	milestone : GUI Build | 
+action : labeled,	what : 1. Task,	when : 1456937815.0,	user : user1,	milestone : Testing for solutions | 
+action : labeled,	what : 1. Task,	when : 1456937902.0,	user : user1,	milestone : Apr1 report | 
+action : labeled,	what : 3. Results,	when : 1456955495.0,	user : user1,	milestone : Implementation Complete Mar 1 | 
+action : labeled,	what : proj1 feedback,	when : 1457105559.0,	user : user1 | 
+action : labeled,	what : Suggestion,	when : 1457128792.0,	user : user21 | 
+action : labeled,	what : Suggestion,	when : 1457304428.0,	user : user1,	milestone : GUI Build | action : labeled,	what : enhancement,	when : 1457247613.0,	user : user1,	milestone : GUI Build | 
+action : labeled,	what : 1. Task,	when : 1458218169.0,	user : user28 | 
+action : labeled,	what : 1. Task,	when : 1458218425.0,	user : user28 | 
+action : labeled,	what : 1. Task,	when : 1458218757.0,	user : user28 | 
+action : labeled,	what : 1. Task,	when : 1458218967.0,	user : user28 | 
+action : labeled,	what : 1. Task,	when : 1458218990.0,	user : user28 | 
+action : labeled,	what : bug,	when : 1459527832.0,	user : user1 | 
+action : labeled,	what : 1. Task,	when : 1459794334.0,	user : user28 | 

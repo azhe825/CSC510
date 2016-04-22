@@ -1,86 +1,84 @@
-action : unlabeled,	what : enhancement,	when : 1455824800.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : enhancement,	when : 1455828472.0,	user : user41,	milestone : Solution 2: Plugin Development(Basic functionality)
-action : unlabeled,	what : enhancement,	when : 1455824823.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : enhancement,	when : 1455824879.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : enhancement,	when : 1455824863.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : enhancement,	when : 1455824846.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : enhancement,	when : 1456790939.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : enhancement,	when : 1455774807.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : enhancement,	when : 1455828379.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : enhancement,	when : 1455828450.0,	user : user41,	milestone : Solution 2: Plugin Development(Basic functionality)
-action : unlabeled,	what : enhancement,	when : 1455828460.0,	user : user41,	milestone : Solution 3: Android application for reviews
-action : unlabeled,	what : enhancement,	when : 1455828425.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : enhancement,	when : 1455828413.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Android,	when : 1455822188.0,	user : user27,	milestone : Solution 3: Android application for reviews
-action : labeled,	what : wontfix,	when : 1460001533.0,	user : user28,	milestone : April 1
-action : unlabeled,	what : enhancement,	when : 1455828404.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : enhancement,	when : 1455824747.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Plugin,	when : 1455828505.0,	user : user41,	milestone : Solution 2: Plugin Development(Basic functionality)
-action : labeled,	what : Plugin,	when : 1455828512.0,	user : user41,	milestone : Solution 2: Plugin Development(Basic functionality)
-action : labeled,	what : Web App,	when : 1455828581.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Plugin,	when : 1455828276.0,	user : user41,	milestone : Solution 2: Plugin Development(Basic functionality)
-action : labeled,	what : Android,	when : 1455828302.0,	user : user41,	milestone : Solution 3: Android application for reviews
-action : labeled,	what : duplicate,	when : 1456634581.0,	user : user27,	milestone : Solution 3: Android application for reviews
-action : labeled,	what : enhancement,	when : 1455828722.0,	user : user27,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456796109.0,	user : user4,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Plugin,	when : 1455828882.0,	user : user27,	milestone : Solution 2: Plugin Development(Basic functionality)
-action : labeled,	what : Android,	when : 1455828939.0,	user : user27,	milestone : Solution 3: Android application for reviews
-action : labeled,	what : Web App,	when : 1455891685.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : help wanted,	when : 1455904135.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1455926219.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1455926247.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Android,	when : 1455959071.0,	user : user28,	milestone : Solution 3: Android application for reviews
-action : labeled,	what : Android,	when : 1455959095.0,	user : user28,	milestone : Solution 3: Android application for reviews
-action : labeled,	what : Plugin,	when : 1456091026.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456124944.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Android,	when : 1456133382.0,	user : user27,	milestone : Solution 3: Android application for reviews
-action : labeled,	what : Web App,	when : 1456165412.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456165440.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456165469.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456411047.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456413674.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456520313.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456620134.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : help wanted,	when : 1456634530.0,	user : user27,	milestone : Solution 3: Android application for reviews
-action : labeled,	what : Web App,	when : 1456640659.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456646451.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456646571.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456646655.0,	user : user4,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456666865.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456666946.0,	user : user41,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456706887.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456706956.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456706991.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Web App,	when : 1456733108.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : unlabeled,	what : Web App,	when : 1456742183.0,	user : user4,	milestone : Solution 2: Plugin Development(Basic functionality)
-action : labeled,	what : Web App,	when : 1456788756.0,	user : user28,	milestone : Solution 1: Web Scraping Application
-action : labeled,	what : Plugin,	when : 1456789070.0,	user : user4,	milestone : Solution 2: Plugin Development(Basic functionality)
-action : labeled,	what : enhancement,	when : 1456873015.0,	user : user41,	milestone : Telemetry 
-action : labeled,	what : Plugin,	when : 1456873165.0,	user : user28,	milestone : Telemetry 
-action : labeled,	what : Android,	when : 1456873425.0,	user : user27,	milestone : Telemetry 
-action : labeled,	what : Web App,	when : 1459402922.0,	user : user41,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459441308.0,	user : user41,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459457163.0,	user : user28,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459457201.0,	user : user28,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459457237.0,	user : user28,	milestone : April 1
-action : labeled,	what : Android,	when : 1459457275.0,	user : user28,	milestone : April 1
-action : labeled,	what : Android,	when : 1459457300.0,	user : user28,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459457336.0,	user : user28,	milestone : April 1
-action : labeled,	what : bad smell,	when : 1460001701.0,	user : user28,	milestone : Bad smell code
-action : labeled,	what : Web App,	when : 1459458580.0,	user : user27,	milestone : April 1
-action : labeled,	what : Plugin,	when : 1459458623.0,	user : user27,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459462373.0,	user : user41,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459462623.0,	user : user28,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459462650.0,	user : user28,	milestone : April 1
-action : labeled,	what : Web App,	when : 1459912999.0,	user : user27,	milestone : Evaluation plan
-action : labeled,	what : Android,	when : 1459913054.0,	user : user27,	milestone : Evaluation plan
-action : labeled,	what : Android,	when : 1459973871.0,	user : user27,	milestone : Evaluation plan
-action : labeled,	what : Android,	when : 1459973910.0,	user : user27,	milestone : Evaluation plan
-action : labeled,	what : Web App,	when : 1459974011.0,	user : user27,	milestone : Evaluation plan
-action : labeled,	what : Web App,	when : 1459974245.0,	user : user27,	milestone : Evaluation plan
-action : labeled,	what : Web App,	when : 1459997051.0,	user : user27,	milestone : Evaluation plan
-action : labeled,	what : Android,	when : 1459997069.0,	user : user27,	milestone : Evaluation plan
-action : labeled,	what : Android,	when : 1459997220.0,	user : user27,	milestone : Evaluation plan
-action : unlabeled,	what : enhancement,	when : 1460001682.0,	user : user28,	milestone : Bad smell code
-action : unlabeled,	what : enhancement,	when : 1460001674.0,	user : user28,	milestone : Bad smell code
-action : labeled,	what : bad smell,	when : 1460001657.0,	user : user28,	milestone : Bad smell code
+action : labeled,	what : proj1 feedback,	when : 1454343999.0,	user : timm | 
+action : labeled,	what : group work,	when : 1455222657.0,	user : user7 | 
+action : labeled,	what : Mar1,	when : 1455152831.0,	user : user40,	milestone : Solution 1  | action : labeled,	what : feasibilty study,	when : 1455129168.0,	user : user7,	milestone : Solution 1  | 
+action : labeled,	what : Mar1,	when : 1455152846.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : feasibilty study,	when : 1455129257.0,	user : user40,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1455152863.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : feasibilty study,	when : 1455129175.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1455152879.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1455129355.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1455152888.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1455129432.0,	user : user50,	milestone : Solution 2 | 
+action : unlabeled,	what : Mar1,	when : 1455152907.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : Mar1,	when : 1455152899.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1455129495.0,	user : user40,	milestone : Solution 2 | 
+action : labeled,	what : feasibilty study,	when : 1455129550.0,	user : user7,	milestone : Solution 3: Enhancement to the existing tool | 
+action : labeled,	what : Mar1,	when : 1455152942.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1455129575.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : feasibilty study,	when : 1455201402.0,	user : user7,	milestone : Solution 3: Enhancement to the existing tool | 
+action : labeled,	what : research,	when : 1455201861.0,	user : user7,	milestone : Solution 3: Enhancement to the existing tool | 
+action : labeled,	what : Mar1,	when : 1455430345.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1455430217.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1455430332.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : enhancement,	when : 1455430332.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : help wanted,	when : 1455656982.0,	user : user4,	milestone : Solution 2 | 
+action : labeled,	what : Feature,	when : 1455658283.0,	user : user4,	milestone : Solution 1  | 
+action : labeled,	what : Feature,	when : 1455658326.0,	user : user4,	milestone : Solution 1  | 
+action : labeled,	what : Feature,	when : 1455658443.0,	user : user4,	milestone : Solution 1  | 
+action : labeled,	what : Feature,	when : 1455658485.0,	user : user4,	milestone : Solution 1  | 
+action : labeled,	what : Feature,	when : 1455658525.0,	user : user4,	milestone : Solution 1  | 
+action : labeled,	what : Feature,	when : 1455658565.0,	user : user4,	milestone : Solution 1  | 
+action : labeled,	what : Feature,	when : 1455659194.0,	user : user4,	milestone : Solution 1 design iteration 1 | 
+action : labeled,	what : Feature,	when : 1455659230.0,	user : user4,	milestone : Solution 1 development iteration 1 | 
+action : labeled,	what : Feature,	when : 1455659258.0,	user : user4,	milestone : Solution 1 testing iteration 1 | 
+action : labeled,	what : Mar1,	when : 1455987162.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : feasibilty study,	when : 1455987162.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1455987268.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1455987268.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1455987312.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1455987312.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456163052.0,	user : user50,	milestone : Solution 2 Testing Iteration | action : labeled,	what : Feature,	when : 1456163052.0,	user : user50,	milestone : Solution 2 Testing Iteration | 
+action : labeled,	what : Mar1,	when : 1456164793.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : enhancement,	when : 1456164793.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456164859.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1456164859.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456164917.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1456164917.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456165000.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : enhancement,	when : 1456165000.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456165125.0,	user : user50,	milestone : Solution 2 | action : labeled,	what : Feature,	when : 1456165125.0,	user : user50,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456165184.0,	user : user50,	milestone : Solution 2 Testing Iteration | action : labeled,	what : enhancement,	when : 1456165184.0,	user : user50,	milestone : Solution 2 Testing Iteration | 
+action : labeled,	what : Feature,	when : 1456206696.0,	user : user7,	milestone : Solution 3: Design Phase Iteration 1 | 
+action : labeled,	what : Feature,	when : 1456206800.0,	user : user7,	milestone : Solution 3: Design Phase Iteration 1 | 
+action : labeled,	what : Feature,	when : 1456206850.0,	user : user7,	milestone : Solution 3: Design Phase Iteration 1 | 
+action : labeled,	what : feature,	when : 1456210698.0,	user : user7,	milestone : Solution 3: Development Phase Iteration 1 | 
+action : labeled,	what : Mar1,	when : 1456236784.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : feature,	when : 1456236784.0,	user : user40,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456236843.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : feature,	when : 1456236843.0,	user : user40,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456237133.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : feature,	when : 1456237133.0,	user : user40,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456237283.0,	user : user40,	milestone : Solution 2 | action : labeled,	what : feature,	when : 1456237283.0,	user : user40,	milestone : Solution 2 | 
+action : labeled,	what : Mar1,	when : 1456304774.0,	user : user40,	milestone : Solution 2 Testing Iteration | 
+action : labeled,	what : feature,	when : 1456379963.0,	user : user7,	milestone : Solution 3: Development Phase Iteration 1 | 
+action : labeled,	what : feature,	when : 1456624874.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456627697.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456635427.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456636083.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456653822.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456657233.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456686587.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456692272.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456692300.0,	user : user4,	milestone : Solution 1 development iteration 2 | 
+action : labeled,	what : feature,	when : 1456724083.0,	user : user4,	milestone : Solution 1 testing iteration 2 | 
+action : labeled,	what : feature,	when : 1456724162.0,	user : user4,	milestone : Solution 1 testing iteration 2 | 
+action : labeled,	what : feature,	when : 1456724198.0,	user : user4,	milestone : Solution 1 testing iteration 2 | 
+action : labeled,	what : feature,	when : 1456724241.0,	user : user4,	milestone : Solution 1 testing iteration 2 | 
+action : labeled,	what : feature,	when : 1456724287.0,	user : user4,	milestone : Solution 1 testing iteration 2 | 
+action : labeled,	what : feature,	when : 1456724340.0,	user : user4,	milestone : Solution 1 testing iteration 2 | 
+action : labeled,	what : feature,	when : 1456724389.0,	user : user4,	milestone : Solution 1 testing iteration 2 | 
+action : labeled,	what : feasibilty study,	when : 1456765826.0,	user : user7,	milestone : Solution 3: Design Phase Iteration 1 | 
+action : labeled,	what : feature,	when : 1456765941.0,	user : user7,	milestone : Solution 3: Development Phase Iteration 1 | 
+action : labeled,	what : feature,	when : 1456766011.0,	user : user7,	milestone : Solution 3: Development Phase Iteration 1 | 
+action : labeled,	what : feature,	when : 1456767154.0,	user : user7,	milestone : Solution 3: Development Phase Iteration 1 | 
+action : labeled,	what : test,	when : 1456768168.0,	user : user7,	milestone : Solution 3: Testing Phase Iteration1 | 
+action : labeled,	what : test,	when : 1456768315.0,	user : user7,	milestone : Solution 3: Testing Phase Iteration1 | 
+action : labeled,	what : feature,	when : 1456808369.0,	user : user7,	milestone : Solution 3: Development Phase Iteration 1 | 
+action : labeled,	what : test,	when : 1456808864.0,	user : user7,	milestone : Solution 3: Testing Phase Iteration1 | 
+action : labeled,	what : test,	when : 1456808938.0,	user : user7,	milestone : Solution 3: Testing Phase Iteration1 | 
+action : labeled,	what : Mar1,	when : 1456878850.0,	user : user4,	milestone : Mar1 deliverable readiness | 
+action : labeled,	what : Evaluation Plan,	when : 1456882919.0,	user : user4,	milestone : Evaluation of solutions: Creating surveys | 
+action : labeled,	what : Evaluation Plan,	when : 1456882906.0,	user : user4,	milestone : Evaluation of solutions: Creating surveys | 
+action : labeled,	what : Evaluation Plan,	when : 1456882881.0,	user : user4,	milestone : Evaluation of solutions: Creating surveys | 
+action : labeled,	what : Evaluation Plan,	when : 1456882860.0,	user : user4,	milestone : Evaluation of solutions: Creating surveys | 
+action : labeled,	what : Evaluation Plan,	when : 1456882962.0,	user : user4,	milestone : Observing Users for solutions | 
+action : labeled,	what : Evaluation Plan,	when : 1456882947.0,	user : user4,	milestone : Observing Users for solutions | 
+action : labeled,	what : Evaluation Plan,	when : 1456882933.0,	user : user4,	milestone : Observing Users for solutions | 
+action : labeled,	what : Evaluation Plan,	when : 1456883015.0,	user : user4,	milestone : conducting surveys | 
+action : labeled,	what : Evaluation Plan,	when : 1456883001.0,	user : user4,	milestone : conducting surveys | 
+action : labeled,	what : Evaluation Plan,	when : 1456882988.0,	user : user4,	milestone : conducting surveys | 
+action : labeled,	what : Evaluation Plan,	when : 1456883044.0,	user : user4,	milestone : Reaching a conclusion | 
+action : labeled,	what : Evaluation Plan,	when : 1456883037.0,	user : user4,	milestone : Reaching a conclusion | 
+action : labeled,	what : Evaluation Plan,	when : 1456883029.0,	user : user4,	milestone : Reaching a conclusion | 
+action : labeled,	what : group work,	when : 1459981778.0,	user : user7,	milestone : Reaching a conclusion | 

@@ -1,0 +1,25 @@
+action : labeled,	what : question,	when : 1456347533.0,	user : user55,	milestone : Save NCSU Parking Locations | 
+action : labeled,	what : enhancement,	when : 1456223111.0,	user : user55,	milestone : App opens with a biased location wrt campus | 
+action : labeled,	what : bug,	when : 1456223415.0,	user : user55,	milestone : App opens with a biased location wrt campus | 
+action : labeled,	what : bug,	when : 1456227966.0,	user : user55,	milestone : App opens with a biased location wrt campus | 
+action : labeled,	what : bug,	when : 1456230251.0,	user : user55,	milestone : App opens with a biased location wrt campus | 
+action : labeled,	what : question,	when : 1456231532.0,	user : user55,	milestone : App opens with a biased location wrt campus | 
+action : labeled,	what : enhancement,	when : 1456231592.0,	user : user55,	milestone : Implement User Current Location Feature | 
+action : labeled,	what : help wanted,	when : 1456231702.0,	user : user55,	milestone : Implement User Current Location Feature | 
+action : labeled,	what : enhancement,	when : 1456232064.0,	user : user55,	milestone : Implement User Current Location Feature | 
+action : labeled,	what : enhancement,	when : 1456235494.0,	user : user55,	milestone : Implement User Current Location Feature | 
+action : labeled,	what : enhancement,	when : 1456277828.0,	user : user55,	milestone : App opens with a biased location wrt campus | 
+action : labeled,	what : enhancement,	when : 1456347516.0,	user : user55,	milestone : Save NCSU Parking Locations | 
+action : labeled,	what : question,	when : 1456348256.0,	user : user55,	milestone : Introduce DESIGN to parking lots | 
+action : labeled,	what : question,	when : 1456348500.0,	user : user55,	milestone : Save NCSU Parking Locations | 
+action : labeled,	what : question,	when : 1456349081.0,	user : user55 | 
+action : labeled,	what : enhancement,	when : 1456535072.0,	user : user39 | 
+action : labeled,	what : enhancement,	when : 1456535061.0,	user : user39 | 
+action : labeled,	what : enhancement,	when : 1456535016.0,	user : user39,	milestone : Have a login and Signup | 
+action : labeled,	what : enhancement,	when : 1456535000.0,	user : user39,	milestone : Have a login and Signup | 
+action : labeled,	what : bug,	when : 1456534982.0,	user : user39,	milestone : Have a login and Signup | 
+action : labeled,	what : enhancement,	when : 1456631398.0,	user : user17 | 
+action : labeled,	what : bug,	when : 1456639367.0,	user : user17 | 
+action : labeled,	what : bug,	when : 1456640571.0,	user : user17 | 
+action : labeled,	what : enhancement,	when : 1457067856.0,	user : user55,	milestone : Include Telemetry in the system | 
+action : labeled,	what : bug,	when : 1457067916.0,	user : user55 | 
