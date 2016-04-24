@@ -69,7 +69,7 @@ def dump1(u,issues):
   if not w: return False
   for event in w:
     issue_id = event['issue']['number']
-    created_at = secs(event['created_at'])
+    created_at = event['created_at']
     action = event['event']
     if not event.get('label'):
       label_name='None'
@@ -116,10 +116,11 @@ def launchDump(RepoName):
 def masking(FileName):
   masks={}
   with open(FileName,'r') as f:
-    number=len(f.readlines())
+    doc=f.readlines()
+    number=len(doc)
     randnumlist=range(number)
     shuffle(randnumlist)
-    for m in f.readlines():
+    for m in doc:
       masks[m.strip()]='user'+str(randnumlist.pop())
 
   def mask(uncleaned):
