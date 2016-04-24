@@ -64,10 +64,12 @@ def dump1(u,issues):
   if not w: return False
   for event in w:
     issue_id = event['issue']['number']
-    if not event.get('label'): continue
     created_at = secs(event['created_at'])
     action = event['event']
-    label_name = event['label']['name']
+    if not event.get('label'):
+      label_name='None'
+    else:
+      label_name = event['label']['name']
     user = event['actor']['login']
     milestone = event['issue']['milestone']
     if milestone != None : milestone = milestone['title']
