@@ -34,6 +34,11 @@ import re,datetime
 from pdb import set_trace
 from random import shuffle
 import sys
+
+"path and names of local file containing gitids"
+Names="names.txt"
+"path and names of local file containing repo addresses"
+Repos="repos.txt"
  
 class L():
   "Anonymous container"
@@ -108,12 +113,12 @@ def launchDump(RepoName):
   return issues
 
 "Closure of mask"
-def masking():
+def masking(FileName):
   masks={}
-  number=59
-  randnumlist=range(number)
-  shuffle(randnumlist)
-  with open("names.txt",'r') as f:
+  with open(FileName,'r') as f:
+    number=len(f.readlines())
+    randnumlist=range(number)
+    shuffle(randnumlist)
     for m in f.readlines():
       masks[m.strip()]='user'+str(randnumlist.pop())
 
@@ -129,9 +134,9 @@ def masking():
 
 
 if __name__ == '__main__':
-  mask=masking()
+  mask=masking(Names)
 
-  with open("repos.txt",'r') as f:
+  with open(Repos,'r') as f:
     for m in f.readlines():
       reponame=m.strip()
       issues=launchDump(reponame)
