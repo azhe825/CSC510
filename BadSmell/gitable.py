@@ -37,7 +37,7 @@ import sys
 
 "path and names of local file containing gitids"
 Names="names.txt"
-"path and names of local file containing repo addresses"
+"path and names of local file containing repo addresses in this format: GitID/RepoName"
 Repos="repos.txt"
  
 class L():
@@ -112,7 +112,7 @@ def launchDump(RepoName):
     print('')
   return issues
 
-"Closure of mask"
+"Closure of mask. Read names from FileName and randomly map it to user+i. Return a function for this masking"
 def masking(FileName):
   masks={}
   with open(FileName,'r') as f:
