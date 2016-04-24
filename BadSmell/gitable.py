@@ -143,6 +143,7 @@ if __name__ == '__main__':
       issues=launchDump(reponame)
       a=""
       for issue, events in issues.iteritems():
+        a=a+"Issue Number: "+str(issue)+",   "
         for event in events:
           a=a+event.show()+" | "
         a=a+"\n"
