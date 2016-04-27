@@ -15,7 +15,6 @@ Here is how you do it.
 
 curl -i -u <your_username> -d '{"scopes": ["repo", "user"], "note": "OpenSciences"}' https://api.github.com/authorizations
 
-My case: curl -i -u azhe825 -d '{"scopes": ["repo", "user"], "note": "OpenSciences"}' https://api.github.com/authorizations
 
 2) Enter ur password on prompt. You will get a JSON response. 
 In that response there will be a key called "token" . 
