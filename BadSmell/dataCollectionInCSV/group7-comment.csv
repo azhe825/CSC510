@@ -1,0 +1,58 @@
+issueID,user,createtime,updatetime,text,identifier
+2,group7/user1,1452709628,1452709628,"Here are some more links I found, it seems like most tutorials and guides were written back in 2002-2003 so I am trying to only choose from the more recent ones.
+
+IBM Plug-In Basics (2008): http://www.ibm.com/developerworks/library/os-eclipse-plugindev1/index.html
+O'Reilly Intro (2005): http://www.onjava.com/pub/a/onjava/2005/02/09/eclipse.html
+",171388541
+2,group7/user1,1452710179,1452710179,"Also a note on which version of Eclipse to download, there is a bundled version of Eclipse called, ""Eclipse IDE for Eclipse Committers"" and it has a whole set of tools already loaded into it that would make our lives easier. For example it has Git integration and something called the PDE which is the Plug-in Development Environment. Here is a link to that specific bundled version of Eclipse (not that the download links are on the right, not the big button at the top): http://www.eclipse.org/downloads/packages/eclipse-ide-eclipse-committers-451/mars1
+
+Eclipse has a good document (but old) on using the PDE to develop plug-ins here: http://www.eclipse.org/articles/Article-PDE-does-plugins/PDE-intro.html",171391518
+1,group7/user2,1452711761,1452711761,"Here are a couple of useful papers:
+
+
+Revealing the Copy and Paste Habits of End Users - 
+http://ieeexplore.ieee.org.prox.lib.ncsu.edu/stamp/stamp.jsp?tp=&arnumber=5295296
+Managing Code Clones Using Dynamic Change Tracking and Resolution - http://ieeexplore.ieee.org.prox.lib.ncsu.edu/stamp/stamp.jsp?tp=&arnumber=5306336",171398945
+1,group7/user3,1452715352,1452715352,"Here are some papers on code cloning. It turns out that code clone is quite different from our goal of an efficient clipboard manager. 
+Clone management: Clone analysis tool with tag cloud visualization. Jump to the picture. It gives a description of the procedure of clone management.
+http://sel.ist.osaka-u.ac.jp/lab-db/betuzuri/archive/962/962.pdf
+Another paper on clone management. 
+http://www.cs.usask.ca/~croy/papers/2011/Zibran_IWSC2011_Management.pdf
+But these papers may help us understand cloning itself better. Although that's quite beyond the scope of this project, we know that we can do more with the clipboard.
+
+",171416434
+2,group7/user2,1453151280,1453155629,"I just discovered that when you open this version of Eclipse, there's a tutorial on how to build an Eclipse plugin. Going to be working on that in a bit, and I'll post an update when I'm done.
+
+
+UPDATE: It takes about half an hour to get a basic hello world extension running. It's pretty much the same set of steps from Eclipse document on using the PDE. Also if you're using Eclipse Neon (the latest version), the documentation has an error. ""org.eclipse.ui.actionSets"" is deprecated and is now ""org.eclipse.ui.command"".",172654122
+1,group7/user4,1453318772,1453318772,"A study of copy and pasting habits in OOP programmars.
+http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1334896",173336094
+1,group7/user1,1453406043,1453406043,"Paper on Code Clone Genealogies (cited by 396, from 2005) that proposes that its not always best to immediately refactor code clones, because instead they will either work themselves out eventually, or they are actually pretty necessary.
+http://web.cs.ucla.edu/~miryung/Publications/esecfse05-clonegenealogy.pdf 
+
+Paper on 'A study of developer work habits'. (Cited by 367, from 2006) Section 5.4 and Table 3 specifically talk about 6 different types of code duplication (including copy and pasting) and have survey/interviews with developers on each of these times - interesting read and opens up other possibilities to consider for our plug-in, plus this was study based.
+https://cs.gmu.edu/~tlatoza/papers/icse2006.pdf 
+
+Another term I'm finding that could be worth investigating is 'Code Duplication' (covers more than just copy and pasting so we may get a different result of papers).",173690002
+1,group7/user2,1453408359,1453408359,"Paper on Reverse Engineering Design Patterns in Java (cited by 188, from 2006): 
+There are a few common design patterns which are the ""best practices"" to follow while coding. It's possible this would be out of scope for the extension, but something to consider is detecting whether code being pasted is one of these design patters. The paper talks about detecting these patterns.
+http://web.cs.ucdavis.edu/~shini/research/pinot/reverseJavaPatterns.pdf
+
+",173699472
+1,group7/user3,1453739306,1453739306,"Revealing the copy and paste habits of end users (cited by 11, from 2009):
+Specific talks on copy and paste habits of end users with a clipboard. By logging interactions while performing everyday tasks, the paper reveals some patterns related to copy and paste. 
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5295296&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5295296
+
+Copy-and-paste between overlapping windows (cited by 28, since 2007):
+Window management technique that facilitate copy and paste in the particular case of partially overlapping windows.
+http://dl.acm.org/citation.cfm?id=1240657
+
+Smarter cut-and-paste for programming text editors (cited by 14, since 2001):
+Discussion on how to improve cut and paste within text editor for programming. Give a prototype tool for better cut and paste practice.
+http://dl.acm.org/citation.cfm?id=545654
+
+",174566839
+5,group7/user1,1454129729,1454129729,"I definitely agree, having our project goals towards the end might be the best idea because like you said then our whole report sort of builds the argument for our project.",177067425
+6,group7/user1,1454350443,1454350443,"I'll start with one question, in regards to mentioning ""Clipit"" throughout the paper, should we just mention it in regular plain text, Clipit, or should we italicize it, _Clipit_?
+
+If anyone has some thoughts one way or the other feel free to chime in, if no one cares we can just leave it plain text!",178106730

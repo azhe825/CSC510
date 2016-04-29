@@ -1,0 +1,341 @@
+issueID,time,action,label,user,milestone,identifier
+1,1455049010,closed,closed,group14/user2,1,544871667
+1,1453843418,labeled,ProjectPlanning,group14/user1,1,527124404
+1,1453842951,milestoned,Feb 1st,group14/user1,1,527114191
+2,1456007568,closed,closed,group14/user2,1,557854485
+2,1456007495,milestoned,Feb 1st,group14/user2,1,557854266
+3,1455049010,closed,closed,group14/user2,,544871669
+4,1455048968,closed,closed,group14/user2,,544870919
+4,1454372599,labeled,ProjectPlanning,group14/user2,,535063114
+5,1456892159,closed,closed,group14/user2,3,574117563
+5,1456008067,demilestoned,Feb 1st,group14/user2,3,557856716
+5,1456008067,milestoned,March 1,group14/user2,3,557856715
+5,1456007486,milestoned,Feb 1st,group14/user2,3,557854234
+6,1456267498,closed,closed,group14/user1,4,562539246
+6,1456009962,demilestoned,March 1,group14/user2,4,557872015
+6,1456009962,milestoned,Feb 22,group14/user2,4,557872014
+6,1456007864,milestoned,March 1,group14/user3,4,557855707
+6,1456007864,labeled,ProjectPlanning,group14/user3,4,557855706
+7,1456269841,closed,closed,group14/user3,4,562593530
+7,1456009949,demilestoned,March 1,group14/user2,4,557871943
+7,1456009949,milestoned,Feb 22,group14/user2,4,557871942
+7,1456007979,milestoned,March 1,group14/user2,4,557856314
+7,1456007979,labeled,ProjectPlanning,group14/user2,4,557856313
+8,1456892174,closed,closed,group14/user2,3,574117851
+8,1456008397,milestoned,March 1,group14/user2,3,557858176
+8,1456008391,labeled,solutions,group14/user2,3,557858139
+9,1456707869,closed,closed,group14/user3,4,570248865
+9,1456707811,reopened,reopened,group14/user3,4,570247676
+9,1456014334,closed,closed,group14/user3,4,557894185
+9,1456009957,demilestoned,March 1,group14/user3,4,557871998
+9,1456009957,milestoned,Feb 22,group14/user3,4,557871997
+9,1456008748,assigned,group14/user3,group14/user3,4,557862124
+9,1456008734,labeled,design,group14/user3,4,557862043
+9,1456008727,milestoned,March 1,group14/user3,4,557861990
+10,1456793923,closed,closed,group14/user3,4,572200813
+10,1456793503,reopened,reopened,group14/user3,4,572193116
+10,1456707971,closed,closed,group14/user3,4,570250989
+10,1456707907,reopened,reopened,group14/user3,4,570249697
+10,1456014284,closed,closed,group14/user2,4,557893674
+10,1456009946,demilestoned,March 1,group14/user3,4,557871923
+10,1456009946,milestoned,Feb 22,group14/user3,4,557871922
+10,1456009199,assigned,group14/user2,group14/user2,4,557864797
+10,1456009188,milestoned,March 1,group14/user2,4,557864760
+10,1456009188,labeled,design,group14/user2,4,557864759
+11,1456270021,closed,closed,group14/user1,4,562597141
+11,1456009937,demilestoned,March 1,group14/user3,4,557871849
+11,1456009937,milestoned,Feb 22,group14/user3,4,557871848
+11,1456009667,milestoned,March 1,group14/user2,4,557867891
+11,1456009667,assigned,group14/user1,group14/user1,4,557867890
+11,1456009667,labeled,design,group14/user2,4,557867889
+12,1456270017,closed,closed,group14/user1,4,562597047
+12,1456009901,demilestoned,March 1,group14/user3,4,557871397
+12,1456009901,milestoned,Feb 22,group14/user3,4,557871396
+12,1456009838,milestoned,March 1,group14/user2,4,557870481
+12,1456009838,assigned,group14/user1,group14/user1,4,557870480
+12,1456009838,labeled,design,group14/user2,4,557870478
+13,1456270008,closed,closed,group14/user1,4,562596910
+13,1456009922,demilestoned,March 1,group14/user2,4,557871694
+13,1456009922,milestoned,Feb 22,group14/user2,4,557871693
+13,1456009899,milestoned,March 1,group14/user2,4,557871375
+13,1456009899,assigned,group14/user1,group14/user1,4,557871374
+13,1456009899,labeled,design,group14/user2,4,557871373
+14,1456894316,closed,closed,group14/user2,3,574142998
+14,1456010412,milestoned,March 1,group14/user3,3,557873975
+14,1456010412,assigned,group14/user3,group14/user3,3,557873974
+14,1456010412,labeled,ProjectPlanning,group14/user3,3,557873973
+15,1456892048,closed,closed,group14/user2,6,574115990
+15,1456011457,milestoned,Feb 28 ,group14/user3,6,557878651
+15,1456011457,labeled,Notification/Calendar solution,group14/user3,6,557878650
+16,1456271254,closed,closed,group14/user1,5,562622271
+16,1456269900,demilestoned,Feb 28 ,group14/user3,5,562594781
+16,1456269900,milestoned,Wednesday milestone,group14/user3,5,562594780
+16,1456267487,milestoned,Feb 28 ,group14/user1,5,562539073
+16,1456267487,labeled,design,group14/user1,5,562539072
+17,1456892030,closed,closed,group14/user2,3,574115796
+17,1456270519,labeled,solutions,group14/user3,3,562607587
+17,1456270519,labeled,enhancement,group14/user3,3,562607584
+17,1456270500,milestoned,March 1,group14/user3,3,562607234
+18,1456453539,renamed,renamed,group14/user1,5,566761666
+18,1456453524,closed,closed,group14/user1,5,566761440
+18,1456272203,milestoned,Wednesday milestone,group14/user4,5,562642385
+18,1456272127,labeled,design,group14/user4,5,562640890
+19,1456452139,closed,closed,group14/user1,5,566738462
+19,1456452027,assigned,group14/user1,group14/user1,5,566736644
+19,1456272195,labeled,design,group14/user4,5,562642261
+19,1456272191,milestoned,Wednesday milestone,group14/user4,5,562642171
+20,1456453504,closed,closed,group14/user1,5,566761172
+20,1456272181,labeled,design,group14/user4,5,562642023
+20,1456272172,milestoned,Wednesday milestone,group14/user4,5,562641807
+21,1456626512,closed,closed,group14/user3,6,569425923
+21,1456624495,assigned,group14/user3,group14/user3,6,569408947
+21,1456619309,labeled,database,group14/user3,6,569357435
+21,1456619260,milestoned,Feb 28 ,group14/user3,6,569357037
+22,1456623432,labeled,UI,group14/user2,,569396853
+22,1456623386,closed,closed,group14/user2,,569396434
+22,1456620321,assigned,group14/user2,group14/user2,,569366139
+23,1456623342,closed,closed,group14/user2,,569395906
+23,1456623342,merged,merged,group14/user2,,569395905
+23,1456623342,referenced,referenced,group14/user2,,569395903
+24,1456629577,closed,closed,group14/user1,,569455419
+24,1456623660,assigned,group14/user1,group14/user1,,569398746
+24,1456623660,labeled,API,group14/user2,,569398745
+25,1456707390,closed,closed,group14/user2,,570241013
+25,1456625892,assigned,group14/user2,group14/user2,,569421229
+25,1456625892,labeled,UI,group14/user2,,569421228
+26,1456880142,closed,closed,group14/user2,,573964207
+26,1456626749,assigned,group14/user2,group14/user2,,569428217
+26,1456626749,unassigned,unassigned,group14/user4,,569428216
+26,1456625924,assigned,group14/user4,group14/user4,,569421424
+26,1456625924,labeled,UI,group14/user2,,569421422
+27,1456626500,closed,closed,group14/user3,,569425788
+27,1456626500,merged,merged,group14/user3,,569425787
+27,1456626500,referenced,referenced,group14/user3,,569425786
+28,1456629570,closed,closed,group14/user1,,569455341
+28,1456629570,merged,merged,group14/user1,,569455340
+28,1456629570,referenced,referenced,group14/user1,,569455339
+29,1456723241,closed,closed,group14/user1,,570467218
+29,1456630348,assigned,group14/user1,group14/user1,,569461216
+29,1456630348,labeled,API,group14/user2,,569461215
+30,1456725431,closed,closed,group14/user1,,570500824
+30,1456632623,assigned,group14/user1,group14/user1,,569483897
+30,1456632623,labeled,API,group14/user2,,569483896
+31,1456707371,closed,closed,group14/user2,,570240898
+31,1456707371,merged,merged,group14/user2,,570240897
+31,1456707371,referenced,referenced,group14/user2,,570240896
+32,1456892023,closed,closed,group14/user2,6,574115740
+32,1456708246,milestoned,Feb 28 ,group14/user3,6,570254787
+32,1456708246,assigned,group14/user3,group14/user3,6,570254786
+32,1456708246,labeled,UI,group14/user3,6,570254785
+33,1457038325,closed,closed,group14/user2,,576844132
+33,1456712483,assigned,group14/user2,group14/user2,,570313568
+33,1456712483,labeled,UI,group14/user2,,570313567
+34,1456719049,closed,closed,group14/user3,,570411170
+34,1456719049,merged,merged,group14/user3,,570411169
+34,1456719049,referenced,referenced,group14/user3,,570411168
+35,1456721150,closed,closed,group14/user1,,570437580
+35,1456721150,merged,merged,group14/user1,,570437579
+35,1456721150,referenced,referenced,group14/user1,,570437578
+36,1456722306,closed,closed,group14/user2,,570453074
+36,1456722306,merged,merged,group14/user2,,570453073
+36,1456722306,referenced,referenced,group14/user2,,570453072
+37,1456723236,closed,closed,group14/user1,,570467115
+37,1456723235,merged,merged,group14/user1,,570467111
+37,1456723235,referenced,referenced,group14/user1,,570467110
+38,1456782162,closed,closed,group14/user1,,571907452
+38,1456724967,assigned,group14/user1,group14/user1,,570493654
+38,1456724967,labeled,API,group14/user2,,570493653
+39,1456725426,closed,closed,group14/user1,,570500770
+39,1456725426,merged,merged,group14/user1,,570500769
+39,1456725426,referenced,referenced,group14/user1,,570500768
+40,1456802463,closed,closed,group14/user1,,572365468
+40,1456727828,assigned,group14/user1,group14/user1,,570538267
+40,1456727825,labeled,API,group14/user2,,570538229
+41,1456813764,closed,closed,group14/user1,,572558641
+41,1456728040,assigned,group14/user1,group14/user1,,570542256
+41,1456728040,labeled,API,group14/user2,,570542254
+42,1456790167,closed,closed,group14/user1,,572118141
+42,1456728208,assigned,group14/user1,group14/user1,,570544797
+42,1456728208,labeled,API,group14/user2,,570544796
+43,1456816743,closed,closed,group14/user1,,572606555
+43,1456728451,assigned,group14/user1,group14/user1,,570548516
+43,1456728451,labeled,API,group14/user2,,570548515
+44,1456793361,closed,closed,group14/user2,,572190649
+44,1456728484,assigned,group14/user3,group14/user3,,570549158
+44,1456728484,labeled,UI,group14/user2,,570549157
+45,1456891897,closed,closed,group14/user2,,574114751
+45,1456728630,assigned,group14/user2,group14/user2,,570552177
+45,1456728630,labeled,UI,group14/user2,,570552176
+46,1456891999,closed,closed,group14/user2,,574115448
+46,1456798720,assigned,group14/user3,group14/user3,,572301134
+46,1456798720,unassigned,unassigned,group14/user2,,572301133
+46,1456728665,assigned,group14/user2,group14/user2,,570552751
+46,1456728665,labeled,UI,group14/user2,,570552750
+47,1456880163,closed,closed,group14/user2,,573964610
+47,1456728747,assigned,group14/user2,group14/user2,,570554134
+47,1456728747,labeled,UI,group14/user2,,570554133
+48,1456891980,closed,closed,group14/user2,,574115326
+48,1456728828,assigned,group14/user3,group14/user3,,570555322
+48,1456728828,labeled,UI,group14/user2,,570555321
+49,1457038359,closed,closed,group14/user2,,576844880
+49,1456728871,assigned,group14/user3,group14/user3,,570555985
+49,1456728871,labeled,UI,group14/user2,,570555983
+50,1456891957,closed,closed,group14/user2,,574115165
+50,1456729068,assigned,group14/user3,group14/user3,,570558879
+50,1456729068,labeled,UI,group14/user2,,570558875
+51,1456782146,closed,closed,group14/user1,,571906363
+51,1456782146,merged,merged,group14/user1,,571906361
+51,1456782146,referenced,referenced,group14/user1,,571906359
+52,1456795303,closed,closed,group14/user1,,572226365
+52,1456791116,assigned,group14/user1,group14/user1,,572138615
+53,1456794703,closed,closed,group14/user2,,572214859
+53,1456794703,merged,merged,group14/user2,,572214858
+53,1456794703,referenced,referenced,group14/user2,,572214857
+54,1456795298,closed,closed,group14/user1,,572226254
+54,1456795298,merged,merged,group14/user1,,572226253
+54,1456795298,referenced,referenced,group14/user1,,572226251
+55,1456795517,closed,closed,group14/user2,,572231269
+55,1456795517,merged,merged,group14/user2,,572231268
+55,1456795517,referenced,referenced,group14/user2,,572231267
+56,1456796492,closed,closed,group14/user2,,572257719
+56,1456796492,merged,merged,group14/user2,,572257718
+56,1456796492,referenced,referenced,group14/user2,,572257717
+57,1456796918,closed,closed,group14/user1,,572265913
+57,1456796918,merged,merged,group14/user1,,572265912
+57,1456796918,referenced,referenced,group14/user1,,572265911
+58,1456799483,closed,closed,group14/user2,,572313799
+58,1456798771,assigned,group14/user2,group14/user2,,572301849
+58,1456798771,labeled,UI,group14/user2,,572301848
+59,1456809240,closed,closed,group14/user1,,572478807
+59,1456799178,assigned,group14/user1,group14/user1,,572308480
+59,1456799178,labeled,API,group14/user2,,572308479
+60,1456814552,closed,closed,group14/user4,3,572574480
+60,1456799416,milestoned,March 1,group14/user4,3,572312479
+60,1456799416,assigned,group14/user4,group14/user4,3,572312478
+60,1456799416,labeled,API,group14/user4,3,572312477
+60,1456799416,labeled,UI,group14/user4,3,572312476
+61,1456799465,closed,closed,group14/user2,,572313432
+61,1456799465,merged,merged,group14/user2,,572313431
+61,1456799465,referenced,referenced,group14/user2,,572313429
+62,1456799653,closed,closed,group14/user1,,572316809
+62,1456799653,merged,merged,group14/user1,,572316807
+62,1456799653,referenced,referenced,group14/user1,,572316806
+63,1456802451,closed,closed,group14/user1,,572365148
+63,1456802451,merged,merged,group14/user1,,572365147
+63,1456802451,referenced,referenced,group14/user1,,572365146
+64,1456802613,closed,closed,group14/user2,,572368068
+64,1456802613,merged,merged,group14/user2,,572368067
+64,1456802613,referenced,referenced,group14/user2,,572368066
+65,1456808167,closed,closed,group14/user3,,572461594
+65,1456808167,merged,merged,group14/user3,,572461593
+65,1456808167,referenced,referenced,group14/user3,,572461592
+65,1456808160,assigned,group14/user3,group14/user3,,572461487
+66,1456809227,closed,closed,group14/user1,,572478646
+66,1456809227,merged,merged,group14/user1,,572478645
+66,1456809227,referenced,referenced,group14/user1,,572478644
+66,1456809210,renamed,renamed,group14/user1,,572478451
+67,1456809485,closed,closed,group14/user3,,572482097
+67,1456809485,merged,merged,group14/user3,,572482096
+67,1456809485,referenced,referenced,group14/user3,,572482095
+68,1456881711,closed,closed,group14/user4,3,573985252
+68,1456810445,assigned,group14/user4,group14/user4,3,572495496
+68,1456810358,milestoned,March 1,group14/user4,3,572494221
+68,1456810358,labeled,UI,group14/user4,3,572494220
+69,1456881027,closed,closed,group14/user4,,573976105
+69,1456810454,assigned,group14/user4,group14/user4,,572495617
+69,1456810413,labeled,UI,group14/user4,,572495047
+71,1456813759,closed,closed,group14/user1,,572558572
+71,1456813759,merged,merged,group14/user1,,572558569
+71,1456813759,referenced,referenced,group14/user1,,572558568
+72,1456814274,closed,closed,group14/user3,,572569580
+72,1456814274,merged,merged,group14/user3,,572569577
+72,1456814274,referenced,referenced,group14/user3,,572569574
+73,1456891921,closed,closed,group14/user2,3,574114909
+73,1456815604,milestoned,March 1,group14/user3,3,572591371
+73,1456815604,assigned,group14/user3,group14/user3,3,572591370
+73,1456815604,labeled,PDF solution,group14/user3,3,572591369
+74,1456816733,closed,closed,group14/user1,,572606388
+74,1456816733,merged,merged,group14/user1,,572606387
+74,1456816733,referenced,referenced,group14/user1,,572606386
+75,1456817619,closed,closed,group14/user2,,572618560
+75,1456817619,merged,merged,group14/user2,,572618559
+75,1456817619,referenced,referenced,group14/user2,,572618558
+76,1456856541,closed,closed,group14/user2,,573449466
+76,1456856541,merged,merged,group14/user2,,573449461
+76,1456856541,referenced,referenced,group14/user2,,573449458
+77,1456866572,closed,closed,group14/user1,,573682825
+77,1456862375,assigned,group14/user2,group14/user2,,573592543
+77,1456862354,referenced,referenced,group14/user1,,573591865
+77,1456862334,referenced,referenced,group14/user1,,573591416
+78,1456862354,closed,closed,group14/user1,,573591856
+78,1456862354,merged,merged,group14/user1,,573591853
+78,1456862354,referenced,referenced,group14/user1,,573591852
+79,1456863396,closed,closed,group14/user2,,573612969
+79,1456863396,merged,merged,group14/user2,,573612968
+79,1456863396,referenced,referenced,group14/user2,,573612967
+80,1456866562,closed,closed,group14/user1,,573682605
+80,1456866562,merged,merged,group14/user1,,573682603
+80,1456866562,referenced,referenced,group14/user1,,573682602
+81,1456867401,closed,closed,group14/user2,,573701571
+81,1456867401,merged,merged,group14/user2,,573701569
+81,1456867401,referenced,referenced,group14/user2,,573701567
+82,1457038356,closed,closed,group14/user2,,576844836
+82,1456872431,assigned,group14/user1,group14/user1,,573814639
+82,1456872431,unassigned,unassigned,group14/user2,,573814638
+82,1456871098,assigned,group14/user2,group14/user2,,573785477
+82,1456871098,unassigned,unassigned,group14/user1,,573785476
+82,1456871017,assigned,group14/user1,group14/user1,,573783573
+83,1456871061,closed,closed,group14/user1,,573784845
+83,1456871061,merged,merged,group14/user1,,573784844
+83,1456871061,referenced,referenced,group14/user1,,573784842
+84,1456876860,closed,closed,group14/user2,,573908541
+84,1456876860,merged,merged,group14/user2,,573908540
+84,1456876860,referenced,referenced,group14/user2,,573908539
+85,1456876934,closed,closed,group14/user1,,573909812
+85,1456876934,merged,merged,group14/user1,,573909810
+85,1456876934,referenced,referenced,group14/user1,,573909809
+86,1457038363,closed,closed,group14/user2,,576844962
+86,1456877770,labeled,Integration,group14/user3,,573924654
+86,1456877744,assigned,group14/user1,group14/user1,,573924311
+87,1456879479,closed,closed,group14/user2,,573951912
+87,1456877821,assigned,group14/user2,group14/user2,,573925256
+87,1456877821,labeled,Integration,group14/user3,,573925255
+88,1456879441,closed,closed,group14/user2,,573951220
+88,1456879441,merged,merged,group14/user2,,573951219
+88,1456879441,referenced,referenced,group14/user2,,573951218
+89,1456880718,closed,closed,group14/user2,,573972442
+89,1456880718,merged,merged,group14/user2,,573972440
+89,1456880718,referenced,referenced,group14/user2,,573972439
+90,1456891469,closed,closed,group14/user2,,574109617
+90,1456891469,merged,merged,group14/user2,,574109616
+90,1456891469,referenced,referenced,group14/user2,,574109615
+91,1460002054,labeled,bug,group14/user2,7,617808060
+91,1460002043,milestoned,April deadline,group14/user2,7,617807985
+91,1460001997,closed,closed,group14/user2,7,617807676
+91,1460001424,assigned,group14/user2,group14/user2,7,617801165
+92,1460004591,closed,closed,group14/user1,7,617828330
+92,1460002323,milestoned,April deadline,group14/user3,7,617810437
+92,1460002323,labeled,bug,group14/user3,7,617810436
+92,1460002323,assigned,group14/user1,group14/user1,7,617810435
+93,1460005748,closed,closed,group14/user2,7,617838250
+93,1460005709,renamed,renamed,group14/user2,7,617837826
+93,1460002402,milestoned,April deadline,group14/user3,7,617811183
+93,1460002402,labeled,bug,group14/user3,7,617811182
+93,1460002402,assigned,group14/user2,group14/user2,7,617811181
+94,1460093915,closed,closed,group14/user3,8,619507364
+94,1460008323,labeled,Documentation,group14/user3,8,617861793
+94,1460008309,renamed,renamed,group14/user3,8,617861691
+94,1460002518,milestoned,April Report,group14/user3,8,617811990
+94,1460002518,assigned,group14/user3,group14/user3,8,617811988
+95,1460093915,closed,closed,group14/user3,8,619507365
+95,1460008149,labeled,Documentation,group14/user2,8,617860387
+95,1460008122,milestoned,April Report,group14/user2,8,617860104
+95,1460008122,assigned,group14/user1,group14/user1,8,617860103
+96,1460093915,closed,closed,group14/user3,8,619507368
+96,1460008230,milestoned,April Report,group14/user2,8,617861094
+96,1460008230,labeled,Documentation,group14/user2,8,617861093
+96,1460008230,assigned,group14/user3,group14/user3,8,617861092
+97,1460093915,closed,closed,group14/user3,8,619507369
+97,1460008309,milestoned,April Report,group14/user2,8,617861689
+97,1460008309,labeled,Documentation,group14/user2,8,617861688
+97,1460008309,assigned,group14/user2,group14/user2,8,617861687

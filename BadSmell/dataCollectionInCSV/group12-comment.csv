@@ -1,0 +1,71 @@
+issueID,user,createtime,updatetime,text,identifier
+2,group12/user3,1454710388,1454710388,Report committed.,180593146
+4,group12/user3,1454714718,1454714718,We will use java version 8 for our project.,180619406
+3,group12/user1,1454715328,1454715328,"Which is your guys phone android version.
+We will use the  oldest version.",180622576
+3,group12/user1,1454715379,1454715379,Android 6.0.1,180623236
+3,group12/user3,1454735538,1454735538,I use android 5.1,180685904
+3,group12/user4,1454864457,1454864470,I am currently using an Android 4.0.3 device which runs API level 15.,181050619
+1,group12/user4,1454864629,1454864727,"A couple of ideas that we can think of are : 
+1. Inputting voice to the application, changing it to text, parsing text to fill in the expenses
+2. SMS feed to the application ( parsing SMSes for any potential expenses)
+
+Any other ideas are welcome.",181051194
+1,group12/user3,1454972302,1454972302,"Few more ideas:
+1) Improving the design of manual input to decrease the input error rate.
+2) Scanning the bill and identifying the total from the bill.",181610717
+5,group12/user3,1455056032,1455292703,Using Python 2.7 & Django 1.9.2,182102816
+5,group12/user3,1455167996,1455167996,Database name : expense_sharing,182716624
+3,group12/user4,1455211475,1455211475,"So, shall we finalize on using the Android API level 15 for building our app?",182966153
+3,group12/user3,1455212713,1455212713,+1,182974516
+10,group12/user5,1455228172,1455228172,nope.. i had an issue with HAXM before though,183078090
+3,group12/user5,1455228236,1455228236,+1,183078400
+11,group12/user5,1455228274,1455228274,"which version of java isnt working?
+",183078673
+3,group12/user1,1455228348,1455228348,"+1
+",183079158
+11,group12/user1,1455228413,1455292488,we have decided on java 8 and android version 15,183079549
+11,group12/user2,1455230842,1455230842,I was using initially 6. Have reinstalled version 7. It should work with 7,183090219
+11,group12/user1,1455230943,1455230943,Pratik lets all of us stick to java 8. Otherwise we will have compatibility issues.,183090628
+13,group12/user4,1455237191,1455237191,"Probably, some issue with the installation of the Hardware Accelerator. Was HAXM for your Intel arch installed ? You then need to enable virtualization in the BIOS.",183126174
+3,group12/user3,1455292669,1455292669,Android API 15 will be used.,183385200
+10,group12/user3,1455293197,1455293197,@ZealGanatra : Can you close the issue if its resolved?,183388149
+7,group12/user3,1455293325,1455293325,"Attributes of the User:
+username,
+password stored in encrypted format,
+first_name,
+last_name,
+email,
+cell_no
+",183389344
+6,group12/user3,1455294218,1455294218,Committed the initial setup for the django project.,183395226
+13,group12/user2,1455390450,1455390450,For the time being running the app on the android app instead of using the emulator. Closing the issue. ,183727237
+7,group12/user3,1455420735,1455420735,Added the user model for the application.,183814084
+9,group12/user3,1455727862,1455727862,Created the expense_sharing application using `django-admin.py startapp expense_sharing`,185293903
+19,group12/user3,1455737347,1455737347,Committed the code to view all expenses.,185365925
+18,group12/user3,1455738648,1455738648,"The mobile client needs to send `amount`, `currency` and `description` as POST data",185374142
+17,group12/user3,1455738731,1455738731,The client needs to send  `email` and `password` to authenticate the user.,185374534
+26,group12/user2,1456599803,1456599803,The required modifications have been made. Closing the issue ,189703184
+25,group12/user2,1456599838,1456599838,The required functionality has been added ,189703214
+23,group12/user4,1456600828,1456600828,"Have a regex in place to parse the following wildcard : $[0-9].
+Closing this for now. Subject to reopen.",189705075
+8,group12/user3,1456603053,1456603053,"Added the expense model with basic attributes like amount,description and currency.",189714529
+11,group12/user3,1456603674,1456603674,Closing the issue. Java 8 has been finalized.,189715460
+30,group12/user2,1456608427,1456608427,The enhancement has been implemented. The input type for the keyboard entry has been changed to that of text input ,189729128
+33,group12/user2,1456613052,1456613052,The bug has been fixed. ,189742470
+27,group12/user3,1456616133,1456616133,Provided the login functionality.,189747487
+36,group12/user1,1456621194,1456621194,Errors sorted,189755341
+14,group12/user5,1456621486,1456621486,Manual input interface completed.,189755765
+24,group12/user1,1456624320,1456624320,used tess-two,189763596
+29,group12/user4,1456643300,1456643300,Integrated the flow of this solution with the main app.,189804763
+38,group12/user3,1456882528,1456882528,"@okeashwin : I have committed the changes to send the amount and description to backend. Let me know how to get the meta-data about the kind of action like voice,sms,image.",191011124
+37,group12/user4,1456892179,1456892179,Loggers included in each class.,191050609
+22,group12/user3,1456892716,1456892716,Currently only add is supported. Closing the issue.,191054359
+21,group12/user3,1456892723,1456892723,Currently only add is supported. Closing the issue.,191054409
+38,group12/user4,1456893425,1456893425,Added code to POST the submission method type from the front end app to the back-end. The back end framework will need to accommodate for this change via an additional column in the Expenses DB table.,191056745
+38,group12/user3,1456971505,1456971505,Added the support to persist the bill type.,191545559
+41,group12/user3,1458086640,1458086640,Committed the code to measure the total time taken.,197073858
+42,group12/user5,1459052416,1459052416,Desciption extracted using fixed formats.,201986791
+49,group12/user3,1459145473,1459145473,Made the schema changes to collect the telemetry.,202252132
+51,group12/user3,1459145487,1459145487,Fixed.,202252197
+51,group12/user4,1459151138,1459151138,Did you have to add this 'compile files('libs/commons-lang3-3.4.jar')' to successfully build it ?,202287261

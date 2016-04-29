@@ -1,0 +1,285 @@
+issueID,time,action,label,user,milestone,identifier
+1,1456971986,labeled,solution_manual_interface,group12/user2,6,575635044
+1,1455655801,closed,closed,group12/user3,6,552629763
+1,1454972176,milestoned,Identify 3 solutions,group12/user3,6,543634682
+1,1454864567,renamed,renamed,group12/user4,6,542213314
+2,1454710388,closed,closed,group12/user3,1,541300885
+2,1454710358,milestoned,Feb 1 ,group12/user3,1,541300238
+3,1455727405,milestoned,Setup environment to implement the solutions ,group12/user3,5,553837836
+3,1455292669,closed,closed,group12/user3,5,548702362
+3,1454976274,labeled,android,group12/user3,5,543703458
+4,1455727382,milestoned,Setup environment to implement the solutions ,group12/user3,5,553837179
+4,1454977981,labeled,android,group12/user3,5,543726215
+4,1454806812,closed,closed,group12/user3,5,541957003
+5,1455294877,closed,closed,group12/user3,5,548754575
+5,1455294479,assigned,group12/user3,group12/user3,5,548747187
+5,1455294298,demilestoned,Backend for the application,group12/user3,5,548742612
+5,1455294298,milestoned,Setup environment to implement the solutions ,group12/user3,5,548742611
+5,1454976297,milestoned,Backend for the application,group12/user3,5,543703848
+5,1454976261,labeled,web-application,group12/user3,5,543703277
+6,1455294452,assigned,group12/user3,group12/user3,9,548746623
+6,1455294218,closed,closed,group12/user3,9,548740296
+6,1455165288,referenced,referenced,group12/user3,9,546728821
+6,1455055935,milestoned,Backend for the application,group12/user3,9,545018346
+6,1455055205,labeled,web-application,group12/user3,9,545003270
+6,1455054893,referenced,referenced,group12/user3,9,544996127
+7,1455421152,referenced,referenced,group12/user3,9,549729798
+7,1455420735,closed,closed,group12/user3,9,549726401
+7,1455419798,referenced,referenced,group12/user3,9,549719064
+7,1455294462,assigned,group12/user3,group12/user3,9,548746839
+7,1455055922,milestoned,Backend for the application,group12/user3,9,545018127
+7,1455055233,labeled,models,group12/user3,9,545003875
+7,1455055193,labeled,web-application,group12/user3,9,545003029
+8,1456603053,closed,closed,group12/user3,9,569187809
+8,1455729087,referenced,referenced,group12/user3,9,553879081
+8,1455434637,referenced,referenced,group12/user3,9,549781399
+8,1455294470,assigned,group12/user3,group12/user3,9,548746994
+8,1455055913,milestoned,Backend for the application,group12/user3,9,545017962
+8,1455055222,labeled,models,group12/user3,9,545003641
+8,1455055181,labeled,web-application,group12/user3,9,545002785
+9,1455727863,closed,closed,group12/user3,9,553848619
+9,1455165288,referenced,referenced,group12/user3,9,546728824
+9,1455055900,milestoned,Backend for the application,group12/user3,9,545017724
+9,1455055871,labeled,web-application,group12/user3,9,545017199
+10,1455727321,closed,closed,group12/user3,5,553835321
+10,1455293197,subscribed,subscribed,group12/user1,5,548714345
+10,1455293197,mentioned,mentioned,group12/user1,5,548714344
+10,1455293187,milestoned,Setup environment to implement the solutions ,group12/user3,5,548714062
+11,1456603674,closed,closed,group12/user3,,569193646
+11,1455174271,labeled,android,group12/user2,,546806609
+12,1456882563,closed,closed,group12/user3,,573999136
+12,1456882554,assigned,group12/user1,group12/user1,,573998902
+12,1456624280,labeled,android,group12/user1,,569406863
+12,1455307053,referenced,referenced,group12/user1,,548993130
+13,1455390450,closed,closed,group12/user2,5,549571218
+13,1455294108,milestoned,Setup environment to implement the solutions ,group12/user3,5,548736988
+14,1456972224,labeled,solution_manual_interface,group12/user2,6,575637211
+14,1456621486,closed,closed,group12/user5,6,569375652
+14,1455390639,milestoned,Identify 3 solutions,group12/user2,6,549573081
+15,1455741504,closed,closed,group12/user4,8,554153115
+15,1455741437,referenced,referenced,group12/user4,8,554151821
+15,1455739620,referenced,referenced,group12/user4,8,554116729
+15,1455404112,assigned,group12/user4,group12/user4,8,549648126
+15,1455403961,milestoned,Proof of concept for the identified solutions,group12/user4,8,549647261
+16,1455420617,closed,closed,group12/user3,,549726116
+16,1455420617,merged,merged,group12/user3,,549726115
+16,1455420617,referenced,referenced,group12/user3,,549726114
+17,1455738731,closed,closed,group12/user3,11,554097538
+17,1455735889,labeled,REST API,group12/user3,11,554032239
+17,1455727818,demilestoned,Backend for the application,group12/user3,11,553847551
+17,1455727818,milestoned,APIs from the backend,group12/user3,11,553847550
+17,1455434637,referenced,referenced,group12/user3,11,549781400
+17,1455428380,milestoned,Backend for the application,group12/user3,11,549751704
+17,1455428380,assigned,group12/user3,group12/user3,11,549751703
+17,1455428380,labeled,web-application,group12/user3,11,549751702
+18,1455738648,closed,closed,group12/user3,11,554095839
+18,1455737301,referenced,referenced,group12/user3,11,554066938
+18,1455735882,labeled,REST API,group12/user3,11,554032021
+18,1455729108,assigned,group12/user3,group12/user3,11,553879637
+18,1455727809,demilestoned,Backend for the application,group12/user3,11,553847326
+18,1455727809,milestoned,APIs from the backend,group12/user3,11,553847325
+18,1455438150,milestoned,Backend for the application,group12/user3,11,549795573
+18,1455438147,labeled,web-application,group12/user3,11,549795560
+19,1455737347,closed,closed,group12/user3,11,554068208
+19,1455729087,referenced,referenced,group12/user3,11,553879082
+19,1455729033,labeled,api,group12/user3,11,553877645
+19,1455729024,milestoned,APIs from the backend,group12/user3,11,553877454
+19,1455729003,assigned,group12/user3,group12/user3,11,553876704
+19,1455729003,labeled,web-application,group12/user3,11,553876703
+20,1455737312,closed,closed,group12/user3,11,554067344
+20,1455737301,referenced,referenced,group12/user3,11,554066937
+20,1455736048,milestoned,APIs from the backend,group12/user3,11,554035512
+20,1455736048,assigned,group12/user3,group12/user3,11,554035511
+20,1455736048,labeled,REST API,group12/user3,11,554035510
+20,1455736048,labeled,web-application,group12/user3,11,554035509
+21,1456892723,closed,closed,group12/user3,11,574125724
+21,1455738837,milestoned,APIs from the backend,group12/user3,11,554099868
+21,1455738837,assigned,group12/user3,group12/user3,11,554099867
+21,1455738837,labeled,REST API,group12/user3,11,554099863
+21,1455738837,labeled,web-application,group12/user3,11,554099862
+22,1456892716,closed,closed,group12/user3,11,574125640
+22,1455739124,milestoned,APIs from the backend,group12/user3,11,554106883
+22,1455739124,assigned,group12/user3,group12/user3,11,554106882
+22,1455739124,labeled,REST API,group12/user3,11,554106881
+22,1455739124,labeled,web-application,group12/user3,11,554106880
+23,1456603696,referenced,referenced,group12/user4,8,569193825
+23,1456601259,labeled,solution_:_smsFeed,group12/user4,8,569166446
+23,1456600828,closed,closed,group12/user4,8,569160557
+23,1455740035,labeled,android,group12/user4,8,554124724
+23,1455739999,milestoned,Proof of concept for the identified solutions,group12/user4,8,554123963
+23,1455739987,assigned,group12/user4,group12/user4,8,554123758
+24,1456624322,closed,closed,group12/user1,,569407424
+25,1456972011,labeled,solution_manual_interface,group12/user2,10,575635284
+25,1456603132,milestoned,Creating an improved manual interface for the expense sharing application,group12/user3,10,569188667
+25,1456599838,closed,closed,group12/user2,10,569151162
+25,1455754582,referenced,referenced,group12/user1,10,554401278
+26,1456972036,labeled,solution_manual_interface,group12/user2,10,575635492
+26,1456599803,closed,closed,group12/user2,10,569150932
+26,1455769067,milestoned,Creating an improved manual interface for the expense sharing application,group12/user2,10,554573197
+27,1456629296,referenced,referenced,group12/user3,12,569451891
+27,1456616133,closed,closed,group12/user3,12,569327206
+27,1456615790,referenced,referenced,group12/user3,12,569324113
+27,1456609258,referenced,referenced,group12/user3,12,569257177
+27,1456603697,milestoned,Android app base framework ,group12/user3,12,569193833
+27,1456160522,assigned,group12/user3,group12/user3,12,559972736
+27,1456160522,labeled,android,group12/user3,12,559972735
+28,1456896435,closed,closed,group12/user3,,574165240
+28,1456896394,referenced,referenced,group12/user3,,574164834
+28,1456160736,labeled,android,group12/user3,,559979016
+29,1456643300,closed,closed,group12/user4,8,569582181
+29,1456619807,referenced,referenced,group12/user4,8,569362136
+29,1456607765,referenced,referenced,group12/user4,8,569239681
+29,1456605498,referenced,referenced,group12/user4,8,569211806
+29,1456601231,labeled,solution_:_smsFeed,group12/user4,8,569165970
+29,1456601015,assigned,group12/user4,group12/user4,8,569162545
+29,1456601011,milestoned,Proof of concept for the identified solutions,group12/user4,8,569162499
+29,1456600995,labeled,android,group12/user4,8,569162326
+30,1456972067,labeled,solution_manual_interface,group12/user2,10,575635754
+30,1456971366,labeled,android,group12/user3,10,575625498
+30,1456971361,assigned,group12/user2,group12/user2,10,575625460
+30,1456971355,demilestoned,March 1,group12/user3,10,575625384
+30,1456971355,milestoned,Creating an improved manual interface for the expense sharing application,group12/user3,10,575625383
+30,1456608427,closed,closed,group12/user2,10,569246204
+30,1456602883,labeled,enhancement,group12/user2,10,569186166
+30,1456602871,milestoned,March 1,group12/user2,10,569186014
+31,1456616109,closed,closed,group12/user3,12,569326907
+31,1456610739,renamed,renamed,group12/user3,12,569273453
+31,1456603609,milestoned,Android app base framework ,group12/user3,12,569193082
+31,1456603604,assigned,group12/user3,group12/user3,12,569193039
+31,1456603604,labeled,android,group12/user3,12,569193038
+32,1456616044,closed,closed,group12/user3,12,569326298
+32,1456615790,referenced,referenced,group12/user3,12,569324111
+32,1456610710,renamed,renamed,group12/user3,12,569273192
+32,1456604159,milestoned,Android app base framework ,group12/user3,12,569198461
+32,1456604159,assigned,group12/user3,group12/user3,12,569198458
+32,1456604159,labeled,android,group12/user3,12,569198457
+33,1456972101,labeled,solution_manual_interface,group12/user2,10,575636062
+33,1456971341,labeled,android,group12/user3,10,575625074
+33,1456971333,demilestoned,March 1,group12/user3,10,575624921
+33,1456971333,milestoned,Creating an improved manual interface for the expense sharing application,group12/user3,10,575624919
+33,1456613053,closed,closed,group12/user2,10,569297655
+33,1456609677,labeled,bug,group12/user2,10,569262566
+33,1456609669,milestoned,March 1,group12/user2,10,569262491
+33,1456609651,assigned,group12/user2,group12/user2,10,569262195
+34,1456886023,referenced,referenced,group12/user3,12,574040562
+34,1456882537,closed,closed,group12/user3,12,573998575
+34,1456882392,referenced,referenced,group12/user3,12,573995872
+34,1456615790,referenced,referenced,group12/user3,12,569324112
+34,1456615401,milestoned,Android app base framework ,group12/user3,12,569320120
+34,1456615401,assigned,group12/user3,group12/user3,12,569320119
+34,1456615401,labeled,android,group12/user3,12,569320118
+35,1456615853,closed,closed,group12/user3,,569324659
+35,1456615853,merged,merged,group12/user3,,569324658
+35,1456615853,referenced,referenced,group12/user3,,569324657
+36,1456621194,closed,closed,group12/user1,,569372905
+36,1456621123,referenced,referenced,group12/user1,,569372386
+37,1456971320,milestoned,Android app base framework ,group12/user3,12,575624663
+37,1456892179,closed,closed,group12/user4,12,574117968
+37,1456707895,referenced,referenced,group12/user4,12,570249409
+37,1456643006,assigned,group12/user4,group12/user4,12,569579858
+37,1456643006,labeled,android,group12/user4,12,569579857
+37,1456643006,labeled,enhancement,group12/user4,12,569579856
+38,1456971505,closed,closed,group12/user3,12,575627606
+38,1456971502,milestoned,Android app base framework ,group12/user3,12,575627558
+38,1456890049,referenced,referenced,group12/user4,12,574095252
+38,1456882528,subscribed,subscribed,group12/user4,12,573998379
+38,1456882528,mentioned,mentioned,group12/user4,12,573998378
+38,1456643459,assigned,group12/user4,group12/user4,12,569584107
+38,1456643459,labeled,android,group12/user4,12,569584106
+39,1456971451,closed,closed,group12/user3,3,575626646
+39,1456971447,milestoned,March Report,group12/user3,3,575626593
+40,1459194920,closed,closed,group12/user4,,605685279
+40,1459193353,referenced,referenced,group12/user4,,605646751
+40,1457810033,assigned,group12/user4,group12/user4,,587505489
+40,1457810033,labeled,solution_:_smsFeed,group12/user4,,587505488
+40,1457810033,labeled,android,group12/user4,,587505487
+40,1457810033,labeled,enhancement,group12/user4,,587505486
+41,1459018002,referenced,referenced,group12/user3,4,604190053
+41,1458086750,referenced,referenced,group12/user3,4,591122742
+41,1458086640,closed,closed,group12/user3,4,591121533
+41,1458086617,assigned,group12/user3,group12/user3,4,591121322
+41,1458086617,unassigned,unassigned,group12/user4,4,591121321
+41,1458086605,milestoned,Testing the implemented solutions,group12/user3,4,591121091
+41,1457810104,assigned,group12/user4,group12/user4,4,587505711
+41,1457810104,labeled,android,group12/user4,4,587505710
+41,1457810104,labeled,enhancement,group12/user4,4,587505709
+42,1460083404,milestoned,Enhancements for solutions,group12/user3,13,619407760
+42,1459052416,closed,closed,group12/user5,13,604332534
+42,1457810314,labeled,solution_:_voiceInput,group12/user4,13,587507139
+42,1457810314,labeled,android,group12/user4,13,587507138
+42,1457810314,labeled,enhancement,group12/user4,13,587507137
+43,1459913912,closed,closed,group12/user1,13,616148508
+43,1459913897,milestoned,Enhancements for solutions,group12/user1,13,616148287
+43,1459014191,labeled,solution_:_imageScan,group12/user1,13,604173837
+43,1459014191,labeled,android,group12/user1,13,604173836
+44,1460083391,milestoned,Enhancements for telemetry,group12/user3,14,619407497
+44,1459150851,closed,closed,group12/user4,14,604932969
+44,1459048174,referenced,referenced,group12/user4,14,604318456
+44,1459023125,referenced,referenced,group12/user4,14,604214757
+44,1459022307,labeled,telemetry,group12/user4,14,604209921
+44,1459022307,labeled,android,group12/user4,14,604209920
+44,1459022307,labeled,enhancement,group12/user4,14,604209919
+44,1459022307,assigned,group12/user4,group12/user4,14,604209918
+45,1459982783,closed,closed,group12/user1,13,617576554
+45,1459982736,milestoned,Enhancements for solutions,group12/user1,13,617575702
+45,1459982716,demilestoned,Enhancements for solutions,group12/user1,13,617575373
+45,1459982698,milestoned,Enhancements for solutions,group12/user1,13,617575056
+45,1459489369,subscribed,subscribed,group12/user1,13,610815934
+45,1459489369,mentioned,mentioned,group12/user1,13,610815933
+45,1459489367,assigned,group12/user1,group12/user1,13,610815928
+45,1459027541,labeled,solution_:_imageScan,group12/user1,13,604233266
+45,1459027541,labeled,enhancement,group12/user1,13,604233265
+46,1460083478,milestoned,Android app base framework ,group12/user3,12,619408935
+46,1459982814,closed,closed,group12/user1,12,617577122
+46,1459036082,labeled,solution_:_imageScan,group12/user1,12,604272909
+46,1459036082,labeled,bug,group12/user1,12,604272908
+47,1460083380,milestoned,Enhancements for solutions,group12/user3,13,619407320
+47,1459178854,closed,closed,group12/user3,13,605340979
+47,1459107650,referenced,referenced,group12/user4,13,604594811
+47,1459044986,labeled,telemetry,group12/user4,13,604306363
+47,1459044986,labeled,enhancement,group12/user4,13,604306362
+48,1460083367,milestoned,Enhancements for solutions,group12/user3,13,619407124
+48,1459150825,closed,closed,group12/user4,13,604932546
+48,1459106539,referenced,referenced,group12/user4,13,604588429
+48,1459045272,labeled,enhancement,group12/user4,13,604307210
+48,1459045263,assigned,group12/user4,group12/user4,13,604307186
+49,1459145473,closed,closed,group12/user3,14,604864610
+49,1459145441,referenced,referenced,group12/user3,14,604864050
+49,1459142571,renamed,renamed,group12/user3,14,604835014
+49,1459142562,milestoned,Enhancements for telemetry,group12/user3,14,604834958
+49,1459142562,labeled,telemetry,group12/user3,14,604834957
+49,1459142562,assigned,group12/user3,group12/user3,14,604834956
+50,1459145514,closed,closed,group12/user3,14,604865020
+50,1459145441,referenced,referenced,group12/user3,14,604864048
+50,1459144870,milestoned,Enhancements for telemetry,group12/user3,14,604856037
+50,1459144870,labeled,android,group12/user3,14,604856036
+50,1459144870,labeled,web-application,group12/user3,14,604856035
+50,1459144870,labeled,enhancement,group12/user3,14,604856034
+50,1459144870,assigned,group12/user3,group12/user3,14,604856033
+51,1459145487,closed,closed,group12/user3,4,604864828
+51,1459145441,referenced,referenced,group12/user3,4,604864047
+51,1459145111,labeled,trivial,group12/user3,4,604858785
+51,1459145105,milestoned,Testing the implemented solutions,group12/user3,4,604858725
+51,1459145105,assigned,group12/user3,group12/user3,4,604858724
+52,1459178834,closed,closed,group12/user3,14,605340662
+52,1459164417,milestoned,Enhancements for telemetry,group12/user2,14,605101066
+52,1459164417,labeled,telemetry,group12/user2,14,605101064
+53,1459178830,closed,closed,group12/user3,14,605340558
+53,1459164491,milestoned,Enhancements for telemetry,group12/user2,14,605101839
+53,1459164491,labeled,telemetry,group12/user2,14,605101838
+54,1460083452,milestoned,Enhancements for solutions,group12/user3,13,619408454
+54,1459194880,closed,closed,group12/user4,13,605684459
+54,1459194807,referenced,referenced,group12/user4,13,605682701
+54,1459193617,labeled,solution_:_voiceInput,group12/user4,13,605652102
+54,1459193617,labeled,android,group12/user4,13,605652101
+54,1459193617,assigned,group12/user4,group12/user4,13,605652100
+55,1460082415,closed,closed,group12/user5,4,619395699
+55,1459489331,labeled,android,group12/user3,4,610815616
+55,1459489324,milestoned,Testing the implemented solutions,group12/user3,4,610815560
+55,1459489324,labeled,bug,group12/user3,4,610815559
+55,1459489324,assigned,group12/user5,group12/user5,4,610815558
+56,1460081851,milestoned,Enhancements for telemetry,group12/user3,14,619390343
+56,1459979111,closed,closed,group12/user4,14,617515223
+56,1459618580,referenced,referenced,group12/user4,14,612286930
+56,1459617756,referenced,referenced,group12/user4,14,612282535
+56,1459617297,labeled,telemetry,group12/user4,14,612279599

@@ -1,0 +1,173 @@
+id,time,sha,user,message
+1,1461637686,5ba750d2a0f419bb315ab1bce00be9bb520f2ac2,group10/user5,update ISSUE tables
+2,1461637659,0ae1bb726e9d100bad3a9142af65ab8090e42f01,group10/user5,update ISSUE tables
+3,1461616726,851b91e55b811b3edccf2ac03fc117e58c0d61d5,group10/user5,update events tables
+4,1461562335,595090cbe0c5be35e2408294dd18f5926537bd0f,group10/user1,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+5,1461562328,e6fa42a8bffa6a61a690a20a4558915d47aba078,group10/user1,Adding sqls
+6,1461561089,0d3539b5052f9c02fd803419b53a9e98188442a5,group10/user5,update events table
+7,1461561034,26e749cd77a5af4dac4476af5e754a259c5ba862,group10/user5,update event table
+8,1461559816,679008efff93671d9b789665cd75fc61e9f5e5a3,group10/user4,event group2
+9,1461557583,d86ba7715f1658d27c0f6637392a385e386a230a,group10/user1,All sqls
+10,1461556552,79e5ab2ab00320350e3d151399bcd00af7bd2269,group10/user5,update issues table
+11,1461547087,576b86d1f46eb1ed736a327826765f8847e6c937,group10/user1,Added features list
+12,1461546125,9f3228cdd38abccda54fe855027d0d8faf54bffc,group10/user5,update commits table
+13,1461544085,848fbcccbde9af1763bda9e345035833fef305cf,group10/user5,update tables
+14,1461533193,12aeaf8efef96e3fe5c15cff72c338ff110e5fad,group10/user5,Merge branch 'master' of github.com:arnabsaha1011/mypackse
+15,1461533152,ef17b4482fffb33d682c8aaa398e261cddc6d16d,group10/user5,update comment.cvs
+16,1461532444,3d709ecd079b033fa91aa8d23bf5351589140637,group10/user5,Create issues
+17,1461532042,22cb0f0186a63d061161a61d97ce11fb4dbcc1be,group10/user5,data for first group
+18,1461461267,9684df02dc9c0f154b0723b5d758aa0767d6c319,group10/user2,push our json file
+19,1461459455,ae3bbcc1b515942ad053d31ad7d32356771acfae,group10/user1,add some features
+20,1461457853,8d17426a51afc53d216654671ed4842ae3bacb8b,group10/user5,Merge branch 'master' of github.com:arnabsaha1011/mypackse
+21,1461457785,46b4ea6c669952b0d581645d9aeaf38708a541ee,group10/user5,add features
+22,1461457541,882b8b72256bd03669601b3d7fdc763ed90092aa,group10/user5,add features
+23,1461456557,394dfc52521d9e61754f76047dcfd0c8a0f0ff12,group10/user5,Delete output.txt
+24,1461455754,c220d1cb8f94e7e6c7abd2dbde987d41fe232cb1,group10/user1,"connect to mysql and insert, ignore the Null pointer error, it doesn't mater"
+25,1461452014,9e7f0fe9c6bf5c6573d60bcd383c86df82744703,group10/user1,Updating output.txt
+26,1461448640,c4bc2292279388c41e378f6d20bf5ab5223ec266,group10/user1,Adding sql files
+27,1461337813,ceb55b6b4f27ea9a98cdbb7d7bb08f2dac235e6e,group10/user1,Adding ppt
+28,1461193464,48331f3f08ab31503310f352f72e1dae9c6b764b,group10/user5,py
+29,1461161895,16645162c2d8d9cf4bc0cfb14a2d530307c9ed13,group10/user2,get our github issue data
+30,1461117825,bd965d4cd96b72ad06274a948025c796353d0ff9,group10/user2,Merge branch 'master' of github.com:arnabsaha1011/mypackse
+31,1461117809,6bd14b6e8bc8354bae54430f1dc1d96b677bfb9a,group10/user2,add python file and run
+32,1461027500,571ae31ac11801e8cc442eca56a03466934ae881,group10/user1,Adding GIFs to readmes
+33,1461027315,8553ae885b1e167f55c43cc715f7a65455264022,group10/user1,Adding GIFs
+34,1461026207,18a69799c95a3889e3378ddbccc94a20b60c61ff,group10/user2,fix something
+35,1461007506,5555444bbf9d57ff224254daf43157095a296604,group10/user4,fixed bug
+36,1460957724,7799df5648313f69a4b1112035d3a94b4a01cab9,group10/user4,add time line function
+37,1460685972,63ac9913543a685248c81f99a6320bea07493959,group10/user1,changed solution 3 readme
+38,1460684987,2bc05852068611d9a5372d8e0afb66ca212b8a3a,group10/user1,Fixed Time line in solution 3
+39,1460087836,4a6fbef1608760a8fd279dbfad4edd4bc1f7a61f,group10/user1,Adding SAWM
+40,1460087757,30ab8a26b969ae00e5a7b8e4699b56b43e7fb2fa,group10/user1,Updating soln 3
+41,1460083226,a6099bbd56301372c528dcdaa166dac6f9de4665,group10/user5,fix Readme
+42,1460082767,abc716a91c1b255163282e9e7fa7febcc0209e78,group10/user1,Adding the final pdf
+43,1460082646,442bc4cbae16b7d33fdc21086107505106293b4e,group10/user1,Adding the final pdf
+44,1460080613,6f21571cb0c185565a8da1e79a8d9e6cc2490d0e,group10/user1,itinerary image
+45,1460066175,9cc936589b14778e7b5280dadf7c826df99b65bb,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+46,1460066171,e625cc9c01385fe8880d2af32fbcc476f9cc798f,group10/user2,fix readme
+47,1460059763,1b61983393ea70e072d6107103312db268dc65c9,group10/user5,fix Readme
+48,1460059197,b546f06c87baead49fb8bb7c916162bc099178a1,group10/user5,fix Readme
+49,1460059085,65806e02974758cb3d964efed956b6fc453acf06,group10/user5,fix Readme
+50,1460059009,9f806086ed984a8f24db034e293ef89b7e974e6e,group10/user5,fix Readme
+51,1460058866,96ae7f81be8012b4e7555db4aadd909a72c7b312,group10/user5,fix Readme
+52,1460058817,745d538918c35bca04ef2af1d612ebb458e217ee,group10/user5,fix Readme
+53,1460058724,f7ed85ee1050ffcdbbd90efe74d138ba5b4e2f5a,group10/user5,fix Readme
+54,1460058599,defb18f5210604d97124b8e7f6bfe3390d17eabd,group10/user5,fix Readme
+55,1460057793,bad5a042ca6d5745f53188349ec5e332e1f8d790,group10/user5,fix Readme
+56,1460057558,71224363f5a602afb53f1e376339badcae58635a,group10/user5,fix Readme
+57,1460057430,3c5c32cb12cda5c38903b681a62250d554c942b7,group10/user5,fix Readme
+58,1460057112,269748daf260668eacd9a120bb8b74e103d410e5,group10/user5,fix Readme
+59,1460056852,8504fd5ac528fb864457e431b9fabe8447330f96,group10/user5,April Readme
+60,1460056363,2f99e6e0440428e014cb4405135d7f323da624f6,group10/user5,April Readme
+61,1460055165,0c4eea59d5e6f7c388d6821fc509b2f17df2ed6d,group10/user5,April Readme
+62,1460054036,6f6f04bbd64d5d2c6e07c9118b276a72cb9f3ca2,group10/user5,April Readme
+63,1460053581,045e054d374d12ba016f081880bfd0dcbdd713c8,group10/user5,April Readme
+64,1460052968,f059147f40e9798dee4571a944a34ea4929af6ab,group10/user4,delete idea file
+65,1460052860,ec56de3fc18ba0ba4dd0da937d030bdc40946aef,group10/user5,Delete Solutions
+66,1460052821,5f82271f7bae3945bbfff51b5cfa4a5f804ba785,group10/user5,April Readme
+67,1460052586,6a2a55f9009818d1a9fc78f1211874fef4b5e4b3,group10/user5,Delete hello
+68,1460052572,70d4154f9d7f6b37851aa38862fb170373d93c16,group10/user5,Delete Solution
+69,1460052539,d7f4fb6bd943dc0516da0ae583603b93877b2b0d,group10/user5,April Readme
+70,1460051487,aa6237291081ede6f8af7c69123f2d2c89614a82,group10/user4,add image
+71,1460051391,5f2d8510a7ba93760cdf21087f6da706d3b2db79,group10/user4,edit README
+72,1460051100,91db452f72a89dec43b2e687d2812a811abdbcf5,group10/user4,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+73,1460051058,6b93f672971fed61081410affc9e4fba8d48e675,group10/user4,edit solution 2 readme.md
+74,1460050533,4ad187b910103f398c61e3db6c21efc3bd85157f,group10/user5,folder
+75,1460043273,17fb9764cf5d85416262ad7ac904307a492cb10a,group10/user1,SAWM results
+76,1460040190,197af8d989bd148e797e276b6f964668bbb74397,group10/user2,fix solution1 readme file
+77,1460040137,8309776e203fc19d4906f152e9599fd6159f37d8,group10/user2,fix solution1 readme file
+78,1460040007,72d2c225d0a93b9b598ffc54bc9e01d01c733436,group10/user2,edit solution1 readme file
+79,1460002564,6c40d3b4b69d17361b2f10ae8d21e4b58506690f,group10/user1,presentation
+80,1460002293,9d68a7dc0a4edfa5aa2d6045465a1dc4dca47447,group10/user1,Changing folder structure
+81,1459989580,701adbb29fcd5c1aca5797090b5c7255a7babb11,group10/user1,Read me file
+82,1459989088,fb7d9aaf4e23566befa655c14b7dbb1fc7427e84,group10/user1,Read me file
+83,1459985738,e8a87b2a0861f040d76185410ae4115462bce4b6,group10/user1,Added user data file
+84,1459961226,26d26b4996058e13c106b8f7fb912a1741753dd7,group10/user1,readme s for april and may
+85,1459961102,ced40d76dbea2a1e9f77e89f18369f10c1e11d03,group10/user1,"Boxplots, t-tests and anova"
+86,1459889141,f6af8935cce3c01d0e4652c73058c83a0eb55ad2,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+87,1459889126,1a0f792938c179cfeb5a36b2a76294452b3f2e46,group10/user2,done
+88,1459738496,58b8be31e7f31a85e441a8efc8d5da9bb7fc555e,group10/user4,modify solution 2
+89,1459729343,c406affa9df8b1b26a5c1a28e1c2af63cc221e6f,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+90,1459729336,ea9d24e000435312e7bce4047e75024cbb3b37f0,group10/user2,small things fixed
+91,1459720709,500e0a96ce577993adb1a899883dcf35bdf1b41d,group10/user1,Create Post Survey
+92,1459702051,5861e144202e69ff28713ee33a34b2f867f96ecd,group10/user1,Update User test for 3 solutions
+93,1459667328,175b04670bd62e59323843e2dce6578dc869f74f,group10/user2,done
+94,1459666265,d679b685c6aa9d20f01f1693084d6bc12077d55d,group10/user2,function done
+95,1459567086,82a8f3d82b70ec8a5f48f904ec23cbabd7cabb1a,group10/user4,solution1 version2
+96,1459563160,b988ad697e23bb155b98e8512ebff56328159f3a,group10/user5,Update User test for 3 solutions
+97,1459563107,facd0bc8ed54a5e6aa1396e3ac963f1cc24071f6,group10/user5,update user test
+98,1459563037,20af8e01142c05f58e82f7999a76a2afd146f62f,group10/user5,update user test
+99,1459562990,5f2d29ebdaf49ae6759ae35c312f8fe74c8ac576,group10/user5,update user test
+100,1459562924,cf605df5a5d07ed3f93facf7b0588c99cf72624e,group10/user5,Delete SE User test .pdf
+101,1459562869,f8937162770b2a8cd33a0f93a08aec2b122e3516,group10/user5,update user test
+102,1459562544,456d2336052576b1566fcf436d7b6533d75d5042,group10/user4,solution1 version 1
+103,1459561468,cebf45bc257280116ac013bb549a33460579b8a9,group10/user5,Delete SE User test .pdf
+104,1459555834,0ff54ef9738fe1c05263267a7b553278677f1592,group10/user4,almost finished
+105,1459540903,7729c3c93b13323cbfc3b221dcbd615e50c4052b,group10/user5,update user test
+106,1459540758,388f031088a0cc692b0c32d58eccfa6502630b40,group10/user5,update user test
+107,1459538001,e18f53bb85a2dc65b2861398a6072bd909f1275a,group10/user4,implement travel time calc function
+108,1459537380,131294d106213ae214b0cf7064effaaa4fabd2d0,group10/user5,Update User test for 3 solutions
+109,1459537257,479081e9e312c52eb519d6b411e1d88025b706b7,group10/user5,Update User test for 3 solutions
+110,1459537121,3010d8e58f68e4d9729c6f712f66a3cde6446cf4,group10/user2,make source code readable and store lonlat of select place in a array for derection and list
+111,1459516402,882ccc2ef95e750828ecdbebde5a53a12f860741,group10/user4,add path time function
+112,1459480553,904bbade163cfb967f33f41d97dde87340825dce,group10/user5,Update User test for 3 solutions
+113,1459480503,2ccee7353d2def42ceb42f06b8325013d91cc61b,group10/user5,Update User test for 3 solutions
+114,1459479712,c3f89475ac838cff4ca3fbef689f8780ce953405,group10/user5,Update User test for 3 solutions
+115,1459479682,0ef2477cc33044c1b33b3d41f9d7ff864c1dac3a,group10/user5,Update User test for 3 solutions
+116,1459479567,9883f3874ea8ec9e517574cafdddfebf80565bad,group10/user5,Update User test for 3 solutions
+117,1459478725,106296f3f68e8b7cb4d120570a9aa2896aba156b,group10/user2,store places which user select from nearby search and hide other markers
+118,1459470387,ea558ce6eac27d60ff13aaebd28fe708b6f0a3cb,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+119,1459470377,791c2bfee0cffeb5d85aafe78bdcadc619571832,group10/user2,click times and keybord input characters count
+120,1459394239,7a7c68272e62f19d6c2491bead3e076614783ce0,group10/user5,Update User test for 3 solutions
+121,1459390211,db53d43de9c2f98fc90a27d899d586a1510a9943,group10/user5,Create User test for 3 solutions
+122,1459286908,6025a8678038560107e9963da71275b60e67a3d7,group10/user5,arrange folders
+123,1459286745,95befdbafb1f6c78d25d2968d45da4d4c450f5cb,group10/user5,Update and rename What we have in Solution_2 to What we have in Solution_3
+124,1459286529,b0929a71ebc46d6b49a3e29894ad922cfadd18a1,group10/user5,arrange folders
+125,1459286039,b5416c960822b1ea0e3eb107a576e19623cb86c2,group10/user5,solution-Ye
+126,1459111259,08a7a329a55e1b8872fe2e88dff2797e14d55905,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+127,1459111242,d3d4b1b817910e5f9bace99051b6d55d7c531619,group10/user2,user chose a searched place and search nearby whatever he wants
+128,1459110554,fa59a92c7bd5a60ac69b189b7071305c4378990a,group10/user4,add nearby parking and restaurant
+129,1458517250,6ecaa6358f6aa80de54fe873cac6282176817cee,group10/user1,Adding timeline to the project
+130,1457042448,805736a7eef1b939ef30eccfe97400079023a8ac,group10/user2,implement autocomplete in search box
+131,1457038467,fcd2f322a99712dcb3f15dd5b5e59a73127436d0,group10/user2,add hint in search box
+132,1457032134,6be261ed391787ae973edf17eaccd2592f0dc950,group10/user1,fixing repo
+133,1457029985,1a946b156988868e456b95b052c5da4fc1dfa327,group10/user1,fixing readme
+134,1456993018,a5cbc530aa9f4c4516f4aeb02ffc509b99f1227e,group10/user4,add sol1-demo
+135,1456992841,0116c020c787d5aad2d0be69205881d06ce210b8,group10/user4,sol1
+136,1456952122,0720a4dedc700bf9c1f5b753dad5eb443732c1c3,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+137,1456952119,7d7458e57ff1624949a3a7b43c87500c11db414e,group10/user2,fix some bugs
+138,1456946499,4552677b78cfc952648dee5a71eca15f7441c95b,group10/user2,Update README.md
+139,1456939760,62dcda28826083d654bbbecfe4e9a323f7973efe,group10/user1,Update README.MD
+140,1456938604,203da52cc0c326e8ee813e6f83589d4946bba0dc,group10/user5,Update README.MD
+141,1456938390,979e1934651b1fe8b94c07c484488d40c47e017b,group10/user5,Update README.MD
+142,1456938290,3c97e4a62dbf21ae3cd0f9431568e65bda0e589d,group10/user5,Update README.MD
+143,1456937762,cf110794a7fc93ed1bae688634966a751d14e93f,group10/user5,Update README.MD
+144,1456937237,a88313c0cbe781545610b172975a5d02759d903e,group10/user1,adding pictures in readme telemetry
+145,1456937015,0863de7ec247e376578bcb229a1a3bd20fb211de,group10/user1,adding pictures in readme telemetry
+146,1456936973,6ad3ea8b2c499763b0ad30068e6ca943b6bf7ecd,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+147,1456936948,226b786d736540867db2a4c2a32157a79b4c004a,group10/user2,fix some bugs
+148,1456936742,62a909b51bdbbf463b38c3075f2a2cbeeb0272c8,group10/user1,adding pictures in readme telemetry
+149,1456936626,e36fca73099a36d5bce193febbcbf67fedc7f12a,group10/user1,adding pictures of telemetry
+150,1456936450,5771ffcc75382009d6e8b9346076af6c3180a08f,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+151,1456936428,d212beb97e281cb1ba065e696457464ad8497c51,group10/user2,fix some bugs
+152,1456936216,5cf3d8f89c0ffbd45e1f47bee81172e4afb2d428,group10/user1,adding telemetry link
+153,1456935577,1144f52c216c1691898f8ef08d2572d03be421d6,group10/user1,adding telemetry link
+154,1456935415,a6c95ef437f688182d13cd6880037421a9c015bc,group10/user2,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+155,1456935396,ed760c436b52ca2c8b9fec259c53ee44806d1b17,group10/user2,make web beautiful
+156,1456935115,ee60cda87e65f51f9ecce9196b63dbdf0275a5e4,group10/user1,Solution 1 readme
+157,1456935045,2856c7d5306bbfbc9a9d764183d1ba000820f675,group10/user1,Solution 1 readme
+158,1456934723,f78ab1a0395008d49c7c44f00029a06687972e43,group10/user1,adding format to Ye's readme
+159,1456934299,64ef7e8e0b890cfde721512b2b39185f7c7f796c,group10/user1,Adding telemetry file
+160,1456934070,487d370c538337496db662e08d8a3c2a78e8f1e2,group10/user1,Adding few files
+161,1456932423,df0b5f6e2567993a5473612d0f67e7491b11eefe,group10/user1,updating mar 1 readme
+162,1456931733,60fe7c1e03b6fcc5bbbd9553e8a6da3289e3326a,group10/user1,Readme for mar 1 deliverable
+163,1456930995,ad643144d3f1750cf32bc1bdfacd61549a815479,group10/user1,CHanging readme for itinerary
+164,1456930858,2a76ac97507a991706f31dde6cf5bb5622adb0f5,group10/user1,Putting readme file for solution 3
+165,1456930247,2c6de3b267f691b1761cbf1eda5bc335115decac,group10/user1,Making current solution 2 to solution 3
+166,1456929887,f53a3d321cafd557c5ac2d749b7fb4630e1a1f81,group10/user5,Create Readme
+167,1456891906,94ec2c3acf29f7b368cc4b319e2ade4a7d387344,group10/user1,Modified readme
+168,1456891514,ddff21aa879848c5ee6f6dccc1a05417b7b6e81d,group10/user1,Merge branch 'master' of https://github.com/arnabsaha1011/mypackse
+169,1456891489,4dc00277ecc09ebc48e9afafb9f19d239918775f,group10/user1,Modified readme file
+170,1456792289,5e174d560b0353a39ff15a33fd776cd8dca20c7f,group10/user5,push demo map
+171,1456788649,08413f42aeb5d7a9e83b82b32e9e67b5f0e182a3,group10/user1,Remove the place on clicking X
+172,1456781770,0d91e95a2fb704b12a9039972f20beddcb0275bd,group10/user5,push demo test

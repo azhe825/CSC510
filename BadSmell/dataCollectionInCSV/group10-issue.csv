@@ -1,0 +1,86 @@
+id,name
+1,Read paper on apps
+2,Read paper on maps 1
+3,Read paper on maps 2
+4,Try to find the advantages and disadvantages of google maps
+5,Related work
+6,Describe the problems of SE survey
+7,Combining the results from the surveys and create charts
+8,Describe the survey and why each of the questions was included and Future works
+9,paper_temp
+10,Some project stuffs to do this weekend
+11,Solution 1 (Website)
+12,Solution 2 (Android application)
+13,How to configure multiple projects in this repository?
+14,Working on android studio 
+15,Basic working of Sol2
+16,Automatically showing options when filling the name of a place
+17,Adding more than 2 places on the itinerary
+18,Adding timeline of each event
+19,Getting familiar with basic android api and setting up a simple app
+20,"Shows 0,0 coordinate on start"
+21,Show current GPS location on maps
+22,Solution 3 ( itinerary app )
+23,Google map API platform
+24,Add more than 2 places 
+25,Create timeline for Itinerary App
+26,Marker to add a place on the map
+27,sol2--(1)add more locations 
+28,sol2--(2)marker to add a place on the map / current GPS location
+29,Create a google map round NCSU in website.
+30,Add search box in google maps
+31,Create First Example for sol1
+32,Search in search box with Autocomplete.
+33,Remember: pop quiz for tuesdat
+34,sol1--add places in search
+35,sol1---draw straight line in website google map
+36,2/22/2016 Hunt Lib meeting 7:30pm---11:30pm
+37,Change the view into a two layered view
+38,Make a readme file with embedded video
+39,Research about different open source github projects for android maps tutorial
+40,maps could show the route for direction.
+41,Multiple markers could be added on the map
+42,Adding more than 2 places in the GUI
+43,Move the camera to display all the markers
+44,Search more than 2 locations
+45,Draw actual path on the map
+46,Search several places put and clear markers in Web-Map
+47,Implement the Close button
+48,Use Picker to set time
+49,Learn about android
+50,Implement zoom in and zoom out capability
+51,Fill up solution 2 part of the slide
+52,Fix solution 1 part of the slide
+53,Add survey and survey results of the slide
+54,Image for readme
+55,Learn about android
+56,Calculate the real time
+57,Nearby places
+58,Parking problem
+59,What to do?
+60,Create the user test/survey
+61,start solution 2 ( javascript + html)
+62,Compare the solutions using statistical analysis
+63,"Collect more data for solution 1,2 and 3"
+64,Add nearby search in solution1
+65,Add nearby place as one of user's destination
+66,Provide 'parking' and 'restaurant' as recommend in nearby search
+67,"Add table in solution 1 html, allow user add his destinations"
+68,"Provide drive time and destination from one place to another, and add them in the table to show"
+69,Issues in Joe's solution
+70,Collect user tests for solution 2 and 3
+71,calculate drive time
+72,add nearby parking funciton
+73,add nearby restaurant function
+74,add time management form
+75,add waypoints in the direction
+76,fix bugs in solution 2
+77,begin user test on April
+78,finish user test on solution 2
+79,Abstract + Results + Conclusion
+80,Introduction + Preparation + Solution 2 + user test
+81,Solution 2 + Future work + graphs
+82,Timeline bug in soln 3
+83,Generate github data and parse it into mysql DB
+84,Creating presentation in google sheets
+85,Statistical analysis on the git data

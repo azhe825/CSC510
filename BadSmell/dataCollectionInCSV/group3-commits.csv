@@ -1,0 +1,234 @@
+id,time,sha,user,message
+1,1461893413,4ff51cd738a8537c22764262ba976fdfb6970aa0,group3/user2,save
+2,1461759799,b0e8775a85a66e9dcf12807a807d4b8fda993dd8,group3/user3,gitable
+3,1461533362,818237c3c8d275c7a9c4c7c57836c7ba0bcc7350,group3/user3,badsmell
+4,1461533094,43fe6123db9bc6a769f35faa76b76ac56dd3e122,group3/user3,Merge branch 'master' of https://github.com/azhe825/CSC510
+5,1461533084,04c12fc8ea6428120cf1c8a147ca2bfcc28370c3,group3/user3,badsmell
+6,1461526537,2b400744ba4c29b172addcaf641dad7c59f77928,group3/user3,Update README.md
+7,1461507058,0b3a864e17aae02818bfedfd9f2e8da79bc74a30,group3/user3,badsmell
+8,1461506543,954d16273092243ae12983b427c6910d1dae60f3,group3/user3,badsmell
+9,1461506153,64eb2805d7258050bc39e93e93808da3833f0ec0,group3/user3,badsmell
+10,1461356600,8cfb015ffebaae791be23becdd4812b0b4d97799,group3/user3,badsmell
+11,1461355519,86758710ed765de09155022066d7dba26780decc,group3/user3,badsmell
+12,1461351172,22dc0d8cc08b5282a1894c73a57ac9596b812b80,group3/user3,badsmell
+13,1461350083,2ee455108ff3e45ebcc47fef6dbc773d3bbc010f,group3/user3,badsmell
+14,1461099321,aa11154e66e1a53d95de3c0d4efe4cddfeeb5e51,group3/user1,bugfixed
+15,1461097371,62e8709cfceab4f2179dd135f0ac7e0a0b5695af,group3/user1,Added files via upload
+16,1461064592,dd3104043d78c4e09e0442725dc7351736428f3a,group3/user1,Added files via upload
+17,1461010282,e7ce455ed0c577f2d8f13a3d6bfcd16b8c803f83,group3/user4,update demo link
+18,1460943123,d12f2994f0e4fb1cd18cdbb165babdb66d658fb6,group3/user4,update the demo link
+19,1460834721,d0d5259a743ae48caaa7de0f4cc558a8bf8d14fc,group3/user3,cor
+20,1460834596,4289bb35ecf309f21a150f7c5512f5e86416571f,group3/user3,cor
+21,1460487221,28991bf93618a02ff23114e941439fbbcac1fca1,group3/user3,minor
+22,1460487208,a4a3e1fd75372bd326807ed8e3b86afc448000da,group3/user3,minor
+23,1460402743,b1766c8d2932e0d5fad7f0288143644ccc4fa434,group3/user3,correction
+24,1460402727,bfa3e881f603522fa9c608aeb08b40f275025e72,group3/user3,correction
+25,1460212070,9eab269c2be3e05bc9704bb79e98effd1cd19e2b,group3/user3,telemetry
+26,1460211743,396eb5eb62544dd36eadf1aaf8a36cd34b8a0caa,group3/user3,telemetry
+27,1460088046,2d70ae920d9a829349bd80290d748bcdac478a75,group3/user3,Update README.md
+28,1460088000,2ed6f830352be102e6a2ee5c4f8596ba81b263ac,group3/user3,Added files via upload
+29,1460087201,55347fba83adb0aef70bb3767cc4f30c76c944e2,group3/user3,Merge branch 'master' of https://github.com/azhe825/CSC510
+30,1460087197,0e076f86982ab77bdd30e5c66ae545ba1fc6c3ef,group3/user3,a
+31,1460083516,715ed6092d5a5f57b8245bc57c403aa2aed6d4d3,group3/user4,Merge branch 'master' of https://github.com/azhe825/CSC510
+32,1460083501,d952e022373f91b626c6dab1f7fec088f508eee1,group3/user4,enable Right Click on Mac OS
+33,1460083063,a1cadc745964da2ee64ba1a877d38b62e004e33b,group3/user4,upload April Report
+34,1460081287,b23b157a872d7aa047c17cff42f7b86a36bee49c,group3/user1,Merge remote-tracking branch 'origin/master'
+35,1460081232,ccd0023ac3b950ef5452d053727f0f764e2681ea,group3/user1,markdown April
+36,1460081133,aa4069fb1c6a5227237358199aa5a299f04eded0,group3/user4,Merge branch 'master' of https://github.com/azhe825/CSC510
+37,1460081118,1d2e7c6b4483bc6a86f21f09e6a9bdd6bcade891,group3/user4,modify Popup to show True Label and Original Emails
+38,1460081091,625d2af28cfca7f03147844eca119c7bc52c55a9,group3/user1,markdown April
+39,1460080507,21b17706e0d7ff8c99eb3590e80d10c41b5cad58,group3/user1,markdown April
+40,1460080215,ccfbf38bf5dea9b6694ad11fdacccf5b25839b96,group3/user1,markdown April
+41,1460080045,4ed277a84476e286c2128d041258097344e11c71,group3/user1,markdown April
+42,1460079575,c9f87c62916a0b2c8ae57dd40e20a799e8e3ca70,group3/user1,Merge remote-tracking branch 'origin/master'
+43,1460079566,0d49a5fa458c60d76ad3de3fa1bf6382625bdc2e,group3/user1,markdown April
+44,1460065600,cc55fe594b62994a946afa5bb6c22755f7fce405,group3/user2,save
+45,1460036910,058e870ac0ec862670f6b8529bde1cdf78990aa1,group3/user2,gmail
+46,1459995562,8fc9d414d029bfb7e1601174a0365064ee145be5,group3/user1,Merge remote-tracking branch 'origin/master'
+47,1459995543,cfe31f7baee79589e34797008deace882426193e,group3/user1,"fixed right button for mac, but has problem to add button of login and link to online gmail account on the GUI"
+48,1459991864,8802e76b197f70bc30bd340de0228094bc25f3f0,group3/user3,Added files via upload
+49,1459973404,a6be378d21349906a6e0b78d927a1c4eaa11b5e4,group3/user2,save
+50,1459973320,c5789a8176be5cbf23099a187522f78185a03268,group3/user2,save
+51,1459965601,2967eaa95a492a5420f50c0b2a472e21d7ef5a75,group3/user3,a
+52,1459959089,387cf79fb9fb9dba47ddb67f8dd4ebb4ec414d8c,group3/user2,Merge branch 'master' of https://github.com/azhe825/CSC510
+53,1459959062,20d9461c59abfe466489cb9f7945bbed6f903480,group3/user2,gui
+54,1459955467,d900cb6c41be466a4c2cbcd41294ed2eaae45632,group3/user1,codes to check updated new mails
+55,1459954627,4c161ec4b7aba61797b51f3da8d9833048e3be5e,group3/user1,functions to login and fetch emails from gmail
+56,1459954472,d92776a06aa582d170d4d6d19835502fc4ec0f39,group3/user1,Merge remote-tracking branch 'origin/master'
+57,1459954445,24ca73995e71da86afcd78d2115c64449bb75e8c,group3/user1,functions to login and fetch emails from gmail
+58,1459950333,2e062ee3846ed36e1a6d8656bef7757f467de352,group3/user3,inc
+59,1459949580,f33137301b7599a9d194acafedf6b3da5f0f11df,group3/user3,incomming
+60,1459914325,8d70a6db4853c10af0b5bb24dfb97c711c30d1ba,group3/user4,ignore Unread Emails Number for Uncertain and Trash
+61,1459914180,deb3a96df23fdc4405bdb20c0f9df50e38d4f715,group3/user4,enable Unread Numbers showing in the buttons. Buggy for Uncertain and Trash
+62,1459895800,ca33c1792e4a61c6376b52a157d4662a859adae5,group3/user2,gui
+63,1459794139,da68b8dd24617d66de23c412f29788c277e3bd61,group3/user3,GUI3
+64,1459748596,301dd2def45f1e2103b39ea82af95b4f8c420350,group3/user2,save
+65,1459745127,49993ff5e808f3758054a6c37d1b41ca87c79b89,group3/user4,modify Gui2.py accordingly
+66,1459744770,75a140915dd16e01450852c7e959fe9585b73e8c,group3/user4,enable Feature Check Box
+67,1459744598,7fbceb2c31ebc326e9aa47178179e82f06c19916,group3/user4,create to add more features
+68,1459744138,5046a5aac696fa521bab3a7926e394d7033a836b,group3/user1,update code
+69,1459743985,e1c8ae47ca45adc027735bfd719d8632fb3c77b2,group3/user1,update
+70,1459743920,c97e6e98b86a3a2ad2dce96bf9bdfbe27f1d649c,group3/user1,"webUI
+
+in progress"
+71,1459743670,65d5fe88d0793df884c76b8ff8bb95ddb5c77db4,group3/user1,webUI by html
+72,1459714467,e7454ad6f847ebd654fbd3b8fd100538552c302b,group3/user3,refresh
+73,1459611543,150020d67cbe80ec198da80eef0a71c529646dbb,group3/user3,Merge branch 'master' of https://github.com/azhe825/CSC510
+74,1459611530,8c22d9005e92f4947fcd9f87f507a5ac7eadb9ae,group3/user3,GUI
+75,1459609392,646db9d68fa7375a957ad15e98948c77dd52712a,group3/user1,"Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	Mails/struct.txt"
+76,1459605759,8c27921ef2357f77ae5064748b3430ab0d2c12df,group3/user3,a
+77,1459605705,b874b5b53fd5b6dd589349c38d7b0996b8b41e81,group3/user3,a
+78,1459541415,3cd1058d30186673a60f0ec7ce4b7c0fa2c86ffe,group3/user1,email receiver using another test gmail account
+79,1459541332,f445a2f1c00ab5475fba6cb49b144632fd992dd8,group3/user1,Merge remote-tracking branch 'origin/master'
+80,1459541321,fe0fc3252c07d9987459845276356c6d328f825d,group3/user1,email sender using a test gmail account
+81,1459538154,6651adde6241ab179be5058168fa87f67f1c4226,group3/user2,Merge branch 'master' of https://github.com/azhe825/CSC510
+82,1459538135,64c399b62a48d1bd7eff53044f8148f8dd1d74a2,group3/user2,save
+83,1459535632,f6fe5609a70ad7ed9727f658d9c0ac176afe14a8,group3/user1,"update code return original subject, body, and processed subject and body"
+84,1459534492,d40913172db8d73a564c0b650c2a0666e77ad18c,group3/user1,update code fix bug
+85,1459534365,a3d836d90c0ff2d17f7256d4daec03d640230d27,group3/user1,update code with email_parser() to parse original email texts
+86,1459534164,b68e888feecab5fc3150cfc6c12a57fcce3b8dfa,group3/user1,update code with email_parser() to parse original email texts
+87,1459534048,13929c978597437af881eb0580538a03b781c330,group3/user1,update code with email_parser() to parse original email texts
+88,1459533834,54ca72bef4d8b79b902ae51cc53d463627025b74,group3/user1,update code
+89,1459527633,4ca8639c8e6e929775f9eb7a32e434b5a673280c,group3/user2,save
+90,1459456237,0e9e9acfe89dc9d1679dc57926034c3c40cebdb4,group3/user2,update
+91,1459278624,af09d546b1392ffca8e13fc76de20bae4af9bbda,group3/user2,gui
+92,1458397741,18ba239c0cc9559aeaa6170f31b74333597be50d,group3/user3,Update Gui_support.py
+93,1458329909,6cb6da4a25d9f0bbff9373085b4e46b8b12082eb,group3/user3,Update Gui_support.py
+94,1458328404,1ca29dcfdeb5847f467b82a0ab46188728383e0a,group3/user2,Update Gui_support.py
+95,1458327813,6fee01a617dba57c6d74203384d3609718ed44e1,group3/user3,GUI support
+96,1458304507,601ed58887f7a18779f6e0a03e81d8abcb614727,group3/user3,GUI support
+97,1458256986,fe7ea06ffa109fe3d96b20112af9edbe4e5c35a1,group3/user3,GUI support
+98,1458256966,0153c2cd5b610507d065c04618566a36aa8e3d06,group3/user3,GUI support
+99,1457703797,3b9d77dbdf71c135181ac532aade9289ae0156be,group3/user3,lda
+100,1457304141,ce24f903a592a00f3820e2a69f402b7edc08e8dc,group3/user2,save
+101,1457304022,f4ca323b2b14e5b7e8e9dd270e6f6f0b735b7348,group3/user2,save
+102,1457293341,534f6e99a72922b02fbeec4f777ded100277f474,group3/user2,save
+103,1457293264,7c51834eabfd5f705682b255cb327d697faeb1e3,group3/user2,save
+104,1457293141,0ed90cc432b4b97eceaeb8e8b8b6417b8bf9c0a6,group3/user2,save
+105,1457284242,e72d300163f9246e9534336f59ae117714665057,group3/user2,save
+106,1457246141,558a12651bcac853d52a626ea4eb665caa77e34c,group3/user2,Merge branch 'master' of https://github.com/azhe825/CSC510
+107,1457246022,8ade3c262c50ae0da45b01008e19e87bd3dfdffa,group3/user2,save
+108,1457102577,14d416823999cc7cdd8b363b25c44a63bf1c18e6,group3/user3,Update semi-supervised.md
+109,1457102536,96eeafbd1f21f45d13c070254f6cd2c56be180bd,group3/user3,Update semi-supervised.md
+110,1457102498,2ca1c7117680c1992bde21f3d6f7809cf7cf0092,group3/user3,Update semi-supervised.md
+111,1457102345,367ed341797498b2ac62d786d0b71d1ae826eb6c,group3/user3,Merge branch 'master' of https://github.com/azhe825/CSC510
+112,1457102324,a5284f1c190c4747777fb46a4668f06c9c6bd450,group3/user3,semi
+113,1457072099,17a57db53211990ae9a77020491afd3b4443878a,group3/user4,Update supervised_learning.md
+114,1457071456,d7b948e16e1c1d5a1a0edbb62b570e0c9599f909,group3/user4,Merge branch 'master' of https://github.com/azhe825/CSC510
+115,1457071451,5083262342b24477f4992d269c67763e7250c7e8,group3/user4,"use doc2vec, performance still very poor..."
+116,1457059580,e7fbe28aa79b905302e25caed24d6254920f9b8f,group3/user2,save
+117,1457057722,258e3f20acd3dbfaeddcbc5bbee90ceea9d10d09,group3/user2,Merge branch 'master' of https://github.com/azhe825/CSC510
+118,1457057704,08dbbadd85940dd7f807ccf07f40156cf1d3120b,group3/user2,save
+119,1457049940,ab00222c7d24a8ed862dc89b45d7b8226a26b36f,group3/user3,Update Mar 1st Report.md
+120,1457047896,c0ccbd210812ea078fd5157db96c2345967cb3a3,group3/user3,Update Mar 1st Report.md
+121,1457014792,18678a7bd6ade7c5824e2d9c190d7558d5ceac71,group3/user3,Update semi-supervised.md
+122,1457014626,2fbc65bf824b08f90bff8e17a5c55b112182969b,group3/user3,compare inc
+123,1457014561,b7241106f0820e6295267e64edfa765454269227,group3/user3,a
+124,1457013306,200e658c42dd82646ec0d8a566e9adbc65a32b39,group3/user3,Update semi-supervised.md
+125,1457013217,6baa701e988511a6f845b05907f520de6f69cff0,group3/user3,Update semi-supervised.md
+126,1457012104,6024982e9a7bf38c50e5f64b0e45bfd748e470bc,group3/user3,Update semi-supervised.md
+127,1456967260,bc086eeb36cc8c1a84ba1c2c653babda11c70645,group3/user4,update my report link
+128,1456967166,6e72e15f5793394411ac1242809caa858f019cd0,group3/user4,upload the Supervised Learning Report
+129,1456964362,624bfed34363db7568fd92df7c4bb9f940fd1784,group3/user4,Merge branch 'master' of https://github.com/azhe825/CSC510
+130,1456964338,1bcdff9a2f39cb612b29979f188338b20ce6297c,group3/user4,add comparation results using different classifiers for different folders
+131,1456955727,015c82863d730ecdfe312bb8cfb1ccda7167d847,group3/user2,Update Unsupervised_Learning.md
+132,1456955481,772f1945aab0278637e738a0064107f4612cacc7,group3/user2,save
+133,1456954938,1768f1fb652084a64a1c39e52f38e4bf1be13a24,group3/user2,Merge branch 'master' of https://github.com/azhe825/CSC510
+134,1456954917,6da5ff1388131d9fc78690523dd9a4e92ae724b3,group3/user2,save
+135,1456946012,ad522ffee686c1d804e5d6fc2a3b3a229b48bf17,group3/user2,save
+136,1456937309,4b4782d0b3e59fa2c09d5d8a0e23d64c592ff09e,group3/user2,Update Mar 1st Report.md
+137,1456937161,c942016b96494a50c3c6084e9ffcbc18309041b6,group3/user2,Create Unsupervised_Learning.md
+138,1456935684,d22991cb755eb168eff0fecbf4c9885fef6dcf2d,group3/user1,Update Data.Collection.and.Pre-processing.md
+139,1456935202,ffcd3b69b9a42309d1f7d984a3d73a384d59b9f7,group3/user1,Update Data.Collection.and.Pre-processing.md
+140,1456935168,11cd6544ff60cb965593e0c584a734b5a74fee4b,group3/user1,Update Data.Collection.and.Pre-processing.md
+141,1456932604,7f9c8e4d9cc201d47983a3101e4a936803cb65f9,group3/user3,Update Mar 1st Report.md
+142,1456932568,b66bc91738c51b911ab7ffdc7f3d37dd372ca49f,group3/user3,Update Mar 1st Report.md
+143,1456931954,a548867c7ff72fd076cfdb0b067c9bc58a396c12,group3/user3,Update semi-supervised.md
+144,1456931927,da50dc0b89e16f535575d48aa11e3d2148168019,group3/user1,Update Data.Collection.and.Pre-processing.md
+145,1456931802,59c14291b5c7d458565b370b6fca8d329d37ee32,group3/user1,Update Mar 1st Report.md
+146,1456931764,f7c5b714dbe22eba3cf9e0a1a1ae78a9a7074265,group3/user1,set up linkage
+147,1456931502,9abeb4f5305a47590d76d0c351ac8d3968bbe09f,group3/user3,Update semi-supervised.md
+148,1456931309,724e410561a6513ef1a774cfa8517bc94daffae3,group3/user3,Delete Mar 1st Report
+149,1456931291,fdbc0dbf60965c886c540053bb3f8ff87df0caed,group3/user3,Create Mar 1st Report.md
+150,1456931254,45c8aeddf9e88c593f055f456110ce92e1a224b1,group3/user3,Update Mar 1st Report
+151,1456931221,bef71f9bdd326b63a58d54a48c7b178374e2201f,group3/user3,Create Mar 1st Report
+152,1456928417,491d2d3d6290957c4bb73fe14ee0613e49091b2f,group3/user3,march report
+153,1456887125,2572b9a016d37aea052913b2f931d4e836608a9d,group3/user4,add draw.py  Merge branch 'master' of https://github.com/azhe825/CSC510
+154,1456887022,0c2c6cbc52f0ccd1cda2696091e5f3f04334ecfa,group3/user4,"remove MNB, using Decision Tree instead"
+155,1456876587,5854b59c7948ae6597f46084a05115eb643c256f,group3/user4,add pic comparing different classifiers
+156,1456861571,90343e065cf12c0233f3eafd319449b782c56689,group3/user2,save
+157,1456860344,ad2ca1173565a450d55261eda0ec76bb8f68a67f,group3/user4,add the modified test.py for batch plotting for multipule classifiers
+158,1456860216,82422a666bc3907d45247210dcd16c2fd3992120,group3/user4,add pictures for each classifier
+159,1456779022,fe2abe8d5c000c5bd4a6f2bd2513af79afc2555d,group3/user3,fix conflict
+160,1456778650,b3564aab648ad5a7d2de93570e043451b1488688,group3/user3,semi
+161,1456771326,71034ced17b11cb9e1589796c2715e81a4654627,group3/user2,save
+162,1456770890,376ecf0971bd4c9873820c4d5e8eab3e132c76c0,group3/user2,Update .gitignore
+163,1456726216,92e710338aeef50667bd2281e86b4044b8de82be,group3/user4,Update README.md
+164,1456726164,85d13ab46e1dbae8ff4a4fe7edd8f6ee94fdcfb9,group3/user4,Update README.md
+165,1456725518,4c6572d78a2b0488768f922c0bf84943efc24431,group3/user4,add Multinomial Naive-Bayes and the results
+166,1456723286,ecca6bf93ff8983699a444d79d3a2dc039caadf0,group3/user4,add the saved results of SVM and KNN
+167,1456722755,82d9a7a27191c8ae3f4ec76ce5c9dc6cb164a127,group3/user4,"add KNN, choose k=10 after testing k={5,10,15,20}"
+168,1456689841,db41e2e189c61b495ed0d437a355a55d5df54359,group3/user4,Merge branch 'master' of https://github.com/azhe825/CSC510
+169,1456689818,03f1fc067f735af455b5742f16844790d7b7fa20,group3/user4,processed data for fast running
+170,1456689442,160c806357d5898f51c43db4896305ba5ff1d819,group3/user4,"When training only 10 emails, Word Vector performs poorly"
+171,1456689105,29680980e8f632a6bc6106c301633fc30e94510b,group3/user4,add new_subdata
+172,1456667787,62b65b84fab84c0c82f7bd319a44040114b44939,group3/user3,normalize
+173,1456638713,5f4257df485adae0192f923f0d7eae1d5cd59461,group3/user4,new_subdata
+174,1456638522,2230b9fb1fa1b56381ae911d3ffeddf9fb0be7d1,group3/user4,use pre-built WordVector model by Google using Google news
+175,1456634223,a9d214fdf01405ddf7e6a2618a2b86d05b497ec5,group3/user4,sub-data
+176,1456629615,f0b92cb3f68334f2fdf76ff8676f9bd22b196212,group3/user4,part data of WordVector representation for each email and related lables
+177,1456629164,b04799a49e22c3eb86a132061498f5d716275085,group3/user4,get the WordVector for the training corpus of each user
+178,1456622621,b13d43d864964a150873f1813670c999aa950d68,group3/user4,add the user_corpus.p (containing the corpus for each user)
+179,1456622564,535ec27c4884048c142f8e7e3eec4c1551f2bb46,group3/user4,modified for the Cleaned Data uploaded by Zhe
+180,1456619299,7c6e55ac70cf8342d5ae162e6e1bc0b298be34f8,group3/user4,classification use WordVector as Features
+181,1456618980,ca76b58481b31fdd889972543795633533ee22cd,group3/user4,get the WordVector model for each user
+182,1456618870,0f579f615e13d21c77a0c2655e029ef769579184,group3/user4,used to get the training corpus for each user
+183,1456615372,970ad1c5cec14e72a760572005703cf19ff6e824,group3/user3,semi
+184,1456607973,4dad439630a6c02f55fb08a9ad42a987d6337354,group3/user3,a
+185,1456601141,46fad2a86d01f0f577912ca70d0609bcc01a6df1,group3/user3,clean
+186,1456600853,ea9f9b6cfee20e682175c830edbde121fb5c9ed6,group3/user3,data_cleaning
+187,1456600820,7955fcca0f73b2d1b143cf4a6822284242930115,group3/user3,data_cleaning
+188,1456600745,f3e6c625b91d720d3487235844f535c4f7a0cc3e,group3/user3,data_cleaning
+189,1456600739,88d1816b14b18846fef480bb7009bef7e50c7466,group3/user3,data_cleaning
+190,1456508958,49705c2b5c5c656552064cb93d4baf42be2883e7,group3/user1,code update: merge continuous whitespaces
+191,1456449975,eb934c8432a38ac571fe56e77ebcb59b6cd44470,group3/user1,"Upload new code for data conversion
+
+Reorganize data conversion code to encapsulate all settings inside functions or default values."
+192,1456438687,40320efb35553744c7b23898602f8584f2042e19,group3/user1,Added files via upload
+193,1456438524,e55da7cc628d36b7ecfe1033566f47d2c540a616,group3/user1,Update: fix bugs in output format
+194,1456432754,bc21f0e80c65d84a16a9e0c047e88b41c8c1515e,group3/user4,make pre-processing 5x faster
+195,1456431796,3fe1eaee4379ac2b15dc90ef4393dce1b4b7fc04,group3/user1,renew
+196,1456431636,63b9cdd3f78d18d89c0141fa0cac03088c7e6533,group3/user4,go back before merge
+197,1456431513,ea4c086f2e5daf4be8d1f71c92270e1d1ed088aa,group3/user4,ignore unuseful folders in the first place
+198,1456429908,cdb2cff542004af7cf1440b39b96a08ee2772887,group3/user1,Update: add words length filter
+199,1456422382,a1d3536671116232cf51f4ca3616862e1090bc9d,group3/user1,Update subject and body separator
+200,1456413469,64de88e0b288c9942b6b12ec0870fee4b3b0a860,group3/user1,Update
+201,1456410379,45ccac1a2e36e8dcf8e7342156a498ea1f8b1996,group3/user1,small bugs in the scikit-learn tokenizer
+202,1456161018,ea56ae8de7f7ce555979856604e6e1ed3740f290,group3/user1,add whitespace delimiter after subject
+203,1455515880,7b1ad127c4294f44a64aa2f5b4e7459557da4b98,group3/user1,Code and test data
+204,1454296950,4fde24006d57946ff8cbfe7e675ee8d6b3d144eb,group3/user3,fix
+205,1454296681,6ed9fe0f508a832d817058702b559a01b1616380,group3/user3,fix
+206,1454296197,bc9e85459eb20db51b77cb8e89ffe473397b7c7a,group3/user3,fix
+207,1454296161,b430b5817d89441e7965b9a6045e93ed2d2028bd,group3/user3,a
+208,1454296044,f4b94bc03915d63326e107aadd88320dae008c8a,group3/user3,Feb
+209,1454295007,8a7aec49cc786e54f4322448162e0b53198bd0e4,group3/user2,save
+210,1454291545,3c2ab44004344b4713f3dff5688ab1d4ce48f31e,group3/user3,Feb
+211,1454289664,94b208efc9a0d5758b847a2b411ee74a47e195e6,group3/user3,Feb
+212,1454289451,abb73e1613a44a34938d040910011438a7665da4,group3/user3,feb
+213,1454284582,f72a69db1509b1624ce645c6b4cbdea464bc0a09,group3/user2,Delete .DS_Store
+214,1454284567,369f25a72d174a5f77bc6a7f1689e4a8aeeaf448,group3/user2,Delete .DS_Store
+215,1454284552,e2946cc082e49dec0241f5a612624db81ef6e417,group3/user2,Delete .DS_Store
+216,1454283280,60b1a564df3ebbfb27ec27309e36b025d985dd59,group3/user2,status
+217,1454283183,d10699dcbb22b6bc4efc73fe8d26b7060684fdb3,group3/user2,Create .gitignore
+218,1454283099,c5c44a2e363e964919f6e8a95eda44def07f25d8,group3/user2,Create README.md
+219,1454283088,0f37f585f7c249065f89ab255f5e14aba9584781,group3/user2,Delete README.md
+220,1454282035,43d180a11c7926d9c3591ba7d6d82a499e5cb2c7,group3/user3,feb
+221,1454267752,56f7dd7493afadd058b6689cdbdc2620753305da,group3/user3,a
+222,1454267696,cbf2c0dbdaced9cd7a4bb942d70138c2970d530b,group3/user3,a
+223,1454264417,46b6ecabfb3b0aa46d8b094ca1ba3fd6cd7d0a5e,group3/user4,Create Feb_Jack.md
+224,1454259131,85235dbcfca8b536dc454f9bcda13d668815fa4a,group3/user2,save
+225,1452283742,233b93a7ac8a0cc1fd7d871667c9ed906096099f,group3/user3,Update README.md
+226,1452283152,6787edfbd77a21a33b6f1eb1c7638dbda478d7ec,group3/user3,Initial commit

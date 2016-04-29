@@ -1,0 +1,438 @@
+issueID,time,action,label,user,milestone,identifier
+1,1452293485,closed,closed,group4/user3,,509965468
+1,1452293485,merged,merged,group4/user3,,509965467
+1,1452293485,referenced,referenced,group4/user3,,509965466
+2,1454291136,closed,closed,group4/user4,,533510485
+2,1454291136,merged,merged,group4/user4,,533510484
+2,1454291136,referenced,referenced,group4/user4,,533510483
+3,1454384481,closed,closed,group4/user4,,535241755
+3,1454343999,labeled,proj1 feedback,group4/user5,,534427410
+4,1455222657,labeled,group work,group4/user2,,547715967
+4,1455117246,closed,closed,group4/user1,,545893995
+5,1455155913,closed,closed,group4/user3,1,546650391
+5,1455152831,labeled,Mar1,group4/user4,1,546622572
+5,1455129168,labeled,feasibilty study,group4/user2,1,546185498
+5,1455128839,milestoned,Solution 1 ,group4/user2,1,546179109
+5,1455128839,assigned,group4/user3,group4/user3,1,546179108
+6,1456185788,closed,closed,group4/user4,4,560663613
+6,1455152846,labeled,Mar1,group4/user4,4,546622726
+6,1455129660,renamed,renamed,group4/user4,4,546196888
+6,1455129657,demilestoned,Solution 1 ,group4/user4,4,546196811
+6,1455129657,milestoned,Solution 2,group4/user4,4,546196810
+6,1455129641,demilestoned,Solution 2,group4/user4,4,546196400
+6,1455129641,milestoned,Solution 1 ,group4/user4,4,546196399
+6,1455129635,demilestoned,Solution 1 ,group4/user4,4,546196224
+6,1455129635,milestoned,Solution 2,group4/user4,4,546196222
+6,1455129625,demilestoned,Solution 2,group4/user4,4,546195989
+6,1455129625,milestoned,Solution 1 ,group4/user4,4,546195988
+6,1455129257,labeled,feasibilty study,group4/user4,4,546187855
+6,1455129236,milestoned,Solution 2,group4/user4,4,546187259
+6,1455129087,renamed,renamed,group4/user4,4,546183685
+6,1455129033,assigned,group4/user4,group4/user4,4,546182725
+7,1455430001,closed,closed,group4/user1,4,549758344
+7,1455152863,labeled,Mar1,group4/user4,4,546622918
+7,1455129247,milestoned,Solution 2,group4/user1,4,546187575
+7,1455129183,assigned,group4/user1,group4/user1,4,546185880
+7,1455129175,labeled,feasibilty study,group4/user1,4,546185678
+8,1455430080,closed,closed,group4/user1,4,549758486
+8,1455152879,labeled,Mar1,group4/user4,4,546623086
+8,1455129355,milestoned,Solution 2,group4/user1,4,546190439
+8,1455129355,assigned,group4/user1,group4/user1,4,546190438
+8,1455129355,labeled,Feature,group4/user1,4,546190437
+9,1455162417,closed,closed,group4/user1,4,546706933
+9,1455152888,labeled,Mar1,group4/user4,4,546623146
+9,1455129432,milestoned,Solution 2,group4/user1,4,546192067
+9,1455129432,assigned,group4/user1,group4/user1,4,546192066
+9,1455129432,labeled,Feature,group4/user1,4,546192065
+10,1455223434,closed,closed,group4/user3,4,547729870
+10,1455152907,unlabeled,Mar1,group4/user4,4,546623362
+10,1455152899,labeled,Mar1,group4/user4,4,546623285
+10,1455129495,milestoned,Solution 2,group4/user4,4,546193240
+10,1455129495,assigned,group4/user3,group4/user3,4,546193239
+10,1455129495,labeled,Feature,group4/user4,4,546193238
+11,1456197877,closed,closed,group4/user2,2,560891868
+11,1455129550,milestoned,Solution 3: Enhancement to the existing tool,group4/user2,2,546194201
+11,1455129550,assigned,group4/user2,group4/user2,2,546194200
+11,1455129550,labeled,feasibilty study,group4/user2,2,546194199
+12,1455430034,closed,closed,group4/user1,4,549758412
+12,1455152942,labeled,Mar1,group4/user4,4,546623988
+12,1455129575,milestoned,Solution 2,group4/user1,4,546194861
+12,1455129575,assigned,group4/user1,group4/user1,4,546194860
+12,1455129575,labeled,Feature,group4/user1,4,546194859
+13,1455201090,closed,closed,group4/user2,2,547219043
+13,1455129803,milestoned,Solution 3: Enhancement to the existing tool,group4/user2,2,546200855
+13,1455129803,assigned,group4/user2,group4/user2,2,546200854
+14,1456197823,closed,closed,group4/user2,2,560890781
+14,1455201402,milestoned,Solution 3: Enhancement to the existing tool,group4/user2,2,547225949
+14,1455201402,assigned,group4/user2,group4/user2,2,547225948
+14,1455201402,labeled,feasibilty study,group4/user2,2,547225947
+15,1456197623,closed,closed,group4/user2,2,560887347
+15,1455201861,labeled,research,group4/user2,2,547235225
+15,1455201837,assigned,group4/user2,group4/user2,2,547234766
+15,1455201829,milestoned,Solution 3: Enhancement to the existing tool,group4/user2,2,547234592
+16,1455476330,closed,closed,group4/user1,,549984534
+16,1455476330,merged,merged,group4/user1,,549984530
+16,1455476330,referenced,referenced,group4/user1,,549984529
+16,1455430811,reopened,reopened,group4/user1,,549761252
+16,1455430726,closed,closed,group4/user1,,549761097
+17,1456612094,closed,closed,group4/user1,4,569285715
+17,1455430345,labeled,Mar1,group4/user1,4,549759284
+17,1455430225,assigned,group4/user1,group4/user1,4,549758831
+17,1455430221,milestoned,Solution 2,group4/user1,4,549758826
+17,1455430217,labeled,Feature,group4/user1,4,549758817
+18,1456612062,closed,closed,group4/user1,4,569285361
+18,1455430332,milestoned,Solution 2,group4/user1,4,549759208
+18,1455430332,assigned,group4/user1,group4/user1,4,549759207
+18,1455430332,labeled,Mar1,group4/user1,4,549759206
+18,1455430332,labeled,enhancement,group4/user1,4,549759205
+19,1456164618,closed,closed,group4/user1,4,560093232
+19,1455656982,milestoned,Solution 2,group4/user3,4,552652215
+19,1455656982,assigned,group4/user1,group4/user1,4,552652214
+19,1455656982,labeled,help wanted,group4/user3,4,552652213
+20,1456625014,closed,closed,group4/user3,1,569413169
+20,1456282279,assigned,group4/user3,group4/user3,1,562833078
+20,1455658388,renamed,renamed,group4/user3,1,552679314
+20,1455658283,milestoned,Solution 1 ,group4/user3,1,552677321
+20,1455658283,labeled,Feature,group4/user3,1,552677320
+21,1456625039,closed,closed,group4/user3,1,569413394
+21,1456282269,assigned,group4/user3,group4/user3,1,562832856
+21,1455658373,renamed,renamed,group4/user3,1,552679060
+21,1455658326,milestoned,Solution 1 ,group4/user3,1,552678106
+21,1455658326,labeled,Feature,group4/user3,1,552678105
+22,1456625057,closed,closed,group4/user3,1,569413530
+22,1456282258,assigned,group4/user3,group4/user3,1,562832569
+22,1455658443,milestoned,Solution 1 ,group4/user3,1,552680348
+22,1455658443,labeled,Feature,group4/user3,1,552680347
+23,1456724670,closed,closed,group4/user3,1,570489537
+23,1456282247,assigned,group4/user3,group4/user3,1,562832390
+23,1455658485,milestoned,Solution 1 ,group4/user3,1,552681220
+23,1455658485,labeled,Feature,group4/user3,1,552681218
+24,1456724688,closed,closed,group4/user3,1,570489751
+24,1456282169,assigned,group4/user3,group4/user3,1,562830005
+24,1455658525,milestoned,Solution 1 ,group4/user3,1,552681927
+24,1455658525,labeled,Feature,group4/user3,1,552681926
+25,1456724703,closed,closed,group4/user3,1,570489913
+25,1456282159,assigned,group4/user3,group4/user3,1,562829803
+25,1455658565,milestoned,Solution 1 ,group4/user3,1,552682669
+25,1455658565,labeled,Feature,group4/user3,1,552682668
+26,1455662923,closed,closed,group4/user3,5,552764064
+26,1455662858,assigned,group4/user3,group4/user3,5,552762916
+26,1455659194,milestoned,Solution 1 design iteration 1,group4/user3,5,552695820
+26,1455659194,labeled,Feature,group4/user3,5,552695819
+27,1455662943,closed,closed,group4/user3,6,552764389
+27,1455662938,assigned,group4/user3,group4/user3,6,552764291
+27,1455659230,milestoned,Solution 1 development iteration 1,group4/user3,6,552696541
+27,1455659230,labeled,Feature,group4/user3,6,552696538
+28,1455662996,assigned,group4/user3,group4/user3,9,552765206
+28,1455662988,closed,closed,group4/user3,9,552765072
+28,1455659258,milestoned,Solution 1 testing iteration 1,group4/user3,9,552697073
+28,1455659258,labeled,Feature,group4/user3,9,552697072
+29,1455662760,closed,closed,group4/user3,,552761013
+30,1456203040,closed,closed,group4/user4,4,560978307
+30,1455987162,milestoned,Solution 2,group4/user1,4,557668040
+30,1455987162,assigned,group4/user4,group4/user4,4,557668039
+30,1455987162,labeled,Mar1,group4/user1,4,557668038
+30,1455987162,labeled,feasibilty study,group4/user1,4,557668037
+31,1456164514,closed,closed,group4/user1,4,560090471
+31,1455987340,assigned,group4/user2,group4/user2,4,557674596
+31,1455987340,unassigned,unassigned,group4/user1,4,557674594
+31,1455987268,milestoned,Solution 2,group4/user1,4,557671371
+31,1455987268,assigned,group4/user1,group4/user1,4,557671370
+31,1455987268,labeled,Mar1,group4/user1,4,557671369
+31,1455987268,labeled,Feature,group4/user1,4,557671368
+32,1456164573,closed,closed,group4/user1,4,560092155
+32,1455987312,milestoned,Solution 2,group4/user1,4,557673277
+32,1455987312,assigned,group4/user1,group4/user1,4,557673276
+32,1455987312,labeled,Mar1,group4/user1,4,557673275
+32,1455987312,labeled,Feature,group4/user1,4,557673274
+33,1456303997,closed,closed,group4/user4,11,563201401
+33,1456163052,milestoned,Solution 2 Testing Iteration,group4/user1,11,560045824
+33,1456163052,assigned,group4/user4,group4/user4,11,560045823
+33,1456163052,labeled,Mar1,group4/user1,11,560045821
+33,1456163052,labeled,Feature,group4/user1,11,560045820
+34,1456163787,closed,closed,group4/user1,,560069895
+34,1456163787,merged,merged,group4/user1,,560069894
+34,1456163787,referenced,referenced,group4/user1,,560069893
+35,1456164431,closed,closed,group4/user1,,560088180
+35,1456164431,merged,merged,group4/user1,,560088179
+35,1456164431,referenced,referenced,group4/user1,,560088178
+36,1456612158,closed,closed,group4/user1,4,569286230
+36,1456164793,milestoned,Solution 2,group4/user1,4,560097974
+36,1456164793,assigned,group4/user1,group4/user1,4,560097973
+36,1456164793,labeled,Mar1,group4/user1,4,560097971
+36,1456164793,labeled,enhancement,group4/user1,4,560097970
+37,1456612138,closed,closed,group4/user1,4,569286132
+37,1456164859,milestoned,Solution 2,group4/user1,4,560100011
+37,1456164859,assigned,group4/user1,group4/user1,4,560100010
+37,1456164859,labeled,Mar1,group4/user1,4,560100009
+37,1456164859,labeled,Feature,group4/user1,4,560100007
+38,1456612022,closed,closed,group4/user1,4,569284968
+38,1456164917,milestoned,Solution 2,group4/user1,4,560101782
+38,1456164917,assigned,group4/user1,group4/user1,4,560101781
+38,1456164917,labeled,Mar1,group4/user1,4,560101780
+38,1456164917,labeled,Feature,group4/user1,4,560101779
+39,1456611983,closed,closed,group4/user1,4,569284665
+39,1456165000,milestoned,Solution 2,group4/user1,4,560104022
+39,1456165000,assigned,group4/user1,group4/user1,4,560104021
+39,1456165000,labeled,Mar1,group4/user1,4,560104020
+39,1456165000,labeled,enhancement,group4/user1,4,560104019
+40,1456689110,closed,closed,group4/user1,4,570031765
+40,1456165125,milestoned,Solution 2,group4/user1,4,560108109
+40,1456165125,assigned,group4/user1,group4/user1,4,560108108
+40,1456165125,labeled,Mar1,group4/user1,4,560108107
+40,1456165125,labeled,Feature,group4/user1,4,560108106
+41,1459961139,closed,closed,group4/user1,11,617111216
+41,1456165184,milestoned,Solution 2 Testing Iteration,group4/user1,11,560109886
+41,1456165184,assigned,group4/user1,group4/user1,11,560109885
+41,1456165184,labeled,Mar1,group4/user1,11,560109881
+41,1456165184,labeled,enhancement,group4/user1,11,560109880
+42,1456378900,closed,closed,group4/user2,12,564980552
+42,1456207269,assigned,group4/user2,group4/user2,12,561047751
+42,1456206696,milestoned,Solution 3: Design phase,group4/user2,12,561038881
+42,1456206696,labeled,Feature,group4/user2,12,561038880
+43,1456378588,closed,closed,group4/user2,12,564976133
+43,1456206800,milestoned,Solution 3: Design phase,group4/user2,12,561040851
+43,1456206800,assigned,group4/user2,group4/user2,12,561040849
+43,1456206800,labeled,Feature,group4/user2,12,561040848
+44,1456764721,closed,closed,group4/user2,12,571414418
+44,1456206850,milestoned,Solution 3: Design phase,group4/user2,12,561041877
+44,1456206850,assigned,group4/user2,group4/user2,12,561041876
+44,1456206850,labeled,Feature,group4/user2,12,561041875
+45,1456379840,closed,closed,group4/user2,13,564996986
+45,1456379823,renamed,renamed,group4/user2,13,564996801
+45,1456210698,milestoned,Solution 3: Development Phase Iteration 1,group4/user2,13,561111963
+45,1456210698,assigned,group4/user2,group4/user2,13,561111962
+45,1456210698,labeled,feature,group4/user2,13,561111961
+46,1456252335,closed,closed,group4/user4,4,562126017
+46,1456236784,milestoned,Solution 2,group4/user4,4,561678939
+46,1456236784,assigned,group4/user4,group4/user4,4,561678938
+46,1456236784,labeled,Mar1,group4/user4,4,561678937
+46,1456236784,labeled,feature,group4/user4,4,561678936
+47,1456882840,closed,closed,group4/user4,4,574003248
+47,1456236843,milestoned,Solution 2,group4/user4,4,561680364
+47,1456236843,assigned,group4/user4,group4/user4,4,561680363
+47,1456236843,labeled,Mar1,group4/user4,4,561680362
+47,1456236843,labeled,feature,group4/user4,4,561680361
+48,1456834425,closed,closed,group4/user4,4,572932782
+48,1456237133,milestoned,Solution 2,group4/user4,4,561686958
+48,1456237133,assigned,group4/user4,group4/user4,4,561686957
+48,1456237133,labeled,Mar1,group4/user4,4,561686956
+48,1456237133,labeled,feature,group4/user4,4,561686955
+49,1456834416,closed,closed,group4/user4,4,572932586
+49,1456237292,assigned,group4/user4,group4/user4,4,561691291
+49,1456237290,milestoned,Solution 2,group4/user4,4,561691240
+49,1456237283,labeled,Mar1,group4/user4,4,561691071
+49,1456237283,labeled,feature,group4/user4,4,561691070
+50,1456286163,head_ref_deleted,head_ref_deleted,group4/user4,,562898181
+50,1456243046,closed,closed,group4/user4,,561858879
+50,1456243046,merged,merged,group4/user4,,561858877
+50,1456243046,referenced,referenced,group4/user4,,561858876
+51,1456286253,head_ref_deleted,head_ref_deleted,group4/user4,,562899367
+51,1456286222,closed,closed,group4/user4,,562899011
+51,1456286222,merged,merged,group4/user4,,562899010
+51,1456286222,referenced,referenced,group4/user4,,562899009
+52,1456286305,closed,closed,group4/user4,,562900069
+52,1456286305,merged,merged,group4/user4,,562900068
+52,1456286305,referenced,referenced,group4/user4,,562900067
+53,1456304320,head_ref_deleted,head_ref_deleted,group4/user4,,563207928
+53,1456304270,closed,closed,group4/user4,,563206986
+53,1456304270,merged,merged,group4/user4,,563206985
+53,1456304270,referenced,referenced,group4/user4,,563206984
+54,1456304782,closed,closed,group4/user4,11,563216999
+54,1456304782,merged,merged,group4/user4,11,563216998
+54,1456304782,referenced,referenced,group4/user4,11,563216997
+54,1456304774,milestoned,Solution 2 Testing Iteration,group4/user4,11,563216861
+54,1456304774,assigned,group4/user4,group4/user4,11,563216860
+54,1456304774,labeled,Mar1,group4/user4,11,563216859
+55,1456767503,closed,closed,group4/user2,13,571493151
+55,1456379963,milestoned,Solution 3: Development Phase Iteration 1,group4/user2,13,564999049
+55,1456379963,assigned,group4/user2,group4/user2,13,564999048
+55,1456379963,labeled,feature,group4/user2,13,564999047
+56,1456627715,closed,closed,group4/user3,8,569434699
+56,1456624874,milestoned,Solution 1 development iteration 2,group4/user3,8,569412158
+56,1456624874,assigned,group4/user3,group4/user3,8,569412157
+56,1456624874,labeled,feature,group4/user3,8,569412156
+57,1456635768,closed,closed,group4/user3,8,569508995
+57,1456627697,milestoned,Solution 1 development iteration 2,group4/user3,8,569434563
+57,1456627697,assigned,group4/user3,group4/user3,8,569434562
+57,1456627697,labeled,feature,group4/user3,8,569434561
+58,1456686612,closed,closed,group4/user3,8,570002146
+58,1456635427,milestoned,Solution 1 development iteration 2,group4/user3,8,569506568
+58,1456635427,assigned,group4/user3,group4/user3,8,569506567
+58,1456635427,labeled,feature,group4/user3,8,569506566
+59,1456642753,closed,closed,group4/user3,8,569577476
+59,1456636104,milestoned,Solution 1 development iteration 2,group4/user3,8,569513028
+59,1456636085,assigned,group4/user3,group4/user3,8,569512896
+59,1456636083,labeled,feature,group4/user3,8,569512866
+60,1456657176,closed,closed,group4/user3,8,569715279
+60,1456653822,milestoned,Solution 1 development iteration 2,group4/user3,8,569683828
+60,1456653822,assigned,group4/user3,group4/user3,8,569683827
+60,1456653822,labeled,feature,group4/user3,8,569683826
+61,1456663575,closed,closed,group4/user3,8,569782682
+61,1456657233,milestoned,Solution 1 development iteration 2,group4/user3,8,569715768
+61,1456657233,assigned,group4/user3,group4/user3,8,569715767
+61,1456657233,labeled,feature,group4/user3,8,569715766
+62,1456692321,closed,closed,group4/user3,8,570068724
+62,1456686587,milestoned,Solution 1 development iteration 2,group4/user3,8,570001915
+62,1456686587,assigned,group4/user3,group4/user3,8,570001914
+62,1456686587,labeled,feature,group4/user3,8,570001913
+63,1456689693,head_ref_restored,head_ref_restored,group4/user1,,570039793
+63,1456689686,head_ref_deleted,head_ref_deleted,group4/user1,,570039709
+63,1456689043,closed,closed,group4/user1,,570031162
+64,1456699196,closed,closed,group4/user3,8,570147737
+64,1456692272,milestoned,Solution 1 development iteration 2,group4/user3,8,570067959
+64,1456692272,assigned,group4/user3,group4/user3,8,570067958
+64,1456692272,labeled,feature,group4/user3,8,570067957
+65,1456723892,closed,closed,group4/user3,8,570478123
+65,1456692300,milestoned,Solution 1 development iteration 2,group4/user3,8,570068344
+65,1456692300,assigned,group4/user3,group4/user3,8,570068343
+65,1456692300,labeled,feature,group4/user3,8,570068342
+66,1456724496,closed,closed,group4/user3,10,570487412
+66,1456724083,milestoned,Solution 1 testing iteration 2,group4/user3,10,570481685
+66,1456724083,assigned,group4/user3,group4/user3,10,570481684
+66,1456724083,labeled,feature,group4/user3,10,570481682
+67,1456724514,closed,closed,group4/user3,10,570487536
+67,1456724162,milestoned,Solution 1 testing iteration 2,group4/user3,10,570482939
+67,1456724162,assigned,group4/user3,group4/user3,10,570482938
+67,1456724162,labeled,feature,group4/user3,10,570482937
+68,1456724534,closed,closed,group4/user3,10,570487771
+68,1456724198,milestoned,Solution 1 testing iteration 2,group4/user3,10,570483282
+68,1456724198,assigned,group4/user3,group4/user3,10,570483281
+68,1456724198,labeled,feature,group4/user3,10,570483280
+69,1456724557,closed,closed,group4/user3,10,570488149
+69,1456724241,milestoned,Solution 1 testing iteration 2,group4/user3,10,570483817
+69,1456724241,assigned,group4/user3,group4/user3,10,570483816
+69,1456724241,labeled,feature,group4/user3,10,570483815
+70,1456724584,closed,closed,group4/user3,10,570488384
+70,1456724287,milestoned,Solution 1 testing iteration 2,group4/user3,10,570484397
+70,1456724287,assigned,group4/user3,group4/user3,10,570484396
+70,1456724287,labeled,feature,group4/user3,10,570484395
+71,1456724604,closed,closed,group4/user3,10,570488654
+71,1456724340,milestoned,Solution 1 testing iteration 2,group4/user3,10,570485807
+71,1456724340,assigned,group4/user3,group4/user3,10,570485806
+71,1456724340,labeled,feature,group4/user3,10,570485805
+72,1456724620,closed,closed,group4/user3,10,570488880
+72,1456724389,milestoned,Solution 1 testing iteration 2,group4/user3,10,570486182
+72,1456724389,assigned,group4/user3,group4/user3,10,570486181
+72,1456724389,labeled,feature,group4/user3,10,570486180
+73,1456767420,closed,closed,group4/user2,12,571491120
+73,1456765851,reopened,reopened,group4/user2,12,571448422
+73,1456765846,closed,closed,group4/user2,12,571448278
+73,1456765827,milestoned,Solution 3: Design Phase Iteration 1,group4/user2,12,571447495
+73,1456765827,assigned,group4/user2,group4/user2,12,571447493
+73,1456765826,labeled,feasibilty study,group4/user2,12,571447491
+74,1456767926,closed,closed,group4/user2,13,571503409
+74,1456765941,milestoned,Solution 3: Development Phase Iteration 1,group4/user2,13,571451343
+74,1456765941,assigned,group4/user2,group4/user2,13,571451341
+74,1456765941,labeled,feature,group4/user2,13,571451340
+75,1456767988,closed,closed,group4/user2,13,571504802
+75,1456766011,milestoned,Solution 3: Development Phase Iteration 1,group4/user2,13,571453076
+75,1456766011,assigned,group4/user2,group4/user2,13,571453075
+75,1456766011,labeled,feature,group4/user2,13,571453074
+76,1456767978,closed,closed,group4/user2,13,571504508
+76,1456767154,milestoned,Solution 3: Development Phase Iteration 1,group4/user2,13,571484771
+76,1456767154,assigned,group4/user2,group4/user2,13,571484770
+76,1456767154,labeled,feature,group4/user2,13,571484769
+77,1456808397,closed,closed,group4/user2,14,572465585
+77,1456768237,demilestoned,Solution 3: Development Phase Iteration 1,group4/user2,14,571511096
+77,1456768237,milestoned,Solution 3: Testing Phase Iteration1,group4/user2,14,571511094
+77,1456768233,demilestoned,Solution 3: Enhancement to the existing tool,group4/user2,14,571511001
+77,1456768233,milestoned,Solution 3: Development Phase Iteration 1,group4/user2,14,571511000
+77,1456768168,milestoned,Solution 3: Enhancement to the existing tool,group4/user2,14,571509198
+77,1456768168,assigned,group4/user2,group4/user2,14,571509197
+77,1456768168,labeled,test,group4/user2,14,571509195
+78,1456808407,closed,closed,group4/user2,14,572465725
+78,1456768315,milestoned,Solution 3: Testing Phase Iteration1,group4/user2,14,571513131
+78,1456768315,assigned,group4/user2,group4/user2,14,571513130
+78,1456768315,labeled,test,group4/user2,14,571513129
+79,1456834465,closed,closed,group4/user4,,572933512
+79,1456834465,merged,merged,group4/user4,,572933511
+79,1456834465,referenced,referenced,group4/user4,,572933510
+80,1456808377,closed,closed,group4/user2,13,572465327
+80,1456808369,milestoned,Solution 3: Development Phase Iteration 1,group4/user2,13,572465157
+80,1456808369,assigned,group4/user2,group4/user2,13,572465156
+80,1456808369,labeled,feature,group4/user2,13,572465154
+81,1456808870,closed,closed,group4/user2,14,572473184
+81,1456808864,milestoned,Solution 3: Testing Phase Iteration1,group4/user2,14,572473107
+81,1456808864,assigned,group4/user2,group4/user2,14,572473106
+81,1456808864,labeled,test,group4/user2,14,572473105
+82,1456808943,closed,closed,group4/user2,14,572474163
+82,1456808938,milestoned,Solution 3: Testing Phase Iteration1,group4/user2,14,572474059
+82,1456808938,assigned,group4/user2,group4/user2,14,572474058
+82,1456808938,labeled,test,group4/user2,14,572474055
+83,1456878029,closed,closed,group4/user2,15,573928199
+83,1456875755,milestoned,Mar1 deliverable readiness,group4/user2,15,573887997
+83,1456875755,assigned,group4/user2,group4/user2,15,573887996
+84,1456883634,closed,closed,group4/user3,15,574014009
+84,1456883513,reopened,reopened,group4/user2,15,574012380
+84,1456883509,closed,closed,group4/user3,15,574012284
+84,1456883437,assigned,group4/user3,group4/user3,15,574011102
+84,1456883437,unassigned,unassigned,group4/user4,15,574011101
+84,1456883434,assigned,group4/user4,group4/user4,15,574011035
+84,1456883434,unassigned,unassigned,group4/user2,15,574011034
+84,1456883431,assigned,group4/user2,group4/user2,15,574010978
+84,1456883431,unassigned,unassigned,group4/user3,15,574010977
+84,1456878850,milestoned,Mar1 deliverable readiness,group4/user3,15,573939953
+84,1456878850,assigned,group4/user3,group4/user3,15,573939952
+84,1456878850,labeled,Mar1,group4/user3,15,573939951
+85,1459984677,closed,closed,group4/user3,16,617610373
+85,1456882919,labeled,Evaluation Plan,group4/user3,16,574004141
+85,1456881239,milestoned,Evaluation of solutions: Creating surveys,group4/user3,16,573978649
+85,1456881239,assigned,group4/user3,group4/user3,16,573978648
+86,1459961174,closed,closed,group4/user1,16,617111916
+86,1456882906,labeled,Evaluation Plan,group4/user3,16,574003996
+86,1456881299,milestoned,Evaluation of solutions: Creating surveys,group4/user3,16,573979354
+86,1456881299,assigned,group4/user1,group4/user1,16,573979353
+87,1459965738,closed,closed,group4/user2,16,617217375
+87,1459955578,assigned,group4/user4,group4/user4,16,616966483
+87,1459955578,unassigned,unassigned,group4/user2,16,616966482
+87,1459955574,subscribed,subscribed,group4/user4,16,616966376
+87,1459955574,mentioned,mentioned,group4/user4,16,616966375
+87,1456882881,labeled,Evaluation Plan,group4/user3,16,574003723
+87,1456881337,milestoned,Evaluation of solutions: Creating surveys,group4/user3,16,573979770
+87,1456881337,assigned,group4/user2,group4/user2,16,573979769
+88,1459984547,closed,closed,group4/user4,16,617608459
+88,1459983130,assigned,group4/user4,group4/user4,16,617581575
+88,1459983130,unassigned,unassigned,group4/user2,16,617581574
+88,1459955617,assigned,group4/user2,group4/user2,16,616967471
+88,1459955615,unassigned,unassigned,group4/user3,16,616967384
+88,1459955605,assigned,group4/user3,group4/user3,16,616967143
+88,1459955605,unassigned,unassigned,group4/user4,16,616967141
+88,1456882860,labeled,Evaluation Plan,group4/user3,16,574003463
+88,1456881375,milestoned,Evaluation of solutions: Creating surveys,group4/user3,16,573980185
+88,1456881375,assigned,group4/user4,group4/user4,16,573980184
+89,1456882962,labeled,Evaluation Plan,group4/user3,17,574004629
+89,1456881503,milestoned,Observing Users for solutions,group4/user3,17,573981703
+89,1456881503,assigned,group4/user3,group4/user3,17,573981702
+90,1459965476,closed,closed,group4/user4,17,617209734
+90,1456882947,labeled,Evaluation Plan,group4/user3,17,574004448
+90,1456881546,milestoned,Observing Users for solutions,group4/user3,17,573982166
+90,1456881546,assigned,group4/user4,group4/user4,17,573982165
+91,1459981582,closed,closed,group4/user2,17,617558430
+91,1456882933,labeled,Evaluation Plan,group4/user3,17,574004302
+91,1456881579,milestoned,Observing Users for solutions,group4/user3,17,573982598
+91,1456881579,assigned,group4/user2,group4/user2,17,573982597
+92,1456883015,labeled,Evaluation Plan,group4/user3,18,574005398
+92,1456881675,milestoned,conducting surveys,group4/user3,18,573984422
+92,1456881675,assigned,group4/user3,group4/user3,18,573984421
+93,1459961189,closed,closed,group4/user1,18,617112201
+93,1456883001,labeled,Evaluation Plan,group4/user3,18,574005237
+93,1456881706,milestoned,conducting surveys,group4/user3,18,573985131
+93,1456881706,assigned,group4/user1,group4/user1,18,573985130
+94,1459983074,closed,closed,group4/user2,18,617580813
+94,1456882988,labeled,Evaluation Plan,group4/user3,18,574005004
+94,1456881729,milestoned,conducting surveys,group4/user3,18,573985636
+94,1456881729,assigned,group4/user2,group4/user2,18,573985635
+95,1456883044,labeled,Evaluation Plan,group4/user3,19,574005792
+95,1456881805,milestoned,Reaching a conclusion,group4/user3,19,573987160
+95,1456881805,assigned,group4/user4,group4/user4,19,573987159
+96,1459984648,closed,closed,group4/user3,19,617609905
+96,1456883037,labeled,Evaluation Plan,group4/user3,19,574005690
+96,1456881823,milestoned,Reaching a conclusion,group4/user3,19,573987324
+96,1456881823,assigned,group4/user3,group4/user3,19,573987323
+97,1456883029,labeled,Evaluation Plan,group4/user3,19,574005600
+97,1456881869,milestoned,Reaching a conclusion,group4/user3,19,573988056
+97,1456881869,assigned,group4/user3,group4/user3,19,573988055
+98,1459981778,milestoned,Reaching a conclusion,group4/user2,19,617561150
+98,1459981778,labeled,group work,group4/user2,19,617561149
+98,1459981778,assigned,group4/user3,group4/user3,19,617561147

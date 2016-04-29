@@ -1,0 +1,42 @@
+id,time,sha,user,message
+1,1461899359,1a8abca730fdb5c4225d147a97eed8a0cca03b53,group7/user4,Added files via upload
+2,1461894396,dc5044fb7ca9fd04816476677d59afec3174709f,group7/user4,"Added files via upload
+
+grA --- pie chart generation file.
+For generating barplot, I have copied all relevant data from all groups in a single file. For example, grComment.csv contains total comments of all 6 groups."
+3,1461894095,ddc15ef981b5596d6c962136d1258a7f84f58c3d,group7/user4,Create a.gitkeep
+4,1461893585,d8621905146201a3072ff2e30ddef1350ac35a8a,group7/user4,Added files via upload
+5,1461893561,89f1844cae0b6cfadd2ab551e789b595bf48bec8,group7/user4,Create a.gitkeep
+6,1461893420,541a2bae637e76b83ffd55acf38395de071382a3,group7/user2,Fix for milestone scraping
+7,1461890793,fc042a4368e85cf074366e0d80301608836507ac,group7/user4,Added files via upload
+8,1461877631,0545172675a221deebe54222e64b57556ad5af2c,group7/user4,Added files via upload
+9,1461877596,b019cf8e5feeaf19bc678e3490cffebea5267615,group7/user4,Create a.gitkeep
+10,1461877438,eead309337cc93a8421d7347ec850e247449bc98,group7/user4,Added files via upload
+11,1461877416,299b502615729484d6dfb525b593f7d50c680691,group7/user4,Create a.gitkeep
+12,1461877390,b9868dc7061a407a3c8d9b269aa0d06881968341,group7/user4,Added files via upload
+13,1461877370,42e867ebd87c9dc9117a2459197a9cbdc21dee0f,group7/user4,Create a.gitkeep
+14,1461877324,9aa7d8fe1682f888a7471860d4d10ac79abaa2f6,group7/user4,Added files via upload
+15,1461877277,e7e09d4a3cfd69aca19044a1e9b54c5c4d5bd22c,group7/user4,Added files via upload
+16,1461789551,eee3a1a6a800faa67d12e3f4fc5347a021a6d826,group7/user2,fix previous commit
+17,1461789430,2eedcfcb7c8b77f64d884119a76e3a00977b7237,group7/user2,Merge branch 'master' of https://github.com/cleebp/csc-510-group-g
+18,1461789397,c3cc668dbca50aaea2ad37840b5d13d35ca6df0b,group7/user2,adding number of changes per commit
+19,1461789347,f8064d3fe96219c2ce0c4519eac2b46bac70cf6f,group7/user2,adding number of changes per commit
+20,1461599567,b01d58042216b991c1b3c72966e37669ee4961eb,group7/user4,Added files via upload
+21,1461599524,4ed0febf30026e9d7e7fd18ae831861236cf12e9,group7/user4,Create a.gitkeep
+22,1461598761,f382a1416edacf913fe5520bba4abf7ccac14e9b,group7/user4,Added files via upload
+23,1461598709,3972afd9d86d4ca8688b2a24eb906c8521efc0c4,group7/user2,Merge branch 'master' of https://github.com/cleebp/csc-510-group-g
+24,1461598699,e18889c5fb134d1f86ac8b8c70455a4331fc87de,group7/user2,Update csvs
+25,1461598687,8f2f4330506d1e404382aba844899ebcfedd0bde,group7/user4,Create a.gitkeep
+26,1461598607,6285a912b015f916944fa8e53ab72badfb8b8c59,group7/user4,Added files via upload
+27,1461598530,24e8a29244dea0e6b8420cb29e8dd0c5e84c5ed3,group7/user4,Create a.gitkeep
+28,1461557445,4d7462a715ee696daa34b4b740a5338c31d70f5a,group7/user2,"Update dbs to include additions, deletions"
+29,1461178015,c02252b81a2825a40fd4921455ce0b0d9f8ab44c,group7/user2,Update group g dmp
+30,1461177906,0d50aa7874b77e9c9c23f130322c96e07d447bcb,group7/user2,Update data
+31,1460922059,55507eaf583fde8b4ac16ae4efee84cae80e5ec0,group7/user2,"Add data, csv, scripts, etc."
+32,1460574285,033ccd2cd5bcb42c9ed746f0e65845e4230c1cbf,group7/user1,names r hard
+33,1460574155,8f7a6ce0b86a8d1c18e6de7b1a1746c7a1718ef2,group7/user1,"initial may commit
+
+architecture! organization! yay!"
+34,1459975358,26fd1ea8b7f7eecc23b029df35d31ac80f1e8c50,group7/user1,"updated presentation
+
+most recent version as of 4:42 on 4/6"

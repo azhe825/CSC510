@@ -1,0 +1,56 @@
+issueID,user,createtime,updatetime,text,identifier
+3,group10/user3,1453073130,1453073188,"1. We can find the problems one has to deal with using different map applications.
+2. Count the number of clicks. Less number of clicks is better.",172395092
+2,group10/user3,1453073564,1453073564,Travelling salesman problem,172395519
+4,group10/user3,1453232344,1453232344,"Didn't find any essential disadvantages in the web but found a paper which can be interesting while writing documents. ""Crowdsensing Maps of On-Street Parking Spaces"".",172962390
+7,group10/user3,1453935016,1453935016,Can you update the results from all the surveys onto a file on github?,175900764
+7,group10/user2,1453938364,1453938364,Sure. I'll do it.,175913671
+6,group10/user3,1453992149,1453992163,Added the introduction to the docs,176214296
+6,group10/user3,1454112975,1454112975,Added description of the problems,177028460
+9,group10/user2,1454276422,1454276422,"[SE .pdf](https://github.com/arnabsaha1011/mypackse/files/111523/SE.pdf)
+",177622466
+10,group10/user1,1454700761,1454700761,"I know Joe has configured git with C9. For others please complete this part. I have a midterm and 2 assignments due next week so I am taking the weekend off from this project. Also, use Github to indicate how much progress you guys have done. Song and Ye don't have any Github commits as of yet, so try to focus on that as well.",180513756
+10,group10/user2,1454711114,1454711114,I just put my solutions. But it might be changed these days whenever I come up a new idea.,180597883
+10,group10/user4,1454773522,1454773522,I have configured with C9.,180795386
+10,group10/user5,1454901220,1454901220,I have configured git with Cloud 9.,181178211
+10,group10/user2,1455061329,1455061329,All the solutions can be found in mar16 folder,182135223
+12,group10/user1,1455411112,1455411112,I've made an android application which can search for a location and show using google maps. Next up Itinerary and time addition,183781717
+11,group10/user2,1455481090,1455481090,"http://www.w3schools.com/googleapi/google_maps_basic.asp.
+Here is a tutorial of Google Maps API for website.
+It seems like javascript API.",183967813
+13,group10/user1,1455724612,1455724641,Refer to this [link](http://stackoverflow.com/questions/35459877/github-commit-and-import-project-from-a-folder-in-a-repository/35460042#35460042) for solution,185269285
+13,group10/user2,1455724644,1455724654,Each branch seems has everything we have in master branch. That's really bad.,185269572
+13,group10/user1,1455724779,1455724779,Check out the first solution which is great. You create a separate repo and then create a symbolic link to refer to that repo. Just awesome. I'm using this for sol2.,185270802
+15,group10/user1,1456098489,1456098489,Currently it can take in two places and search for it and draw a line between them,186945730
+19,group10/user1,1456098867,1456098867,Currently lines can be drawn between two places,186947654
+33,group10/user1,1456323075,1456323075,This is the funniest issue ever,188271209
+39,group10/user1,1456411606,1456411606,Couldn't configure any so decided to work on it from scratch,188816240
+13,group10/user1,1456411646,1456411646,Finally managed to work on multiple projects under different folders using git shell,188816427
+27,group10/user5,1456418923,1456418923,how to keep the marker?,188873329
+27,group10/user5,1456425779,1456425779,done! ,188923543
+28,group10/user5,1456425823,1456425823,fixed the marker problem!,188923739
+24,group10/user5,1456425933,1456425933,done!,188924279
+14,group10/user5,1456425959,1456425959,Goes well!,188924390
+26,group10/user5,1456426003,1456426003,I think we have solved it.,188924732
+12,group10/user5,1456426267,1456426267,"1, 2, 3, 4 and 7 had been solved yet.",188926395
+11,group10/user1,1456710526,1456710526,"Things to do this week:
+Layout
+Multiple places directions in the map",189993578
+35,group10/user1,1456712298,1456712298,It displays real path now,190001797
+22,group10/user1,1456932160,1456932160,"Currently multiple places can be added and deleted.
+Shows the map with actual path.",191285637
+25,group10/user1,1456937440,1456937440,Currently working on the layout,191322097
+51,group10/user1,1457029588,1457029588,@yemao616 Finish this work by today please,191895541
+51,group10/user5,1457031577,1457031577,done,191913879
+51,group10/user1,1457032498,1457032498,I added a point to it. Maybe you want to take a look.,191921139
+53,group10/user1,1457032528,1457032528,Finished these slides,191921464
+56,group10/user5,1458498938,1458498938,"Done with calculation, but how to display it properly?",198984357
+50,group10/user1,1459739440,1459739440,Didn't work,205114737
+70,group10/user4,1459898301,1459898301,start solution 2 test,206030078
+70,group10/user5,1459967525,1459967525,Done!,206505835
+62,group10/user1,1459985998,1459985998,"Conducted box plots, anova and t tests",206622397
+79,group10/user1,1459986025,1459986025,Abstract and results done,206622478
+63,group10/user1,1459986045,1459986045,data collected,206622522
+82,group10/user1,1460685131,1460685131,Fixed it,210244668
+69,group10/user1,1461107739,1461107739,Not fixing.,212167408
+83,group10/user5,1461692334,1461692334,done.,214822981

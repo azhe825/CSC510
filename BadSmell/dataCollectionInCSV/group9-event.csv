@@ -1,0 +1,230 @@
+issueID,time,action,label,user,milestone,identifier
+1,1453158241,milestoned,Feb 1 submission,group9/user1,1,518466000
+1,1453157992,closed,closed,group9/user1,1,518463234
+1,1453157952,renamed,renamed,group9/user1,1,518462861
+1,1453157890,assigned,group9/user1,group9/user1,1,518462254
+2,1454321145,closed,closed,group9/user1,1,533939292
+2,1453605810,renamed,renamed,group9/user1,1,524092305
+2,1453158250,milestoned,Feb 1 submission,group9/user1,1,518466106
+2,1453158086,renamed,renamed,group9/user1,1,518464261
+2,1453158033,renamed,renamed,group9/user1,1,518463693
+2,1453158014,renamed,renamed,group9/user1,1,518463455
+3,1454321108,closed,closed,group9/user1,1,533938508
+3,1453158246,milestoned,Feb 1 submission,group9/user1,1,518466043
+4,1454321093,closed,closed,group9/user1,1,533938225
+4,1453158322,milestoned,Feb 1 submission,group9/user1,1,518466899
+5,1454322195,closed,closed,group9/user1,1,533960904
+5,1454321179,milestoned,Feb 1 submission,group9/user1,1,533939903
+5,1454321179,assigned,group9/user1,group9/user1,1,533939902
+6,1454379250,closed,closed,group9/user2,,535165399
+6,1454340129,labeled,proj1 feedback,group9/user3,,534316680
+7,1456624219,closed,closed,group9/user1,2,569406314
+7,1456199835,assigned,group9/user1,group9/user1,2,560927174
+7,1454614893,milestoned,Mar 1,group9/user1,2,539697612
+7,1454614885,labeled,Discussion,group9/user1,2,539697451
+8,1456624209,closed,closed,group9/user1,2,569406188
+8,1454798715,assigned,group9/user1,group9/user1,2,541913738
+8,1454614947,milestoned,Mar 1,group9/user1,2,539698949
+8,1454614947,labeled,Discussion,group9/user1,2,539698948
+9,1454893319,closed,closed,group9/user1,2,542388619
+9,1454893303,assigned,group9/user4,group9/user4,2,542388572
+9,1454633157,milestoned,Mar 1,group9/user2,2,540037070
+10,1455946120,closed,closed,group9/user1,2,557403038
+10,1454798729,assigned,group9/user4,group9/user4,2,541913974
+10,1454633205,milestoned,Mar 1,group9/user2,2,540037596
+11,1459907412,closed,closed,group9/user5,3,616073719
+11,1456732778,demilestoned,Mar 1,group9/user1,3,570619244
+11,1456732778,milestoned,Apr 1,group9/user1,3,570619243
+11,1456381739,labeled,Discussion,group9/user1,3,565026920
+11,1454798739,assigned,group9/user5,group9/user5,3,541914150
+11,1454633322,milestoned,Mar 1,group9/user5,3,540040642
+12,1459907279,closed,closed,group9/user5,3,616072419
+12,1456042179,labeled,Discussion,group9/user1,3,558158455
+12,1454633256,milestoned,Apr 1,group9/user4,3,540039862
+13,1456785235,closed,closed,group9/user1,2,572000302
+13,1455946135,labeled,Implementation,group9/user1,2,557403077
+13,1454893428,milestoned,Mar 1,group9/user1,2,542389077
+13,1454893428,assigned,group9/user5,group9/user5,2,542389076
+14,1456784192,closed,closed,group9/user1,2,571969690
+14,1455946141,labeled,Implementation,group9/user1,2,557403093
+14,1454893470,milestoned,Mar 1,group9/user1,2,542389204
+14,1454893466,assigned,group9/user1,group9/user1,2,542389198
+15,1456624701,closed,closed,group9/user1,2,569410637
+15,1455946018,milestoned,Mar 1,group9/user1,2,557402474
+15,1455946018,assigned,group9/user1,group9/user1,2,557402473
+15,1455946018,labeled,Implementation,group9/user1,2,557402472
+16,1456624179,closed,closed,group9/user1,2,569405992
+16,1455946183,milestoned,Mar 1,group9/user1,2,557403184
+16,1455946183,assigned,group9/user1,group9/user1,2,557403183
+16,1455946183,labeled,Implementation,group9/user1,2,557403182
+16,1455946183,labeled,bug,group9/user1,2,557403181
+17,1456708205,closed,closed,group9/user1,4,570254386
+17,1455946314,demilestoned,Mar 1,group9/user1,4,557403630
+17,1455946314,milestoned,API call setups,group9/user1,4,557403629
+17,1455946276,milestoned,Mar 1,group9/user1,4,557403498
+17,1455946276,assigned,group9/user1,group9/user1,4,557403497
+17,1455946276,labeled,Implementation,group9/user1,4,557403496
+18,1456632596,closed,closed,group9/user5,4,569483621
+18,1455946369,milestoned,API call setups,group9/user1,4,557403975
+18,1455946369,assigned,group9/user4,group9/user4,4,557403974
+18,1455946369,labeled,Implementation,group9/user1,4,557403973
+19,1456732671,closed,closed,group9/user1,4,570617087
+19,1456632686,renamed,renamed,group9/user1,4,569484551
+19,1455948393,milestoned,API call setups,group9/user1,4,557412921
+19,1455948393,assigned,group9/user5,group9/user5,4,557412920
+19,1455948393,labeled,Implementation,group9/user1,4,557412919
+20,1456732694,closed,closed,group9/user1,4,570617493
+20,1456042157,milestoned,API call setups,group9/user1,4,558158285
+20,1456042157,assigned,group9/user1,group9/user1,4,558158284
+20,1456042157,labeled,bug,group9/user1,4,558158283
+21,1456708189,closed,closed,group9/user1,4,570254284
+21,1456374423,milestoned,API call setups,group9/user1,4,564911610
+21,1456374421,labeled,Implementation,group9/user1,4,564911586
+21,1456374400,demilestoned,02/24/2016,group9/user1,4,564911172
+21,1456273662,milestoned,02/24/2016,group9/user5,4,562672054
+21,1456273662,assigned,group9/user5,group9/user5,4,562672052
+22,1456733235,closed,closed,group9/user1,5,570626773
+22,1456732766,demilestoned,Mar 1,group9/user1,5,570618989
+22,1456732766,milestoned,Data Collection methods,group9/user1,5,570618988
+22,1456274263,milestoned,Mar 1,group9/user4,5,562683414
+22,1456274263,assigned,group9/user4,group9/user4,5,562683413
+22,1456274263,labeled,Discussion,group9/user4,5,562683412
+23,1456890290,closed,closed,group9/user4,2,574099149
+23,1456624368,milestoned,Mar 1,group9/user4,2,569407983
+23,1456624368,assigned,group9/user4,group9/user4,2,569407982
+23,1456624368,labeled,bug,group9/user4,2,569407981
+24,1456637293,closed,closed,group9/user1,2,569522008
+24,1456629623,assigned,group9/user1,group9/user1,2,569455768
+24,1456629621,milestoned,Mar 1,group9/user1,2,569455725
+24,1456624410,labeled,bug,group9/user2,2,569408247
+25,1456785416,closed,closed,group9/user1,2,572004710
+25,1456624761,assigned,group9/user2,group9/user2,2,569411201
+25,1456624756,milestoned,Mar 1,group9/user1,2,569411157
+25,1456624756,labeled,enhancement,group9/user1,2,569411156
+26,1459712646,closed,closed,group9/user1,6,612838564
+26,1456733193,demilestoned,Mar 1,group9/user1,6,570626208
+26,1456733193,milestoned,Improvement to-do's,group9/user1,6,570626207
+26,1456637319,milestoned,Mar 1,group9/user1,6,569522317
+26,1456637319,assigned,group9/user1,group9/user1,6,569522316
+26,1456637319,labeled,enhancement,group9/user1,6,569522315
+27,1456805136,closed,closed,group9/user1,2,572410653
+27,1456637429,milestoned,Mar 1,group9/user2,2,569523081
+27,1456637429,assigned,group9/user2,group9/user2,2,569523080
+27,1456637429,labeled,enhancement,group9/user2,2,569523079
+28,1456782088,closed,closed,group9/user1,2,571904697
+28,1456699403,milestoned,Mar 1,group9/user1,2,570150595
+28,1456699403,labeled,Implementation,group9/user1,2,570150594
+28,1456699403,labeled,enhancement,group9/user1,2,570150593
+29,1456725769,closed,closed,group9/user1,2,570505184
+29,1456708077,milestoned,Mar 1,group9/user1,2,570252537
+29,1456708077,assigned,group9/user1,group9/user1,2,570252536
+29,1456708077,labeled,bug,group9/user1,2,570252535
+30,1456890177,closed,closed,group9/user5,2,574097265
+30,1456785265,labeled,Implementation,group9/user1,2,572001033
+30,1456785265,labeled,bug,group9/user1,2,572001030
+30,1456785256,milestoned,Mar 1,group9/user1,2,572000832
+30,1456785250,assigned,group9/user5,group9/user5,2,572000680
+31,1456805145,closed,closed,group9/user1,5,572410727
+31,1456732840,assigned,group9/user2,group9/user2,5,570620337
+31,1456732817,milestoned,Data Collection methods,group9/user1,5,570620072
+31,1456732817,labeled,Discussion,group9/user1,5,570620071
+32,1456890151,closed,closed,group9/user1,5,574096899
+32,1456732896,milestoned,Data Collection methods,group9/user1,5,570621233
+32,1456732896,assigned,group9/user2,group9/user2,5,570621232
+32,1456732896,labeled,Discussion,group9/user1,5,570621231
+33,1456779702,closed,closed,group9/user1,2,571835942
+33,1456775599,milestoned,Mar 1,group9/user1,2,571717543
+33,1456775599,assigned,group9/user1,group9/user1,2,571717542
+33,1456775599,labeled,Implementation,group9/user1,2,571717540
+33,1456775599,labeled,enhancement,group9/user1,2,571717538
+34,1456805160,closed,closed,group9/user1,2,572410864
+34,1456781560,milestoned,Mar 1,group9/user2,2,571890486
+34,1456781560,assigned,group9/user2,group9/user2,2,571890485
+34,1456781560,labeled,bug,group9/user2,2,571890483
+35,1456866988,closed,closed,group9/user5,2,573692720
+35,1456784241,milestoned,Mar 1,group9/user1,2,571970808
+35,1456784241,assigned,group9/user5,group9/user5,2,571970803
+35,1456784241,labeled,Implementation,group9/user1,2,571970799
+36,1456814327,closed,closed,group9/user1,2,572570957
+36,1456784266,milestoned,Mar 1,group9/user1,2,571971417
+36,1456784266,assigned,group9/user4,group9/user4,2,571971416
+36,1456784266,labeled,bug,group9/user1,2,571971415
+37,1459712657,closed,closed,group9/user1,7,612838657
+37,1456785389,labeled,testing,group9/user1,7,572004110
+37,1456785360,milestoned,User response study initial survey on apps usage,group9/user1,7,572003322
+37,1456785360,assigned,group9/user4,group9/user4,7,572003321
+38,1456804866,closed,closed,group9/user5,2,572406175
+38,1456804283,milestoned,Mar 1,group9/user4,2,572397428
+38,1456804283,assigned,group9/user4,group9/user4,2,572397427
+38,1456804283,labeled,Implementation,group9/user4,2,572397426
+39,1456871112,closed,closed,group9/user1,2,573785832
+39,1456805030,milestoned,Mar 1,group9/user5,2,572409189
+39,1456805030,assigned,group9/user5,group9/user5,2,572409188
+40,1459712681,closed,closed,group9/user1,6,612838811
+40,1456890209,demilestoned,Mar 1,group9/user1,6,574097673
+40,1456890209,milestoned,Improvement to-do's,group9/user1,6,574097672
+40,1456814246,milestoned,Mar 1,group9/user1,6,572568681
+40,1456814246,assigned,group9/user1,group9/user1,6,572568680
+40,1456814246,labeled,bug,group9/user1,6,572568679
+41,1456890316,closed,closed,group9/user2,2,574099563
+41,1456814290,milestoned,Mar 1,group9/user1,2,572570096
+41,1456814290,assigned,group9/user2,group9/user2,2,572570093
+41,1456814290,labeled,Implementation,group9/user1,2,572570088
+42,1459712753,closed,closed,group9/user1,7,612839058
+42,1456984938,milestoned,User response study initial survey on apps usage,group9/user1,7,575775413
+42,1456984938,assigned,group9/user2,group9/user2,7,575775412
+42,1456984938,labeled,Discussion,group9/user1,7,575775411
+42,1456984938,labeled,proj1 feedback,group9/user1,7,575775410
+43,1459712673,closed,closed,group9/user1,7,612838777
+43,1456984966,milestoned,User response study initial survey on apps usage,group9/user1,7,575775648
+43,1456984966,assigned,group9/user4,group9/user4,7,575775647
+43,1456984966,labeled,Discussion,group9/user1,7,575775646
+43,1456984966,labeled,proj1 feedback,group9/user1,7,575775645
+44,1460076133,closed,closed,group9/user2,9,619321258
+44,1459724451,milestoned,Analysis of solutions,group9/user1,9,612905221
+44,1459724451,labeled,Discussion,group9/user1,9,612905220
+44,1459724451,assigned,group9/user2,group9/user2,9,612905219
+45,1459907240,closed,closed,group9/user5,9,616071871
+45,1459724474,milestoned,Analysis of solutions,group9/user1,9,612905657
+45,1459724474,labeled,Discussion,group9/user1,9,612905656
+45,1459724474,assigned,group9/user5,group9/user5,9,612905655
+46,1460083009,closed,closed,group9/user1,9,619401689
+46,1459907756,assigned,group9/user5,group9/user5,9,616077179
+46,1459907756,unassigned,unassigned,group9/user4,9,616077178
+46,1459907362,labeled,testing,group9/user1,9,616073251
+46,1459724518,milestoned,Analysis of solutions,group9/user1,9,612906417
+46,1459724518,labeled,Discussion,group9/user1,9,612906416
+46,1459724518,assigned,group9/user4,group9/user4,9,612906415
+47,1460083003,closed,closed,group9/user1,3,619401609
+47,1459907510,labeled,Report,group9/user1,3,616074504
+47,1459724848,milestoned,Apr 7,group9/user1,3,612910131
+47,1459724848,labeled,Discussion,group9/user1,3,612910130
+47,1459724848,assigned,group9/user4,group9/user4,3,612910129
+48,1460065384,closed,closed,group9/user5,9,619172280
+48,1459907492,labeled,Report,group9/user1,9,616074376
+48,1459907393,milestoned,Analysis of solutions,group9/user5,9,616073580
+48,1459907393,labeled,testing,group9/user5,9,616073579
+48,1459907393,labeled,Discussion,group9/user5,9,616073578
+48,1459907393,assigned,group9/user5,group9/user5,9,616073577
+49,1460076120,closed,closed,group9/user2,3,619321115
+49,1459907481,unlabeled,proj1 feedback,group9/user1,3,616074319
+49,1459907481,labeled,Report,group9/user1,3,616074318
+49,1459907446,milestoned,Apr 7,group9/user1,3,616074035
+49,1459907446,labeled,Discussion,group9/user1,3,616074034
+49,1459907446,labeled,proj1 feedback,group9/user1,3,616074033
+49,1459907446,assigned,group9/user2,group9/user2,3,616074032
+50,1460075783,closed,closed,group9/user1,3,619318063
+50,1459907722,labeled,Report,group9/user1,3,616076875
+50,1459907710,milestoned,Apr 7,group9/user2,3,616076779
+50,1459907710,assigned,group9/user2,group9/user2,3,616076778
+51,1460065585,closed,closed,group9/user4,9,619176219
+51,1459907790,milestoned,Analysis of solutions,group9/user1,9,616077568
+51,1459907790,labeled,Report,group9/user1,9,616077567
+51,1459907790,labeled,testing,group9/user1,9,616077566
+51,1459907790,labeled,Discussion,group9/user1,9,616077565
+51,1459907790,assigned,group9/user4,group9/user4,9,616077564
+52,1460083077,closed,closed,group9/user1,,619402732
+52,1460083025,demilestoned,Apr 7,group9/user1,,619401899
+52,1460076175,milestoned,Apr 7,group9/user2,,619321628
+52,1460076175,labeled,Report,group9/user2,,619321627
+52,1460076175,assigned,group9/user2,group9/user2,,619321626

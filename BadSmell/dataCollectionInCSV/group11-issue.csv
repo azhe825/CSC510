@@ -1,0 +1,33 @@
+id,name
+1,User Survey
+2,Literature Review
+3,PUTG
+4,Report
+5,Adding file startup_exercise.md
+6,Develop a web scraper
+7,Finalize the 3 different methods 
+8,Telemetry
+9,Dataset preprocessing
+10,parser.py
+11,changes to file:added dict
+12,Evaluation of three different methods
+13,Generic parser
+14,Algorithms for recommendation system
+15,Vectorization of n-gram code to speed up the execution
+16,Input validation
+17,iterative approach to compute similarity is ineffecient
+18,Comparison of performance of the solution in R and matlab
+19,Output formatting
+20,Organise code
+21,what should be the output if user inputted keywords are not there in the post
+22,Currently one solution computes 3 grams.so user cannot enter less than 3 words in a string
+23,remove redundant posts from output
+24,Add comments in matlab code
+25,Processing
+26,Different training and test corpora for Naive Bayes recommender affecting feature vectors
+27,New Folder
+28,Decide solution for implementation
+29,Community filter sorting implementation
+30,Import Dataframes
+31,Size of dataset causing cache issues and runtime crashes
+32,User Form Components

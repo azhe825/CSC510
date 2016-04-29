@@ -1,0 +1,78 @@
+id,time,sha,user,message
+1,1461713286,2656dc0fe8e9038b2ad9888d5bae14886983028b,group9/user1,fix
+2,1461713134,aa2e9a0ccbedb048278808be14941d541a6f7fbc,group9/user1,added issues extracted data for May
+3,1461034758,46aa179c8962ac805830905b16c7c51bf6c0edcb,group9/user1,Merge branch 'master' of https://github.com/shivamgulati1991/CSC510-SE-group-i
+4,1461034730,f0be87a40eb05d0e5c046c2c88ef936bcda78e99,group9/user1,pdf of presentation
+5,1460131550,d8d5f76eba2fce2e3cd0c7e5a489889132953722,group9/user1,Update README.md
+6,1460078491,9696d6dd186cf9965bdb60ae68d99f49b0db3215,group9/user1,Update README.md
+7,1460078379,e98438411d7c796184833b398747a73efc056672,group9/user1,added report and presentation
+8,1459712562,90340821d75e699ac80d950b0d34cc54decaac69,group9/user1,more analytics
+9,1459450282,b7e3b9b9400d0558b50610c5f1db9d927dff3224,group9/user1,code changes to google script
+10,1457118276,0931dfee03a7c78e51e120eed7fc72c79f532a0b,group9/user2,Merge remote-tracking branch 'origin/and'
+11,1457117470,51151d6d699a0274e5272b81a6a17596f74904c2,group9/user2,gerge remote-tracking branch 'origin/JS'
+12,1457064111,85c8f4dd130d4d5b100077630fad9b54491fbd0a,group9/user1,Update README.md
+13,1457064077,bf50b6b0291ba065db69c87cdec6d7f561c6d8e7,group9/user1,Added files via upload
+14,1456892387,dacc62032f9479fd3a72a4298223d86696b2872c,group9/user2,outlook integration
+15,1456890120,b4a7d1bf122a824656ab1d2220b607e12271f5be,group9/user1,Updated links in readme
+16,1456889958,da420394f38d00a035799f610043ec2e510a0d44,group9/user1,Added files via upload
+17,1456889883,b65ce74d2eb9165617721f3260f062f09cf5cd05,group9/user1,Delete Evaluation.plan.docx
+18,1456889873,af85c93f96c56249032574cb3b304d47664708a7,group9/user1,Delete Telemetry.docx
+19,1456889826,8b0f510ba5f30bd36efe0392a51cea32450fd637,group9/user1,Added telemetry (sample log) and evaluation plan
+20,1456888768,00b6c0fa128ddbbcadddb8deebf4c1edaca72067,group9/user1,Update README.md
+21,1456888251,ff470d21536b6bdc4724c4292e0b912d077b8618,group9/user1,Update README.md
+22,1456879636,97be66e63da1f65184d3f0b7ca641e5a21d4f36b,group9/user5,Merge branch 'and' of https://github.com/shivamgulati1991/CSC510-SE-group-i into and
+23,1456879494,c1a63957be82666b7f18deb1085a37c4ded45822,group9/user5,fb login
+24,1456868788,165acc450c2d822c078494ab4044870678589d49,group9/user4,Delete CalendarQuickstart29thFebFinal.zip
+25,1456867313,96ed3a0e3b21b3d2cdfaf16a97defde0b73d4f70,group9/user4,google calendar update
+26,1456866764,6e7b64cd762915058494aa2979ea52c9bd39fe79,group9/user2,function fix for facebook
+27,1456817699,0c33fa29aeba41d9ead07d9d2566b3ba604b06be,group9/user5,meetup token access
+28,1456817556,b063e28c4c5cded7422abee94b16bb024f32ee28,group9/user4,meetup1
+29,1456814105,729f6a9db40bddca10105dfbe5f73b672aba9a69,group9/user2,layout setup
+30,1456804775,2acf23a0679125e963b86d02f1d1b81ff218471f,group9/user4,authentication of meetup
+31,1456804103,9e37ef717af0b18ce36298d2340f7e632665075b,group9/user5,meetup setup and layout
+32,1456801112,bfc36c0dc8c9680d26b65fdae10fbcbcece3765b,group9/user1,added facebook sdk and login
+33,1456801044,6d69bdd86d7e7bd7fd918b53c963db6d8bfc53bf,group9/user1,setup facebook sdk
+34,1456800909,c0e27303aab58e92569fe3f298d2b0bbe6ff90b4,group9/user1,connected google sdk for calendar
+35,1456780842,2ecdc2b60f0c1a72154198d91cb86e51171458ed,group9/user2,UI changes
+36,1456780670,66a9b8494b547727a0c58688630f44c05ced3f5a,group9/user2,fixes
+37,1456780174,d61ca0391e5a6d30ec80fde6be6d7da2d5c760d6,group9/user2,added subscribe by id option
+38,1456729172,9c6ba6237d39aa76e3bbb051aa239e6f9bdb4f9a,group9/user4,setup calendar with google events
+39,1456728690,5ea14261108f79785cad07492faf2a2736443b84,group9/user5,fix
+40,1456719530,04a636aca7cec7ec48af165b07ca599ff775ff17,group9/user2,bug fix for picking calendar
+41,1456707992,55c3ba009b7dd55bbae368301b4750767b12f285,group9/user1,added user calendar view
+42,1456701999,9704a674b2444dcff3ee4e7edbb9033e3310ea9d,group9/user2,add event creation on UI
+43,1456699243,e17d1b8fb1c1bbdbacec228121b3b1a2edf2b4f2,group9/user1,improved layout
+44,1456688310,2888c42cf7498edcda79406093b52f9cd05bbc24,group9/user1,embedded google analytics
+45,1456676032,138292c71a790db3f3adb81e5985d9872aeeb8f7,group9/user4,api meetup setup
+46,1456637218,e4f98e054d455a8d6567c06deed734e3633adc01,group9/user1,user can input dates to extract reports
+47,1456632307,1b188b22bf98d69a2a6fd9e6c2ddecd534105e3b,group9/user6,calendar view update
+48,1456629519,494b3d0b3de5c3dccd89d4cb5f4708b676b1255a,group9/user2,installable default trigger script added
+49,1456623787,34da5861de8dbb41731d96f45d1b17776437c08e,group9/user1,get dates from user
+50,1456621835,c61f4e265947dfc9d4ee8715c64cd36345377bdb,group9/user6,added fb sdk
+51,1456617200,8f8e74c38cd1def5f7df6fa72486477e7411aa80,group9/user2,Merge branch 'master' of https://github.com/shivamgulati1991/CSC510-SE-group-i
+52,1456615947,2198a5e5b2871349ca4e2b063d8f792da1d66a97,group9/user2,added event creation option
+53,1456614961,252c48f38c129fff30c906f5f83fc6d3356b1143,group9/user5,Delete main
+54,1456614946,eed50f7e15bd85a188e23b9b9791d7dda748d678,group9/user5,Create main
+55,1456282764,8d7524d175c8c7a0af0b245e407aee5ba9fd2e49,group9/user1,Merge branch 'master' of https://github.com/shivamgulati1991/CSC510-SE-group-i
+56,1456282737,37310e18cdd2db12a1d565d19536218327db63a6,group9/user1,auto pick gmail id from login fix
+57,1456281468,72e2fd8c446f4ae30030d5b8ca3c0ef1bdfb35b8,group9/user5,Delete References
+58,1456277705,35cf64e2f74964f66761f80ad8baa2d30d187e5b,group9/user5,Create References
+59,1455945900,ff335e5583c528e6c9bedcb1ec06f8c6ac11b64c,group9/user1,fixes to html
+60,1454893763,e5a4a4c29880d7042c3127afdea8b2029d63bd00,group9/user1,creation of index.html
+61,1454890974,5a77ba75c3f1a0708f2508ecbb06b66698fbface,group9/user2,fixes
+62,1454890857,4977dcd3756e55564538dc126b18870d1cb34a24,group9/user2,corrected function naming
+63,1454890630,6b96219d0aa168e71d2ab32fee16b208c4de10f5,group9/user2,Merge branch 'master' of https://github.com/shivamgulati1991/CSC510-SE-group-i
+64,1454890598,e2ab0100007f97b09670d43c487b5f7dcf9696b8,group9/user2,fix report format for email
+65,1454890439,cc656195a7ff30c875066ea6149561cafdbb5131,group9/user2,format email report fixes
+66,1454884355,13938f0f971736c979e01e1f9c1752f772418e0e,group9/user2,Update README.md
+67,1454798372,ea9f7fc926c6c2ac917247680b188c0ff1ed015f,group9/user2,minor changes
+68,1454797865,7891d862bf54ba6d1f90b5c4b5cc0e6023073265,group9/user1,basic email setup
+69,1454797593,c8c4a42720f4c4476ffcf145e1ce1ec7afb67f05,group9/user1,Merge branch 'master' of https://github.com/shivamgulati1991/CSC510-SE-group-i
+70,1454797546,64aa1f1eaa5cb5b86204279eb820e559007d4c55,group9/user1,Starting google script extraction script
+71,1454633714,fd049da1d88fd09f4ead39f137e730a0ce7c3c43,group9/user5,Update README.md
+72,1454633688,8c0091d85a0bc779ac7cbd0af05761162be74da8,group9/user5,Update README.md
+73,1454379150,7b812a5c73043d39314763fe15bb87cf16f5f9b7,group9/user1,Corrected references
+74,1454321932,c461171c9c5e52c95ed745e7d84604e4d6536951,group9/user1,Added project propasal report
+75,1454321675,90d55b2a8edc990051da2e1cbf89ba257da562c2,group9/user1,Added project propasal report
+76,1453606063,42d69fae40c4c267e28fc494f712981d077e1bc9,group9/user1,Update README.md
+77,1453606018,e084b84f768378a88a3b6d607b0fb4b954e28853,group9/user1,Create README.md

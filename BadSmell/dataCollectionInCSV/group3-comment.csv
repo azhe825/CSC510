@@ -1,0 +1,27 @@
+issueID,user,createtime,updatetime,text,identifier
+3,group3/user1,1452808325,1452808325,"fixed
+#1 ",171792689
+4,group3/user1,1453855116,1453855255,"Methods for mining and summarizing text conversations(Shijie)
+This is a book, not a paper. Let me read the following paper instead:
+- Intelligent Email: Aiding Users with AI (Shijie)",175314287
+4,group3/user3,1453950044,1453950044,"## Alecsa: Attentive Learning for Email Categorization using Structural Aspects 
+
+ - Decision Fusion (different models to predict different type of folders, then combine the prediction together)
+ - attentive learning (3 type of folders: content-aware, time-aware, participant-aware)
+ - has a lot of related work description
+ - performance metric: average accuracy
+ - Data source: Use the following in bash:
+
+```
+wget http://people.cs.umass.edu/~ronb/datasets/enron_flat.tar.gz
+```
+
+ ",175932009
+4,group3/user3,1453950908,1453950908,"## BuzzTrack: topic detection and tracking in email
+
+ - Clustering (unsupervised learning)
+ - Labeling after clustering by using most common words in the subjects
+ - Introduction is useful, describes why we need to regroup inbox, why we don't want to manually group it...
+ - TDT evaluation: New Topic detection and topic tracking.
+ - Performance metric: precision, recall, FP, FN, TP. FP and FN forms a DET curve.
+ - Data: not Enron, data collected by their own, at ETH Zurich",175936152

@@ -1,0 +1,215 @@
+issueID,user,createtime,updatetime,text,identifier
+8,group8/user2,1453587063,1453587063,Good Job! The form looks good.,174226238
+8,group8/user1,1453588361,1453588361,nicely done! Thanks. i just did the survey. ,174227479
+8,group8/user3,1453648799,1453648799,"Here is the paper based questionnaire. Please take a look: https://www.sharelatex.com/project/56a18049714506014cb7b633
+
+I added a question: ""Why did you learn git?"" as question 3, to get people's intention to learn Git. This may possibly affect our solutions. Please leave your comments and possible options if you agree with adding the question.",174309042
+8,group8/user4,1453667730,1453667730,"I think the question and its options are great.
+Thanks",174339301
+8,group8/user1,1453776443,1453776443,NICE. I am ok with it. tks,174788361
+9,group8/user1,1453834775,1453840541,"1. https://github.com/cpliakas/git-wrapper
+ A PHP wrapper for github that provides a new interface for github, you can access github through their predefined commands instead of executing git commands.
+2. Advanced version of 1.
+https://github.com/teqneers/PHP-Stream-Wrapper-for-Git",175179208
+9,group8/user2,1453839400,1453839400,"https://github.com/golbin/git-commander
+A git tool with an easy terminal interface.",175207287
+2,group8/user1,1454021284,1454021284,"https://www.sharelatex.com/project/569dae4c6ad1a28d480e78a3
+",176465231
+8,group8/user2,1454029937,1454029937,Well done.,176508331
+9,group8/user1,1454033603,1454033603,"Haaranen, Lassi, and Teemu Lehtinen. ""Teaching git on the side: Version control system as a course platform."" Proceedings of the 2015 ACM Conference on Innovation and Technology in Computer Science Education. ACM, 2015.
+
+This describe how to incrementally present features of Git and incorporate them into the course workflow.",176525966
+9,group8/user1,1454035650,1454131139,"githug
+
+http://www.tobscore.com/githug-what-is-it/",176541717
+5,group8/user2,1454185121,1454185121,Finish,177289706
+9,group8/user1,1454187214,1454187214,done,177299429
+7,group8/user2,1454291123,1454291123,Finish,177692915
+2,group8/user2,1454347868,1454347868,finish,178085515
+13,group8/user4,1454632659,1454632659,"Error will look like this:
+CONFLICT (content): Merge conflict in README.md",180125591
+12,group8/user2,1454964931,1454964992,"https://github.com/gitpython-developers/GitPython
+# GitPython
+GitPython is a python library used to interact with git repositories, high-level like git-porcelain, or low-level like git-plumbing.
+
+It provides abstractions of git objects for easy access of repository data, and additionally allows you to access the git repository more directly using either a pure python implementation, or the faster, but more resource intensive git command implementation.
+
+The object database implementation is optimized for handling large quantities of objects and large datasets, which is achieved by using low-level structures and data streaming.",181564430
+14,group8/user1,1455058557,1455058557,https://pypi.python.org/pypi/googlesearch/0.7.0,182121952
+13,group8/user3,1455058879,1455058879,First version of mock up on Google Drive: https://goo.gl/IKutNj,182124504
+13,group8/user3,1455132324,1455132324,Updated mock ups according to discussion on 2/9/2016 meeting.,182539146
+13,group8/user1,1455160550,1455160550,"GREAT JOB!!!
+",182682371
+13,group8/user4,1455168215,1455168215,"Looks great.
+Thanks",182717871
+10,group8/user4,1455380562,1455380562,"Updated solutions:
+
+1. If user wants open browser, search stack-overflow and show the results in our order
+2. If user wants, send the error message to our email-bot and reply with the answer
+3. Change git help to show more useful information on errors",183698704
+16,group8/user2,1455381168,1455381168,Discuss with @lintingting about the code interface.,183699762
+15,group8/user4,1455381176,1455381176,https://github.com/hrs/python-tf-idf,183699769
+16,group8/user4,1455381752,1455381752,http://stackoverflow.com/questions/4216985/call-to-operating-system-to-open-url,183700500
+16,group8/user2,1455381915,1455381915,Use google app engine to build our search engine website.,183701299
+17,group8/user2,1455382128,1455382128,"[10 things I hate about Git](http://stevebennett.me/2012/02/24/10-things-i-hate-about-git/)
+",183701516
+23,group8/user3,1455676022,1455676022,Got response from Dr. Heckman. She is interested in the experiment. Continue communicating about when and how to do the experiment.,184981315
+27,group8/user2,1455734210,1455734210,done.,185341010
+26,group8/user4,1455769324,1455769324,"There aren't many errors happening about merge.
+Done as much as I could find.",185536898
+15,group8/user2,1455847788,1455847788,http://bit.ly/1SVhCuE,186013200
+21,group8/user2,1455911951,1455911951,http://git-helper-2016.appspot.com,186380766
+25,group8/user1,1455932878,1455932878,done,186482320
+16,group8/user1,1455934671,1455934671,http://stackapps.com/questions/198/py-stackexchange-an-api-wrapper-for-python,186487506
+18,group8/user4,1455950350,1455950350,pushed,186521937
+21,group8/user4,1455950633,1455950633,"For now, can you push it on the repo?",186523396
+21,group8/user2,1455997673,1455997673,I pushed it yesterday within my branch,186670122
+33,group8/user2,1456086497,1456176141,- [x] Show the result according to a JSON file.,186908263
+28,group8/user2,1456172635,1456172635,"http://git-helper-2016.appspot.com/
+Have a try.",187368391
+37,group8/user4,1456278226,1456278236,Answers parser added too. Please check and merge @lintingting .,188003795
+38,group8/user3,1456290307,1456290307,Fixed bug in commit: 5914fd63fafb3a0d0cfbe19769affd0593bcd361,188073428
+40,group8/user3,1456332956,1456332956,Fixed in this commit: a9e0aac589dec89c80285c2e5a7ce1e0491c932c,188351761
+31,group8/user1,1456417874,1456417874,"http://stackoverflow.com/questions/1380670/how-do-i-fix-a-merge-conflict-due-to-removal-of-a-file-in-a-branch
+http://stackoverflow.com/questions/20909667/git-pull-origin-master-gives-merge-conflict-what-should-i-do
+http://stackoverflow.com/questions/25019943/having-trouble-with-git-merge-upstream-master-how-to-handle-a-conflict-conten
+http://stackoverflow.com/questions/32454934/git-squashed-merge-with-conflicts-missing-commit-message-content
+http://stackoverflow.com/questions/25018602/issue-with-kdiff3-mergetool/25086772
+http://stackoverflow.com/questions/22686886/git-subtree-pull-p-whatever-repo-ref-always-merge-conflict
+http://stackoverflow.com/questions/4157189/git-pull-while-ignoring-local-changes
+http://stackoverflow.com/questions/15986680/openshift-deploying-local-application
+http://stackoverflow.com/questions/11696295/rejected-master-master-non-fast-forward
+http://stackoverflow.com/questions/linked/161813?page=4&sort=votes
+Traceback (most recent call last):
+  File ""/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/GoogleSearch/googleserach.py"", line 61, in <module>
+    TopResult = main(Query)
+  File ""/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/GoogleSearch/googleserach.py"", line 57, in main
+    [QuestionDic, AnswerList] = scrape_webs()
+  File ""/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/GoogleSearch/googleserach.py"", line 42, in scrape_webs
+    QuestionDic = QuesParser.make_question()
+  File ""/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/stack_overflow_parser/QuestionParser.py"", line 23, in make_question
+    question_text = self.get_question_text(input_str)
+  File ""/Users/Linting/Google Drive/CSC510/Project/SE-16/git_helper/stack_overflow_parser/QuestionParser.py"", line 35, in get_question_text
+    question_tr = question_soup.findAll(""div"", {'class': ""post-text""})[0]
+IndexError: list index out of range",188864986
+31,group8/user1,1456418041,1456418041,"Google search stactover , it returns link of over all result, http://stackoverflow.com/questions/linked/161813?pagesize=30&sort=unanswered
+which is not what we what. 
+",188866816
+41,group8/user3,1456446055,1456446055,Added in this commit: 7e7e2e25b65be2f303d7fdd94e32625c0a95a669,189049222
+22,group8/user3,1456446091,1456446091,Done,189049317
+46,group8/user3,1456454613,1456454613,Solved in this commit: a1da270675972f3d72e9431bab904b06bb4bf43a,189085816
+48,group8/user2,1456458212,1456511958,"http://stackoverflow.com/questions/14850853/how-to-include-third-party-python-libraries-in-google-app-engine
+
+Try this approach
+https://cloud.google.com/appengine/docs/python/tools/libraries27",189098990
+48,group8/user1,1456458333,1456458333,"Install: python model of 
+sklearn 
+nltk
+pandas
+google",189099240
+48,group8/user1,1456458401,1456458401,"google: https://breakingcode.wordpress.com/2010/06/29/google-search-python/
+",189099338
+48,group8/user1,1456458721,1456458721,"for parser script, you need install:
+BeautifulSoup4
+utils
+",189100017
+48,group8/user2,1456458753,1456458753,"Packaging Python modules
+https://pip.readthedocs.org/en/latest/user_guide/#requirements-files
+",189100093
+31,group8/user1,1456458863,1456458863,Problem solved. ,189100359
+31,group8/user1,1456458880,1456458880,Problem solved. ,189100388
+48,group8/user2,1456459733,1456459733,"Install package into a specific folder:
+http://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip",189102370
+48,group8/user2,1456508601,1456508601, change nltk package to stopwords package,189387521
+48,group8/user2,1456509136,1456509136,Update files to install those pakcage.,189392576
+48,group8/user2,1456509976,1456509976,Find solutions to install sklearn on Google App Engine .,189401355
+48,group8/user2,1456510472,1456510472,https://scikits.appspot.com/learn,189405463
+48,group8/user2,1456513240,1456513240,http://www.datacommunitydc.org/blog/2013/12/a-tutorial-for-deploying-a-django-application-that-uses-numpy-and-scipy-to-google-compute-engine-using-apache2-and-modwsgi,189425091
+48,group8/user2,1456513983,1456513997,"Natural Language Toolkit (NLTK) for App Engine
+https://github.com/rutherford/nltk-gae",189434472
+48,group8/user2,1456515416,1456515416,"Google App Engine don't support third library which uses other extensions such as C, Fortran,etc ",189447026
+48,group8/user2,1456523329,1456523329,Finally get rid of those complex packages. Use simple tfidf.py instead.,189494394
+50,group8/user2,1456523759,1456523759,http://stackoverflow.com/questions/2693081/does-google-app-engine-allow-creation-of-files-and-folders-on-the-server,189498717
+48,group8/user2,1456523776,1456523806,"TypeError: expected httplib.Message, got \<type 'instance'\>.
+https://github.com/shazow/urllib3/issues/618",189498974
+50,group8/user2,1456540647,1456540647,"http://stackoverflow.com/sitemap-questions-62.xml
+![screen shot 2016-02-26 at 9 34 44 pm](https://cloud.githubusercontent.com/assets/6066749/13370288/207489ec-dcd1-11e5-9cc3-639a915fcdc2.png)
+",189560144
+10,group8/user2,1456540745,1456540745,"Solution One:
+![screen shot 2016-02-26 at 9 38 10 pm](https://cloud.githubusercontent.com/assets/6066749/13370294/5aba7878-dcd1-11e5-8401-6ad0de999b16.png)
+",189560278
+50,group8/user2,1456541016,1456541016,Change to string instead of using files.,189560659
+51,group8/user2,1456541119,1456542263,"# Fixed
+![screen shot 2016-02-26 at 9 34 44 pm](https://cloud.githubusercontent.com/assets/6066749/13370329/37cb3bc6-dcd2-11e5-85eb-cfbac6819189.png)
+",189561093
+51,group8/user2,1456541129,1456542286,"# Fixed
+![screen shot 2016-02-26 at 9 44 49 pm](https://cloud.githubusercontent.com/assets/6066749/13370334/402a51e4-dcd2-11e5-9fdf-cb3b9d7d04b6.png)
+",189561144
+51,group8/user2,1456542214,1456544282,"# Fixed
+![screen shot 2016-02-26 at 10 03 11 pm](https://cloud.githubusercontent.com/assets/6066749/13370428/c6e577ac-dcd4-11e5-8251-4997235b28e8.png)
+",189564402
+52,group8/user2,1456542675,1456542675,http://git-helper-2016.appspot.com,189565776
+52,group8/user1,1456542697,1456542697,"we r doing great job.
+",189565791
+52,group8/user2,1456542927,1456542927,Request link is so slow.... Big issue,189566241
+52,group8/user2,1456545363,1456545363,"![screen shot 2016-02-26 at 10 55 38 pm](https://cloud.githubusercontent.com/assets/6066749/13370641/1b1eebf8-dcdc-11e5-8e7a-cce91fffa55e.png)
+",189573274
+51,group8/user2,1456546509,1456546509,Fixed all the issues. Deployed successfully.,189574255
+15,group8/user1,1456546862,1456546862,solution: rank with 0.7* tifidf similarty + 0.6*question votes,189574750
+48,group8/user2,1456546946,1456546964,Commit https://github.com/nikign/Git-Helper/commit/b3b77924d76c894de3be29750848a9f84cab0f1f,189574813
+16,group8/user2,1456547047,1456547047,simple dynamic website https://github.com/nikign/Git-Helper/commit/781a00550d73c94bd42a8d7a4e69be1192b8a770,189574877
+51,group8/user2,1456547193,1456547193,fix normlization error https://github.com/nikign/Git-Helper/commit/5a5ae68eaac38c31c22796a98e0cc50d92ccbec0,189574969
+17,group8/user2,1456547788,1456547788,"Text Banner
+http://patorjk.com/software/taag/#p=display&f=Caligraphy&t=Solution",189576121
+53,group8/user1,1456603439,1456603439,Refactor google search code has improved request speed,189715242
+35,group8/user2,1456605929,1456605929,Finished,189721507
+54,group8/user3,1456606926,1456606926,Finished in this commit: beeeb467733dccb63686626aba33821fc5ac63e8,189725909
+56,group8/user3,1456634346,1456634346,Finished in this commit: d80acf696fdd843933e306a075637aa86b72155b,189783149
+60,group8/user3,1456634746,1456634746,Split into three issues for people to work on simultaneously. ,189783446
+61,group8/user3,1456720585,1456720585,"Finished in this commit: 27a2482ba136fb10f5fa4229150d7a41b239b463
+
+log = {
+    'time': None,
+    'userCmd': None,
+    'isGitCommand': None,
+    'gitCommand': None,
+    'isError': None,
+    'result': None,
+    'hasSolution': None,
+    'satisfy': None
+}
+
+",190034419
+42,group8/user3,1456720653,1456720653,Finished in this commit: d80acf696fdd843933e306a075637aa86b72155b,190034700
+39,group8/user1,1456720760,1456720760,"in my googlesearch.py code, 
+def google_search_engine(query):
+   """"""
+   Google search stackoverflow, return links
+   """"""
+   Links = []
+   QueryStackover = 'site:stackoverflow.com %s' % query
+   #print QueryStackover
+   for url in search(QueryStackover, tld='es', lang='es', stop=15):
+       Links.append(url)
+   return Links
+try to change the stop =1 then test it.
+",190034868
+39,group8/user1,1456720870,1456720870,"in my local, if i give the error message as ""CONFLICT (content): Merge conflict in README.md.Automatic merge failed: fix conflicts and then commit the result"",i print the get_email_result(errormessage), i got the following.
+<div class=""post-text"" itemprop=""text"">
+<p>If you mean you want the pull to overwrite local changes, doing the merge as if the working tree were clean, well, clean the working tree:</p>
+<pre><code>git reset --hard
+git pull
+</code></pre>
+<p>If there are untracked local files you could use <code>git clean</code> to remove them. Use <code>git clean -f</code> to remove untracked files, <code>-df</code> to remove untracked files and directories, and <code>-xdf</code> to remove untracked or ignored files or directories.</p>
+<p>If on the other hand you want to keep the local modifications somehow, you'd use stash to hide them away before pulling, then reapply them afterwards:</p>
+<pre><code>git stash
+git pull
+git stash pop
+</code></pre>
+<p>I don't think it makes any sense to literally <em>ignore</em> the changes, though - half of pull is merge, and it needs to merge the committed versions of content with the versions it fetched.</p>
+</div>
+",190035099
+63,group8/user2,1456779140,1456779140,Finished https://github.com/nikign/Git-Helper/commit/91d432c58fbc7f83ed56647a1f419d2345d340e0,190383740
+63,group8/user2,1456780110,1456780110,"<img width=""749"" alt=""screen shot 2016-02-29 at 4 07 39 pm"" src=""https://cloud.githubusercontent.com/assets/6066749/13409001/a9bf29d0-defe-11e5-901f-2a8f61f59a14.png"">
+<img width=""729"" alt=""screen shot 2016-02-29 at 4 07 18 pm"" src=""https://cloud.githubusercontent.com/assets/6066749/13409003/aba7b71c-defe-11e5-97bf-08d36a0eb388.png"">
+",190395661

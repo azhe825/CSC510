@@ -1,0 +1,30 @@
+id,name
+1,Gathering interview information
+2,Mozilla plugin study
+3,Task: Finding ways to implement the given solutions
+4,Create a project implementation schedule and divide tasks
+5,Study: Building a Chrome Extension
+6,Environment Setup for Chrome Extension Development
+7,Create a sample plugin to study chrome extension
+8,Sample code for Chrome extension
+9,Create a plugin to detect the a specific word (number for example) in a webpage and make it a hyperlink
+10,Find a regular expression to detect the figure captions in the web page
+11,Find a way to insert image path within hyperlink
+12,Find way to map images with text in web page
+13,Explore other paltforms to develop solution for image problem
+14,Find way to replace figure words by image URLs
+15,Extention 2
+16,Icon and popup page add
+17,Image mapping
+18,Javascript and background page
+19,Creating regular expression to mine HTML script
+20,Hover widget with image thumbnails
+21,Script for image collection
+22,Dharmendra
+23,Dharmendra
+24,How to manage styles for plug in options
+25,Provide users choice for sidebar
+26,Library inclusion for javascript
+27,passing objects to functions in javascript
+28,Merge script at source page
+29,Implemented hover over functionality

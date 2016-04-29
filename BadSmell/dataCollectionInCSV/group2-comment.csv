@@ -1,0 +1,52 @@
+issueID,user,createtime,updatetime,text,identifier
+3,group2/user3,1454894217,1454894217,"As we only need one node for our server, Mongo DB is efficient enough and hence we should use MongoDB. I have worked with it before so it would be easier as well.",181151440
+6,group2/user4,1454894274,1454894274,"I think python is the right way to go. Just see the link below for reference:
+https://clarknikdelpowell.com/blog/creating-sublime-text-3-plugins-part-1/ ",181151553
+5,group2/user3,1454894287,1454894287,https://github.com/timm/timm.github.io/blob/master/pdf/06anomalies-pits0.pdf Here is a paper Dr.Menzies  gave me. We should study it ASAP and then we can hold discussions on it.,181151563
+4,group2/user5,1454894368,1454894368,Working on NLTK in python.,181151713
+2,group2/user3,1454894371,1454894371,Me and Ayush would work on the server part I guess? as you guys are working on the NLTK part. This part needs to be finished ASAP!,181151731
+3,group2/user3,1454894435,1454894435,Also for the DB structure lets finalize the needed fields and add the structure up here. Then we can compare and contrast to arrive at an optimal structure.,181151954
+2,group2/user4,1454894438,1454894438,Yes. Sounds Good.,181151967
+6,group2/user3,1454894517,1454894517,Lets get started on this part after we finish off our server part atleast. Also more focus should be on the recommendation system part for now as it is the base of our project.,181152108
+2,group2/user3,1455589269,1455589269,"No need to create a server for fetching data using API calls. We found their official dump:
+https://archive.org/download/stackexchange
+Need to Download these:
+stackoverflow.com-Posts.7z   
+stackoverflow.com-Tags.7z   
+stackoverflow.com-Users.7z 
+
+The size for download is about 8 gbs. Can someone download it overnight maybe? The speed is really low,so would take around 15 hrs or so... ",184477329
+2,group2/user3,1455589350,1455589350,Also now we can write a script to translate the XML with tags of python and corresponding posts and users into a DB for our use. So which DB to use now? Should we go with nosql ones (they are extremely fast) or the conventional mysql lampp stack.,184477708
+1,group2/user1,1455666773,1455666773,Thanks for the feedback.,184929676
+15,group2/user4,1456089175,1456089175,Ya sure... lets filter out just the data we need and add it to the DB tonight,186918809
+17,group2/user4,1456192718,1456192718,"I will develop a prototype by 26th Feb and we can use that as a base for future iterations. 
+",187478341
+16,group2/user3,1456193118,1456193118,"We have two options: a) request su mode from the user while installing and install mongo and make the db server run everytime the plugin boots before the db client connects
+b) use a txt file or a json file and make the plugin read from it",187480803
+16,group2/user3,1456193200,1456193200,which one do you think is more optimal?,187481626
+20,group2/user3,1456464000,1456464000,Cool found and pulled it! Working! Awesome job!,189118203
+16,group2/user3,1456464081,1456464081,everything is on the localhost for now! well see how it goes!,189118336
+21,group2/user4,1456464218,1456464218,Cool.. lets get on to it and finish it ASAP,189118579
+4,group2/user1,1456693674,1456693674,Using Topic Modeling and K-Mean classifier along with NLTK.,189946398
+25,group2/user3,1456855681,1456855681,Done!,190836817
+29,group2/user1,1456855894,1456855894,"The tags present in data are:
+1. Id
+2. ViewCount
+3. Title
+4. LastEditDate
+5. AnswerCount
+6. Score
+7. OwnerDisplayName
+8. PostTypeId      --1 for Question/ 2 for Answers
+9. OwnerUserId
+10. Body
+11. Tags
+12. LastEditorUserId
+13. LastActivityDate
+14. CommentCount
+15. AcceptedAnswerId
+16. CreationDate",190837884
+30,group2/user4,1456867983,1456867983,Done..!,190914512
+31,group2/user3,1456880238,1456880238,this would be done later when we are through we the data analysis part! closing this for now! ,190999636
+32,group2/user5,1457066475,1457066475,Have added sol2keywords.json file which has required data.,192098973
+28,group2/user5,1457072509,1457072509,Working on it,192129321
