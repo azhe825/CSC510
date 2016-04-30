@@ -213,3 +213,101 @@ git stash pop
 63,group8/user2,1456780110,1456780110,"<img width=""749"" alt=""screen shot 2016-02-29 at 4 07 39 pm"" src=""https://cloud.githubusercontent.com/assets/6066749/13409001/a9bf29d0-defe-11e5-901f-2a8f61f59a14.png"">
 <img width=""729"" alt=""screen shot 2016-02-29 at 4 07 18 pm"" src=""https://cloud.githubusercontent.com/assets/6066749/13409003/aba7b71c-defe-11e5-97bf-08d36a0eb388.png"">
 ",190395661
+52,group8/user2,1456780325,1456780325,"test case:
+alkjsf2390932490iiasdfj;
+
+merge error
+merge conflict
+<div>test</div>
+""'sudo test'""
+'test solution one'
+ååßœ∑´∑œ∑å",190398050
+52,group8/user2,1456781247,1456781247,Failed the last test case.,190404379
+52,group8/user2,1456781346,1456781346,## Fixed.,190404790
+64,group8/user3,1456785033,1456785033,Done in this commit: 0eabcd542cc4f67aded629d1d8e2a135645e9f7a,190429318
+44,group8/user1,1456799587,1456799867,"# Evaluation Plan
+## First two weeks: 
+
+-    Tool enhancement and testing
+-    Experiment Design
+-     Create repository with errors (3 common errors)
+-    Split participants into three groups, assign each group with one of the solution tools to resolve the error.
+- Tool evaluation by paper questionnaires
+- Ask for feedback about the experiment design
+- Make appointment for experiment
+
+
+## Third week:
+- Conduct the experiment and Collect Data (from log and survey)
+- Data analysis
+- Compare different solutions with solid data (time for solving the git error, user preference, etc)
+
+## Fourth week:
+
+- Write project report",190500345
+17,group8/user3,1456800381,1456800381,"Finished base version,",190507502
+10,group8/user2,1456851902,1456851902,https://github.com/nikign/Git-Helper,190816650
+66,group8/user3,1456854509,1456854509,This is because of the check_output() requires to split the commands into words in order to work in Mac system. I don't have a solution for this for now. Keep trying.,190829984
+55,group8/user3,1458228701,1458228701,Finished in: 6a74c4efcb60b1c7aba9aa9aec1e630427618fc8,197933758
+57,group8/user3,1458239815,1458239815,Finished in: d82b7be9e7eca99da5a651c6ea81b81b36473a92,198024953
+59,group8/user3,1458263787,1458263787,Finished in: c8ec1eec990328518f716edf98a9a7076292dfdf,198151307
+58,group8/user3,1458324076,1458324076,Finished in: 663394e82cfb6d7bbc65e4384882b41ed1df86d3,198473222
+70,group8/user2,1458333020,1458333020,"crawl on stackoverflow website, questions are related to git errors.",198529572
+72,group8/user3,1458336513,1458336513,"https://www.mailjet.com/
+user name: yihuandong@gmail.com
+pwd: se2016",198549353
+66,group8/user3,1458415752,1458415752,Fixed on this commit: 0d6fa7f2604207d9cc2c10b653e2c9dfe2e46a06,198774558
+47,group8/user3,1458415795,1458415795,Fixed in this commit: 63c0568daac2d2c8733e194fe637bcb91f6680d7,198774593
+70,group8/user2,1458494124,1458494124,"I can only crawl for about 400 results, and then be blocked by Google :(. I'll try to use stackoverflow API to see whether it works.",198966902
+70,group8/user2,1458494293,1458494293,"I even don't know the HTTP request limit of Google. I searched online, but there is no information about this. I tried and been blocked several times. ",198967683
+71,group8/user2,1458495417,1458495417,Try elastic search tool,198970048
+70,group8/user2,1458495445,1458495445,http://stackapps.com/questions/198/py-stackexchange-an-api-wrapper-for-python,198970074
+70,group8/user2,1458503707,1458503707,"Help wanted:
+1. run copy_files_to_GAE.py to copy GoogleSearch to git-web folder.
+2. run webCrawler.py, change the Query keyword content (in line 34) before running
+3. Zip all the output csv file",199005567
+70,group8/user2,1458504006,1458566578,"- [x] git add error
+
+- [x] git push error
+
+- [x] git pull error
+
+- [x] git checkout error
+
+- [x] git merge error
+
+- [x] git commit error",199006497
+70,group8/user2,1458566624,1458566624,Finish crawling all the data.,199274760
+74,group8/user3,1458589912,1458589912,"git checkout conflict // expect to see conflict did not match any file known to git. solution: git fetch origin conflict
+
+",199447513
+76,group8/user3,1458611320,1458611320,"Finished in: 43e36f7f3d3474ebfc6f5f544bd57c9a47d324b0
+Tested on Windows in: 1fadc64c6b675128bdce400489c23e16b152682d",199579430
+75,group8/user3,1458611392,1458611587,@boyzhirui @lintingting @nikign Could you please help me test on your Macbook? Currently the working version is under 'mac' branch. Let me know if there is any exceptions. Thanks!,199580237
+74,group8/user3,1458776777,1458776777,"Finished and put the draft in shared course folder under ""Experiment Related"" folder.",200585537
+73,group8/user3,1458777428,1458777428,"Talked to Dr. Heckman on Tuesday. Dr. Heckman agreed to give half an hour of her in class lab sessions for our experiment on March 29, 2016. ",200587322
+23,group8/user3,1458777482,1458777482,Resolved in #73 ,200587517
+79,group8/user3,1458851494,1458851494,Finished in : 6ba25067ef88fa104362466ad1ebeaabb3a8ef82,201006147
+78,group8/user3,1458851790,1458851790,Finished functionality in: b3192ecc32aa47c5e97674840d30435f7462d2f3,201007386
+84,group8/user3,1458867852,1458867852,Finished in: f78a96bf884ebdf9ef313858448a39ec2faf9e99,201090741
+85,group8/user3,1458871370,1458871370,Finished in: 45b57478316012f73868d08913167d590d931288,201107708
+71,group8/user2,1458954311,1458954311,"Use Google App Engine's Document and Indexes. Done.
+https://cloud.google.com/appengine/docs/python/search/",201636460
+86,group8/user2,1458963897,1458963897,Finish uploading. Thank you @lintingting for working on cleaning the web content data.,201700555
+88,group8/user2,1459106177,1459106177,https://github.com/nikign/Git-Helper/blob/master/git_helper/git-web/git-helper-2016/DumpdataGoogleApp.csv,202127112
+80,group8/user2,1459109195,1459109195,"Git helper search engine:
+Just like using google.
+1. open http://git-helper-2016.appspot.com/
+2. search the error message provided by git
+3. open the solution page which is related to your error.
+4. solve the error according to the solution.",202137454
+80,group8/user4,1459182718,1459182718,"Email helper:
+1. Copy your error message
+2. Paste your error message in an email and send it to git_helper@yahoo.com
+3. You will receive a response in a short time containing a stack overflow post related to your error, with its first answer.
+4. Solve your problem using the information in that question and answer",202473779
+80,group8/user3,1459231328,1459231328,Done in: d593896f034bbdd3087292d7f440d86a0608a53c,202726597
+75,group8/user3,1459231346,1459231346,Done!,202726633
+81,group8/user3,1459231357,1459231357,Done!,202726656
+82,group8/user3,1459231391,1459231391,Done! https://docs.google.com/a/ncsu.edu/forms/d/1irk98uhd7_wP_XwKtw748_JoPcCFHBSoavaaVbrNjzY/viewform,202726705
+77,group8/user1,1459231434,1459231434,done,202726784

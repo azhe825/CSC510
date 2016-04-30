@@ -14,6 +14,7 @@ def convert_2_csv(filename):
     cursor = conn.cursor()
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
     tables = [term[0] for term in cursor]
+    conn.text_factory = str
     for table in tables:
         print table
         cursor.execute("SELECT * FROM " + table + ";")

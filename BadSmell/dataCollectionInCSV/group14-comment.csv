@@ -13,3 +13,171 @@ issueID,user,createtime,updatetime,text,identifier
 ",176484245
 2,group14/user3,1454025186,1454025186,"I bring up a new add-on: How about a stats display of score distribution. Very few courses do that. 
 Students like getting stats. It can be kept absolutely up to the professors to decide if they want a stats display. What is everyone's opinion on this?",176486567
+2,group14/user1,1454025844,1454025844,"Yes we can do that.. Also let's do all this discussion in github.. Makes it
+better and also everyone can see including the professor
+On 28-Jan-2016 6:53 pm, ""ANBARASI M"" <notifications@github.com> wrote:
+
+> I bring up a new add-on: How about a stats display of score distribution.
+> Very few courses do that.
+> Students like getting stats. It can be kept absolutely up to the
+> professors to decide if they want a stats display. What is everyone's
+> opinion on this?
+>
+> —
+> Reply to this email directly or view it on GitHub
+> <https://github.com/gvivek19/CSC510-Team-N/issues/2#issuecomment-176486567>
+> .
+>
+",176488967
+1,group14/user2,1454375187,1454375187,- Analytics about the assignment grades,178290264
+8,group14/user3,1456009201,1456009201,"Discussion forum must allow students 
+
+1. to discuss as a group 
+2. Discuss questions related to grading personally",186697622
+9,group14/user3,1456014257,1456014257,"
+Login
+![img_20160220_183009](https://cloud.githubusercontent.com/assets/7236729/13200064/ec15c00e-d806-11e5-93df-9247e1488094.jpg)
+
+Homepage- Deadline List view
+
+![img_20160220_183907](https://cloud.githubusercontent.com/assets/7236729/13200065/ec1628a0-d806-11e5-8b29-01679f656102.jpg)
+
+Homepage-Deadline calendar view
+
+![img_20160220_183916](https://cloud.githubusercontent.com/assets/7236729/13200057/ebfd2382-d806-11e5-9dae-58efc05116ed.jpg)
+
+Discussion forum component
+![img_20160220_190040 2](https://cloud.githubusercontent.com/assets/7236729/13200056/ebfc81ac-d806-11e5-9bbc-fce734189cf3.jpg)
+
+New thread page
+
+![img_20160220_190045](https://cloud.githubusercontent.com/assets/7236729/13200058/ec03dd9e-d806-11e5-8a4b-16703359dfb2.jpg)
+
+Single question view
+
+![img_20160220_190100](https://cloud.githubusercontent.com/assets/7236729/13200059/ec0551f6-d806-11e5-9cf7-7c3fcc429c81.jpg)
+
+Submission page
+![img_20160220_190107](https://cloud.githubusercontent.com/assets/7236729/13200060/ec073408-d806-11e5-8bb8-7e7f4783908b.jpg)
+",186707758
+10,group14/user2,1456014283,1456014314,"In addition to the UI in user view(#9), these additional views are added for the TAs and Instructors login
+
+Stats Scoreboard: 
+![img_20160220_190131](https://cloud.githubusercontent.com/assets/1935323/13200052/e05ca21e-d806-11e5-9391-a24a947cff2d.jpg)
+
+View and update feedback:
+![img_20160220_190629](https://cloud.githubusercontent.com/assets/1935323/13200051/e05b9e50-d806-11e5-85b4-dd8b3d5e3e1f.jpg)
+
+Evaluate button in homework page:
+![img_20160220_190757](https://cloud.githubusercontent.com/assets/1935323/13200053/e05ecea4-d806-11e5-8a3b-7a3ad5ae1802.jpg)
+",186707873
+6,group14/user3,1456014419,1456014419,"Application name: SUBMIT (Just the way google has Word, Docs etc... )",186708253
+13,group14/user1,1456266539,1456270551,"We should also add the following API end points:
+- Add, edit and remove a TA
+
+The following can be the end points:
+/course
+/course/{id}
+/student
+/student/{id}
+
+All end points are REST endpoints with standard HTTP requests like GET to fetch data, POST to insert, PUT to update and DELETE to remove the records
+",187943812
+6,group14/user1,1456267414,1456267414,"Final discussed decisions on frameworks:
+- Frontend: Javascript with libraries like Jquery, pdfjs and a framework like Bootstrap
+- Backend: Nodejs server
+- Storage: SQL storage like PostgreSQL should be enough for now
+",187947346
+6,group14/user1,1456267497,1456267497,Database design is too big to include here. Adding it as a separate issue in #16,187947722
+16,group14/user3,1456268774,1456268774,"Tables decided: 
+-User : with types a)student b)TA c)Instructor
+-Courses 
+-Course_User 
+-Thread 
+-Comments
+-Feedback/Comments
+-Questions
+-Attachments
+-Submissions
+-Expected_files
+-Groups
+
+",187956326
+7,group14/user3,1456269710,1456269710,UI wireframes are designed in #9  and #10.,187961863
+7,group14/user3,1456269841,1456269841,Templates and UI frameworks: #6 ,187962477
+16,group14/user1,1456271236,1456271236,"![img_0840](https://cloud.githubusercontent.com/assets/2167789/13270696/d9e0dfaa-da5d-11e5-8443-0597768741e5.JPG)
+",187970672
+14,group14/user3,1456271366,1456894313,"- [x] Your repo's issues pages.
+- [x] Your repo's milestone pages.
+- [x] Your repo's contributor's page.
+- [ ] A log of sample output from your telemetry.
+- [x] From the demos sign-up page list your demo time where you will show 3 solutions working and walk through your demo code.
+
+- [x] A code directory with clearly labeled files and/or directories showing 
+ - [ ] Some common base
+ - [ ] Code for three different solutions.
+
+- [x] An evaluation plan (for how you will assess if any (all) of the above is actually useful ",187971061
+19,group14/user1,1456452139,1456452139,Completed in commit  a8da654b636666224109361addf6a9566792b688 ,189077601
+20,group14/user1,1456453504,1456453504,Completed in commit  a8da654b636666224109361addf6a9566792b688 ,189082874
+18,group14/user1,1456453524,1456453524,Completed in commit  a8da654b636666224109361addf6a9566792b688 ,189082944
+21,group14/user3,1456624605,1456624605,"The group table contains only 1 student by default now. 
+Modifying this by creating another table called group-student-map",189763997
+21,group14/user3,1456625060,1456625060,Added grade_max to assignments table to display the maximum score for the assignment,189764320
+25,group14/user2,1456707390,1456707390,done,189982510
+9,group14/user3,1456707811,1456707811,Needed new view for adding students in the a group while submitting a assignment,189984900
+9,group14/user3,1456707858,1456707858,"![img_20160228_200001](https://cloud.githubusercontent.com/assets/7236729/13383371/70019c62-de56-11e5-8b98-41f2bd5cb995.jpg)
+",189985162
+10,group14/user3,1456707907,1456707907,Need a wireframe for creating new assignments.,189985449
+10,group14/user3,1456707928,1456707985,"![img_20160228_195750](https://cloud.githubusercontent.com/assets/7236729/13383379/99c07712-de56-11e5-9e79-06f51eface48.jpg)
+",189985572
+10,group14/user3,1456707971,1456707971,"![img_20160228_195754](https://cloud.githubusercontent.com/assets/7236729/13383385/b27c0578-de56-11e5-8726-65b04144de64.jpg)
+",189985802
+33,group14/user2,1456722356,1456722356,"Basic UI done.
+TODO:
+Files uploads and slots
+Integration with discussion forums",190040463
+40,group14/user1,1456789979,1456800009,"A few clarifications:
+- GET /evaluate/:assignmentid will return will return one user only even if its a group
+- GET /evaluate/:assignmentid/:userid should be changed to GET /evaluate/submission/:submissionid
+- POST /evaluate/:assignmentid/:userid will also send submission id instead. Also, only grade can be sent
+",190454493
+41,group14/user1,1456790069,1456790069,Have to add a column in assignment table to store visibility,190454757
+42,group14/user1,1456790167,1456790167,This is already covered in the deadlines API,190455053
+44,group14/user2,1456793361,1456793361,Same as #32 ,190472669
+10,group14/user3,1456793503,1456793503,"In the list of assignments, instructor must be allowed to modify the assignments",190473080
+10,group14/user3,1456793919,1456793919,"![img_20160229_195306](https://cloud.githubusercontent.com/assets/7236729/13414210/ce30ef04-df1e-11e5-9f69-278b73cfa2c5.jpg)
+",190474393
+41,group14/user3,1456799749,1456801140,"response
+{
+title: string 
+status : boolean,
+total_submissions : number
+total_students : number,
+marks : [m1, m2, m3, ....]
+}",190502279
+40,group14/user1,1456802463,1456802463,Done,190517886
+59,group14/user1,1456802683,1456802683,"/new in the URL is redundant.
+You can just POST the data to /courses to create a new course",190518860
+59,group14/user1,1456802853,1456802853,"Also, add section value to the request data",190520611
+59,group14/user1,1456803255,1456803255,"Also, JSON.stringify the whole content and send it in an attribute named data",190523583
+43,group14/user1,1456814623,1456814623,"Json.stringify the whole data and send it in a single field called data
+Also, the URL is just /assignment",190575511
+43,group14/user1,1456815066,1456815066,"Also, send the course id with the data",190579239
+82,group14/user1,1456871094,1456871094,"Connected the api.
+Frontend changes for choose file html pending
+Reassigning to Vivek",190934045
+26,group14/user2,1456880142,1456880142,Not implemented,190998980
+47,group14/user2,1456880163,1456880163,completed,190999115
+73,group14/user2,1456891921,1456891921,Completed ,191048865
+33,group14/user2,1456892012,1456892012,File uploads completed,191049094
+15,group14/user2,1456892048,1456892048,Not implemented,191049335
+5,group14/user2,1456892159,1456892159,"The solutions are 
+1. online pdf evaluation
+2. discussion threads along with the assignment
+3. slotted file submissions
+4. inline feedback discussions between student and TA
+5. statistics dashboard",191050376
+91,group14/user2,1460001997,1460001997,"Implemented file type check
+removed issue creating undefined file types",206688815
+93,group14/user2,1460005748,1460005748,Fixed,206699160

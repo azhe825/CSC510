@@ -69,3 +69,25 @@ Closing this for now. Subject to reopen.",189705075
 49,group12/user3,1459145473,1459145473,Made the schema changes to collect the telemetry.,202252132
 51,group12/user3,1459145487,1459145487,Fixed.,202252197
 51,group12/user4,1459151138,1459151138,Did you have to add this 'compile files('libs/commons-lang3-3.4.jar')' to successfully build it ?,202287261
+51,group12/user3,1459169601,1459169601,"Yup. The jar reference was missing in the build path.
+
+On Mon, Mar 28, 2016, 03:45 Ashwin Oke <notifications@github.com> wrote:
+
+> Did you have to add this 'compile files('libs/commons-lang3-3.4.jar')' to
+> successfully build it ?
+>
+> —
+> You are receiving this because you modified the open/close state.
+> Reply to this email directly or view it on GitHub
+> <https://github.com/sandz-in/csc510_group_l/issues/51#issuecomment-202287261>
+>
+",202376866
+53,group12/user3,1459178829,1459178829,Fixed as part of Issue #49 ,202439485
+52,group12/user3,1459178834,1459178834,Fixed as part of Issue #49 ,202439501
+47,group12/user3,1459178854,1459178854,Fixed as part of Issue #49 ,202439579
+51,group12/user4,1459188040,1459188040,"Okay. The 'fileTree compile' had done the trick for me. Hence, didnt add the jar explicitly.",202509859
+54,group12/user4,1459194880,1459194880,Integrated. Amount and Desc from Voice now flows to the backend.,202557652
+40,group12/user4,1459194919,1459194919,Implemented a sample prototype to extract the description from an SMS,202557926
+45,group12/user3,1459489369,1459489369,@ZealGanatra : can you please update the findings on this issue?,204255334
+56,group12/user4,1459979111,1459979111,Queries added.,206584399
+55,group12/user5,1460082415,1460082415,tested on old app. Unable to reproduce.,207179978
