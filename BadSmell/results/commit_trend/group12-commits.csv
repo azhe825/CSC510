@@ -1,0 +1,86 @@
+id,time,sha,user,message
+1,1460940505,9a93df18ca3cf21602287e28d82db686e34cfc33,group12/user1,may deliverable
+2,1460939631,e99466f17b8afa9fb88df4ba0404abbc0aef35d5,group12/user1,May
+3,1460939566,ece59fbd77e8694ce8ef667f20bf34b2de7db64b,group12/user1,MAy
+4,1460303611,ac21a5caa8c54de8292be2662303863400a98bc3,group12/user3,Updating the presentation
+5,1460303576,c054f5c6743cabca9b1daf571822903e23dcebad,group12/user3,Updating the presentation
+6,1460080740,81210003b1336854dfd0e5335558de0d61d43b41,group12/user3,Update README.md
+7,1460080700,c34a67da3160ee300b48b2161f32a889af8c9d34,group12/user3,Adding the April deliverable to readme.
+8,1460080635,1a9e4a068c4cf7908ba7dd360dc037740de35144,group12/user3,Create REAME.md for april deliverable
+9,1460080273,81bbe58a3e972a586bf9da179984795eaba439ea,group12/user3,Updating april report
+10,1460079234,d3933647acf203a483e4b5b4ef598cc93655700a,group12/user4,Delete Group_L_Report.pdf
+11,1460079114,eeff52e0ed8cbe2b1017044d7e3fe5e891b8107d,group12/user4,Adding Report
+12,1460079039,af1d960cd7530e9c7546a34134e157868bb9cb99,group12/user4,Delete Group_L_Report.pdf
+13,1460078878,41062af487bbc9ff72b1080d4f218afdb224df51,group12/user4,Adding April deliverables
+14,1460078505,8d03129f5905b0f01bc18608a693e2eb879ddce9,group12/user4,Create ReadmeApr7.md
+15,1460059333,c3331bbdd7b71725edf991e4160fa54d5d51401f,group12/user3,Apri Deliverable
+16,1459624276,0bdd208ecc3b288f9295864895d59dbc1e8a2ed1,group12/user3,Updating the telemetry
+17,1459618557,46db104c7caac69fcfb05d8f5213bffebbc02e6e,group12/user4,#56 Telemetry queries
+18,1459194776,112411608f63bf2edd2dc6b53d326f5b17d34ae3,group12/user4,#54 Integrating voice flow
+19,1459193308,28dbeeb25a831afcc63165eb8b6e9aba04067533,group12/user4,#40 Desc from Sms
+20,1459145436,dc061635eb1d8bf95764532655a6e21a4ed1438a,group12/user3,#49 Schema changes to collect the telemetry.
+21,1459145399,37fe7c8b9279229a18aff676e47ee74dd9af654a,group12/user3,#49 Schema changes to collect the telemetry.
+22,1459145325,67aecff3edd7214a5540247003b8f129e5397e25,group12/user3,#50 Telemetries from client to server
+23,1459145172,5d84d57b6f1c39975640252e12d1cd5f7d01e8bd,group12/user3,#51 Correcting the project configuration.
+24,1459107622,9fc3be65e05ba5983030a2baf782723d7eb5b0c7,group12/user4,#47 Setup
+25,1459106511,3a0ee52414134576b289a1e809ba487c9b558e68,group12/user4,#48 Adding an ExpenseItem POJO
+26,1459048149,0851f4aeaf7977fec638a465fd232853a7a0d83a,group12/user4,#44 Added logic for keystroke counts
+27,1459023090,a1e0af8e2bf01994616803a9033e1b8c94f70434,group12/user4,"Merge branch 'master' of https://github.com/sandz-in/csc510_group_l
+
+Conflicts:
+	.gitignore
+	ExpenseTracking/.idea/vcs.xml
+	ExpenseTracking/app/src/main/java/com/expensetracking/AddExpenses.java"
+28,1459022881,34d0d26910e5cba810e9b49abc6052ef30d3caeb,group12/user4,#44 Framework Setup
+29,1459022558,369940f68739bf0fbef41f86d0cb41258cbc91ee,group12/user4,#44 Framework Setup
+30,1459017999,c6dbdd7cde9b31d70cbd16f11bdee33bbe98a935,group12/user3,Merge remote-tracking branch 'origin/master'
+31,1459017983,975ea7cc26e65015bf1b1254ef36d4df50d6f555,group12/user3,#41 Duration of expenses.
+32,1459011430,d992ad747f2f589658103611b3bd54b9df7b28a8,group12/user5,voice
+33,1459011142,d09e5ff45980f1a92d3d596794bf19d1dc10b674,group12/user5,Changes in voice input to include only numbers
+34,1459010323,b3001a92578f67f4b63170a661f5803bf915b653,group12/user5,Added voice description to Voice input
+35,1458086746,b65a33bd545e199483548e34ce02fdf676c69c56,group12/user3,Merge remote-tracking branch 'origin/master'
+36,1458086585,baee4a67179005354811e54636711538dea0b51c,group12/user3,#41: Telemetry to measure the time.
+37,1456976910,29c6a107f56169e64d44a3141634064548828254,group12/user5,Update README.md
+38,1456976884,22e2fe281ae7c5942d6ad1f9fb57d0517a0803ed,group12/user3,UI Tweaks for demo
+39,1456976840,0a6ae923cf4035ebfb1ac87544567854e7f2d1d8,group12/user3,UI Tweaks for demo
+40,1456976754,cb87d6d680dfa8c3427e3f191e1844cb497d7e4e,group12/user5,Update README.md
+41,1456973215,be4d81f65cebacfc6e3f0f7ee262ff5dddab560b,group12/user3,Updating the telemetry
+42,1456967141,0cbe27d812cd616022b5c36e8b28965cf022f94c,group12/user3,Bill Type
+43,1456896364,8cb0d2a48a875348d75dcf7725b338864ab1d562,group12/user3,Merge branch 'master' of github.com:sandz-in/csc510_group_l
+44,1456896322,cc566a9a1306b508e84b313d71b918acfb54815a,group12/user3,#28 Processing the image to improve result.
+45,1456893062,6800b894e94806d67ac007ea7978572cce4176f9,group12/user4,Update Readme.md
+46,1456891983,82e9554f30a4187ec96e5108765a3eda939d66a9,group12/user3,Updating the readme for the project.
+47,1456891885,f58f674508d87a1a0fe1e85843b4cdb735fb4afe,group12/user3,Updating the readme for the project.
+48,1456890006,e9ed4721c41a7609bc3b28b1f7ccb4ef96d5b041,group12/user4,#38 Added Bill Submission type logic
+49,1456886018,542c8c3ad785e322979f016a7fec7f1c0b77c817,group12/user3,"#34: On save, send the amount and description to backend by making REST API call."
+50,1456882385,0fdbb8ca579c8bee5598a2643b7bbc2853ee0d94,group12/user3,"#34: On save, send the amount and description to backend by making REST API call."
+51,1456880228,7a215ec97571af7d85e7761d07629ba12967b097,group12/user3,#34 Communicating with the backend using interface
+52,1456707877,79a86b3520700fc81406aa16fa40935b2c3819de,group12/user4,#37 Added loggers to Android activities
+53,1456706560,4e65b17b4f1e833171d68f9fccf79dab8d884a38,group12/user4,Fix: Populating bill amount via voice
+54,1456642762,c54d1f4cce50d8427a33d25ebbe10cdcc436c83f,group12/user5,voice
+55,1456639449,8bac6c8f52d84853931e3bb38c97a85a8a683e72,group12/user5,Attempting merge conflict resolves
+56,1456639066,4f56a38fbd2ad864d8a8b612bec44562138bdb39,group12/user1,Integrating camera scan solution
+57,1456636516,c5fe6f8dd3ade51577c7c891dc43dd3faaefe097,group12/user1,Attempting merge conflict resolves
+58,1456635275,33db6d1878b21a0844d91abcb36d15f1264ed609,group12/user4,Changed minSdk
+59,1456633620,e98da48542f387834c5d38b0a729990e788a7043,group12/user2,Adding functionality for the saving the bill amount and description
+60,1456631869,f2cc563af383f3cf683476b0a429ceb32fac5960,group12/user2,Integrating the expense description
+61,1456630459,f45ac648ccb42cd1b043d279a363d8f870a193ac,group12/user2,Integrating SMS Feed
+62,1456629284,987db0a4cee0d4a0d36e66c00690021e6bd6514a,group12/user3,#27: Login screen
+63,1456628982,ec0461912fc2d3101c970ae00fa6fda5e03b28a2,group12/user3,Wrong commit
+64,1456628958,520641c7d8e9c9dcf4ccc722b4a61423ed4d15aa,group12/user3,Wrong commit
+65,1456628905,5a69f9326fc55c214c87443d5e81305d832044ac,group12/user3,Wrong commit
+66,1456628832,9b6640e58320a8ffcc3f16c280377eb539473b9a,group12/user3,Wrong commit
+67,1456628798,8f0a09bf634eb818333792bb91132bde9d73ae55,group12/user3,Wrong commit
+68,1456628752,56069649384b2accfc5b35cab86c9ff0415675f5,group12/user3,Wrong commit
+69,1456628662,ec502bc16ed2160fe8d1b53768dad6db59a64a17,group12/user3,Merging
+70,1456624935,8dcda8feae4ae93e4303cc93afee411709c99312,group12/user5,Deleted Voice app
+71,1456624802,592c6c225c2f66046a57d4323d9be030d746464f,group12/user5,Demo added
+72,1456624413,43d5ff5a9f9e270a54e86ec1f55ad077c38720d8,group12/user2,Committing integration changes
+73,1456621989,54402e9943a72b527213159d8f4597c448df00df,group12/user5,Merge branch 'master' of https://github.com/sandz-in/csc510_group_l
+74,1456621966,07b01ce8dcb6276459f66fe20c56cd02b0092b5b,group12/user5,added voiceApp
+75,1456621493,6a8d36d6a5948c8ffa006631ee0e5b809be3a6ef,group12/user1,added submodule
+76,1456621118,45e781bca6cf15954e4f8bb535338f53c07496bd,group12/user1,#36 Image CLicker readded
+77,1456620920,797133e2f8743287d9e884b69e3bae60223c77ec,group12/user1,Removing the folder
+78,1456620160,021ca9bc4bbd978c2544c30362f9b2993c8cd365,group12/user1,Deleting Image clicker
+79,1456620028,934e66f30db4202bb3a0d99c9bab448a522bbda5,group12/user1,Merge branch 'master' of https://github.com/sandz-in/csc510_group_l
+80,1456619773,285fe14eb4294244ec6b833445b019fb0420e6b1,group12/user4,#29 Basic 2 pane navigation
