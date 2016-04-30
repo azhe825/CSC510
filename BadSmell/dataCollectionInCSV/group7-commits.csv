@@ -40,3 +40,101 @@ architecture! organization! yay!"
 34,1459975358,26fd1ea8b7f7eecc23b029df35d31ac80f1e8c50,group7/user1,"updated presentation
 
 most recent version as of 4:42 on 4/6"
+35,1459974163,0373f49f6074ef77baa432fc26af11db2518ffef,group7/user1,"uploaded 'final' report files from sharelatex
+
+hah “final”"
+36,1459871640,0b47606094988d902850cae6b6707f61a9cef0bf,group7/user1,"edited tasks.md
+
+There was some placeholder text still hanging around so I cut it loose…"
+37,1459788419,228dd56fc3c6dea79ff9907bf543f9e94963f0ef,group7/user1,"fixing some links
+
+herp derp trees blobs"
+38,1459788058,d66bb2f5ffd3b102b6b5f1b286c5e1e0b3476d10,group7/user1,"apr7 repo organization and readme creation
+
+added a ton of necessary readmes
+
+tl;dr: stuff is (mostly) documented now"
+39,1459186206,d31cd7df2798218012d3babb4092b812f4fd1521,group7/user4,Update my-panel1-view.coffee
+40,1459183681,08ea0e3583d55eacbe06a138e2b7f0a52af8ed0a,group7/user2,Added some telemetry data to apr1/Data
+41,1459092410,ed9b458cad9a6f6a85e476f8747e24b75a2617cc,group7/user2,Delete unnecessary file
+42,1458845991,1f86f51f811de380f6cd06eb5e12434622faa19d,group7/user1,"added tasks 9 and 10
+
+tasks complete"
+43,1458844890,442890cd7aca132b4212a1cf6c70da0f797181a7,group7/user1,added tasks 7 and 8
+44,1458788311,c1537253b8ca9f986f9a1fe8b05730c467140017,group7/user2,"Update README.md
+
+Add information about installing dependencies for telem-windows.py"
+45,1458788141,676d605a13d6276f769977eca9cdde27c879c1c0,group7/user2,"Delete clipit.txt
+
+Remove unnecessary log file."
+46,1458787986,2dd7b388496c43578cb510a88edbc6268438d166,group7/user2,"Merge pull request #68 from cleebp/telemetry
+
+Telemetry"
+47,1458787833,df8761aeb4c88560a6eb226f30f748c2db428dcf,group7/user2,Merge branch 'telemetry' of https://github.com/cleebp/csc-510-group-g into telemetry
+48,1458787786,df765bf2f774c59ba9e932769031ef7de5905357,group7/user2,Fixed windows clipboard
+49,1458760356,2a20e2274b6e1138e0ca9c9259dbd4cf902a429e,group7/user1,added task 5 and 6
+50,1458759913,7bf5d541b3a6022f1abedc6a9dc65661c84d234d,group7/user3,fix the bug of history
+51,1458759011,e33c46ef95620228c10fec741c688f832badcfc8,group7/user1,"task 4 added
+
+now just have to make tasks for lib"
+52,1458746355,31ea4c4199bc78d283bebf63617c008e17d6b07d,group7/user1,task 2 and 3 added
+53,1458744758,f2976a13ecffbc856b699144a12065b3b378493e,group7/user1,"first task completed
+
+test commit to see how this looks on master"
+54,1458694781,bce512724c9fa9423bea72d86aedf223589d2e35,group7/user1,"apr1 initial commit
+
+establishing april directories and setting up initial experiment
+directory"
+55,1457920819,3cc568a49ab9229af3dc8ace4b1e955b6edb5348,group7/user2,Update README.md
+56,1457920414,f6e0599d1a2eeefc9ea8d15b24322bff568e8b18,group7/user2,Windows telemetry added
+57,1457919219,2cfde1a8b293bab8130cf7f400e703a1b1e588c8,group7/user2,Update README.md
+58,1457919129,4d8afb5b04e8212aa3e19e6c24182c29719c8991,group7/user2,Update telemetry to work with custom file names.
+59,1457027175,c77faec4829faaa89ea4e17f0820a9ab5073d472,group7/user2,fix merge conflicts
+60,1457027092,eaec277c670cbf5d618b8b5aaa8d1e0ffc6a5d03,group7/user2,Update README.md
+61,1457026958,696beb7331ea3dde0e36b7539c028ec426017f27,group7/user2,Update readme for telemetry
+62,1456951475,252a63f1058408e751ec0b609103bf724591e90a,group7/user1,"readme etc
+
+github has issues with existance"
+63,1456947910,94a4953b49b5a5980813ad0197083c22a0611ea3,group7/user2,Fix indentation
+64,1456947125,f5eebb703cff3d9829d7caf3203b4dfc088f7ecf,group7/user3,Update README.md
+65,1456946530,d60104243aca585a65a159b9da2285f36affd2d3,group7/user1,"updated readme's and got rid of teller package
+
+housekeeping"
+66,1456946190,7c3b671c9a90c41c68c01e692f553106051ffe60,group7/user2,"Merge pull request #50 from cleebp/telemetry
+
+Adding telemtry"
+67,1456945976,7ce3d36c2619af15fc63a28df7fa79f916a5eea9,group7/user1,"renamed a thingy
+
+thingies are descriptive"
+68,1456945833,978a2fefa30f328f86a1f3351f1e7c4877d0aa73,group7/user1,"commented out data persistence bug
+
+wooooooo"
+69,1456945599,8bc56864c5b44ddaa52cd34f07a08b2cd83e20ff,group7/user4,Update README.md
+70,1456945496,d8ce8b386264c6f2e8b54c6dc394c1dd66144df6,group7/user4,Added files via upload
+71,1456945216,b6009b7c386d82d9bcb5f341f9081928d5108da2,group7/user1,"formatted readme's
+
+went through and formatted the readme’s of the packages so they were
+all using the same basic style."
+72,1456931277,1617e311c99b2716c3c8cace45f8277cb085100d,group7/user4,Update README.md
+73,1456931249,7d36068be2add466e0c8e148315e69fcd53982cb,group7/user4,Update README.md
+74,1456890659,e900d8dfb58d1b77a4a3e3ac9b345c259a66b957,group7/user2,Fix telemetry bug where clicks weren't getting logged with clipit-panel
+75,1456867020,8e7748598a5075b6bf0e8d408ff35fec54547d53,group7/user2,Merge branch 'master' of https://github.com/cleebp/csc-510-group-g into telemetry
+76,1456854670,db90f100d5704b5cf2a5976087023a9985756969,group7/user1,"fixed display bug after selecting a panel item
+
+tiny hack to force a redisplay whenever an item is selected"
+77,1456853599,fc0d77d868877357c937c11626b54c5a282b6eaf,group7/user1,"panel updates display after copy, paste cmd also pastes most recent item
+
+next step is to fix the behavior after clicking on an item having to
+paste again in order to bring back the panel."
+78,1456851375,489ddb902d2188bcbd72ab16a2a54c3fa6f6c5e3,group7/user1,"added mac integration
+
+technically linux too"
+79,1456808351,0b5b262d22460382d0eb18b337ea6c2a9901932c,group7/user4,Update README.md
+80,1456806595,3f680e2fcef276a6ecd61a735e3f7b76ed8aa322,group7/user4,Update README.md
+81,1456806566,70c2b6b4df0f0ae4b07072da3c57fde02982397a,group7/user4,Update README.md
+82,1456804500,039cf02a2f66c9d0bc845e1578647f8d89afbf4f,group7/user4,Update README.md
+83,1456804389,1620646339d913aa1508d1974be4d7a7d43a6e4e,group7/user4,Added files via upload
+84,1456804291,6e90f93589605ae5eaed6b987943c764a39e5a11,group7/user4,Update README.md
+85,1456803817,88989f88ceb666fdd7763cb5057a2716693feece,group7/user2,Telemetry added to clipit-cmd
+86,1456803435,fc6e752bc71f1fae18b2466a28625ad059d110d1,group7/user2,Integrate telemetry with clipit-order
+87,1456799149,a475a0a66bbeba6534139b285efb8e85973adafa,group7/user3,Update README.md

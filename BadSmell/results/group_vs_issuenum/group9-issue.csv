@@ -1,0 +1,53 @@
+id,name
+1,Identify a problem category
+2,Categories for personal information management
+3,Issues with the chosen problem
+4,Report
+5,Submit Report
+6,feedback- no grade yet
+7,Solution alternatives discussion
+8,Solution decision
+9,Setting up project environment
+10,Setting up Android SDK for solution 1 and 2
+11,Implementation of the telemetry (data collection) required to compare the usability of three proposed solutions 
+12,Collecting data for April
+13,Starting Android implementation
+14,Google Script development
+15,Basic appointment extraction in GS from Google calendar
+16,Google script calling error
+17,Creation of App ID for web app
+18,Create Facebook Graph API ID for Android
+19,Meetup API calls for Android
+20,FB token call error
+21,Setup meetup API token
+22,Telemetry
+23,Meetup API integration error
+24,Custom scheduler error 
+25,HTML email format for GS
+26,Enhance custom trigger for more user input
+27,UI Enhancement for Google Script
+28,Add Google Analytics base to GS
+29,Get user login email in html 
+30,Fb integration with android 
+31,Method collection process and analysis doc
+32,User research form idea for data
+33,Add additional subscribeByCalendar to GS
+34,Filepath corrector limit issue in Android
+35,Event setup in Android
+36,Facebook sync enable issue
+37,User testing phase 1
+38,Meetup outh request setup
+39,Setup for evernote for android
+40,Issue for event creation for google in JS
+41,Outlook integration in JS
+42,Create Feedback survey 
+43,Setup questions for user interviews
+44,Data collection Analysis
+45,Survey analysis
+46,Establishing results from user interviews
+47,Final report 
+48,Create stats from user surveys and interviews
+49,Create report abstract and summary
+50,Add graphics to the final report
+51,See the logs and establish results
+52,Presentation slides creation
