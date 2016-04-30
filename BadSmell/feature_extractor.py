@@ -11,6 +11,7 @@ def extract_feature():
     generate_assignees_csv(base, group_features1)
     group_features2 = process_comment(csvpath, comments)
     generate_commentNum_csv(base, group_features2)
+    generate_issueParticipants_csv(base, group_features2)
     print 'csv generated'
 
 
@@ -19,6 +20,7 @@ def process_comment(csvpath, comments):
     for group in comments:
         with open(os.path.join(csvpath, group), 'r') as csvinput:
             user_comments = {}
+            issue_uniqeUser = {}
             reader = csv.DictReader(csvinput)
             ## begin extract information from each row, i.e. event.
             for row in reader:
@@ -27,10 +29,17 @@ def process_comment(csvpath, comments):
                 if not user_comments.get(user):
                         user_comments[user] = 1
                 user_comments[user] += 1
+
+                ## (11) Percentage of Comments by User
+                issueID = row['issueID']
+                if not issue_uniqeUser.get(issueID):
+                        issue_uniqeUser[issueID] = set([user])
+                issue_uniqeUser[issueID].add(user)
         groupID = (group.split('-'))[0][5:]
         if not group_features.get(groupID):
             group_features[groupID] = {}
         group_features[groupID]['User: CommentNum'] = user_comments
+        group_features[groupID]['Issues: Participants'] = {k: len(v) for k,v in issue_uniqeUser.iteritems()}
         print  group + ' finished'
     return group_features
 
@@ -81,6 +90,21 @@ def generate_commentNum_csv(base, group_features):
             input_data.update(dict)
             fileds = ['groupID']
             fileds.extend(users)
+            writer = csv.DictWriter(csvinput, fieldnames=fileds)
+            writer.writeheader()
+            writer.writerow(input_data)
+
+
+def generate_issueParticipants_csv(base, group_features):
+    result_file = csvpath = os.path.join(base, 'featureCSV/issueParticipants.csv')
+    with open(result_file, 'w') as csvinput:
+        for groupID, feature in group_features.iteritems():
+            dict = feature['Issues: Participants']
+            issues = dict.keys()
+            input_data = {'groupID': groupID}
+            input_data.update(dict)
+            fileds = ['groupID']
+            fileds.extend(issues)
             writer = csv.DictWriter(csvinput, fieldnames=fileds)
             writer.writeheader()
             writer.writerow(input_data)
