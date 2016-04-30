@@ -10,7 +10,8 @@ def extract_feature():
     group_features1 = process_event(csvpath, events)
     generate_assignees_csv(base, group_features1)
     group_features2 = process_comment(csvpath, comments)
-    generate_commentNum_csv(base, group_features2)
+    generate_userCommentNum_csv(base, group_features2)
+    generate_issueCommentNum_csv(base, group_features2)
     generate_issueParticipants_csv(base, group_features2)
     print 'csv generated'
 
@@ -20,6 +21,7 @@ def process_comment(csvpath, comments):
     for group in comments:
         with open(os.path.join(csvpath, group), 'r') as csvinput:
             user_comments = {}
+            issue_comments = {}
             issue_uniqeUser = {}
             reader = csv.DictReader(csvinput)
             ## begin extract information from each row, i.e. event.
@@ -30,8 +32,13 @@ def process_comment(csvpath, comments):
                         user_comments[user] = 1
                 user_comments[user] += 1
 
-                ## (11) Percentage of Comments by User
+                ## (8) Number of Comments on an Issue
                 issueID = row['issueID']
+                if not issue_comments.get(issueID):
+                        issue_comments[issueID] = 1
+                issue_comments[issueID] += 1
+
+                ## (11) Percentage of Comments by User
                 if not issue_uniqeUser.get(issueID):
                         issue_uniqeUser[issueID] = set([user])
                 issue_uniqeUser[issueID].add(user)
@@ -39,6 +46,7 @@ def process_comment(csvpath, comments):
         if not group_features.get(groupID):
             group_features[groupID] = {}
         group_features[groupID]['User: CommentNum'] = user_comments
+        group_features[groupID]['Issues: CommentNum'] = issue_comments
         group_features[groupID]['Issues: Participants'] = {k: len(v) for k,v in issue_uniqeUser.iteritems()}
         print  group + ' finished'
     return group_features
@@ -66,6 +74,7 @@ def process_event(csvpath, events):
         print  group + ' finished'
     return group_features
 
+
 def generate_assignees_csv(base, group_features):
     result_file = csvpath = os.path.join(base, 'featureCSV/issueAssignees.csv')
     with open(result_file, 'w') as csvinput:
@@ -80,8 +89,9 @@ def generate_assignees_csv(base, group_features):
             writer.writeheader()
             writer.writerow(input_data)
 
-def generate_commentNum_csv(base, group_features):
-    result_file = csvpath = os.path.join(base, 'featureCSV/commentNum.csv')
+
+def generate_userCommentNum_csv(base, group_features):
+    result_file = csvpath = os.path.join(base, 'featureCSV/userCommentNum.csv')
     with open(result_file, 'w') as csvinput:
         for groupID, feature in group_features.iteritems():
             dict = feature['User: CommentNum']
@@ -90,6 +100,21 @@ def generate_commentNum_csv(base, group_features):
             input_data.update(dict)
             fileds = ['groupID']
             fileds.extend(users)
+            writer = csv.DictWriter(csvinput, fieldnames=fileds)
+            writer.writeheader()
+            writer.writerow(input_data)
+
+
+def generate_issueCommentNum_csv(base, group_features):
+    result_file = csvpath = os.path.join(base, 'featureCSV/issueCommentNum.csv')
+    with open(result_file, 'w') as csvinput:
+        for groupID, feature in group_features.iteritems():
+            dict = feature['Issues: CommentNum']
+            issues = dict.keys()
+            input_data = {'groupID': groupID}
+            input_data.update(dict)
+            fileds = ['groupID']
+            fileds.extend(issues)
             writer = csv.DictWriter(csvinput, fieldnames=fileds)
             writer.writeheader()
             writer.writerow(input_data)
