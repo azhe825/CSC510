@@ -1,0 +1,54 @@
+id,name
+1,deciding on the project topic
+2,Decide on the method to collect the data
+3,Report and Documentation Tasks
+4,Setup Android.
+5,Complete Android Tutorial
+6,Find good source of training guide in android.
+7,Find all NCSU parking sites
+8,Make a dummy app to get the basics clear
+9,Integrate Google Maps with the app
+10,"creates init Map, can use map methods"
+11,App is not opening with proper location
+12,Map opens with a satellite mode
+13,Kagarwa branch merge with master
+14,removed map:mapType = satellite from activity_map xml
+15,Hardcoded code in activity_map.xml
+16,Moved static code from activity_map.xml to MainActitvity.java
+17,Zoom level 12 insufficient
+18,Zoom Level Updated
+19,To check if we can normalise current location and ncsu parking locations for map home screen
+20,User Current Location Feature
+21,Android Mobile Device/Tablet required for this feature testing
+22,User Current Location Feature Added
+23,Implement the User Current Location feature programatically
+24,User Current Location added to be set programatically
+25,Implement a periodic current location listener
+26,Location Listener Feature Added
+27,Add Marker functionality 
+28,Map Marker Added
+29,Icon Change Required
+30,Launcher Icon Changed
+31,App Name Updated
+32,Find a way to save the LOCATIONS found in the app
+33,Design Discussion
+34,Discussion - How to save data
+35,LYNDA.com - Please Note Everybody
+36,find parking lots and add to the application with marker
+37,Issue with marker - last marker being overwritten by current location
+38,need to have a small blue circle for current location as is in the google maps
+39,"make markers clickable, have action listeners assigned to them"
+40,fix unfortunately stopped error on close
+41,show availability of parking spots on click of markers
+42,create a login screen with authentication
+43,Create a signup screen for users
+44,the SQLite is having issues with signup.. fix them ASAP
+45,Add an 'About' Page
+46,Add an activity selection screen
+47,Force close on going out of the map
+48,Current location not coming
+49,Create telemetry for the solutions
+50,App receiving clicks from anywhere in the screes
+51,Added Telemetry to 3 apps
+52,Updated the parking lot tables for the 3 solution
+53,Updated parking lot tables for Soln 3 with logs

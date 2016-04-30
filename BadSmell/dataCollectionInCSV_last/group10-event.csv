@@ -1,0 +1,357 @@
+issueID,time,action,label,user,milestone,identifier
+1,1454425730,milestoned,Feb 1,group10/user1,1,535958162
+1,1453073348,closed,closed,group10/user2,1,517418237
+1,1452812525,assigned,group10/user3,group10/user3,1,515600495
+2,1454425723,milestoned,Feb 1,group10/user1,1,535958031
+2,1453849538,closed,closed,group10/user2,1,527259237
+2,1452812629,assigned,group10/user4,group10/user4,1,515602206
+3,1454425709,milestoned,Feb 1,group10/user1,1,535957679
+3,1453849551,closed,closed,group10/user2,1,527259479
+3,1452812793,assigned,group10/user5,group10/user5,1,515604405
+4,1454425608,milestoned,Feb 1,group10/user1,1,535955571
+4,1453849558,closed,closed,group10/user2,1,527259616
+4,1452812904,assigned,group10/user2,group10/user2,1,515606158
+5,1454425795,closed,closed,group10/user1,1,535959877
+5,1454425762,milestoned,Feb 1,group10/user1,1,535959159
+5,1453850360,assigned,group10/user5,group10/user5,1,527272354
+6,1454425789,closed,closed,group10/user1,1,535959765
+6,1454425754,milestoned,Feb 1,group10/user1,1,535958960
+6,1453851807,assigned,group10/user2,group10/user2,1,527293782
+6,1453850929,renamed,renamed,group10/user2,1,527281621
+7,1454425779,closed,closed,group10/user1,1,535959592
+7,1454425748,milestoned,Feb 1,group10/user1,1,535958835
+7,1453851761,assigned,group10/user4,group10/user4,1,527293211
+8,1454425773,closed,closed,group10/user1,1,535959454
+8,1454425634,milestoned,Feb 1,group10/user1,1,535956196
+8,1453851799,assigned,group10/user3,group10/user3,1,527293710
+9,1459986335,labeled,question,group10/user1,1,617631750
+9,1459986335,labeled,help wanted,group10/user1,1,617631749
+9,1459986335,labeled,enhancement,group10/user1,1,617631748
+9,1459986329,assigned,group10/user1,group10/user1,1,617631620
+9,1454425800,closed,closed,group10/user1,1,535960004
+9,1454425737,milestoned,Feb 1,group10/user1,1,535958346
+10,1455061329,closed,closed,group10/user4,2,545113067
+10,1454700532,assigned,group10/user4,group10/user4,2,541098510
+10,1454700532,unassigned,unassigned,group10/user5,2,541098509
+10,1454700528,assigned,group10/user5,group10/user5,2,541098427
+10,1454700528,unassigned,unassigned,group10/user3,2,541098426
+10,1454700524,assigned,group10/user3,group10/user3,2,541098368
+10,1454700509,labeled,help wanted,group10/user1,2,541098143
+10,1454700509,labeled,enhancement,group10/user1,2,541098142
+10,1454700499,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user1,2,541097974
+11,1456710526,closed,closed,group10/user1,2,570284477
+11,1455061389,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user4,2,545113752
+11,1455061389,assigned,group10/user3,group10/user3,2,545113751
+12,1456710466,closed,closed,group10/user1,2,570283967
+12,1455728571,demilestoned,Solution 2,group10/user1,2,553866088
+12,1455728571,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user1,2,553866086
+12,1455728560,demilestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user1,2,553865813
+12,1455728560,milestoned,Solution 2,group10/user1,2,553865812
+12,1455411130,labeled,help wanted,group10/user1,2,549676528
+12,1455411130,labeled,enhancement,group10/user1,2,549676527
+12,1455409836,assigned,group10/user1,group10/user1,2,549672516
+12,1455409836,unassigned,unassigned,group10/user5,2,549672515
+12,1455061452,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user4,2,545114509
+12,1455061452,assigned,group10/user5,group10/user5,2,545114508
+13,1456411646,closed,closed,group10/user1,2,565704360
+13,1455728286,labeled,question,group10/user1,2,553859306
+13,1455728286,labeled,enhancement,group10/user1,2,553859305
+13,1455728275,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user1,2,553859089
+13,1455724486,assigned,group10/user1,group10/user1,2,553758120
+14,1459986309,milestoned,Apr 1,group10/user1,3,617631247
+14,1459986307,assigned,group10/user5,group10/user5,3,617631217
+14,1456425959,closed,closed,group10/user5,3,566119041
+14,1456093810,labeled,enhancement,group10/user5,3,558706039
+15,1456098489,closed,closed,group10/user1,6,558753385
+15,1456098449,milestoned,Solution 2,group10/user1,6,558752599
+15,1456098449,assigned,group10/user1,group10/user1,6,558752598
+16,1456411688,closed,closed,group10/user1,6,565705431
+16,1456098581,milestoned,Solution 2,group10/user1,6,558754504
+16,1456098581,assigned,group10/user1,group10/user1,6,558754503
+16,1456098581,labeled,enhancement,group10/user1,6,558754501
+17,1456252982,closed,closed,group10/user1,6,562143432
+17,1456098659,milestoned,Solution 2,group10/user1,6,558755887
+17,1456098659,assigned,group10/user1,group10/user1,6,558755886
+17,1456098659,labeled,enhancement,group10/user1,6,558755885
+18,1456411699,closed,closed,group10/user1,6,565705658
+18,1456098716,milestoned,Solution 2,group10/user1,6,558756591
+18,1456098716,assigned,group10/user1,group10/user1,6,558756590
+18,1456098716,labeled,enhancement,group10/user1,6,558756589
+19,1456098867,closed,closed,group10/user1,6,558758287
+19,1456098848,milestoned,Solution 2,group10/user1,6,558758135
+19,1456098848,assigned,group10/user1,group10/user1,6,558758134
+19,1456098848,labeled,enhancement,group10/user1,6,558758133
+20,1456167337,closed,closed,group10/user1,6,560172835
+20,1456098955,milestoned,Solution 2,group10/user1,6,558759031
+20,1456098955,assigned,group10/user1,group10/user1,6,558759030
+20,1456098955,labeled,bug,group10/user1,6,558759029
+21,1456328339,closed,closed,group10/user1,6,563797398
+21,1456099121,milestoned,Solution 2,group10/user1,6,558760878
+21,1456099121,assigned,group10/user1,group10/user1,6,558760877
+21,1456099121,labeled,enhancement,group10/user1,6,558760876
+22,1459739450,closed,closed,group10/user1,3,613010188
+22,1456937632,labeled,question,group10/user1,3,574952666
+22,1456937632,labeled,help wanted,group10/user1,3,574952665
+22,1456937632,labeled,enhancement,group10/user1,3,574952664
+22,1456937622,milestoned,Apr 1,group10/user1,3,574952374
+22,1456937614,assigned,group10/user1,group10/user1,3,574952190
+23,1459986181,labeled,help wanted,group10/user1,3,617629269
+23,1459986176,milestoned,Apr 1,group10/user1,3,617629228
+23,1459986174,assigned,group10/user3,group10/user3,3,617629213
+23,1456253642,closed,closed,group10/user3,3,562160881
+24,1456425933,closed,closed,group10/user5,2,566118427
+24,1456196934,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user5,2,560875774
+24,1456196934,assigned,group10/user5,group10/user5,2,560875773
+24,1456196934,labeled,enhancement,group10/user5,2,560875768
+25,1459739362,closed,closed,group10/user1,2,613009585
+25,1456196983,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user5,2,560876567
+25,1456196983,assigned,group10/user1,group10/user1,2,560876566
+25,1456196983,labeled,enhancement,group10/user5,2,560876564
+26,1456426003,closed,closed,group10/user5,2,566120287
+26,1456197045,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user5,2,560877427
+26,1456197045,assigned,group10/user1,group10/user1,2,560877426
+26,1456197045,labeled,enhancement,group10/user5,2,560877425
+27,1456425779,closed,closed,group10/user5,2,566114665
+27,1456197738,assigned,group10/user5,group10/user5,2,560889456
+27,1456197736,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user5,2,560889419
+27,1456197734,labeled,enhancement,group10/user5,2,560889368
+28,1456425823,closed,closed,group10/user5,2,566115705
+28,1456197779,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user5,2,560890026
+28,1456197779,assigned,group10/user5,group10/user5,2,560890025
+29,1459951904,assigned,group10/user4,group10/user4,4,616865995
+29,1459951902,milestoned,May 1,group10/user4,4,616865970
+29,1459951900,labeled,enhancement,group10/user4,4,616865904
+29,1456253152,closed,closed,group10/user4,4,562147689
+30,1459951869,assigned,group10/user4,group10/user4,4,616865177
+30,1459951868,milestoned,May 1,group10/user4,4,616865153
+30,1459951866,labeled,enhancement,group10/user4,4,616865108
+30,1456253184,closed,closed,group10/user4,4,562148547
+31,1459986121,labeled,enhancement,group10/user1,3,617628530
+31,1459986117,demilestoned,May 1,group10/user1,3,617628498
+31,1459986117,milestoned,Apr 1,group10/user1,3,617628497
+31,1459986111,milestoned,May 1,group10/user1,3,617628406
+31,1459986107,assigned,group10/user3,group10/user3,3,617628361
+31,1456253263,closed,closed,group10/user3,3,562150686
+32,1459951740,assigned,group10/user4,group10/user4,4,616861947
+32,1459951739,milestoned,May 1,group10/user4,4,616861914
+32,1459951737,labeled,enhancement,group10/user4,4,616861865
+32,1456253233,closed,closed,group10/user4,4,562149802
+33,1459986146,labeled,help wanted,group10/user1,3,617628886
+33,1459986142,milestoned,Apr 1,group10/user1,3,617628795
+33,1459986134,assigned,group10/user3,group10/user3,3,617628668
+33,1456253616,closed,closed,group10/user3,3,562160129
+34,1457017743,closed,closed,group10/user4,2,576367264
+34,1456937652,assigned,group10/user3,group10/user3,2,574953157
+34,1456254370,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user3,2,562180411
+34,1456254326,labeled,enhancement,group10/user3,2,562179145
+35,1459986291,labeled,enhancement,group10/user1,2,617630981
+35,1459986284,assigned,group10/user1,group10/user1,2,617630899
+35,1456712298,closed,closed,group10/user1,2,570310434
+35,1456254388,demilestoned,May 1,group10/user3,2,562181129
+35,1456254388,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user3,2,562181128
+35,1456254384,milestoned,May 1,group10/user3,2,562181004
+36,1459986252,labeled,invalid,group10/user1,3,617630316
+36,1459986248,milestoned,Apr 1,group10/user1,3,617630233
+36,1459986245,assigned,group10/user1,group10/user1,3,617630175
+36,1456254483,closed,closed,group10/user3,3,562183458
+37,1456411497,closed,closed,group10/user1,6,565700917
+37,1456411492,milestoned,Solution 2,group10/user1,6,565700790
+37,1456411492,assigned,group10/user1,group10/user1,6,565700789
+37,1456411492,labeled,enhancement,group10/user1,6,565700786
+38,1456411536,closed,closed,group10/user1,2,565701816
+38,1456411534,assigned,group10/user1,group10/user1,2,565701785
+38,1456411525,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user1,2,565701602
+39,1456411606,closed,closed,group10/user1,2,565703442
+39,1456411578,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user1,2,565702737
+39,1456411578,assigned,group10/user1,group10/user1,2,565702736
+39,1456411578,labeled,question,group10/user1,2,565702735
+40,1459986229,labeled,question,group10/user1,3,617629891
+40,1459986225,milestoned,Apr 1,group10/user1,3,617629834
+40,1459986223,assigned,group10/user5,group10/user5,3,617629792
+40,1456420428,closed,closed,group10/user5,3,565967911
+41,1459986207,labeled,help wanted,group10/user1,2,617629573
+41,1459986207,labeled,enhancement,group10/user1,2,617629572
+41,1459986200,assigned,group10/user5,group10/user5,2,617629523
+41,1456420529,closed,closed,group10/user5,2,565970742
+41,1456420523,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user5,2,565970549
+42,1456549127,closed,closed,group10/user1,7,568650373
+42,1456549123,milestoned,Solution 3,group10/user1,7,568650348
+42,1456549123,assigned,group10/user1,group10/user1,7,568650347
+42,1456549123,labeled,enhancement,group10/user1,7,568650346
+43,1456710538,closed,closed,group10/user1,7,570284609
+43,1456549151,milestoned,Solution 3,group10/user1,7,568650595
+43,1456549151,assigned,group10/user1,group10/user1,7,568650594
+43,1456549151,labeled,enhancement,group10/user1,7,568650593
+44,1456549195,closed,closed,group10/user1,7,568650971
+44,1456549190,milestoned,Solution 3,group10/user1,7,568650886
+44,1456549190,assigned,group10/user1,group10/user1,7,568650885
+44,1456549190,labeled,enhancement,group10/user1,7,568650884
+45,1456549217,closed,closed,group10/user1,7,568651127
+45,1456549214,milestoned,Solution 3,group10/user1,7,568651114
+45,1456549214,assigned,group10/user1,group10/user1,7,568651113
+45,1456549214,labeled,enhancement,group10/user1,7,568651112
+46,1459951721,assigned,group10/user4,group10/user4,4,616861534
+46,1459951718,milestoned,May 1,group10/user4,4,616861470
+46,1459951716,labeled,enhancement,group10/user4,4,616861425
+46,1456586826,closed,closed,group10/user4,4,569008722
+47,1456788717,closed,closed,group10/user2,7,572087617
+47,1456710794,milestoned,Solution 3,group10/user1,7,570287128
+47,1456710794,assigned,group10/user1,group10/user1,7,570287127
+47,1456710794,labeled,enhancement,group10/user1,7,570287126
+48,1458521561,closed,closed,group10/user1,7,596546755
+48,1456712143,milestoned,Solution 3,group10/user1,7,570307398
+48,1456712143,assigned,group10/user5,group10/user5,7,570307397
+48,1456712143,labeled,enhancement,group10/user1,7,570307396
+49,1459739397,closed,closed,group10/user1,7,613009743
+49,1456712179,milestoned,Solution 3,group10/user1,7,570308071
+49,1456712179,assigned,group10/user4,group10/user4,7,570308067
+49,1456712179,labeled,question,group10/user1,7,570308066
+49,1456712179,labeled,help wanted,group10/user1,7,570308065
+50,1459739440,closed,closed,group10/user1,7,613010101
+50,1456788246,assigned,group10/user4,group10/user4,7,572075260
+50,1456788235,milestoned,Solution 3,group10/user2,7,572075005
+50,1456788231,labeled,enhancement,group10/user2,7,572074878
+51,1457032498,closed,closed,group10/user1,2,576721277
+51,1457029588,subscribed,subscribed,group10/user5,2,576651241
+51,1457029588,mentioned,mentioned,group10/user5,2,576651239
+51,1457029573,reopened,reopened,group10/user1,2,576650936
+51,1457029569,closed,closed,group10/user1,2,576650866
+51,1456789044,assigned,group10/user5,group10/user5,2,572095004
+51,1456789044,unassigned,unassigned,group10/user6,2,572095003
+51,1456789037,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user2,2,572094843
+51,1456789037,assigned,group10/user6,group10/user6,2,572094842
+51,1456789037,labeled,help wanted,group10/user2,2,572094841
+52,1457017723,closed,closed,group10/user4,2,576366842
+52,1456789212,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user2,2,572098556
+52,1456789212,assigned,group10/user4,group10/user4,2,572098555
+52,1456789212,labeled,question,group10/user2,2,572098554
+52,1456789212,labeled,help wanted,group10/user2,2,572098553
+53,1457032528,closed,closed,group10/user1,2,576722156
+53,1456789274,milestoned,Mar 1 http://se16.unbox.org/project/mar1.md,group10/user2,2,572099731
+53,1456789274,assigned,group10/user2,group10/user2,2,572099729
+53,1456789274,labeled,question,group10/user2,2,572099728
+53,1456789274,labeled,help wanted,group10/user2,2,572099727
+54,1459986087,labeled,enhancement,group10/user1,4,617628128
+54,1459986076,milestoned,May 1,group10/user1,4,617628003
+54,1459986072,assigned,group10/user1,group10/user1,4,617627978
+54,1456938632,closed,closed,group10/user5,4,574976310
+55,1459739426,closed,closed,group10/user1,3,613009976
+55,1457038484,milestoned,Apr 1,group10/user1,3,576847306
+55,1457038484,assigned,group10/user3,group10/user3,3,576847305
+55,1457038484,labeled,question,group10/user1,3,576847304
+55,1457038484,labeled,help wanted,group10/user1,3,576847303
+56,1458521579,closed,closed,group10/user1,3,596546863
+56,1457115034,milestoned,Apr 1,group10/user1,3,578143043
+56,1457115034,assigned,group10/user5,group10/user5,3,578143042
+56,1457115034,labeled,enhancement,group10/user1,3,578143041
+57,1459739420,closed,closed,group10/user1,3,613009936
+57,1457115075,milestoned,Apr 1,group10/user1,3,578143712
+57,1457115075,assigned,group10/user4,group10/user4,3,578143711
+57,1457115075,labeled,enhancement,group10/user1,3,578143710
+58,1459739414,closed,closed,group10/user1,3,613009888
+58,1457115098,milestoned,Apr 1,group10/user1,3,578144107
+58,1457115098,assigned,group10/user3,group10/user3,3,578144106
+58,1457115098,labeled,enhancement,group10/user1,3,578144104
+59,1459989205,demilestoned,Apr 1,group10/user1,4,617664187
+59,1459989205,milestoned,May 1,group10/user1,4,617664186
+59,1459389202,assigned,group10/user1,group10/user1,4,609154733
+59,1459389202,unassigned,unassigned,group10/user4,4,609154732
+59,1459389195,assigned,group10/user4,group10/user4,4,609154664
+59,1459389195,unassigned,unassigned,group10/user5,4,609154663
+59,1459389191,assigned,group10/user5,group10/user5,4,609154637
+59,1459389191,unassigned,unassigned,group10/user3,4,609154636
+59,1459389188,assigned,group10/user3,group10/user3,4,609154616
+59,1459389188,unassigned,unassigned,group10/user7,4,609154615
+59,1459389183,assigned,group10/user7,group10/user7,4,609154576
+59,1459389183,unassigned,unassigned,group10/user1,4,609154575
+59,1459389173,milestoned,Apr 1,group10/user1,4,609154480
+59,1459389173,labeled,help wanted,group10/user1,4,609154479
+59,1459389173,labeled,enhancement,group10/user1,4,609154478
+59,1459389173,assigned,group10/user1,group10/user1,4,609154477
+60,1459739459,closed,closed,group10/user1,3,613010243
+60,1459389262,milestoned,Apr 1,group10/user1,3,609155225
+60,1459389262,assigned,group10/user5,group10/user5,3,609155224
+61,1459739407,closed,closed,group10/user1,3,613009831
+61,1459739252,milestoned,Apr 1,group10/user3,3,613008788
+61,1459739252,labeled,enhancement,group10/user3,3,613008787
+61,1459739252,assigned,group10/user3,group10/user3,3,613008786
+62,1459985998,closed,closed,group10/user1,4,617627294
+62,1459739300,milestoned,May 1,group10/user1,4,613009126
+62,1459739300,labeled,enhancement,group10/user1,4,613009125
+62,1459739300,assigned,group10/user1,group10/user1,4,613009124
+63,1459986045,closed,closed,group10/user1,4,617627766
+63,1459739506,milestoned,May 1,group10/user1,4,613010532
+63,1459739505,labeled,enhancement,group10/user1,4,613010531
+63,1459739505,assigned,group10/user4,group10/user4,4,613010530
+64,1459951626,assigned,group10/user4,group10/user4,3,616859128
+64,1459951624,milestoned,Apr 1,group10/user4,3,616859093
+64,1459951621,labeled,enhancement,group10/user4,3,616858977
+64,1459782127,closed,closed,group10/user4,3,613735309
+65,1459951516,assigned,group10/user4,group10/user4,3,616856626
+65,1459951512,milestoned,Apr 1,group10/user4,3,616856527
+65,1459951510,labeled,enhancement,group10/user4,3,616856452
+65,1459782291,closed,closed,group10/user4,3,613739403
+66,1459951394,assigned,group10/user4,group10/user4,3,616853140
+66,1459951391,milestoned,Apr 1,group10/user4,3,616853003
+66,1459951389,labeled,enhancement,group10/user4,3,616852918
+66,1459782361,closed,closed,group10/user4,3,613741076
+67,1459951362,milestoned,Apr 1,group10/user4,3,616852203
+67,1459951349,assigned,group10/user4,group10/user4,3,616851725
+67,1459951342,labeled,enhancement,group10/user4,3,616851517
+67,1459782438,closed,closed,group10/user4,3,613743263
+68,1459898567,assigned,group10/user4,group10/user4,4,615957325
+68,1459898565,milestoned,May 1,group10/user4,4,615957281
+68,1459898560,labeled,enhancement,group10/user4,4,615957238
+68,1459782551,closed,closed,group10/user4,4,613746219
+69,1459892915,milestoned,May 1,group10/user1,4,615845195
+69,1459892915,labeled,enhancement,group10/user1,4,615845194
+69,1459892915,labeled,bug,group10/user1,4,615845193
+69,1459892915,assigned,group10/user4,group10/user4,4,615845192
+70,1459967526,closed,closed,group10/user5,4,617261822
+70,1459902254,labeled,help wanted,group10/user4,4,616011452
+70,1459897781,milestoned,May 1,group10/user1,4,615945322
+70,1459897781,labeled,enhancement,group10/user1,4,615945321
+70,1459897781,assigned,group10/user5,group10/user5,4,615945320
+71,1459897816,closed,closed,group10/user3,3,615946008
+71,1459897812,milestoned,Apr 1,group10/user3,3,615945947
+71,1459897812,labeled,enhancement,group10/user3,3,615945946
+71,1459897812,assigned,group10/user3,group10/user3,3,615945945
+72,1459897983,closed,closed,group10/user3,3,615948927
+72,1459897880,milestoned,Apr 1,group10/user3,3,615947096
+72,1459897880,labeled,enhancement,group10/user3,3,615947093
+72,1459897880,assigned,group10/user3,group10/user3,3,615947091
+73,1459897977,closed,closed,group10/user3,3,615948824
+73,1459897974,milestoned,Apr 1,group10/user3,3,615948766
+73,1459897974,labeled,enhancement,group10/user3,3,615948765
+73,1459897974,assigned,group10/user3,group10/user3,3,615948764
+74,1459898017,closed,closed,group10/user3,3,615949417
+74,1459898010,milestoned,Apr 1,group10/user3,3,615949308
+74,1459898010,labeled,enhancement,group10/user3,3,615949307
+74,1459898010,assigned,group10/user3,group10/user3,3,615949306
+75,1459898209,closed,closed,group10/user3,3,615952296
+75,1459898206,milestoned,Apr 1,group10/user3,3,615952255
+75,1459898206,labeled,enhancement,group10/user3,3,615952253
+75,1459898206,assigned,group10/user3,group10/user3,3,615952252
+76,1459898339,closed,closed,group10/user3,3,615954399
+76,1459898336,milestoned,Apr 1,group10/user3,3,615954354
+76,1459898336,labeled,bug,group10/user3,3,615954353
+76,1459898336,assigned,group10/user3,group10/user3,3,615954352
+77,1459898388,closed,closed,group10/user3,3,615955066
+77,1459898386,milestoned,Apr 1,group10/user3,3,615955033
+77,1459898386,labeled,enhancement,group10/user3,3,615955032
+77,1459898386,assigned,group10/user3,group10/user3,3,615955031
+78,1459898694,closed,closed,group10/user3,3,615959010
+78,1459898692,milestoned,Apr 1,group10/user3,3,615958994
+78,1459898692,labeled,duplicate,group10/user3,3,615958993
+78,1459898692,assigned,group10/user3,group10/user3,3,615958992
+79,1459902089,milestoned,May 1,group10/user4,4,616009217
+79,1459902089,labeled,question,group10/user4,4,616009216
+79,1459902089,assigned,group10/user1,group10/user1,4,616009215
+80,1460002000,closed,closed,group10/user1,4,617807700
+80,1459902154,milestoned,May 1,group10/user4,4,616010066
+80,1459902154,labeled,question,group10/user4,4,616010065
+80,1459902154,assigned,group10/user5,group10/user5,4,616010064
+81,1460002015,closed,closed,group10/user1,4,617807789
+81,1459902220,milestoned,May 1,group10/user4,4,616010976
+81,1459902220,labeled,help wanted,group10/user4,4,616010974
+81,1459902220,assigned,group10/user4,group10/user4,4,616010972

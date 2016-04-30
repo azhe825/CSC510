@@ -1,0 +1,39 @@
+issueID,user,createtime,updatetime,text,identifier
+1,group11/user1,1453665306,1453665306,Survey in progress.,174335069
+1,group11/user1,1454289004,1454289004,Closing survey now. Final report to be prepared based on available data.,177682355
+3,group11/user1,1454364641,1454364641,Completed as part of report. Refer project abstract.,178223193
+4,group11/user1,1454364726,1454364726,Completed. All members worked on this issue.,178223640
+7,group11/user1,1454793682,1454793682,"Current overview - Explicit feedback, implicit feedback, blind extraction.",180867277
+9,group11/user1,1455436985,1455436985,"Data upto Jan 1, 2016 has been downloaded from archives.
+
+Need to parse data.",183845823
+7,group11/user1,1455437019,1455437019,Implicit feedback my not be possible. Expand on explicit.,183845880
+9,group11/user2,1455633917,1455633917,Wrote a smaple parser.py which takes input as json formatted data file and stores it in dictionaries.,184707777
+2,group11/user2,1455633950,1455633969,Worked with KArthik on literature survey  and completed it,184708346
+12,group11/user3,1455922879,1455922879,resolved as in 'gulf of eval' section in feb 1 report.,186442261
+16,group11/user3,1456083231,1456083231,Heuristic fix: restrict stemming to numel threshold of words.,186895586
+9,group11/user1,1456217165,1456217165,"Tags have been extracted in R.
+Need to similarly extract other data.",187603607
+15,group11/user3,1456251455,1456251455,"some clues here: http://stackoverflow.com/questions/22367681/extract-cumulative-n-grams-matlab
+
+will try to modify this afetrnoon",187826958
+21,group11/user3,1456437268,1456437268,"the algorithm is not a keyword search..it's an n gram based similarity score.  A simple way to detect if the post does not address a particular keyword is to see if the edit distance is larger thAN the size of the input keyword. If this is true for a post, assign it's similarity to inf and continue. If all posts have a score of inf, then return  nothing",189003347
+23,group11/user3,1456437940,1456437940,@NandiniRangaswamy6  why is this a problem?,189006330
+23,group11/user3,1456438905,1456438905,Oh I see what you mean. standard problem. We can call unique() on the outputs and then take the top k as picked earlier..,189010584
+18,group11/user1,1456481856,1456481856,"Run time
+Memory utilization
+Feedback if using algorithms other than blind extraction.",189205408
+20,group11/user1,1456521673,1456521673,Code has been classified accordingly to language being used for solution.,189487144
+25,group11/user1,1456607388,1456607388,"System crashes for large files.
+Considering option to work on subset.",189726388
+14,group11/user4,1456608651,1456608651,Nandini this can be done.,189730055
+13,group11/user4,1456613945,1456613945,Adding a generic parser.,189744216
+7,group11/user4,1456617409,1456617409,"Discussed. Matlab  implementations.
+1) Naive Bayes
+2) Random Forest
+3) N-gram",189750569
+13,group11/user3,1456617513,1456617513,have kept all the files in a specific path and added that path to matlab,189751102
+9,group11/user1,1456876318,1456876318,Meta data extraction complete. Implement solution for Delivery.,190972497
+18,group11/user1,1456876496,1456876496,Closing. Change in methodology. Final implementation of solution will be in R.,190973958
+8,group11/user1,1456876600,1456876600,Method defined. To be implemented for Delivery.,190975186
+15,group11/user3,1456885490,1456885490,I don't believe this is possible but I'l try.,191021186

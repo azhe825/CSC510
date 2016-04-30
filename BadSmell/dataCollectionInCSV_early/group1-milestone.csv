@@ -1,0 +1,11 @@
+id,title,description,created_at,due_at,closed_at,user,identifier
+1,Submission of project idea,Come up with an idea about the project and submit a paper on it.,1454818425,1454302800,1455157054,group1/user1,1568409
+2,Come up with 3 probable solutions for the project problem.,Come up with ideas for 3 probable solutions which can be used to overcome the problem described in the project paper.,1454818519,1455166800,1456216282,group1/user1,1568411
+3,Splitting Task,Assign task to each team member.,1455422442,1455426000,1455575172,group1/user2,1581573
+4,Exploring how to upload images to amazon cloud,Exploring APIS to upload images,1455575325,1455771600,1456004895,group1/user3,1584399
+5,extracting text from images,use python libraries to extract text from images,1455575919,1456117200,1456004911,group1/user3,1584411
+6,Creating thumbnails using image urls,Explore options to create thumbnails of the images retrieved for each user in the history panel.,1456012604,1456117200,1456465385,group1/user2,1595134
+7,Snippet of desktop,Build tool to take snippet of desktop,1456012904,1456203600,1456465395,group1/user2,1595137
+8,Chrome Plugin,Create Chrome Plugin for taking a screen shot.,1456465527,1456722000,1456947890,group1/user2,1607439
+9,integrating client and server side code,integrate the client and server side code and test,1456644442,1456722000,1456981620,group1/user3,1610000
+10,Solution 1: Desktop App closure,"Complete the Desktop App, proposed solution 1.",1456651235,1456808400,1456981626,group1/user1,1610049

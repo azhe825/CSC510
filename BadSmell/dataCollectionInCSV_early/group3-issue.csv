@@ -1,0 +1,40 @@
+id,name
+1,Bus data
+2,Text Editor / VIM
+3,Issue Demo
+4,literature review
+5,PUTGS
+6,Report Requirement
+8,"feedback, no grade (yet)"
+9,Preprocessing and basic solution
+10,Unsupervised learning for feature generation
+11,Semi - Supervised learning
+12,Supervised learning
+13,semi-supervised learning without data
+14,semi-supervised learning testing
+15,Baseline solution
+16,Let's choose SVM as the baseline.
+17,Weight Metric: tf-idf?
+18,Data sets ready?
+19,About Supervised Classifiers
+20,We need a small demo on March 1st?
+21,Code to transform the pre-processed data into numeric metrics (i.e. TF as we have discussed before).
+22,Merge pull request #1 from azhe825/master
+23,"Should we ignore the ""all_documents"",""_sent_mail"" folders?"
+24,Preprocessed Data
+25,Vector too long?
+26,Alternate featurization methed: word vector?
+27,Let's only take 10 emails per folder as our training data set.
+28,Cleaned data
+29,Simple framework 
+30,Word Vector performs badly when training set is only 10 emails....
+31,Supervised Classification: #1:SVM  #2:KNN(k=10)  #3:DT finished.
+32,Unsupervised Learning
+33,Performance Metrics
+34,March report
+36,Use LDA features
+37,Combine all 3 solutions
+38,Build Simple GUI
+39,Testing
+40,Apr 1 report
+41,Multi label Lda Results

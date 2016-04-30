@@ -1,0 +1,28 @@
+issueID,user,createtime,updatetime,text,identifier
+1,group1/user4,1455574468,1455574468,"@sushmarchandran, @Arjun-Code-Knight, @amurark, @Ssukriti, could any of you please confirm that you met with the professor and discussed your three solutions, or you are looking forward to do so? ",184417814
+1,group1/user3,1455575051,1455575051,"@shaowns ,
+Yes we met with the professor and discussed our three solutions. As per his suggestions, we have added more complexity to our solutions.
+ 
+     ",184421758
+1,group1/user4,1455575243,1455575243,"@Ssukriti, thanks. Closing this.",184423261
+7,group1/user5,1455862494,1455862494,I have committed the base for the server code. It encompasses the initial support for the uploading and saving the files on the web server. It also uses tess4j api's to extract OCR from the images uploaded,186080541
+7,group1/user5,1455862544,1455862544,The next task left out is to upload the files from our server into Amazon and store the token and links on Mongodb to maintain user specific data,186080838
+6,group1/user5,1455862632,1455862632,@sushmarchandran Take a look at the tess4j api's. I have already used it on the server. We can go over the details and objects to be stored on the server.,186081125
+5,group1/user5,1455862702,1455862715,@amurark  I have set up the server from my end. Only few tasks left out to complete. We can have a discussion and you can branch the code to add additional changes to it to support AWS.,186081266
+7,group1/user5,1455862875,1455862875,"https://sourceforge.net/projects/tess4j/ some really cool api's for OCR.. simple and sweet
+",186081561
+6,group1/user2,1456006455,1456006455,Task Completed,186691449
+7,group1/user5,1456011777,1456011777,Completed server Setup,186703052
+5,group1/user5,1456011814,1456011814,AWS api's integration with server complete,186703081
+5,group1/user1,1456028233,1456028233,"Task completed, using java sdk for amazon aws integration.",186737635
+9,group1/user2,1456188021,1456188021,Task Completed,187454657
+8,group1/user3,1456644292,1456644292,complete,189811588
+14,group1/user1,1456738240,1456738240,"Implemented and executed, able to communicate between the windows.",190121954
+13,group1/user1,1456738283,1456738283,"Cropping of images done, tested on different machines.",190122115
+15,group1/user1,1456821614,1456821614,"Bug resolved, marking complete",190613689
+16,group1/user1,1456821670,1456821670,"Functionality implemented, closing it.",190613922
+18,group1/user1,1456946138,1456946138,Implemented,191380336
+17,group1/user1,1456946201,1456946201,Implemented.,191380790
+12,group1/user5,1456946488,1456946488,"Closing the issue, task completed",191382617
+10,group1/user5,1456946757,1456946757,"Telemetry implementation complete, closing the issue",191385308
+19,group1/user3,1456981393,1456981393,done,191586202

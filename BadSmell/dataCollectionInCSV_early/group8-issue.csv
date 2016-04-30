@@ -1,0 +1,67 @@
+id,name
+1,Demo  issue
+2,Project proposal
+3,Abstract
+4,Introduction Part
+5,Literature Review
+6,Data Collection
+7,"Results, Motivation and Conclusion"
+8,Git User Survey
+9,Relative git tool or Git command teaching methods
+10,Three solutions 
+11,Make the baseline to interact with git commands
+12,Try Python for interaction with git
+13,Mockup: interaction with users
+14,Try Python for web interaction
+15,Get and rank answers from stack-overflow
+16,Build our own search engine 
+17,Solution: Git Helper
+18,Email responder
+19,Find common error messages in git.
+20,Find solutions for the error messages.
+21,Build a simple dynamic website with one input box
+22,Design Decision Tree
+23,Test User
+24,"Find push,pull,add error message"
+25,Find Commit Errors
+26,Find Merge Errors
+27,Find Checkout Errors
+28,Polish the index page
+29,modify email handler
+30,simple dynamic website
+31,Scrape content from website
+32,Stack-overflow Question/Answer parser
+33,Design the result showing page
+34,Create Mock for results for the web
+35,Connect the front-end pages with the sorting algorithm
+36,import results function in Google App Engine
+37,Stack Overflow QuestionParser Added
+38,"Decision Tree Git Wrapper Cannot Do ""cd"" command"
+39,test email handler after search results are ready
+40,Command line cannot capture error message
+41,Color error message text
+42,Provide Hint For Conflict
+43,"search result is not stackover website, which is needed to ignore"
+44,Discuss about evaluation
+45,Decision tree
+46,Mac OS doesn't support WindowsError Exception
+47,Mac OS doesn't support git command in one string
+48,Install third party module in Google App Engine
+49,Setup the server with required packages
+50,Google App Engine Doesn't Support File IO
+51,Google App Engine Issues Collection
+52,Test Solution One
+53,Request Link is too slow
+54,Finish Display Solution for Push Command
+55,Finish Display Solution for Add Command
+56,Finish Display Solution for Pull Command
+57,Finish Display Solution for Checkout Command
+58,Finish Display Solution for Merge Command
+59,Finish Display Solution for Commit Command
+60,Add logging to save user data for three solution. 
+61,Add Logging for Decision Tree Solution
+62,Add Logging to Email Solution
+63,Add Logging to Web Solution
+64,Ask user satisfaction in Decision Tree Solution
+65,Decision tree
+66,git commands don't work for helper

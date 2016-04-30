@@ -1,0 +1,20 @@
+id,name
+1,"initial thoughts, not a grade yet"
+2,Identifying problem size.
+3,Fine tune questions on Google-form to capture problem-specific data.
+4,Seek approval for the three proposed solutions
+5,Exploring APIS to upload images to amazon cloud
+6,extracting text from images for search engine
+7,setting up server
+8,building basic UI for desktop tool
+9,Explore Pyside widgets
+10,Make changes to collect telemetry on the server side
+11,capturing snippet of desktop
+12,integration and testing 
+13,Cropping screenshots.
+14,Allow messaging between chrome extension popup and tab
+15,Images on high resolution screens appearing blurry.
+16,User signup/login for chrome plugin
+17,Show history panel in chrome extension popup.
+18,Rest API calls from client
+19,Snippet tool

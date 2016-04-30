@@ -1,0 +1,51 @@
+id,time,sha,user,message
+1,1457027175,c77faec4829faaa89ea4e17f0820a9ab5073d472,group7/user2,fix merge conflicts
+2,1457027092,eaec277c670cbf5d618b8b5aaa8d1e0ffc6a5d03,group7/user2,Update README.md
+3,1457026958,696beb7331ea3dde0e36b7539c028ec426017f27,group7/user2,Update readme for telemetry
+4,1456951475,252a63f1058408e751ec0b609103bf724591e90a,group7/user1,"readme etc
+
+github has issues with existance"
+5,1456947910,94a4953b49b5a5980813ad0197083c22a0611ea3,group7/user2,Fix indentation
+6,1456947125,f5eebb703cff3d9829d7caf3203b4dfc088f7ecf,group7/user3,Update README.md
+7,1456946530,d60104243aca585a65a159b9da2285f36affd2d3,group7/user1,"updated readme's and got rid of teller package
+
+housekeeping"
+8,1456946190,7c3b671c9a90c41c68c01e692f553106051ffe60,group7/user2,"Merge pull request #50 from cleebp/telemetry
+
+Adding telemtry"
+9,1456945976,7ce3d36c2619af15fc63a28df7fa79f916a5eea9,group7/user1,"renamed a thingy
+
+thingies are descriptive"
+10,1456945833,978a2fefa30f328f86a1f3351f1e7c4877d0aa73,group7/user1,"commented out data persistence bug
+
+wooooooo"
+11,1456945599,8bc56864c5b44ddaa52cd34f07a08b2cd83e20ff,group7/user4,Update README.md
+12,1456945496,d8ce8b386264c6f2e8b54c6dc394c1dd66144df6,group7/user4,Added files via upload
+13,1456945216,b6009b7c386d82d9bcb5f341f9081928d5108da2,group7/user1,"formatted readme's
+
+went through and formatted the readme’s of the packages so they were
+all using the same basic style."
+14,1456931277,1617e311c99b2716c3c8cace45f8277cb085100d,group7/user4,Update README.md
+15,1456931249,7d36068be2add466e0c8e148315e69fcd53982cb,group7/user4,Update README.md
+16,1456890659,e900d8dfb58d1b77a4a3e3ac9b345c259a66b957,group7/user2,Fix telemetry bug where clicks weren't getting logged with clipit-panel
+17,1456867020,8e7748598a5075b6bf0e8d408ff35fec54547d53,group7/user2,Merge branch 'master' of https://github.com/cleebp/csc-510-group-g into telemetry
+18,1456854670,db90f100d5704b5cf2a5976087023a9985756969,group7/user1,"fixed display bug after selecting a panel item
+
+tiny hack to force a redisplay whenever an item is selected"
+19,1456853599,fc0d77d868877357c937c11626b54c5a282b6eaf,group7/user1,"panel updates display after copy, paste cmd also pastes most recent item
+
+next step is to fix the behavior after clicking on an item having to
+paste again in order to bring back the panel."
+20,1456851375,489ddb902d2188bcbd72ab16a2a54c3fa6f6c5e3,group7/user1,"added mac integration
+
+technically linux too"
+21,1456808351,0b5b262d22460382d0eb18b337ea6c2a9901932c,group7/user4,Update README.md
+22,1456806595,3f680e2fcef276a6ecd61a735e3f7b76ed8aa322,group7/user4,Update README.md
+23,1456806566,70c2b6b4df0f0ae4b07072da3c57fde02982397a,group7/user4,Update README.md
+24,1456804500,039cf02a2f66c9d0bc845e1578647f8d89afbf4f,group7/user4,Update README.md
+25,1456804389,1620646339d913aa1508d1974be4d7a7d43a6e4e,group7/user4,Added files via upload
+26,1456804291,6e90f93589605ae5eaed6b987943c764a39e5a11,group7/user4,Update README.md
+27,1456803817,88989f88ceb666fdd7763cb5057a2716693feece,group7/user2,Telemetry added to clipit-cmd
+28,1456803435,fc6e752bc71f1fae18b2466a28625ad059d110d1,group7/user2,Integrate telemetry with clipit-order
+29,1456799149,a475a0a66bbeba6534139b285efb8e85973adafa,group7/user3,Update README.md
+30,1456688028,f883a9f8cd75aca8066aa5e82d75a7f3866b9b4a,group7/user4,Panel feature

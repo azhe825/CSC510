@@ -1,14 +1,16 @@
 import os
 import csv
-
+import operator
 
 def extract_feature():
     base = os.path.abspath(os.path.dirname(__file__))
     csvpath = os.path.join(base, 'dataCollectionInCSV')
     events = [event for event in os.listdir(csvpath) if event.__contains__('event')]
+    comments = [comment for comment in os.listdir(csvpath) if comment.__contains__('comment')]
     group_features = process_event(csvpath, events)
-    generate_events_csv(base, group_features)
-    print 'csv generated'
+    group_features1 = process_comment(csvpath, comments)
+    #generate_events_csv(base, group_features)
+    #generate_events_csv(base, group_features1)
 
 
 def process_event(csvpath, events):
@@ -25,7 +27,26 @@ def process_event(csvpath, events):
                 else:
                     dict[row['user'].split('/')[1]]=1
             group_features[groupid]=dict
-    print(group_features)
+    return group_features
+
+def process_comment(csvpath, comments):
+    group_features = {}
+    for group in comments:
+        with open(os.path.join(csvpath, group), 'r') as csvinput:
+            groupid=''
+            dict={}
+            i=1
+            reader = csv.DictReader(csvinput)
+            sortedlist = sorted(reader, key=lambda d: int(d['issueID']))
+            for row in sortedlist:
+                groupid=row['user'].split('/')[0]
+                if row['issueID']==str(i):
+                    if row['user'].split('/')[1] in dict.keys():
+                        dict[row['user'].split('/')[1]]+=1
+                    else:
+                        dict[row['user'].split('/')[1]]=1
+                i+=1
+            group_features[groupid]=dict
     return group_features
 
 def generate_events_csv(base, group_features):

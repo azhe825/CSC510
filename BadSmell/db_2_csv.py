@@ -4,10 +4,8 @@ import os
 import csv
 import sqlite3
 
-indir = './dataCollectionInDB/'
-outdir = './dataCollectionInCSV/'
 
-def convert_2_csv(filename):
+def convert_2_csv(filename,indir,outdir):
     groupName = filename.split('.db')[0]
     print groupName
     conn = sqlite3.connect(indir+filename)
@@ -29,12 +27,13 @@ def convert_2_csv(filename):
                 pass
 
 
-def main():
+def main(indir,outdir):
     for fn in os.listdir(indir):
         if (not os.path.isdir(fn)) and ('.db' in fn):
-            convert_2_csv(fn)
+            convert_2_csv(fn,indir,outdir)
 
 
 
 if __name__ == "__main__":
-    main()
+    main('./dataCollectionInDB_early/','./dataCollectionInCSV_early/')
+    main('./dataCollectionInDB_last/','./dataCollectionInCSV_last/')

@@ -1,0 +1,55 @@
+issueID,user,createtime,updatetime,text,identifier
+1,group13/user3,1454208539,1454208539,"Topic Decided...
+Develop Parking Management system..
+",177365100
+3,group13/user1,1454388746,1454388746,"Repost has been completed and uploaded.
+Feb1 milestone complete.",178373436
+2,group13/user3,1454388765,1454388765,"collected data in 3 forms : online survey, personal interviews, literature survey/reading",178373487
+4,group13/user2,1455858041,1455858041,"Android studio setup, API's installed.",186052142
+4,group13/user4,1455863418,1455863418,Installed anrdoid studio and installed APIs,186084309
+6,group13/user4,1455863562,1455863562,"There are few good ones on Udemy. For example:
+https://www.udemy.com/learn-android-programming-from-scratch-beta/",186085229
+9,group13/user4,1456028909,1456028909,"Let's get the API key from here:
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&reusekey=true&pli=1",186738569
+9,group13/user3,1456210021,1456210021,this is done with last commit,187571354
+8,group13/user3,1456210094,1456210094,"Basics done, intergrated google maps as well",187571875
+10,group13/user3,1456210511,1456210511,"done with last commit, have a look at code",187574441
+11,group13/user1,1456223506,1456223506,"this works correctly with the last commit performed by nikraina.
+Closing the Issue.",187644198
+6,group13/user1,1456223612,1456223612,"Lynda.com provides a good course on Android Dev - It also helps with learning how to use Google Map APIs with it. You can create an account with a 10-day free trial run for the same.
+Let us know if you find something good yourself.",187644528
+12,group13/user1,1456226720,1456226720,"Bug resolved via last commit. 
+Removed map:mapType = ""satellite"" from activity_map.xml",187660192
+15,group13/user1,1456229128,1456229128,"Issue resolved with last commit -  ""Moved static code from activity_map.xml to MainActitvity.java""",187673853
+17,group13/user1,1456230422,1456230422,Zoom level updated to 14,187680207
+20,group13/user1,1456231967,1456231967,"This has been implemented via the last commit through ""kagarwa"" branch.",187686922
+23,group13/user1,1456235345,1456235345,This feature has been implemented.,187706019
+21,group13/user1,1456235441,1456235441,"After the last commit, where current location is calculated programatically, the emulator shows that the device is unable to connect when the current location button is clicked.
+This needs to be confirmed via a device",187706410
+25,group13/user1,1456236649,1456236649,This feature has been added.,187714251
+21,group13/user4,1456254906,1456254906,Let's do it with my device today. It's running on Marshmellow.,187847914
+19,group13/user4,1456255097,1456255119,"I think that's not necessary, if we use the GPS. 
+We can keep it as a 'nice-to-have' feature.",187849736
+19,group13/user3,1456255271,1456255271,We need to do it otherwise it will open the app on last opened location and the user might be miles away from that,187851219
+21,group13/user1,1456276581,1456276581,"Confirmed on an android Tablet, the app is working correctly.",187997957
+27,group13/user1,1456278440,1456278440,Functionality Added,188004576
+36,group13/user3,1456378568,1456378568,"added the markers, but need to get the current location as blue circle",188622198
+38,group13/user2,1456379085,1456379085,Easy to implement.,188623873
+37,group13/user3,1456381327,1456381327,issue fixed,188633042
+38,group13/user3,1456381362,1456381362,"implementation done, can later on adjust the color as well",188633120
+39,group13/user3,1456383643,1456383643,this is done,188641624
+40,group13/user3,1456383717,1456383717,Need to do more research why this is happening,188642093
+42,group13/user3,1456619288,1456619288,done..works now,189753630
+43,group13/user3,1456619300,1456619300,done..works now,189753639
+45,group13/user4,1456634972,1456634972,Done,189783581
+46,group13/user4,1456753279,1456753279,Done,190216025
+48,group13/user2,1456887020,1456887020,Current location found when connected to device.,191026821
+44,group13/user1,1456940311,1456940311,This was resolved with previous batches of commits.,191343576
+41,group13/user1,1456940385,1456940385,this was resolved with the previous batches of commits.,191343978
+34,group13/user1,1456940422,1456940422,SQLite3 database libraries have been used to save data points as and when required.,191344141
+33,group13/user1,1456940535,1456940535,Design has been discussed and formalised.,191344706
+32,group13/user1,1456940578,1456940578,Locations have been added to a db table and are being used accordingly.,191344893
+7,group13/user1,1456940635,1456940635,"An exhaustive list has been compiled through NCSU TRANSPORTATION website.
+Need to confirm if we have covered all of them.",191345154
+40,group13/user3,1457034473,1457034473,"Fixed the issue with commit SHA fe447a7d693cd5a6e7a7a631a0dab17086d9d50e
+The new solution is available in solution 2 w logs.. cheers \m/",191932279
