@@ -1,0 +1,139 @@
+id,time,sha,user,message
+1,1459898113,86ddfe3dd480eab5dc0e441cd6b27bec17392d07,group1/user5,minor chnages in formatting
+2,1459884523,ea7f6e1ced39c0bcd93d1e445710d6cbc96ec712,group1/user5,New document with updates
+3,1459884060,905486c2301191b7cde7d94a0119363ab186a756,group1/user5,"Merge branch 'master' of
+https://github.com/Arjun-Code-Knight/csc510-se-project"
+4,1459884024,0081c08b288011e1b1f59deb89f84364dca3bf8a,group1/user5,passing tags back to the plugin
+5,1459788362,e0dc2d05586f5f9dd4aefa01590c62a24a2aaa79,group1/user5,Added the project report to the README
+6,1459788299,655b4d8e22790b60ff4d6e56a37190ce4d953acd,group1/user5,Project-Report for the April deliverables
+7,1459750936,8828b00534c58d0e633bcfc1598bfd446add28eb,group1/user1,Merge branch 'telemetry_chromeExt'
+8,1459750900,1e6231f4030d3aa2e6def13fce61b0397b104d50,group1/user1,bug fix for fetching tags
+9,1459743754,a61f08b50bcd83d7144517d5adb3ced8d33c9cda,group1/user5,New Service for the image statistics
+10,1459730361,81886e70315d84304d1a0d342d14ec74c8e8c396,group1/user5,"Merge branch 'master' of
+https://github.com/Arjun-Code-Knight/csc510-se-project"
+11,1459730338,df9c13d9d7000c49a544a6f3e6914525fae08312,group1/user5,Handling most liked solution telemetry
+12,1459728064,acb0f195123df865db31c0d08038887974252c44,group1/user3,sign up form changes
+13,1459726656,511d6df7e8483a14ec3f85f2e313d6586309ad5a,group1/user5,Updating README with April deliverables
+14,1459726398,2d9ff9735fc4a244c58157b306833ac3c2226e98,group1/user5,Adding useful links and placeholder for the project report
+15,1459725678,4c318902d072e0fe0046ae44fd72a1ca5ce81986,group1/user5,"Update solution3.py
+
+correcting the URL generation"
+16,1459724054,e5b6f0dcc4c42a74d7b381780f3a4802c5bbaf28,group1/user5,minor bug handling in private/ppublic search
+17,1459719527,44f3735774f8b4f9696ed067ba72e275154e3b5f,group1/user5,merging conflict
+18,1459719393,e06309da097f88972a83c9e1315edb5899a1a0a5,group1/user5,Adding changes for isolatign searches
+19,1459716549,7b9778b274b81361afae22f33255e98177b87397,group1/user5,Changes to make properties easily switchable
+20,1459553647,31ecf8819543e9b5af3f83fef1cf96747343a431,group1/user2,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+21,1459553626,7856e727d7107cdcb5596676230ded4eae6dd31c,group1/user2,user satisfaction changes
+22,1459552580,48329241c4777520165c2e42e4a93314c67028bc,group1/user3,share for solution3
+23,1459551739,159bef892829f8098d42baf43b73da2173a1b0da,group1/user3,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+24,1459551725,479152e6667bf3d45c79d5f289f39eb93480c5a0,group1/user3,test
+25,1459551633,c2e62473f79591a91bd9a299dd3d6842e39ac198,group1/user2,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+26,1459551608,bd8c646ad656d66bd74888a31c5a5ad462e806ea,group1/user2,show preview
+27,1459549525,0b8548fc3026f4277633bc39436ce24e99e70edc,group1/user1,Merge branch 'telemetry_chromeExt'
+28,1459549487,c0fcccfc703f5a8a6103702d2da8395ecb699499,group1/user1,modification for occupation
+29,1459548920,f6c15221f6d0135986fb8f307bb62b1f92be7191,group1/user5,"Merge branch 'master' of
+https://github.com/Arjun-Code-Knight/csc510-se-project"
+30,1459548885,8aa915768868e5fee5ab4ed23a272bdb6e168a64,group1/user5,Telemetry changes and added new functions
+31,1459547741,ee1d6cc100dd4117710e46ebd7a4544b713db528,group1/user3,sign up form changes
+32,1459547009,71294282f61958f243a8c5e642eac68dc43598fb,group1/user3,change in form
+33,1459545191,65fb83ba56e7e033510233d3f2d92fc35375048a,group1/user3,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+34,1459545179,cfca0c8506e0a653a0da96e17151c50e22abd7ab,group1/user3,handled invalid login
+35,1459543194,9afde06aef893ef1ef11ccddc7802a33c04f2507,group1/user1,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+36,1459543172,cb2169db5a549bd611e6c9bbc1ff5ab333da27d4,group1/user1,Merge branch 'telemetry_chromeExt'
+37,1459543103,1856ad8606b2acdc345cf22b5ec5d38842cbfae5,group1/user3,handled invalid login
+38,1459543088,a52875539256006740f9e0ca73c63731b14d2be3,group1/user1,Client side bug fixes in login and signup
+39,1459541998,1161a99e76422c23887b8e7e2dee176c9fbe3228,group1/user2,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+40,1459541979,55b308d7466ae9a6da45dec6ca7e12d5145d6c48,group1/user2,user review changes
+41,1459541859,2de9a8781d19991e1ad978008d1e626238d7dc74,group1/user3,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+42,1459541846,1c25c305566c1b23ba97ac7936da2b455597e441,group1/user3,privacy form
+43,1459541800,1371099c2a984a0279b8cbc87c94c8208258e4bc,group1/user1,Merge branch 'telemetry_chromeExt'
+44,1459541767,ecb31c800b5660d19992a865f82232072e359bfd,group1/user1,modifications to user feedback
+45,1459541479,bdd7f28965364deeb2e82546380c1d8dbbc5097a,group1/user1,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+46,1459541455,04754e0705af27e4c733d6f925064eaba95e2256,group1/user1,Merge branch 'telemetry_chromeExt'
+47,1459541432,168129df5c1eaf8cc4fe0b74ba6f8aa1da23d195,group1/user1,User Feedback and user agreement
+48,1459540836,566aa3c5361481b032fb4c469c118b856788a260,group1/user3,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+49,1459540818,06486e3b44d1588ee477aad921a828da495d850d,group1/user3,adding privacy form
+50,1459540604,2bc3875ba651e9040c58d55d637b035c01cec796,group1/user2,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+51,1459540245,5de8e2482316eec72f903b93bcdcdc1bace33abc,group1/user2,added show preview and show history
+52,1459539805,951edfe296b474b7d1094f423316cfb911489cce,group1/user5,Merge branch 'Server_Phase2'
+53,1459539745,c4f4574f62586f8eca9044852deb25ae952fdf7d,group1/user5,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+54,1459539715,7fa6de659101817184b2af5726336d6adec435c8,group1/user5,commiting telemetry changes
+55,1459537854,9d425adfa542c6b841ed2bb3509cedc72b9ef548,group1/user2,added search
+56,1459536226,e56772291ba5966bb71eae2bdf7fc3b703d7d49a,group1/user5,Merge branch - merging final changes
+57,1459536194,7263cfa040e513b409414e11d5450091539cde7e,group1/user5,changes to handle the cross search and final set up changes
+58,1459315733,a9f320193d250a253df15f446567317b23eb3bfe,group1/user1,Merge branch 'telemetry_chromeExt'
+59,1459315703,e1fa23bebec3cd0147c82c0024235c0d470ed4f1,group1/user1,User Feedback
+60,1459302672,c44cf7ee66c808d199d8c025b58b42c3c4832425,group1/user5,new changes readme
+61,1459302234,af54a8d9a312d25902e4de89bb71f7448749f494,group1/user5,Telemetry Service project
+62,1459140655,98c2b82b9e616407938f295f3a24f4dae9635afe,group1/user3,added signup and share
+63,1459138719,d131ceb67982ee2586aa14ad9c527c02ceca854c,group1/user3,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+64,1459138697,5331894cf5de2539d7f15cd386cad8ea28e0ed39,group1/user3,added signup
+65,1459122472,f9ebe00f14adb7fa3434ae0440b15e6b7125ede4,group1/user5,"Merge branch 'Server_Phase2'
+changes to handle the cross search and login"
+66,1459122398,8af40b56e61fbbfccf57aae0f493b1be3f07383d,group1/user5,cross search changes
+67,1459121443,da574710ce8d89ef39d05ec5329e474237fa5a4a,group1/user1,Merge branch 'telemetry_chromeExt'
+68,1459121403,7727584aac94d525db284255acf59f3034fbac36,group1/user1,x-search
+69,1459117807,052bae976c874d2d3c9d2c16bfb5ab9675ae48ec,group1/user1,Merge branch 'telemetry_chromeExt'
+70,1459117736,cf66879167dc081f85411d75a0e7f46f7eb21eb9,group1/user1,public/private options for screenshots
+71,1459114455,403fc76d4ce351cc1f2a4d0ce9955f1cd9d1f742,group1/user5,Fixing data retrieve issue for chrome
+72,1459112537,20aa95966fdc6d6d254aecc9add0e0b8195b6d74,group1/user1,Merge branch 'telemetry_chromeExt'
+73,1459112519,9327fdd77c023265c4f74398eaf577b54fba5971,group1/user1,tweaks for signup/login
+74,1459112090,c66d631bdd56b345700081da2e9b181cbabc9e05,group1/user1,changes for chrome telemetry
+75,1459111897,32ddd9df5376eb2057e3b7a0691729e00e497fa3,group1/user1,User specific changes for telemetry
+76,1459098048,e9b2ce00ff7fda15291dba67b740f9840e084007,group1/user5,driving the services through email id
+77,1459063861,6e3e0b78f31a81bddcd02a8a497b24a5d307e66e,group1/user5,Fixing bugs related to login
+78,1459050221,4ff9cd20ce3a4c61ecdf4e2e5a65e1030a04810a,group1/user5,Email id validation
+79,1459049124,c2c7a2bf2844b7af6a64f00a0b220723974efef0,group1/user5,Marking it for chrome
+80,1459049047,b3115fff5f57d1b33e38bf3b46ed214e1d23d643,group1/user5,Chrome with search param
+81,1459047865,98ecb3e795c486c570e7048e0b750fc5691d885d,group1/user5,Making changes to handle signup and login
+82,1459029215,914e1c86e7c879039e66e48ce244ca0da7b1b6b3,group1/user3,sign up added
+83,1458938711,eae9c59f405b86e79abc27cdda9efce27a51b269,group1/user5,Adding new files for supporting telemetry and cross searching
+84,1458937624,f0d955e81193f828f5478bf900151ac80b2d6cab,group1/user5,Login service
+85,1458780576,3d9a3d38c9dde099372d11d0cc9b806df04bbb69,group1/user3,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+86,1458780494,a63bd290f2299505c35a563e7e45f20ab58a0f17,group1/user3,added preview and share option
+87,1458596005,8fae5c4c90a3be737f2bdb9064411e0101517a4a,group1/user1,New Signup form:-ready to call rest service
+88,1458447488,4b027db43e11a3db30f424aa9f9a808139ab3ae4,group1/user1,Changes for signUp
+89,1457645099,12cdbabd34ef3c9057fa4927be6c8a38d408e4a8,group1/user1,Adding user info for data collection
+90,1457055906,686316d9e0160c71a09f8a1c2f9136e93d3783da,group1/user3,added text box
+91,1457055162,d646eaa24f063e2d3278bc9c11d49f503639dda8,group1/user3,fixed bug
+92,1457031201,d193990137d4a554459d94e3cc05db35dc12bb64,group1/user1,Merge branch 'master' of https://github.com/Arjun-Code-Knight/csc510-se-project
+93,1457030876,c485267f02342997ad04f1221a1bb29e1bcd10e8,group1/user1,Merge branch 'chromeExt_client'
+94,1457030841,859e27a490b72c8f35742587d78f21aef611cba2,group1/user1,Labels bug fixed
+95,1457030782,813cd83107629b0d5e162116af589bc72d1d0d6c,group1/user5,support for tags in chrome plugin
+96,1456982513,66b04ba3db19b0dd25841347782e478b43992b7d,group1/user1,Merge branch 'chromeExt_client'
+97,1456982460,ba0987424d0f88b5c4f10d2bd758f45e443edc5d,group1/user1,integration with server and bug fixes
+98,1455945832,05121c18e5b3d618000f2abdfdd9c2ae00dc46a1,group1/user5,Code to upload to the aws server
+99,1455945175,f5400e8a31b35d25998d275f0ff1361cb4306d80,group1/user5,calling aws from fileServer
+100,1455942376,495f79e724b1668442d49de20d1febffd16f4860,group1/user1,Removing target files which are again user specific.
+101,1455942138,b55197a28ed6de2c3f3f9d9c67f3d542565726c9,group1/user1,"Delete USER1\testimg.png
+
+Removing the test image."
+102,1455941946,03aa442552c0c54e5028a4728bfe6e22ea92e725,group1/user1,Removing eclipse project specific files
+103,1455941800,0f8c0f218453b15fde296b9f6f19d1159d594285,group1/user1,Removing eclipse specific directories
+104,1455940817,f8565bef637b55165da69663404a838abefc042f,group1/user5,changes
+105,1455938979,32a67a78de6d150c5ba9886917fa81bc6002d5ce,group1/user5,tokenizing the property
+106,1455938481,6c33dd432522171fab8390d595ee699120f23f24,group1/user5,tokenized property
+107,1455938445,0b8b0e0d8c8e684c5c7afd3aad3c38fd1a65d628,group1/user5,tokenized property
+108,1455937415,b00f2948992fe4b00d160bee64235cae4cf6ef01,group1/user5,Cleaing Code
+109,1455930341,be2cd324b8d0706e408dc743388df97fe2605a36,group1/user1,FileServer.java modifications
+110,1455930176,9fef3ea3d7f19fcb7f6bdc4fbc53c8dd8508e143,group1/user1,property file
+111,1455930101,9f29866ed18ae9304dce7d36820e262f97b8c67c,group1/user1,additional changes for image upload
+112,1455929693,20174c64a7b4b04909dc4e32561529516af76006,group1/user1,Aws Image Upload
+113,1455929274,145a359aa6e3c6474b946c91dd6a93e6a6b769bd,group1/user5,Code clean up
+114,1455928974,12367aeee6520d0eeae897e0b746819e50ef9dc1,group1/user5,Support for handling stop words
+115,1455924723,a23cf9689e4f2292522926e50d164f5859fc5e1f,group1/user5,pom dependency for aws
+116,1455911233,96c3c6a913a60f4c8c8e3e112499082d15b8c810,group1/user5,Adding dependency for MongoDB
+117,1455911057,574dadb50464163f0bd05a69d19be82f9dfcde1e,group1/user5,Userservice to query userDetails and interfacing with MongoDB
+118,1455863822,26dd71cfaeebad4033eacb90d0bcdb9e8944a3ce,group1/user5,Correcting minor stream errors
+119,1455862348,6751e451dbbe2d70ac3d822b4378c840a8767120,group1/user5,Updating Readme
+120,1455862166,6da32de568abe0ad225f19d7bb8f3817e034188d,group1/user5,Including OCR code and support for user specific directory
+121,1455854065,30d980a2b2a89a4eb2daade0e83ab7e96c81b95b,group1/user5,Moving constants to properties
+122,1455851040,5a1ef4051ab47759a661b713fa14c89f67abfd77,group1/user5,Updates to the build process and packaging
+123,1455849886,e3e365fcebd8810a7c1d7354274492aeadb40bc6,group1/user5,Initial Commit of the Server Code
+124,1454126127,60851463435d2576d3ac44656e6b48d20d270947,group1/user5,Adding the observation videos
+125,1454125556,0ae58271a5126d0df49674b47ae39cae56dc0f82,group1/user5,ACM Paper on the problem decription
+126,1454125099,146b42fe822f157d490dfd03503610cd71cea64e,group1/user5,"Updating the project Idea
+
+Abstract about the problem, an ACM paper on the issue, survey and the conclusion driven from the survey."
+127,1452741811,0ead08ba5cefb6c10aae940abcd6f5568441da63,group1/user5,Goal of the project
+128,1452566504,2696d53e8a8d8fe9bbaa60c927dfcc0e7c8044b2,group1/user5,Initial commit

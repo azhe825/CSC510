@@ -1,0 +1,24 @@
+id,title,description,created_at,due_at,closed_at,user,identifier
+2,Complete Android Setup and Tutorial,,1455856433,1455858000,1456210050,group13/user1,1592217
+3,Complete basic app building using Android Studio,,1455857944,1455944400,1456210056,group13/user2,1592241
+4,basic simple app,,1455860618,1455944400,1456210058,group13/user3,1592276
+5,basic simple app with google maps API,,1455860636,1456030800,1456210069,group13/user3,1592277
+6,check the possibility of having publish subscribe,,1455860663,1456808400,1460073601,group13/user3,1592278
+7,Basic app created - integrate google maps with it,"The basic app has been created and pushed to branch 'kagarwa'
+Need to integrate this with google maps.",1456024316,1456030800,1456210062,group13/user1,1595216
+9,App opens with a biased location wrt campus,,1456211534,1456635600,1460073601,group13/user3,1599084
+10,Locate all NCSU parking sites and reflect them on the map,,1456223176,1456290000,1456347478,group13/user1,1599338
+11,Implement User Current Location Feature,,1456231568,1456376400,1456347789,group13/user1,1599561
+12,Save NCSU Parking Locations,To save Parking locations in NCSU as a sql table/csv file/hard code/any other option.,1456347396,1456635600,1460073601,group13/user1,1603855
+13,Implement Cloud feature ,Implement cloud feature for saving any kind of USER Data and APP Data which are presently using native app databases.,1456347629,1456808400,1460073601,group13/user1,1603874
+14,Introduce DESIGN to parking lots,"Features:
+Total Space:
+Available Space:
+Reserved Spaces:
+Unusable Spaces:
+
+Future design for March:
+Rate of Charges:
+and idea of user charges per day.
+",1456347754,1456635600,1460073601,group13/user1,1603879
+16,Include Telemetry in the system,,1457066519,1457067600,1460073601,group13/user1,1621564

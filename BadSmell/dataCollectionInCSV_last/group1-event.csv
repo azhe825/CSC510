@@ -1,0 +1,128 @@
+issueID,time,action,label,user,milestone,identifier
+1,1455575243,closed,closed,group1/user4,,551289880
+1,1455575243,subscribed,subscribed,group1/user3,,551289878
+1,1455575243,mentioned,mentioned,group1/user3,,551289877
+1,1455575051,subscribed,subscribed,group1/user4,,551286486
+1,1455575051,mentioned,mentioned,group1/user4,,551286485
+1,1455574468,subscribed,subscribed,group1/user3,,551275933
+1,1455574468,mentioned,mentioned,group1/user3,,551275932
+1,1454267833,subscribed,subscribed,group1/user4,,533267366
+1,1454267833,mentioned,mentioned,group1/user4,,533267365
+1,1454267799,assigned,group1/user4,group1/user4,,533267215
+1,1454267788,labeled,proj1comment,group1/user6,,533267116
+2,1454819899,closed,closed,group1/user5,,542015114
+3,1454819899,closed,closed,group1/user5,,542015115
+4,1455422181,closed,closed,group1/user2,2,549733777
+4,1455156764,milestoned,Come up with 3 probable solutions for the project problem.,group1/user3,2,546657497
+4,1455156668,assigned,group1/user6,group1/user6,2,546656746
+5,1456028233,closed,closed,group1/user1,4,558034030
+5,1455862702,subscribed,subscribed,group1/user1,4,556149075
+5,1455862702,mentioned,mentioned,group1/user1,4,556149074
+5,1455575669,milestoned,Exploring how to upload images to amazon cloud,group1/user3,4,551296123
+5,1455575669,assigned,group1/user1,group1/user1,4,551296122
+6,1456006455,closed,closed,group1/user2,5,557847066
+6,1455862632,subscribed,subscribed,group1/user2,5,556148495
+6,1455862632,mentioned,mentioned,group1/user2,5,556148494
+6,1455575934,milestoned,extracting text from images,group1/user3,5,551298677
+6,1455575820,assigned,group1/user2,group1/user2,5,551297567
+7,1456011777,closed,closed,group1/user5,,557879823
+7,1455575986,assigned,group1/user5,group1/user5,,551299511
+8,1456644292,closed,closed,group1/user3,,569593724
+8,1456004828,demilestoned,Exploring how to upload images to amazon cloud,group1/user3,,557829222
+8,1456004755,milestoned,Exploring how to upload images to amazon cloud,group1/user3,,557828684
+8,1455576311,subscribed,subscribed,group1/user1,,551303214
+8,1455576311,mentioned,mentioned,group1/user1,,551303213
+9,1456188021,closed,closed,group1/user2,,560708452
+9,1456028383,assigned,group1/user2,group1/user2,,558035257
+10,1456946757,closed,closed,group1/user5,,575165613
+11,1456464424,closed,closed,group1/user2,7,566926158
+11,1456274495,milestoned,Snippet of desktop,group1/user3,7,562688103
+11,1456274283,assigned,group1/user3,group1/user3,7,562683865
+12,1456946488,closed,closed,group1/user5,9,575159071
+12,1456644520,milestoned,integrating client and server side code,group1/user3,9,569597701
+12,1456644512,assigned,group1/user2,group1/user2,9,569597524
+12,1456644512,subscribed,subscribed,group1/user5,9,569597523
+12,1456644512,mentioned,mentioned,group1/user5,9,569597522
+13,1456738283,closed,closed,group1/user1,8,570747332
+13,1456650437,labeled,enhancement,group1/user1,8,569655412
+13,1456650403,milestoned,Chrome Plugin,group1/user1,8,569654537
+13,1456650290,assigned,group1/user1,group1/user1,8,569652059
+14,1456738203,closed,closed,group1/user1,8,570745470
+14,1456650622,labeled,roadblocks,group1/user1,8,569659572
+14,1456650388,milestoned,Chrome Plugin,group1/user1,8,569654135
+14,1456650384,assigned,group1/user1,group1/user1,8,569654025
+15,1456821614,closed,closed,group1/user1,8,572681190
+15,1456738377,milestoned,Chrome Plugin,group1/user1,8,570749844
+15,1456738377,assigned,group1/user1,group1/user1,8,570749843
+15,1456738377,labeled,bug,group1/user1,8,570749840
+16,1456821671,closed,closed,group1/user1,8,572682164
+16,1456738484,labeled,Feature,group1/user1,8,570752151
+16,1456738446,milestoned,Chrome Plugin,group1/user1,8,570751226
+16,1456738446,assigned,group1/user1,group1/user1,8,570751225
+17,1456946201,closed,closed,group1/user1,8,575152808
+17,1456738536,milestoned,Chrome Plugin,group1/user1,8,570753348
+17,1456738536,assigned,group1/user1,group1/user1,8,570753347
+17,1456738536,labeled,Feature,group1/user1,8,570753346
+18,1456946138,closed,closed,group1/user1,8,575151398
+18,1456738593,milestoned,Chrome Plugin,group1/user1,8,570754518
+18,1456738593,assigned,group1/user1,group1/user1,8,570754516
+18,1456738593,labeled,Feature,group1/user1,8,570754515
+19,1456981394,closed,closed,group1/user3,10,575742372
+19,1456981382,assigned,group1/user3,group1/user3,10,575742318
+19,1456768970,milestoned,Solution 1: Desktop App closure,group1/user2,10,571530343
+19,1456768970,labeled,bug,group1/user2,10,571530342
+20,1459125645,closed,closed,group1/user5,13,604689882
+20,1457744317,renamed,renamed,group1/user1,13,587168828
+20,1457744259,demilestoned,Chrome Plug in changes,group1/user1,13,587168326
+20,1457744259,milestoned,adding private search and cross search to solution 3,group1/user1,13,587168325
+20,1457744246,demilestoned,adding private search and cross search to solution 3,group1/user1,13,587168205
+20,1457744246,milestoned,Chrome Plug in changes,group1/user1,13,587168204
+20,1457743733,milestoned,adding private search and cross search to solution 3,group1/user3,13,587163969
+20,1457743733,assigned,group1/user5,group1/user5,13,587163968
+21,1459121838,closed,closed,group1/user1,,604673356
+21,1457743808,assigned,group1/user1,group1/user1,,587164625
+22,1459143010,closed,closed,group1/user2,13,604837786
+22,1457743900,milestoned,adding private search and cross search to solution 3,group1/user3,13,587165398
+22,1457743900,assigned,group1/user2,group1/user2,13,587165397
+23,1458788116,closed,closed,group1/user3,14,601207258
+23,1457744208,milestoned,Preview and share options for desktop solutions.,group1/user1,14,587167915
+23,1457744208,assigned,group1/user3,group1/user3,14,587167914
+23,1457744208,labeled,Feature,group1/user1,14,587167913
+24,1457744412,milestoned,meeting to decide course of action,group1/user5,11,587169646
+24,1457744318,closed,closed,group1/user5,11,587168836
+25,1459125673,closed,closed,group1/user5,12,604689964
+25,1457744365,milestoned,Chrome Plug in changes,group1/user1,12,587169285
+25,1457744365,assigned,group1/user5,group1/user5,12,587169284
+25,1457744365,labeled,Feature,group1/user1,12,587169282
+26,1458596133,closed,closed,group1/user1,12,597822578
+26,1457744580,milestoned,Chrome Plug in changes,group1/user2,12,587170976
+26,1457744580,assigned,group1/user1,group1/user1,12,587170975
+26,1457744580,labeled,Telemetry,group1/user2,12,587170974
+27,1459143012,closed,closed,group1/user3,15,604837800
+27,1459026167,assigned,group1/user3,group1/user3,15,604228423
+27,1457744925,milestoned,add sign up option for desktop solutions,group1/user3,15,587173518
+27,1457744925,assigned,group1/user2,group1/user2,15,587173517
+28,1459143061,closed,closed,group1/user3,15,604838127
+28,1457744991,milestoned,add sign up option for desktop solutions,group1/user3,15,587174370
+28,1457744991,assigned,group1/user3,group1/user3,15,587174366
+29,1459143010,closed,closed,group1/user2,13,604837787
+29,1457745276,milestoned,adding private search and cross search to solution 3,group1/user3,13,587177591
+29,1457745268,assigned,group1/user2,group1/user2,13,587177523
+30,1459553753,closed,closed,group1/user5,16,611947540
+30,1457745526,milestoned,Server side Changes,group1/user2,16,587179434
+30,1457745526,assigned,group1/user5,group1/user5,16,587179433
+30,1457745526,labeled,Telemetry,group1/user2,16,587179432
+31,1458938264,closed,closed,group1/user5,,603468074
+32,1458938332,closed,closed,group1/user5,,603469436
+33,1459553787,closed,closed,group1/user5,,611947782
+34,1459541617,closed,closed,group1/user1,12,611766575
+34,1459112423,milestoned,Chrome Plug in changes,group1/user1,12,604622128
+34,1459112423,labeled,Feature,group1/user1,12,604622127
+34,1459112423,assigned,group1/user1,group1/user1,12,604622126
+36,1459536497,milestoned,testing solutions on different users,group1/user3,17,611665516
+36,1459536497,subscribed,subscribed,group1/user1,17,611665515
+36,1459536497,mentioned,mentioned,group1/user1,17,611665514
+36,1459536497,assigned,group1/user2,group1/user2,17,611665511
+37,1459550177,closed,closed,group1/user2,,611907211
+38,1459546820,closed,closed,group1/user3,16,611853787
+38,1459536995,assigned,group1/user3,group1/user3,16,611677097

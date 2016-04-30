@@ -1,0 +1,23 @@
+issueID,user,createtime,updatetime,text,identifier
+1,group5/user2,1454357736,1454357736,User Responses are added to responses.xlx file,178167882
+4,group5/user3,1455840113,1455840113,Task completed.,185985946
+6,group5/user3,1455848006,1455848006,Task Done,186014294
+14,group5/user4,1456612605,1456612605,done with coding,189740913
+22,group5/user2,1456767283,1456767283,Option page complete,190303566
+5,group5/user2,1456777470,1456777470,Started work on one of the extension with sidebar,190369737
+13,group5/user2,1456777616,1456777616,Looked for android platform to implement this functionality but found that scope will be to much limited as it required special hardware to operate on the air-view.,190370746
+17,group5/user2,1456778353,1456778353,Developed a script to map images to the description which will help highlight required images based on the user action i.e hovering of clicking,190377014
+20,group5/user3,1456884309,1456884309,Implemented the hover sidebar functionality,191018355
+12,group5/user1,1456884492,1456884492,"Hashmap implemented which takes the alt value of the ""img"" tag as the key and ""src"" value of the ""img"" tag as the value.",191018918
+19,group5/user4,1456887011,1456887011,Implemented the regex,191026793
+7,group5/user4,1456887040,1456887040,Created different plugins for the same.,191026890
+9,group5/user4,1456887060,1456887060,Created and implemented it for figures.,191027059
+11,group5/user4,1456887091,1456887091,Managed to inject an image tag in the hyperlink,191027269
+26,group5/user2,1456892152,1456892152,Included desired files in Chrome_Image_Sidebar,191050292
+18,group5/user2,1456892194,1456892194,Included background image file and script for constant listening ,191050782
+24,group5/user2,1456892214,1456892214,Included css file for managing styles,191050998
+25,group5/user2,1459480602,1459480602,Included log information,204227581
+40,group5/user4,1459632129,1459632129,Updated the code,204806571
+41,group5/user4,1459632145,1459632145,Updated the CSS dynamically in the javascript,204806587
+46,group5/user4,1459910331,1459910331,Fixed the code,206088398
+43,group5/user4,1459997001,1459997001,Collected the logs into files from Chrome Console and gathered the data through user surveys and interviews,206665627

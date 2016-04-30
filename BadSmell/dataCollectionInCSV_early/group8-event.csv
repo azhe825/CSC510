@@ -1,0 +1,467 @@
+issueID,time,action,label,user,milestone,identifier
+1,1452808322,closed,closed,group8/user2,1,515533017
+1,1452808322,subscribed,subscribed,group8/user1,1,515533014
+1,1452808322,mentioned,mentioned,group8/user1,1,515533013
+1,1452808227,labeled,question,group8/user2,1,515531412
+1,1452808204,milestoned,fir,group8/user2,1,515531136
+2,1454347868,closed,closed,group8/user1,2,534526390
+2,1453431054,subscribed,subscribed,group8/user3,2,522490185
+2,1453431054,mentioned,mentioned,group8/user3,2,522490184
+2,1453430928,labeled,in progress,group8/user1,2,522488882
+2,1453424164,milestoned,Project proposal,group8/user1,2,522415928
+2,1453424065,assigned,group8/user3,group8/user3,2,522414921
+2,1453424065,unassigned,unassigned,group8/user4,2,522414920
+2,1453424059,assigned,group8/user4,group8/user4,2,522414843
+2,1453424059,unassigned,unassigned,group8/user2,2,522414842
+2,1453424056,assigned,group8/user2,group8/user2,2,522414817
+2,1453424056,unassigned,unassigned,group8/user1,2,522414816
+2,1453424054,assigned,group8/user1,group8/user1,2,522414793
+3,1454193050,closed,closed,group8/user2,2,532679868
+3,1453430891,assigned,group8/user4,group8/user4,2,522488614
+3,1453430891,unassigned,unassigned,group8/user1,2,522488613
+3,1453430886,milestoned,Project proposal,group8/user1,2,522488553
+3,1453430886,assigned,group8/user1,group8/user1,2,522488552
+3,1453430886,labeled,in progress,group8/user1,2,522488551
+4,1454193039,closed,closed,group8/user2,2,532679775
+4,1453431342,milestoned,Project proposal,group8/user1,2,522493461
+4,1453431202,labeled,in progress,group8/user1,2,522492136
+4,1453431150,assigned,group8/user4,group8/user4,2,522491478
+5,1454185121,closed,closed,group8/user1,2,532605215
+5,1453776791,assigned,group8/user2,group8/user2,2,525913825
+5,1453776791,unassigned,unassigned,group8/user1,2,525913824
+5,1453431194,milestoned,Project proposal,group8/user1,2,522492058
+5,1453431194,assigned,group8/user1,group8/user1,2,522492057
+5,1453431194,subscribed,subscribed,group8/user4,2,522492056
+5,1453431194,mentioned,mentioned,group8/user4,2,522492055
+5,1453431194,labeled,in progress,group8/user1,2,522492050
+6,1454193062,closed,closed,group8/user2,2,532680004
+6,1453752989,unlabeled,design,group8/user1,2,525500000
+6,1453752989,labeled,in progress,group8/user1,2,525499999
+6,1453431251,milestoned,Project proposal,group8/user1,2,522492592
+6,1453431251,assigned,group8/user2,group8/user2,2,522492591
+6,1453431251,subscribed,subscribed,group8/user3,2,522492590
+6,1453431251,mentioned,mentioned,group8/user3,2,522492589
+6,1453431251,labeled,design,group8/user1,2,522492588
+7,1454291123,closed,closed,group8/user1,2,533510387
+7,1453431330,milestoned,Project proposal,group8/user1,2,522493374
+7,1453431330,assigned,group8/user3,group8/user3,2,522493373
+7,1453431330,subscribed,subscribed,group8/user2,2,522493372
+7,1453431330,mentioned,mentioned,group8/user2,2,522493371
+7,1453431330,labeled,design,group8/user1,2,522493368
+8,1454029938,closed,closed,group8/user1,2,530648355
+8,1453849105,labeled,enhancement,group8/user1,2,527250995
+8,1453586620,labeled,in progress,group8/user1,2,524023116
+8,1453586614,milestoned,Project proposal,group8/user1,2,524023101
+8,1453572472,subscribed,subscribed,group8/user4,2,523961137
+8,1453572472,mentioned,mentioned,group8/user4,2,523961136
+8,1453572444,unassigned,unassigned,group8/user2,2,523961027
+8,1453572436,assigned,group8/user2,group8/user2,2,523961003
+8,1453572436,unassigned,unassigned,group8/user1,2,523961002
+8,1453572431,assigned,group8/user1,group8/user1,2,523960978
+9,1454187214,closed,closed,group8/user2,,532620441
+9,1454035635,renamed,renamed,group8/user2,,530725273
+9,1454033505,renamed,renamed,group8/user2,,530695997
+9,1454033490,renamed,renamed,group8/user2,,530695764
+10,1456851902,closed,closed,group8/user1,3,573347224
+10,1454623143,demilestoned,Apr1 Project,group8/user1,3,539864827
+10,1454623143,milestoned,March 1 Coding Coding Coding,group8/user1,3,539864826
+10,1454623139,demilestoned,March 1 Coding Coding Coding,group8/user1,3,539864744
+10,1454623139,milestoned,Apr1 Project,group8/user1,3,539864743
+10,1454521535,subscribed,subscribed,group8/user4,3,537922168
+10,1454521535,mentioned,mentioned,group8/user4,3,537922167
+10,1454521485,assigned,group8/user1,group8/user1,3,537920698
+10,1454521485,unassigned,unassigned,group8/user3,3,537920696
+10,1454521368,milestoned,March 1 Coding Coding Coding,group8/user2,3,537917427
+10,1454521368,assigned,group8/user3,group8/user3,3,537917423
+10,1454521368,labeled,in progress,group8/user2,3,537917422
+10,1454521368,labeled,design,group8/user2,3,537917421
+10,1454521368,labeled,feature,group8/user2,3,537917419
+11,1455380726,closed,closed,group8/user4,3,549514914
+11,1454632815,assigned,group8/user4,group8/user4,3,540032106
+11,1454632815,unassigned,unassigned,group8/user2,3,540032104
+11,1454632319,assigned,group8/user2,group8/user2,3,540024859
+11,1454632319,unassigned,unassigned,group8/user4,3,540024858
+11,1454632125,assigned,group8/user4,group8/user4,3,540021759
+11,1454632072,unsubscribed,unsubscribed,group8/user3,3,540020730
+11,1454630976,subscribed,subscribed,group8/user3,3,540004629
+11,1454630976,mentioned,mentioned,group8/user3,3,540004628
+11,1454630931,milestoned,March 1 Coding Coding Coding,group8/user4,3,540003407
+11,1454630931,labeled,design,group8/user4,3,540003406
+11,1454630931,labeled,question,group8/user4,3,540003405
+12,1455380735,closed,closed,group8/user4,3,549515020
+12,1454632845,assigned,group8/user1,group8/user1,3,540032538
+12,1454632588,milestoned,March 1 Coding Coding Coding,group8/user4,3,540028925
+13,1455380749,closed,closed,group8/user4,3,549515062
+13,1454632607,milestoned,March 1 Coding Coding Coding,group8/user2,3,540029194
+13,1454632607,assigned,group8/user3,group8/user3,3,540029193
+13,1454632607,labeled,design,group8/user2,3,540029192
+13,1454632607,labeled,feature,group8/user2,3,540029191
+14,1455380868,closed,closed,group8/user4,3,549515403
+14,1454632798,milestoned,March 1 Coding Coding Coding,group8/user4,3,540031862
+14,1454632798,assigned,group8/user2,group8/user2,3,540031861
+14,1454632798,labeled,design,group8/user4,3,540031860
+14,1454632798,labeled,question,group8/user4,3,540031859
+15,1456605919,closed,closed,group8/user2,11,569217195
+15,1456471164,demilestoned,Get Workable Code,group8/user4,11,567028887
+15,1456471164,milestoned,Test Workable Solutions,group8/user4,11,567028886
+15,1456086127,milestoned,Get Workable Code,group8/user4,11,558622101
+15,1456086077,demilestoned,Head start,group8/user4,11,558621706
+15,1455381636,labeled,Solution Two,group8/user4,11,549518746
+15,1455381496,labeled,Solution One,group8/user1,11,549518126
+15,1455381074,milestoned,Head start,group8/user4,11,549516554
+15,1455381074,assigned,group8/user2,group8/user2,11,549516553
+15,1455381074,labeled,design,group8/user4,11,549516552
+15,1455381074,labeled,feature,group8/user4,11,549516551
+16,1456084819,closed,closed,group8/user4,3,558603797
+16,1456084747,demilestoned,Head start,group8/user1,3,558603106
+16,1456084747,milestoned,March 1 Coding Coding Coding,group8/user1,3,558603105
+16,1455381485,labeled,Solution One,group8/user1,3,549518055
+16,1455381189,labeled,design,group8/user1,3,549517007
+16,1455381189,labeled,feature,group8/user1,3,549517006
+16,1455381168,subscribed,subscribed,group8/user2,3,549516942
+16,1455381168,mentioned,mentioned,group8/user2,3,549516941
+16,1455381109,milestoned,Head start,group8/user1,3,549516704
+16,1455381109,assigned,group8/user1,group8/user1,3,549516703
+17,1456800381,closed,closed,group8/user3,11,572331953
+17,1456471164,demilestoned,Get Workable Code,group8/user4,11,567028891
+17,1456471164,milestoned,Test Workable Solutions,group8/user4,11,567028890
+17,1456086127,milestoned,Get Workable Code,group8/user4,11,558622103
+17,1456086077,demilestoned,Head start,group8/user4,11,558621708
+17,1455381599,labeled,design,group8/user4,11,549518651
+17,1455381599,labeled,feature,group8/user4,11,549518650
+17,1455381585,milestoned,Head start,group8/user4,11,549518612
+17,1455381513,labeled,Solution Three,group8/user1,11,549518225
+17,1455381182,assigned,group8/user3,group8/user3,11,549516967
+18,1455950350,closed,closed,group8/user4,9,557419324
+18,1455381563,labeled,Solution Two,group8/user1,9,549518510
+18,1455381352,labeled,design,group8/user4,9,549517615
+18,1455381352,labeled,feature,group8/user4,9,549517614
+18,1455381341,milestoned,Head start,group8/user4,9,549517572
+18,1455381332,assigned,group8/user4,group8/user4,9,549517545
+19,1456086446,closed,closed,group8/user4,10,558625682
+19,1456086127,milestoned,Get Workable Code,group8/user4,10,558622105
+19,1456086077,demilestoned,Head start,group8/user4,10,558621712
+19,1455382612,labeled,Solution Three,group8/user3,10,549523313
+19,1455382612,labeled,in progress,group8/user3,10,549523312
+19,1455382612,labeled,design,group8/user3,10,549523311
+19,1455382612,labeled,feature,group8/user3,10,549523310
+19,1455382093,milestoned,Head start,group8/user3,10,549521066
+19,1455382093,assigned,group8/user3,group8/user3,10,549521065
+20,1456086453,closed,closed,group8/user4,10,558625737
+20,1456086127,milestoned,Get Workable Code,group8/user4,10,558622107
+20,1456086077,demilestoned,Head start,group8/user4,10,558621714
+20,1455382588,labeled,Solution Three,group8/user3,10,549523228
+20,1455382588,labeled,in progress,group8/user3,10,549523227
+20,1455382588,labeled,design,group8/user3,10,549523226
+20,1455382588,labeled,feature,group8/user3,10,549523225
+20,1455382162,milestoned,Head start,group8/user3,10,549521247
+20,1455382162,assigned,group8/user3,group8/user3,10,549521246
+21,1455911951,closed,closed,group8/user1,9,557034220
+21,1455382237,milestoned,Head start,group8/user1,9,549521539
+21,1455382237,assigned,group8/user1,group8/user1,9,549521538
+21,1455382237,labeled,Solution One,group8/user1,9,549521537
+21,1455382237,labeled,in progress,group8/user1,9,549521536
+21,1455382237,labeled,design,group8/user1,9,549521535
+22,1456446091,closed,closed,group8/user3,10,566623743
+22,1456446087,reopened,reopened,group8/user3,10,566623634
+22,1456446082,closed,closed,group8/user3,10,566623573
+22,1456086127,milestoned,Get Workable Code,group8/user4,10,558622109
+22,1456086077,demilestoned,Head start,group8/user4,10,558621716
+22,1455382512,labeled,Solution Three,group8/user3,10,549522940
+22,1455382512,labeled,in progress,group8/user3,10,549522939
+22,1455382512,labeled,feature,group8/user3,10,549522938
+22,1455382241,milestoned,Head start,group8/user3,10,549521569
+22,1455382241,assigned,group8/user3,group8/user3,10,549521568
+23,1456454682,labeled,Solution Three,group8/user1,4,566779194
+23,1456454682,labeled,Solution Two,group8/user1,4,566779193
+23,1456454682,labeled,Solution One,group8/user1,4,566779192
+23,1456454661,demilestoned,March 1 Coding Coding Coding,group8/user1,4,566778860
+23,1456454661,milestoned,Apr1 Project,group8/user1,4,566778859
+23,1456454656,milestoned,March 1 Coding Coding Coding,group8/user1,4,566778782
+23,1455382488,labeled,Evalutation,group8/user3,4,549522865
+23,1455382488,labeled,in progress,group8/user3,4,549522864
+23,1455382434,labeled,help wanted,group8/user3,4,549522669
+24,1456084819,closed,closed,group8/user4,9,558603798
+24,1455675925,unlabeled,Solution One,group8/user3,9,552955962
+24,1455675925,labeled,Solution Three,group8/user3,9,552955961
+24,1455666124,renamed,renamed,group8/user1,9,552817619
+24,1455665388,milestoned,Head start,group8/user1,9,552805873
+24,1455665388,assigned,group8/user3,group8/user3,9,552805872
+24,1455665388,labeled,Solution One,group8/user1,9,552805871
+24,1455665388,labeled,in progress,group8/user1,9,552805870
+25,1455932882,closed,closed,group8/user2,9,557335190
+25,1455675950,milestoned,Head start,group8/user3,9,552956196
+25,1455675943,labeled,Solution Three,group8/user3,9,552956146
+25,1455675943,labeled,in progress,group8/user3,9,552956145
+25,1455675890,assigned,group8/user2,group8/user2,9,552955683
+26,1455769324,closed,closed,group8/user4,9,554576136
+26,1455676234,milestoned,Head start,group8/user3,9,552959002
+26,1455676234,assigned,group8/user4,group8/user4,9,552959001
+26,1455676234,labeled,Solution Three,group8/user3,9,552959000
+26,1455676234,labeled,in progress,group8/user3,9,552958999
+27,1455734210,closed,closed,group8/user1,9,553995317
+27,1455676284,milestoned,Head start,group8/user3,9,552959824
+27,1455676284,assigned,group8/user1,group8/user1,9,552959823
+27,1455676284,labeled,Solution Three,group8/user3,9,552959822
+27,1455676284,labeled,in progress,group8/user3,9,552959821
+28,1456172635,closed,closed,group8/user1,3,560330678
+28,1456087504,labeled,feature,group8/user1,3,558636509
+28,1455912156,milestoned,March 1 Coding Coding Coding,group8/user1,3,557038161
+28,1455912156,assigned,group8/user1,group8/user1,3,557038159
+28,1455912156,labeled,Solution One,group8/user1,3,557038158
+28,1455912156,labeled,in progress,group8/user1,3,557038157
+28,1455912156,labeled,design,group8/user1,3,557038156
+29,1456297952,closed,closed,group8/user4,3,563090527
+29,1456281701,labeled,in progress,group8/user4,3,562822042
+29,1455950480,milestoned,March 1 Coding Coding Coding,group8/user4,3,557420648
+29,1455950480,assigned,group8/user4,group8/user4,3,557420647
+29,1455950480,labeled,Solution Two,group8/user4,3,557420646
+29,1455950480,labeled,enhancement,group8/user4,3,557420645
+30,1455997745,closed,closed,group8/user1,,557774211
+30,1455997745,merged,merged,group8/user1,,557774210
+30,1455997745,referenced,referenced,group8/user1,,557774209
+31,1456458880,closed,closed,group8/user2,10,566846238
+31,1456444129,labeled,Solution Two,group8/user1,10,566582623
+31,1456444129,labeled,Solution One,group8/user1,10,566582622
+31,1456444129,labeled,in progress,group8/user1,10,566582621
+31,1456444129,labeled,help wanted,group8/user1,10,566582620
+31,1456444114,assigned,group8/user2,group8/user2,10,566582315
+31,1456417833,reopened,reopened,group8/user2,10,565891900
+31,1456086404,closed,closed,group8/user4,10,558625217
+31,1456086127,milestoned,Get Workable Code,group8/user4,10,558622111
+32,1456278347,closed,closed,group8/user4,10,562759645
+32,1456086127,milestoned,Get Workable Code,group8/user4,10,558622113
+32,1456084607,assigned,group8/user4,group8/user4,10,558601869
+32,1456084594,labeled,Solution Two,group8/user4,10,558601678
+32,1456084594,labeled,Solution One,group8/user4,10,558601677
+32,1456084594,labeled,design,group8/user4,10,558601676
+32,1456084594,labeled,feature,group8/user4,10,558601675
+33,1456443932,closed,closed,group8/user1,10,566578963
+33,1456086450,renamed,renamed,group8/user1,10,558625723
+33,1456086314,milestoned,Get Workable Code,group8/user1,10,558624075
+33,1456086314,assigned,group8/user1,group8/user1,10,558624074
+33,1456086314,labeled,Solution One,group8/user1,10,558624073
+33,1456086314,labeled,in progress,group8/user1,10,558624072
+33,1456086314,labeled,design,group8/user1,10,558624071
+34,1456087734,closed,closed,group8/user4,10,558638554
+34,1456086743,milestoned,Get Workable Code,group8/user4,10,558628410
+34,1456086743,assigned,group8/user4,group8/user4,10,558628409
+34,1456086743,labeled,Solution One,group8/user4,10,558628408
+34,1456086743,labeled,feature,group8/user4,10,558628407
+35,1456605929,closed,closed,group8/user1,11,569217264
+35,1456471164,demilestoned,Get Workable Code,group8/user4,11,567028896
+35,1456471164,milestoned,Test Workable Solutions,group8/user4,11,567028894
+35,1456087494,labeled,in progress,group8/user1,11,558636433
+35,1456087494,labeled,feature,group8/user1,11,558636432
+35,1456086955,assigned,group8/user1,group8/user1,11,558630782
+35,1456086953,milestoned,Get Workable Code,group8/user1,11,558630764
+35,1456086950,labeled,Solution One,group8/user1,11,558630740
+35,1456086950,labeled,design,group8/user1,11,558630739
+36,1456093136,closed,closed,group8/user4,10,558698895
+36,1456093132,milestoned,Get Workable Code,group8/user4,10,558698879
+36,1456093132,assigned,group8/user4,group8/user4,10,558698878
+36,1456093132,labeled,Solution One,group8/user4,10,558698877
+36,1456093132,labeled,help wanted,group8/user4,10,558698876
+36,1456093132,labeled,bug,group8/user4,10,558698875
+37,1456443456,closed,closed,group8/user2,10,566569882
+37,1456443456,merged,merged,group8/user2,10,566569881
+37,1456443456,referenced,referenced,group8/user2,10,566569879
+37,1456278236,subscribed,subscribed,group8/user2,10,562757645
+37,1456278236,mentioned,mentioned,group8/user2,10,562757644
+37,1456182008,milestoned,Get Workable Code,group8/user4,10,560582311
+37,1456181997,assigned,group8/user2,group8/user2,10,560582083
+38,1456290307,closed,closed,group8/user3,10,562962361
+38,1456282745,milestoned,Get Workable Code,group8/user3,10,562840757
+38,1456282739,assigned,group8/user3,group8/user3,10,562840703
+38,1456282736,labeled,Solution Three,group8/user3,10,562840679
+38,1456282736,labeled,bug,group8/user3,10,562840676
+39,1456854125,closed,closed,group8/user4,11,573395617
+39,1456444946,demilestoned,Get Workable Code,group8/user4,11,566601869
+39,1456444946,milestoned,Test Workable Solutions,group8/user4,11,566601868
+39,1456298004,milestoned,Get Workable Code,group8/user4,11,563091610
+39,1456298004,assigned,group8/user4,group8/user4,11,563091609
+39,1456298004,labeled,Evalutation,group8/user4,11,563091608
+39,1456298004,labeled,Solution Two,group8/user4,11,563091607
+39,1456298004,labeled,in testing,group8/user4,11,563091606
+40,1456332956,closed,closed,group8/user3,10,563942270
+40,1456331053,milestoned,Get Workable Code,group8/user3,10,563881665
+40,1456331053,assigned,group8/user3,group8/user3,10,563881663
+40,1456331053,labeled,Solution Three,group8/user3,10,563881662
+40,1456331053,labeled,in progress,group8/user3,10,563881661
+40,1456331053,labeled,bug,group8/user3,10,563881660
+41,1456446055,closed,closed,group8/user3,10,566623163
+41,1456372651,milestoned,Get Workable Code,group8/user3,10,564878328
+41,1456372651,assigned,group8/user3,group8/user3,10,564878327
+41,1456372651,labeled,Solution Three,group8/user3,10,564878325
+41,1456372651,labeled,feature,group8/user3,10,564878324
+41,1456372651,labeled,enhancement,group8/user3,10,564878323
+42,1456720653,closed,closed,group8/user3,11,570431781
+42,1456471164,demilestoned,Get Workable Code,group8/user4,11,567028903
+42,1456471164,milestoned,Test Workable Solutions,group8/user4,11,567028902
+42,1456372703,milestoned,Get Workable Code,group8/user3,11,564879283
+42,1456372703,assigned,group8/user3,group8/user3,11,564879282
+42,1456372703,labeled,Solution Three,group8/user3,11,564879281
+42,1456372703,labeled,in progress,group8/user3,11,564879279
+42,1456372703,labeled,feature,group8/user3,11,564879278
+43,1456444895,closed,closed,group8/user4,10,566600459
+43,1456444410,milestoned,Get Workable Code,group8/user1,10,566588764
+43,1456444402,labeled,Solution Two,group8/user1,10,566588599
+43,1456444402,labeled,Solution One,group8/user1,10,566588598
+43,1456444402,labeled,feature,group8/user1,10,566588597
+43,1456444402,labeled,enhancement,group8/user1,10,566588596
+43,1456444100,assigned,group8/user4,group8/user4,10,566582051
+44,1456799587,closed,closed,group8/user2,3,572315425
+44,1456444692,milestoned,March 1 Coding Coding Coding,group8/user1,3,566595107
+44,1456444692,assigned,group8/user1,group8/user1,3,566595106
+44,1456444692,subscribed,subscribed,group8/user2,3,566595105
+44,1456444692,mentioned,mentioned,group8/user2,3,566595104
+44,1456444692,labeled,Solution Three,group8/user1,3,566595099
+44,1456444692,labeled,Solution Two,group8/user1,3,566595098
+44,1456444692,labeled,Solution One,group8/user1,3,566595097
+44,1456444692,labeled,in progress,group8/user1,3,566595096
+44,1456444692,labeled,design,group8/user1,3,566595095
+45,1456446504,closed,closed,group8/user1,10,566631105
+45,1456446504,merged,merged,group8/user1,10,566631103
+45,1456446504,referenced,referenced,group8/user1,10,566631102
+45,1456446496,assigned,group8/user3,group8/user3,10,566630984
+45,1456446450,labeled,Solution Three,group8/user1,10,566630127
+45,1456446450,labeled,design,group8/user1,10,566630126
+45,1456446450,labeled,help wanted,group8/user1,10,566630125
+45,1456446442,milestoned,Get Workable Code,group8/user1,10,566630013
+46,1456454613,closed,closed,group8/user3,10,566778181
+46,1456448106,milestoned,Get Workable Code,group8/user3,10,566662285
+46,1456448106,assigned,group8/user3,group8/user3,10,566662284
+46,1456448106,labeled,Solution Three,group8/user3,10,566662283
+46,1456448106,labeled,bug,group8/user3,10,566662282
+47,1456854387,demilestoned,Test Workable Solutions,group8/user1,4,573401282
+47,1456854387,milestoned,March 1 Coding Coding Coding,group8/user1,4,573401281
+47,1456471164,demilestoned,Get Workable Code,group8/user4,4,567028907
+47,1456471164,milestoned,Test Workable Solutions,group8/user4,4,567028906
+47,1456454558,milestoned,Get Workable Code,group8/user3,4,566777336
+47,1456454558,assigned,group8/user3,group8/user3,4,566777335
+47,1456454558,labeled,Solution Three,group8/user3,4,566777334
+47,1456454558,labeled,in progress,group8/user3,4,566777333
+47,1456454558,labeled,bug,group8/user3,4,566777332
+48,1456523329,closed,closed,group8/user1,11,568262366
+48,1456471133,demilestoned,Get Workable Code,group8/user4,11,567028457
+48,1456471133,milestoned,Test Workable Solutions,group8/user4,11,567028456
+48,1456458194,milestoned,Get Workable Code,group8/user1,11,566836876
+48,1456458194,assigned,group8/user1,group8/user1,11,566836875
+48,1456458194,labeled,Solution One,group8/user1,11,566836874
+48,1456458194,labeled,in progress,group8/user1,11,566836873
+48,1456458194,labeled,help wanted,group8/user1,11,566836872
+49,1456471114,milestoned,Test Workable Solutions,group8/user4,4,567028178
+49,1456471114,assigned,group8/user4,group8/user4,4,567028177
+49,1456471114,labeled,Solution Two,group8/user4,4,567028175
+49,1456471114,labeled,in progress,group8/user4,4,567028174
+49,1456471114,labeled,feature,group8/user4,4,567028173
+50,1456541016,closed,closed,group8/user1,3,568567660
+50,1456523685,milestoned,March 1 Coding Coding Coding,group8/user1,3,568272748
+50,1456523685,assigned,group8/user1,group8/user1,3,568272747
+50,1456523685,labeled,Solution One,group8/user1,3,568272746
+50,1456523685,labeled,in progress,group8/user1,3,568272745
+50,1456523685,labeled,help wanted,group8/user1,3,568272744
+51,1456546509,closed,closed,group8/user1,3,568627373
+51,1456541080,milestoned,March 1 Coding Coding Coding,group8/user1,3,568568369
+51,1456541080,assigned,group8/user1,group8/user1,3,568568368
+51,1456541079,labeled,Solution One,group8/user1,3,568568365
+51,1456541079,labeled,help wanted,group8/user1,3,568568364
+51,1456541079,labeled,bug,group8/user1,3,568568363
+52,1456781346,closed,closed,group8/user1,11,571885251
+52,1456545409,reopened,reopened,group8/user1,11,568618553
+52,1456545407,closed,closed,group8/user1,11,568618532
+52,1456542633,milestoned,Test Workable Solutions,group8/user1,11,568587867
+52,1456542633,assigned,group8/user1,group8/user1,11,568587866
+52,1456542633,labeled,Solution One,group8/user1,11,568587865
+52,1456542633,labeled,in testing,group8/user1,11,568587864
+52,1456542633,labeled,enhancement,group8/user1,11,568587863
+53,1456603430,closed,closed,group8/user2,11,569191418
+53,1456546892,milestoned,Test Workable Solutions,group8/user1,11,568631077
+53,1456546892,assigned,group8/user2,group8/user2,11,568631076
+53,1456546892,labeled,Solution Two,group8/user1,11,568631075
+53,1456546892,labeled,Solution One,group8/user1,11,568631074
+53,1456546892,labeled,help wanted,group8/user1,11,568631073
+53,1456546892,labeled,enhancement,group8/user1,11,568631072
+54,1456606926,closed,closed,group8/user3,3,569230040
+54,1456583883,milestoned,March 1 Coding Coding Coding,group8/user3,3,568979853
+54,1456583883,assigned,group8/user3,group8/user3,3,568979852
+54,1456583883,labeled,Solution Three,group8/user3,3,568979851
+54,1456583883,labeled,in progress,group8/user3,3,568979850
+54,1456583883,labeled,feature,group8/user3,3,568979849
+55,1456800121,demilestoned,March 1 Coding Coding Coding,group8/user3,13,572328047
+55,1456800121,milestoned,Design and Conduct Experiment,group8/user3,13,572328046
+55,1456584029,milestoned,March 1 Coding Coding Coding,group8/user3,13,568981103
+55,1456584029,assigned,group8/user3,group8/user3,13,568981102
+55,1456584029,labeled,Solution Three,group8/user3,13,568981101
+55,1456584029,labeled,in progress,group8/user3,13,568981100
+55,1456584029,labeled,feature,group8/user3,13,568981099
+56,1456634346,closed,closed,group8/user3,3,569497922
+56,1456584058,milestoned,March 1 Coding Coding Coding,group8/user3,3,568981344
+56,1456584058,assigned,group8/user3,group8/user3,3,568981343
+56,1456584058,labeled,Solution Three,group8/user3,3,568981339
+56,1456584058,labeled,in progress,group8/user3,3,568981338
+56,1456584058,labeled,feature,group8/user3,3,568981337
+57,1456800100,demilestoned,March 1 Coding Coding Coding,group8/user3,13,572327538
+57,1456800100,milestoned,Design and Conduct Experiment,group8/user3,13,572327537
+57,1456584088,milestoned,March 1 Coding Coding Coding,group8/user3,13,568981656
+57,1456584088,assigned,group8/user3,group8/user3,13,568981655
+57,1456584088,labeled,Solution Three,group8/user3,13,568981654
+57,1456584088,labeled,in progress,group8/user3,13,568981653
+57,1456584088,labeled,feature,group8/user3,13,568981652
+58,1456800074,demilestoned,March 1 Coding Coding Coding,group8/user3,13,572327012
+58,1456800074,milestoned,Design and Conduct Experiment,group8/user3,13,572327011
+58,1456584130,milestoned,March 1 Coding Coding Coding,group8/user3,13,568982073
+58,1456584130,assigned,group8/user3,group8/user3,13,568982072
+58,1456584130,labeled,Solution Three,group8/user3,13,568982071
+58,1456584130,labeled,in progress,group8/user3,13,568982070
+58,1456584130,labeled,feature,group8/user3,13,568982069
+59,1456800020,demilestoned,March 1 Coding Coding Coding,group8/user3,13,572325720
+59,1456800020,milestoned,Design and Conduct Experiment,group8/user3,13,572325719
+59,1456584162,milestoned,March 1 Coding Coding Coding,group8/user3,13,568982300
+59,1456584162,assigned,group8/user3,group8/user3,13,568982299
+59,1456584162,labeled,Solution Three,group8/user3,13,568982298
+59,1456584162,labeled,in progress,group8/user3,13,568982297
+59,1456584162,labeled,feature,group8/user3,13,568982296
+60,1456634746,closed,closed,group8/user3,3,569501379
+60,1456605819,milestoned,March 1 Coding Coding Coding,group8/user2,3,569215938
+60,1456605819,assigned,group8/user2,group8/user2,3,569215937
+60,1456605819,subscribed,subscribed,group8/user1,3,569215936
+60,1456605819,mentioned,mentioned,group8/user1,3,569215935
+60,1456605819,labeled,Solution Three,group8/user2,3,569215932
+60,1456605819,labeled,Solution Two,group8/user2,3,569215931
+60,1456605819,labeled,Solution One,group8/user2,3,569215930
+60,1456605819,labeled,in progress,group8/user2,3,569215929
+60,1456605819,labeled,design,group8/user2,3,569215928
+60,1456605819,labeled,feature,group8/user2,3,569215927
+61,1456720585,closed,closed,group8/user3,3,570430734
+61,1456634556,milestoned,March 1 Coding Coding Coding,group8/user3,3,569499738
+61,1456634556,assigned,group8/user3,group8/user3,3,569499737
+61,1456634555,labeled,Solution Three,group8/user3,3,569499736
+61,1456634555,labeled,in progress,group8/user3,3,569499735
+61,1456634555,labeled,feature,group8/user3,3,569499734
+62,1456854137,closed,closed,group8/user4,3,573395911
+62,1456634661,milestoned,March 1 Coding Coding Coding,group8/user3,3,569500550
+62,1456634661,assigned,group8/user4,group8/user4,3,569500549
+62,1456634661,labeled,Solution Two,group8/user3,3,569500548
+62,1456634661,labeled,in progress,group8/user3,3,569500547
+62,1456634661,labeled,feature,group8/user3,3,569500546
+63,1456779145,closed,closed,group8/user1,3,571820111
+63,1456634709,milestoned,March 1 Coding Coding Coding,group8/user3,3,569501067
+63,1456634709,assigned,group8/user1,group8/user1,3,569501066
+63,1456634709,labeled,Solution One,group8/user3,3,569501065
+63,1456634709,labeled,in progress,group8/user3,3,569501064
+63,1456634709,labeled,feature,group8/user3,3,569501063
+64,1456785033,closed,closed,group8/user3,3,571994585
+64,1456720296,milestoned,March 1 Coding Coding Coding,group8/user3,3,570426431
+64,1456720296,assigned,group8/user3,group8/user3,3,570426430
+64,1456720296,labeled,Solution Three,group8/user3,3,570426429
+64,1456720296,labeled,in progress,group8/user3,3,570426428
+64,1456720296,labeled,feature,group8/user3,3,570426427
+65,1456786486,closed,closed,group8/user3,3,572031115
+65,1456786486,merged,merged,group8/user3,3,572031114
+65,1456785289,milestoned,March 1 Coding Coding Coding,group8/user3,3,572001595
+65,1456785289,labeled,Solution Three,group8/user3,3,572001594
+66,1456817302,milestoned,March 1 Coding Coding Coding,group8/user4,4,572614820
+66,1456817302,assigned,group8/user3,group8/user3,4,572614819
+66,1456817302,labeled,Solution Three,group8/user4,4,572614818
+66,1456817302,labeled,bug,group8/user4,4,572614817

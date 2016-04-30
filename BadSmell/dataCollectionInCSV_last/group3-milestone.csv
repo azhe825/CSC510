@@ -1,0 +1,9 @@
+id,title,description,created_at,due_at,closed_at,user,identifier
+2,Implementation Complete Mar 1,,1454625249,1456376400,1459949756,group3/user1,1564562
+3,March 1 report,,1454625310,1456635600,1459949749,group3/user1,1564567
+4,Testing for solutions,,1454625356,1458792000,1459949744,group3/user1,1564570
+5,Apr1 report,,1454625369,1459310400,1460073601,group3/user1,1564572
+6,GUI Build,,1454625399,1458446400,1459949745,group3/user1,1564573
+8,semi-supervised learning solutions,,1455653119,1456030800,1457013374,group3/user2,1586738
+9,Combine all three solutions to have the best,,1456931152,1457326800,1459949747,group3/user2,1618056
+10,Implement best solution with GUI,,1456931170,1458878400,1459949742,group3/user2,1618058

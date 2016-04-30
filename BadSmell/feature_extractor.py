@@ -1,5 +1,6 @@
 import os
 import csv
+from pdb import set_trace
 
 
 def extract_feature():
@@ -92,6 +93,7 @@ def get_duration(times):
         return 0
     else:
         return (int(max(times))-int(min(times))) / (24*3600)
+
 
 
 def generate_assignees_csv(base, group_features):

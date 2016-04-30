@@ -35,7 +35,11 @@ import ConfigParser
 import os.path
 import argparse
 
+from pdb import set_trace
 
+early=1457049600
+last=1460073600
+timebound=last
 
 
 def lCompare(item1, item2):
@@ -75,7 +79,7 @@ def secs(d0):
   delta = d - epoch
   return delta.total_seconds()
 
-def dumpCommit1(u,commits,token):
+def dumpCommit1(u,commits,token, timebound):
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -85,6 +89,8 @@ def dumpCommit1(u,commits,token):
     user = commit['author']['login']
     time = secs(commit['commit']['author']['date'])
     message = commit['commit']['message']
+    if time>timebound:
+      continue
     commitObj = L(sha = sha,
                 user = user,
                 time = time,
@@ -92,7 +98,7 @@ def dumpCommit1(u,commits,token):
     commits.append(commitObj)
   return True
 
-def dumpComments1(u, comments, token):
+def dumpComments1(u, comments, token, timebound):
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -104,6 +110,8 @@ def dumpComments1(u, comments, token):
     comment_text = comment['body']
     created_at = secs(comment['created_at'])
     updated_at = secs(comment['updated_at'])
+    if created_at>timebound:
+      continue
     commentObj = L(ident = identifier,
                 issue = issueid, 
                 user = user,
@@ -114,7 +122,7 @@ def dumpComments1(u, comments, token):
   return True
 
 
-def dumpMilestone1(u, milestones, token):
+def dumpMilestone1(u, milestones, token, timebound):
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -130,7 +138,17 @@ def dumpMilestone1(u, milestones, token):
   closed_at_string = milestone['closed_at']
   closed_at = secs(closed_at_string) if closed_at_string != None else closed_at_string
   user = milestone['creator']['login']
-    
+
+  if due_at==None:
+    return True
+  if due_at>timebound:
+    return True
+  if closed_at==None:
+    closed_at=timebound+1
+  if closed_at>timebound:
+    closed_at=timebound+1
+
+
   milestoneObj = L(ident=identifier,
                m_id = milestone_id,
                m_title = milestone_title,
@@ -142,7 +160,7 @@ def dumpMilestone1(u, milestones, token):
   milestones.append(milestoneObj)
   return True
 
-def dump1(u,issues, token):
+def dump1(u,issues, token, timebound):
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -157,6 +175,8 @@ def dump1(u,issues, token):
     user = event['actor']['login']
     milestone = event['issue']['milestone']
     if milestone != None : milestone = milestone['number']
+    if created_at>timebound:
+      continue
     eventObj = L(ident=identifier,
                  when=created_at,
                  action = action,
@@ -170,48 +190,51 @@ def dump1(u,issues, token):
     issues[issue_id] = issue_obj
   return True
 
-def dumpCommit(u,commits, token):
+def dumpCommit(*arg,**kwarg):
   try:
-    return dumpCommit1(u,commits,token)
-  except Exception as e: 
-    print(u)
+    return dumpCommit1(*arg,**kwarg)
+  except Exception as e:
+    print(arg[0])
     print(e)
     print("Contact TA")
     return False
 
-def dumpComments(u,comments, token):
+def dumpComments(*arg,**kwarg):
   try:
-    return dumpComments1(u,comments,token)
-  except Exception as e: 
-    print(u)
+    return dumpComments1(*arg,**kwarg)
+  except Exception as e:
+    print(arg[0])
     print(e)
     print("Contact TA")
     return False
 
-def dumpMilestone(u,milestones,token):
+def dumpMilestone(*arg,**kwarg):
   try:
-    return dumpMilestone1(u, milestones,token)
+    return dumpMilestone1(*arg,**kwarg)
   except urllib2.HTTPError as e:
     if e.code != 404:
       print(e)
       print("404 Contact TA")
     return False
   except Exception as e:
-    print(u)
+    print(arg[0])
     print(e)
     print("other Contact TA")
     return False
 
-def dump(u,issues,token):
+def dump(*arg,**kwarg):
   try:
-    return dump1(u, issues, token)
+    return dump1(*arg,**kwarg)
   except Exception as e: 
-    print(u)
+    print(arg[0])
     print(e)
     print("Contact TA")
     return False
 
-def launchDump():
+def launchDump(timebound=-1):
+  if timebound<0:
+    import time
+    timebound=time.time()
   if os.path.isfile("./gitable.conf"):
     config = ConfigParser.ConfigParser()
     config.read("./gitable.conf")
@@ -234,6 +257,7 @@ def launchDump():
     dbFile = args.database.format(args.repo.replace('\\','_').replace('/','_'))
     #can't handle bad strings very well, be nice to it D:
   repo = args.repo
+
   group = args.groupname
   token = config.get('options','token')
 
@@ -269,36 +293,64 @@ def launchDump():
   page = 1
   milestones = []
   print('getting records from '+repo)
+  Flag=True
   while(True):
     url = 'https://api.github.com/repos/'+repo+'/milestones/' + str(page)
-    doNext = dumpMilestone(url, milestones, token)
+    doNext = dumpMilestone(url, milestones, token, timebound)
     print("milestone "+ str(page))
     page += 1
-    if not doNext : break
+    if not doNext :
+      if not Flag:
+        break
+      else:
+        Flag=False
+    else:
+      Flag=True
   page = 1
   issues = dict()
+  Flag=True
   while(True):
     url = 'https://api.github.com/repos/'+repo+'/issues/events?page=' + str(page)
-    doNext = dump(url, issues, token)
+    doNext = dump(url, issues, token, timebound)
     print("issue page "+ str(page))
     page += 1
-    if not doNext : break
+    if not doNext :
+      if not Flag:
+        break
+      else:
+        Flag=False
+    else:
+      Flag=True
   page = 1
   comments = []
+  Flag=True
   while(True):
     url = 'https://api.github.com/repos/'+repo+'/issues/comments?page='+str(page)
-    doNext = dumpComments(url, comments, token)
+    doNext = dumpComments(url, comments, token, timebound)
     print("comments page "+ str(page))
     page += 1
-    if not doNext : break
+    if not doNext :
+      if not Flag:
+        break
+      else:
+        Flag=False
+    else:
+      Flag=True
   page = 1
   commits = []
+  Flag=True
   while(True):
     url = 'https://api.github.com/repos/'+repo+'/commits?page=' + str(page)
-    doNext = dumpCommit(url, commits, token)
+    doNext = dumpCommit(url, commits, token, timebound)
     print("commit page "+ str(page))
     page += 1
-    if not doNext : break
+    if not doNext :
+      if not Flag:
+        break
+      else:
+        Flag=False
+    else:
+      Flag=True
   issueTuples = []
   eventTuples = []
   milestoneTuples = []
@@ -370,5 +422,5 @@ def launchDump():
   conn.close()
   print('done!')
     
-launchDump()
+launchDump(timebound)
 

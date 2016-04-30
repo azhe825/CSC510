@@ -1,0 +1,148 @@
+id,time,sha,user,message
+1,1460056331,160fe56107de648ed5322dfb9eda55eff192c55f,group6/user4,refactoring
+2,1460070427,5de93fa708802bfdbac2cb83311c2fce6e753e5d,group6/user2,Update README.md
+3,1460060247,5104b8769e4704a4fa633bfe91d4fb08bbf15fe7,group6/user1,Updated presentation link
+4,1460060134,19c3a0a8cc1f92c902d8d3e99253622b80f04995,group6/user1,presentation
+5,1460059266,7b85814ddf164ab41ad58859494c03540c3ff4d0,group6/user3,font changes
+6,1460059121,7c719346110495c9ded4b171ca8314e27d331d1d,group6/user1,Changes to the images in report
+7,1460055229,8d425bd25d961933f28bd2509d3dda8805406550,group6/user1,Added link to report
+8,1460055150,fc37dd06b3c33559438971117a45c4b365652c54,group6/user1,Added link to report
+9,1460055127,be7a46a71c30d317261d14da4daea553ebd7b341,group6/user1,Added link to report
+10,1460054985,351e1b896b738661efee17ae16acb56394b9cb6f,group6/user1,Project report april 1
+11,1460053726,97bcc2115a6230b874678dabc10681aea33e8a5f,group6/user2,Update README.md
+12,1460053120,47adecabf45f187ec193d4fa98552b8ded208136,group6/user2,Update README.md
+13,1460048536,c3b33626fb2797cf2bf0ca1d29cbafeca3dc5892,group6/user2,onclick for yelp tripA and foursq
+14,1460048314,d93259e018f3f44802b870de1749e2ed972f131a,group6/user2,layout and color change based on feedback
+15,1460015493,75b762a900d163fc15e8b9f9223960ea71323d93,group6/user2,modified code for time log
+16,1460015040,2e1ff22a4c13458be3c58d71eac87b3c528bb234,group6/user3,added stats display page
+17,1460014575,d41d87033146f65313fbe341a4bec6730412be6c,group6/user2,code for collecting user click logs per seesion
+18,1460012904,d2ccad6a70b9c41f3da62cafc09bcc277f12948a,group6/user3,stats for web
+19,1460010517,1f66e6a1e3a17f1bc2f0a8bfee2f6c05439e1398,group6/user4,fixed links in show page
+20,1459961109,92fd650250abe778f3646bb7964cbd196ec9044e,group6/user4,added Book Now Button
+21,1459910899,3d1315898921796cc2761aea1463dcef9e250ae6,group6/user4,added Book Now
+22,1459889322,42c8e4184a1b50fd568b879e2916bc1c57a7b190,group6/user4,added hyperlinks
+23,1459662005,93db4cda15c847bf2d6d247f991b5dfd55a1293e,group6/user4,changed the placement of the reviews
+24,1459660882,8604b2634f799e35f3294f015c412b27c7cb2cb2,group6/user4,added star ratings to individual reviews
+25,1459660716,1f35d62b7bd559b25f5958f37add2d53a713fad0,group6/user4,added negative reviews
+26,1459492607,ab289b54de28573d0a47e06bfad06d5612e2a400,group6/user2,book now implementation
+27,1459492376,07739c5310f13c142c703733090f9cac3dcd7781,group6/user2,layout changes in restaurant view
+28,1459490458,f3500041a224adf231cdbd37285d404244996caa,group6/user3,added restaurant url to schema closes #73
+29,1459488749,95fd0a10d93e1058a7c655c24cbe88d8f777c6c0,group6/user2,negative review implementation
+30,1459483391,29f8df4cdeb79be41e45c139e135ec44cbb649da,group6/user1,removed aws access key from the code
+31,1459468512,a7837ee3ff4dc97248b36a534f942930127cdc93,group6/user1,updated the restaurant url in json
+32,1459459013,39f03d957dd7926722be0cd4fdc7b99aa78c2f8f,group6/user3,Updated review controller to parse negative reviews from db closes #64
+33,1459458010,e46176e4eb534d61c0542217df0b61c9aee21df2,group6/user3,Added negative reviews to db schema closes #63
+34,1459442114,117ed9f6c1c188a28f03453bf6c18eb8a4dac6bd,group6/user1,updated json and code
+35,1459441988,9a1f041109f1005ec20a05bc6fad516be57a92bc,group6/user1,updated csv file
+36,1459402927,8e03ae862de19f7ecbce605294d667066ac27d27,group6/user1,code for parsing newgative reviews
+37,1459402770,bba1b3d1ddfb0f726f843b79202632960feac9c1,group6/user1,Merge branch 'master' of https://github.com/moharnab123saikia/CSC510-group-f
+38,1459402731,0b02b125b50cd6b0c154cb52a49a9c321547e8c3,group6/user1,updated the json with negative reviews
+39,1459397743,69d3f859147eb32a6040592e3d471972a0074784,group6/user3,added google map and bug fixed in chrome ext
+40,1456894146,86f60dc67e4d453535eef74bc2c0d760190b7bf9,group6/user3,removing sample.json from app home; temp file
+41,1456893559,b0cfae70d55a44091966e314eac80e147fe6fc91,group6/user4,fixed background alignment
+42,1456892976,37e2b069433699586dc98189fb56f499af477dd5,group6/user4,added total review count to display
+43,1456892808,408a831c2307ec4b2a3c7f3e631951cdd4236f44,group6/user2,Minor update in milestone
+44,1456891923,174f38dd67d1e35d4502f0ff0e534050c4b6d170,group6/user4,redesigned the search and display page; added reviews
+45,1456885727,424209a024acdd03929bf315b2457ac0abe63ea0,group6/user1,Update README.md
+46,1456885636,9c45d32708f0fc32b24d2eea0e99e569da50627b,group6/user1,Update README.md
+47,1456885489,1096b51ef14ea6f3239f38568caba6e377fcafa9,group6/user1,Update README.md
+48,1456885078,8e552ba73e2cd49bc68ba3b02005bc88a2083eca,group6/user1,Updated the evaluation plan in the read me file
+49,1456884354,13e4f0b9664d214e02571433e1ddeb741d7fb19a,group6/user1,Added the evaluation plan in the read me file
+50,1456880389,8cf6fa813f3a90b88c10fe881de6b822645afeba,group6/user3,added hyperlink to ratings
+51,1456879390,0577f02b783b1024e18f9b58ca6886295654ffb5,group6/user2,Updated Readme
+52,1456878978,5205156a8e53b31c4f62cb40e57fb50bae944a0b,group6/user4,added no. of reviews and changed styling
+53,1456878815,fbeddbe387356371a60a08ea2eccff2c16c93a18,group6/user2,Updated readme file with code base directory
+54,1456877771,c64e9d622ad6ac905e772b43f34100324b3cf1fa,group6/user4,sample telemetry data log for plugin
+55,1456877712,78db461698392a6c1f55004434de4ed1a029b66a,group6/user1,added telemetry sample files pdf
+56,1456877523,1ab35bf5e1fe9d99ec8b9d1aa404413d3c620a0d,group6/user3,sample log data for user overview
+57,1456877346,b122e5f3a96e4e044e0649e8710f086971867050,group6/user2,Adding sample log data from user trial
+58,1456876577,2e851bb940df5d161d9bcf0c75c098d8082e76da,group6/user3,added pagination to the list view of restaurants
+59,1456875201,8fbdd85bf07fa4599270e01ae620dafcaf103f60,group6/user2,"Updated readme file with logging information
+
+Using google analytics information for log. As of now we don't have much statistics as deployment has been just done but going forward we will have large logs"
+60,1456875129,b71e03d7d9fdaafa057cec25efe5d927cf2969a3,group6/user1,deleting temporary files
+61,1456874227,5319694ba41bb23b4764f601347e1e525a8f7304,group6/user2,Delete the temporary readme
+62,1456872316,77439bfb9f73e9d94ecbfdd0ca45aac6bcdebde8,group6/user2,Update README.md
+63,1456865998,fca377f4b97b5e856a4ec4ef15e369c64065ddd7,group6/user1,removed compilation python files
+64,1456842424,3b48fa749c9b71949fe82552fd634644c2996715,group6/user1,updated json file
+65,1456842034,7c5dcbd6c961099acd2124b20ae026c0b8907ed1,group6/user1,added additional restaurants in csv file
+66,1456840918,83b2bd8a6d2b017b4f9aeca01cef399cbc5e4c96,group6/user1,code cleanup and minor variable changes for the keys
+67,1456840215,12b7625d1a6de31d7b232ae8c8fd14c40630fd0d,group6/user1,updated demo time
+68,1456795379,d6487dc24fb57e07266cff5f063c29076ab0ea17,group6/user1,updates to the individual poc
+69,1456790259,2cdfe53c60940c34b9c534693c8794729b5c3e4c,group6/user4,corrected aggregate calculation fixes #55
+70,1456781962,0959ff1ab4ffe7310bdb3804c5bbea6bf2d9ec49,group6/user4,get JSON data and display ratings including aggregate
+71,1456740284,6fdef88bc193e562c3ace8e625275d550035b8eb,group6/user3,extract individual reviews from db
+72,1456737763,84ebf38db477a06888dfd4b8bfdf19f58bb02aae,group6/user2,modification in strings xml file
+73,1456737689,73b491f3a831e519a40a7652427dd8b280ea214d,group6/user2,layout modification
+74,1456734712,6b7f6cfc316feaaec035e035adbe80f5afb8ce5e,group6/user2,non clickable rating bar with reduced step size
+75,1456734405,303647fd779b8b7776850031fabef26ee108968f,group6/user2,edit text for main activity
+76,1456733114,d0d0901efa7c0124b4398ec1a84893bf9cb530a4,group6/user3,resize the thumbnail fixes #54
+77,1456732214,59fd2fe4acfe664f2f5a4018d9cb0dd0baa6146f,group6/user4,added code to parse ratings and display in a pop-up
+78,1456731537,39454cc83ff15828f8ab76362c5ea6bd74f0be90,group6/user2,updated manifest file
+79,1456731292,b6676828c31b840bff7e7aacb2554a2fac0f9232,group6/user2,MainActivity data store and string add
+80,1456727538,6c23b90821c724a740da556f9bb9da5fe4e35320,group6/user2,Menu list addition
+81,1456727333,d2951288fa0a630e360b8652366d3483b6018147,group6/user2,layout design for each of the item or restaurant view
+82,1456725911,073007cf24b955c26f2d076308e87768e3c10d27,group6/user2,Launch new activity on click of restaurant in list
+83,1456725709,8d1e3b2d5ce67ccf6de4b0db80c5618f5c04656a,group6/user2,data holder class for storing the the parsed data in hashmap
+84,1456725496,e1cc0e4ac94dbe87cd03b182ae4431bed9fee9d8,group6/user2,getter and setter methods to fetch data in another activity
+85,1456712848,7697c23f9af7a726c5f4983af7d00dff55cb9bea,group6/user3,added hyperlink to thumbnail
+86,1456710247,6050f0c1b77f1fb47ff8f424b46641c0ad061067,group6/user3,fixed the weighted average calculation fixes #52
+87,1456709268,2c4951679d4996d54a126ab48c9936cc86b21cf1,group6/user3,added ratings count to schema and script closes #53
+88,1456708317,54cfbf6a1424624dd82ba2e0f8865d96cbbcbef8,group6/user4,fixed fractional stars display on review page
+89,1456707637,666caffd3449223cf4db761df1972f1665bdac42,group6/user4,fix stars display issue
+90,1456668342,e6e2fba4969094071f365c5d23a517dd5336799f,group6/user1,added photo url links to the restaurants json closes #49
+91,1456654542,7f65385bca3ff13a1273c4ce1295c90bb8124a51,group6/user4,added aggregate metric
+92,1456654394,9df2c4e8e6f9ead91c1dba6fc429bfc964525344,group6/user4,added visual star to ratings
+93,1456651878,b016425eaa7d830dab092d8bd850076fb5c59b22,group6/user4,page for displaying individual reviews closes #3
+94,1456650888,5a14c3afe93439142f6eb771f2207c082aee3176,group6/user4,changed homepage design to new specs
+95,1456647587,52389468cc06ac525c0c5be14f21bd5f1b7f3044,group6/user3,Sample output file for reviews
+96,1456646545,470b8c8c8621c64f097a9b579c0a9548288eec8f,group6/user3,update migrate script to support thumbnail url
+97,1456646458,0b52af42a2a6e99b817abcbe1b93ff82daed2c5f,group6/user3,Added image to restaurant index views closes #46
+98,1456643202,512bff4bae438da40a09ab705c634aaccf8d5bc9,group6/user3,script to migrate json data to rails db closes #45
+99,1456642824,6a803620f1fb8f68dcee40010d95d5ab3cf6783d,group6/user4,display/ search list of restaurants
+100,1456637631,252024cb769cd389eac45dcb713a483ce6cf959e,group6/user2,Fetching real time data from amazon s3
+101,1456631806,a70593ed00b55153fa11dbc28d6c421614828bdb,group6/user1,Added code to push the json file to Amazon s3 closes #43
+102,1456621142,7de7d63c503e77b950677ccdf793b72d9488c991,group6/user4,added migrations for yelp/TA/FS closes #9
+103,1456607406,552b5d0f9d56c1449facf83f522b7d54b864c85e,group6/user3,added resto_scrapper controller
+104,1456601689,36b1190d0df0b58b7cac06daf270f826a3b126b2,group6/user2,search box implementation
+105,1456600707,f2e1a9c7050bfee6a8d8afd70d505caaf6b4e67c,group6/user2,Layout modification
+106,1456417132,679e1d2e58bca07bae19399ca6b1aa73b6184dc8,group6/user1,updated json file
+107,1456416598,0ca8983f091fe8629ff5fd4845061ca784267bc2,group6/user1,added code to remove unnecessary unicode characters from the reviews closes #40
+108,1456165672,f5f713d32d03f6fd2ce712ee6ce110512b7b6dda,group6/user1,added individual module code and output json
+109,1456155978,7e3c19276cb202dbf8c708a2e45e8d1519be76d7,group6/user1,adding code to crawl the reviews closes #19
+110,1456132536,75ab7d65135425330b01a8fc517cca7edb8b235b,group6/user2,delted duplicate folder
+111,1456131906,12ab14f3f17880cd214cfd4ade858c31b946a151,group6/user2,initial commit
+112,1456131642,6b695823ca333e14c63853431f7180d5fa7d2ec4,group6/user2,initial commit android solution closes
+113,1456127197,fed481e621923b1a0567827c5ac0b2627eafcaff,group6/user3,added schema file for webscrapper app
+114,1456125053,fb5055e2edc7b2c093235813f62785459aee9702,group6/user3,Create a webscrapper app for frontend closes #35
+115,1456096324,5850eba3bac8fe586ccd21be34a6ac5962921b47,group6/user1,added url to sample json output
+116,1456094086,e426318bb30f7cac6e67d0a1eae550adcc5925f2,group6/user3,updated the name of the sample output file
+117,1456093633,2ffdbf4a61f95f664f9efb1d2f89e1cc832b974d,group6/user4,added basic popup structure closes #19 and #26
+118,1456093971,3c4cf9a09c58509c9193555b5c3f17c065ac21f7,group6/user3,renamed sample json file
+119,1456093691,ecce55883048ad5498029bbd326dd360c4cc3aad,group6/user3,formatted the sample json file ouput
+120,1456093171,48de589132b8527d821dd41897d6b09f5a12f8db,group6/user1,Update sample_json.txt
+121,1456092994,a71d433432bcc6f33330ffc70a80b02881b2b10f,group6/user1,Update sample_json.txt
+122,1456092257,08e0891a2ac7307720e16645cc2c3c62d3485531,group6/user4,added logo fixes #18
+123,1456092159,90fb6fe2eb6cbb48fd392fbd449673012690824f,group6/user3,stub dir for webscrapper frontend
+124,1456091796,b4bcaaf1edfbeb1141322bdde565a08d8f347681,group6/user1,crawler script for fetching ratings closes #6
+125,1456090944,dce61af04ceeebca2281cbf27c7f2cc20ee7ec62,group6/user3,added foursquare links
+126,1455907302,5c22dbd24b564301a76899e3b8e5065702e508f4,group6/user4,added manifest
+127,1455846378,2ba1f03e6b0f3d06dea17837bc2999e3a7ffa9a9,group6/user1,Rename sample_json.txt to samples/sample_json.txt
+128,1455829641,514fe3a82cf2835c57b030235ed8ce357ed98356,group6/user1,"Sample JSON
+
+Sample text file containing the JSON format for storing the reviews"
+129,1455828792,d88c5018d1efe4d3fadb3eb1f269b267739caa43,group6/user4,Update README.md
+130,1455828726,18d14d43f40bcdd3d3bbc355b43417f59fc138d5,group6/user4,Update README.md
+131,1455828404,24c666bc9de3f7db3226e7d459ca10e93f9445a5,group6/user3,sample csv file for review URL from different websites closes #12
+132,1454601396,9f06be6c21e8ce695ee211d30fb0434716e4ac99,group6/user1,"Update README.md
+
+Contents for Mar 1 deliverable"
+133,1454365734,5979257304bc3150989c7e232bcc3f577d5183ec,group6/user2,Merge branch 'master' of https://github.com/moharnab123saikia/CSC510-group-f
+134,1454365648,9ceecefce30b2dac2b212769d250976ed1913c5b,group6/user2,Updated feb1 report
+135,1454365071,475544226f5416db91d0ee486b38a4b77d7f5bb6,group6/user4,Update README.md
+136,1454364998,fdd6b65204a29335c235a46684db14ca7b2783f6,group6/user2,Update README.md
+137,1454364983,86004ee0f914a277890a7453bcea87dd08d7b20f,group6/user2,"Updated Readme.md
+
+Added the project description"
+138,1454320124,1ebcc523d505b522773696fb16dbfddcf9027ed8,group6/user2,Report for Feb1 Deliverable
+139,1452293386,323b1b81e9b637c2f7e94c896b7e9c52ddd16fcc,group6/user3,Initial commit : created README.md

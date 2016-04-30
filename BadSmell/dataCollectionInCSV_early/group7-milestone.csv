@@ -1,0 +1,11 @@
+id,title,description,created_at,due_at,closed_at,user,identifier
+1,February 1 Deliverable,,1452710343,1454302800,1454451930,group7/user1,1505184
+2,Mar1 Deliverable,"- Integrate
+- Polish + Demo",1454451942,1456808400,1457026319,group7/user1,1559729
+5,Feb10,"- Research platforms 
+- Gather docs on each
+- Decide base features",1454624822,1455080400,1455136865,group7/user2,1564549
+6,Feb17,"- Develop base clipboard manager
+- Decide other features",1454624889,1455685200,1455738533,group7/user2,1564551
+7,Feb24,- Develop other features,1454624971,1456290000,1456346912,group7/user2,1564552
+8,Mar1 Demo,,1456890794,1456981200,1457040479,group7/user2,1616926

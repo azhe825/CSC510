@@ -1,0 +1,50 @@
+issueID,user,createtime,updatetime,text,identifier
+1,group9/user1,1453157992,1453605683,"The idea is to solve a personal collaborative time management problem which we deal with from multiple sources. 
+eg. Personal appointments clashing with facebook events. Users would benefit if they can have a single source of information to manage their day-to-day time and schedules.",172676169
+2,group9/user1,1453158073,1453605857,"Suggestions could be like , facebook events, office outlook appointments, personal events, etc.",172676377
+4,group9/user1,1454321099,1454321099,Completed,177887565
+3,group9/user1,1454321133,1454321133,Study completed and deductions noted down,177887805
+5,group9/user1,1454322204,1454322204,Report submitted,177895969
+6,group9/user2,1454379250,1454379250,Mentioned changed made in the report.,178313930
+8,group9/user1,1454798706,1454893290,"An Android app, a google script app and one yet to be finalised",180877313
+9,group9/user1,1454893319,1454893319,Android environment has been set up,181149921
+7,group9/user1,1454893394,1454893394,"Idea for 1 in progress, 2 implementation can start",181149982
+14,group9/user1,1454893478,1454893478,Implementation started,181150058
+12,group9/user1,1455945930,1455945930,Collection Discussion,186514236
+13,group9/user1,1455945960,1455945960,Basic layout in progress for fixed screensize,186514248
+15,group9/user1,1455946043,1455946043,"Basic HTML for date picker to extract appointments, improvements to work upon",186514298
+7,group9/user1,1455946092,1455946092,3rd solution in discussion on lines of JavaScript or VBA macro,186514512
+10,group9/user1,1455946120,1455946120,"Setup works fine, so closing the issue",186514662
+17,group9/user1,1456042133,1456042133,"Facebook ID and token created, calling error in code.",186774300
+18,group9/user5,1456273523,1456273523,https://developers.facebook.com/docs/android This link might help,187984826
+20,group9/user1,1456374359,1456374359,Token call not responding. Solution to be looked into,188608190
+21,group9/user1,1456624132,1456624132,In progress,189763085
+20,group9/user1,1456624149,1456624149,Setup in progress for facebook,189763164
+16,group9/user1,1456624179,1456624179,Fixed,189763248
+14,group9/user1,1456624244,1456624244,"Reporting in progress, email schedulers next",189763291
+18,group9/user5,1456624321,1456624321,API setup for fb done,189763602
+15,group9/user1,1456624701,1456624701,Basic setup works,189764054
+24,group9/user1,1456629618,1456629618,Default script added to send email every minute. Enhancements required,189774697
+19,group9/user1,1456632675,1456632675,API setup in progress for Android,189781613
+25,group9/user1,1456632718,1456632718,"Email shows calendar addesss, email, start date, end date and description",189781785
+14,group9/user2,1456637396,1456637396,Scheduler implementation in progress. User can input date for report extraction,189785602
+21,group9/user5,1456670891,1456670891,testing the code for setup,189885288
+21,group9/user5,1456675674,1456675674,meetup api integration completed,189896643
+27,group9/user1,1456699326,1456699326,JQuery toggle added ,189961264
+26,group9/user1,1456699336,1456699336,Work in progress,189961372
+22,group9/user1,1456708137,1456708137,"Added google analytics script to GS for user tracking.
+This is just a basic idea to be worked on next month ",189986550
+13,group9/user5,1456713226,1456713226,Sync with google events completed,190008272
+29,group9/user1,1456725769,1456725769,Fixed.,190058164
+28,group9/user1,1456725795,1456725795,Code to see active users added,190058221
+19,group9/user1,1456732671,1456732671,done,190084286
+22,group9/user1,1456733235,1456733235,Basic idea discussed,190086299
+33,group9/user1,1456779702,1456779702,Added and fixed,190389071
+28,group9/user1,1456782088,1456782088,"base scripts added, to be extended further next month",190408383
+14,group9/user1,1456784192,1456784192,Completed.,190423258
+38,group9/user5,1456804866,1456804866,completed,190529037
+36,group9/user1,1456814327,1456814327,App has to be submitted for review for permissions. Closing since not possible.,190574279
+35,group9/user5,1456866988,1456866988,to be done later(enhancment),190908832
+30,group9/user5,1456890177,1456890177,completed,191042431
+40,group9/user1,1456890221,1456890221,Enhancement ahead,191042686
+23,group9/user4,1456890290,1456890290,Issue resolved.,191043161

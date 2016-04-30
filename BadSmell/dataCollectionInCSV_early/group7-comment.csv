@@ -1,0 +1,355 @@
+issueID,user,createtime,updatetime,text,identifier
+2,group7/user1,1452709628,1452709628,"Here are some more links I found, it seems like most tutorials and guides were written back in 2002-2003 so I am trying to only choose from the more recent ones.
+
+IBM Plug-In Basics (2008): http://www.ibm.com/developerworks/library/os-eclipse-plugindev1/index.html
+O'Reilly Intro (2005): http://www.onjava.com/pub/a/onjava/2005/02/09/eclipse.html
+",171388541
+2,group7/user1,1452710179,1452710179,"Also a note on which version of Eclipse to download, there is a bundled version of Eclipse called, ""Eclipse IDE for Eclipse Committers"" and it has a whole set of tools already loaded into it that would make our lives easier. For example it has Git integration and something called the PDE which is the Plug-in Development Environment. Here is a link to that specific bundled version of Eclipse (not that the download links are on the right, not the big button at the top): http://www.eclipse.org/downloads/packages/eclipse-ide-eclipse-committers-451/mars1
+
+Eclipse has a good document (but old) on using the PDE to develop plug-ins here: http://www.eclipse.org/articles/Article-PDE-does-plugins/PDE-intro.html",171391518
+1,group7/user2,1452711761,1452711761,"Here are a couple of useful papers:
+
+
+Revealing the Copy and Paste Habits of End Users - 
+http://ieeexplore.ieee.org.prox.lib.ncsu.edu/stamp/stamp.jsp?tp=&arnumber=5295296
+Managing Code Clones Using Dynamic Change Tracking and Resolution - http://ieeexplore.ieee.org.prox.lib.ncsu.edu/stamp/stamp.jsp?tp=&arnumber=5306336",171398945
+1,group7/user3,1452715352,1452715352,"Here are some papers on code cloning. It turns out that code clone is quite different from our goal of an efficient clipboard manager. 
+Clone management: Clone analysis tool with tag cloud visualization. Jump to the picture. It gives a description of the procedure of clone management.
+http://sel.ist.osaka-u.ac.jp/lab-db/betuzuri/archive/962/962.pdf
+Another paper on clone management. 
+http://www.cs.usask.ca/~croy/papers/2011/Zibran_IWSC2011_Management.pdf
+But these papers may help us understand cloning itself better. Although that's quite beyond the scope of this project, we know that we can do more with the clipboard.
+
+",171416434
+2,group7/user2,1453151280,1453155629,"I just discovered that when you open this version of Eclipse, there's a tutorial on how to build an Eclipse plugin. Going to be working on that in a bit, and I'll post an update when I'm done.
+
+
+UPDATE: It takes about half an hour to get a basic hello world extension running. It's pretty much the same set of steps from Eclipse document on using the PDE. Also if you're using Eclipse Neon (the latest version), the documentation has an error. ""org.eclipse.ui.actionSets"" is deprecated and is now ""org.eclipse.ui.command"".",172654122
+1,group7/user4,1453318772,1453318772,"A study of copy and pasting habits in OOP programmars.
+http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1334896",173336094
+1,group7/user1,1453406043,1453406043,"Paper on Code Clone Genealogies (cited by 396, from 2005) that proposes that its not always best to immediately refactor code clones, because instead they will either work themselves out eventually, or they are actually pretty necessary.
+http://web.cs.ucla.edu/~miryung/Publications/esecfse05-clonegenealogy.pdf 
+
+Paper on 'A study of developer work habits'. (Cited by 367, from 2006) Section 5.4 and Table 3 specifically talk about 6 different types of code duplication (including copy and pasting) and have survey/interviews with developers on each of these times - interesting read and opens up other possibilities to consider for our plug-in, plus this was study based.
+https://cs.gmu.edu/~tlatoza/papers/icse2006.pdf 
+
+Another term I'm finding that could be worth investigating is 'Code Duplication' (covers more than just copy and pasting so we may get a different result of papers).",173690002
+1,group7/user2,1453408359,1453408359,"Paper on Reverse Engineering Design Patterns in Java (cited by 188, from 2006): 
+There are a few common design patterns which are the ""best practices"" to follow while coding. It's possible this would be out of scope for the extension, but something to consider is detecting whether code being pasted is one of these design patters. The paper talks about detecting these patterns.
+http://web.cs.ucdavis.edu/~shini/research/pinot/reverseJavaPatterns.pdf
+
+",173699472
+1,group7/user3,1453739306,1453739306,"Revealing the copy and paste habits of end users (cited by 11, from 2009):
+Specific talks on copy and paste habits of end users with a clipboard. By logging interactions while performing everyday tasks, the paper reveals some patterns related to copy and paste. 
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5295296&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5295296
+
+Copy-and-paste between overlapping windows (cited by 28, since 2007):
+Window management technique that facilitate copy and paste in the particular case of partially overlapping windows.
+http://dl.acm.org/citation.cfm?id=1240657
+
+Smarter cut-and-paste for programming text editors (cited by 14, since 2001):
+Discussion on how to improve cut and paste within text editor for programming. Give a prototype tool for better cut and paste practice.
+http://dl.acm.org/citation.cfm?id=545654
+
+",174566839
+5,group7/user1,1454129729,1454129729,"I definitely agree, having our project goals towards the end might be the best idea because like you said then our whole report sort of builds the argument for our project.",177067425
+6,group7/user1,1454350443,1454350443,"I'll start with one question, in regards to mentioning ""Clipit"" throughout the paper, should we just mention it in regular plain text, Clipit, or should we italicize it, _Clipit_?
+
+If anyone has some thoughts one way or the other feel free to chime in, if no one cares we can just leave it plain text!",178106730
+6,group7/user3,1454351023,1454351023,"I think the font doesn't matter as long as they are in consistent with each
+other. Well, I would prefer italic : )
+
+Ran
+On Feb 1, 2016 1:14 PM, ""Brian Clee"" <notifications@github.com> wrote:
+
+> I'll start with one question, in regards to mentioning ""Clipit"" throughout
+> the paper, should we just mention it in regular plain text, Clipit, or
+> should we italicize it, *Clipit*?
+>
+> If anyone has some thoughts one way or the other feel free to chime in, if
+> no one cares we can just leave it plain text!
+>
+> —
+> Reply to this email directly or view it on GitHub
+> <https://github.com/cleebp/csc-510-group-g/issues/6#issuecomment-178106730>
+> .
+>
+",178109513
+6,group7/user2,1454351089,1454351089,I think italics would be nice.,178109933
+6,group7/user1,1454353450,1454353533,"Alright changing it to Italics throughout :D
+
+Unfortunately when you try to italicize it in the subtitle it makes the font super tiny so that will be the only instance of it where it won't be italicized.",178131760
+6,group7/user1,1454362682,1454362682,"Just finished up my first round of edits, I changed up a lot of little things here and there mostly to make sure our grammar was consistent throughout. I also spent a lot of time on the project features section so that it flows better with the rest of the paper.
+
+I just reread it again and it looks super good and I'm happy with it, but I will look at it again in a couple hours to see if I can find any more grammar problems, etc. At that point if we don't see anything else I'll push the pdf to our main repo and add the bit.ly url to the submission page - we will still have until midnight though to change anything if anyone finds something wrong!",178205951
+7,group7/user1,1454621087,1454621654,"Here is a bare bones clipboard manager for sublime that is basically just a history of your copies from within sublime itself:
+
+Github = https://github.com/kemayo/sublime-text-2-clipboard-history
+Package = https://packagecontrol.io/packages/Clipboard%20History",180059391
+8,group7/user4,1454621447,1454621447,"Sublime does system wide copying.
+https://github.com/atom/find-and-replace/issues/162",180060950
+7,group7/user3,1454621589,1454621589,"Here are some other great clipboards written in javascript:
+
+https://github.com/zenorocha/clipboard.js/
+
+https://github.com/zeroclipboard/zeroclipboard
+
+The cool thing here is that they provide functions in visualization, so that would be a great help for display option and intelligent context ordering.",180061545
+7,group7/user1,1454621636,1454621636,"Here is another seemingly larger clipboard manager:
+
+Github = https://github.com/colinta/SublimeClipboardManager
+Package = https://packagecontrol.io/packages/Clipboard%20Manager",180061762
+7,group7/user1,1454621927,1454621927,"And here is the last big sublime clipboard manager I could find, well featured:
+
+Github = https://github.com/Jimbly/SublimeClipboardHistory
+Package = https://packagecontrol.io/packages/Jimbly's%20Clipboard%20History",180063378
+11,group7/user4,1454622233,1454622233,"Clipboard history for intelligent display management:
+http://www.outertech.com/en/clipboard-history",180064712
+7,group7/user2,1454623605,1454623605,"Some info on having  GUI:
+https://www.reddit.com/r/SublimeText/comments/1tyhgf/sublime_text_plugin_with_custom_ui_elements/",180072736
+7,group7/user2,1454623636,1454623636,"Tutorial for building a sublime plugin from scratch:
+http://code.tutsplus.com/tutorials/how-to-create-a-sublime-text-2-plugin--net-22685",180072859
+7,group7/user2,1454624451,1454624451,"Atom (https://atom.io) might be the way to go, to overcome some GUI limitations with the Sublime API.
+
+https://atom.io/docs/api/v1.4.3/Panel is something we could use.",180077093
+15,group7/user2,1454625133,1454625133,Duplicate.,180081556
+12,group7/user4,1454897220,1454897220,"More clipboard for Eclipse can be helpful
+http://moreclipboard.sourceforge.net/",181161116
+12,group7/user4,1454897475,1454897475,"Two more resources:
+https://github.com/eclipse/swtbot/blob/master/org.eclipse.swt.examples/src/org/eclipse/swt/examples/clipboard/ClipboardExample.java",181161359
+12,group7/user4,1454897489,1454897489,https://github.com/google/windowtester/blob/master/com.windowtester_test/src-example/org/eclipse/swt/examples/clipboard/ClipboardExample.java,181161370
+13,group7/user1,1455035489,1455036689,"Moving over the links to those 3 sublime clipboard managers here...
+
+Clipboard Manager = https://packagecontrol.io/packages/Clipboard%20Manager
+Clipboard History = https://packagecontrol.io/packages/Clipboard%20History
+Jimbly's Clipboard History = https://packagecontrol.io/packages/Jimbly's%20Clipboard%20History",181944559
+13,group7/user1,1455036620,1455037627,"Here are my thoughts on the ['Clipboard Manager'](https://packagecontrol.io/packages/Clipboard%20Manager) plugin.
+
+Install isn't too bad, you have to re-register your ctrl-c/ctrl-p (or for mac cmd-c/cmd-p) commands to use the managers commands. Once you are using their copies and pastes however it performs just like normal copy and paste; however, you can choose to show your history at the bottom of the screen like so:
+
+![screen shot 2016-02-09 at 11 47 21 am](https://cloud.githubusercontent.com/assets/3922117/12923245/fe09324c-cf22-11e5-8266-5f4126ec303f.png)
+
+As you can see in the screenshot it handles indents through a special backslash, so while you can just fast copy from this box at the bottom if you want to preserve indents you must use their special commands for traversing the history and paste from that (an inconvenience). You can see where the history is currently pointed at from the big arrow on line 1.
+
+Overall the plugin is nice but I don't like how it goes as far as to add a visual GUI component but you can only interact with it correctly through commands. This may be a larger problem with Sublime extensions on the whole though.
+",181952869
+13,group7/user1,1455037093,1455037644,"Here are my thoughts on the ['Clipboard History'](https://packagecontrol.io/packages/Clipboard%20History) plugin.
+
+Install is way easier, don't have to remap commands it just works with your native ctrl-c/ctrl-v (or cmd-c/cmd-v) which is nice. Basically as you copy your history is build and by using a complex command (⌘⎇⌃V on mac) you can show your history and it appears in the command box at the top like so:
+
+![screen shot 2016-02-09 at 11 55 27 am](https://cloud.githubusercontent.com/assets/3922117/12923564/37b4404e-cf24-11e5-882f-e7fde47a60dd.png)
+
+From here you can simply click an item and it will show up at your cursor location. Alternatively like the other plug-in you can use commands to navigate the history so your next paste pastes from the current  index. Unlike the other plugin your history doesn't stay visible as you work so you have to enter the command to see the history, then use commands to navigate and paste which is a huge pain.",181956109
+13,group7/user1,1455037590,1455037897,"Here are my thoughts on the ['Jimbly's Clipboard History'](https://packagecontrol.io/packages/Jimbly's%20Clipboard%20History) plugin.
+
+So this just seems like a more updated version of the ['Clipboard History'](https://packagecontrol.io/packages/Clipboard%20History) plugin with an easier command to access the clipboard history. But seriously besides that it seems identical on the surface level:
+
+![screen shot 2016-02-09 at 12 04 34 pm](https://cloud.githubusercontent.com/assets/3922117/12923884/74bf74e4-cf25-11e5-8058-ce40b9c8555e.png)
+
+Its last update was 8 months ago compared to the other plugins last update 3 years ago so really it just seems like the same project with a couple more recent tweaks. Same problem as before with the history not being static.
+
+This is probably our best bet to start working from if we choose to go down the sublime route, my immediate changes to consider making would be:
+- Making the history static, in other words have the history always be an active window, right now when you perform any action the history disappears 
+- Having the history show automatically after first copy/paste
+- Allow dragging from the history rather than just clicking to paste at cursor
+- Provide contextual options on the history options, i.e. right-click on the item gives you options to delete it, favorite it, etc.
+- Perhaps new display options with more context on where the item came from
+- Flag items in the history as 'stickies' or 'favorites' so that they don't disappear
+- add contextual options to the history window itself, i.e. right click on the window and there is an option to clear all non favorite items etc.",181959636
+13,group7/user2,1455044111,1455044111,"Found this online:
+API docs for developing with Sublime. They have something called a 'panel'. Not too sure what it is though. Will explore further later.
+
+https://www.sublimetext.com/docs/3/api_reference.html",182003279
+14,group7/user2,1455052308,1455052388,"clipboard-plus:
+- Allows storing multiple items.
+- cmd shift v displays a menu with items copied and allows pasting.
+- needs keyboard bindings to work.
+
+More info:
+https://atom.io/packages/clipboard-plus",182069388
+14,group7/user2,1455052489,1455052506,"textmate-clipboard:
+
+- Stores multiple items.
+- No gui. Use different commands to access previous/next item.
+- No manual keybindings required.
+
+More info:
+https://atom.io/packages/textmate-clipboard",182070250
+14,group7/user2,1455052783,1455052783,"clipboard-history
+
+- Similar to clipboard-plus
+- Shows time when copied
+- Shows minimal context
+
+
+More info:
+https://atom.io/packages/clipboard-history",182071548
+12,group7/user3,1455126998,1455126998,"Lucidchart software, an extension to get system wide copying and pasting. The software is browser based and support copying and pasting of both images and various formats. It also provide a context menu:
+
+https://www.lucidchart.com/techblog/2014/12/02/definitive-guide-copying-pasting-javascript/",182503537
+12,group7/user3,1455127532,1455127532,"W3C provides a detailed tutorial for learning Clipboard API in Javascript and HTML. We can build our application on this API.
+
+https://w3c.github.io/clipboard-apis/
+
+Also, the source code is public on github.
+
+https://github.com/w3c/clipboard-apis/
+
+",182506450
+14,group7/user2,1455131546,1455131546,Some docs with examples on building packages for Atom: https://atom.io/docs/latest/,182534668
+11,group7/user4,1455132606,1455132606,Implementing panel in Atom,182540738
+7,group7/user4,1455132752,1455132752,Atom --Clipboard Plus  for our base of project.,182541409
+17,group7/user4,1455133057,1455133057,"Base -- Clipboard Plus of Atom
+1. Add command features like Textmate.
+2. Display panel feature.
+3. Clipboard history-- search, hover, time, clear, sticky notes.",182543671
+17,group7/user4,1455133616,1455133616,"
+![pic](https://cloud.githubusercontent.com/assets/1575219/12959575/0a1e3266-d005-11e5-8fa5-7104b5fca4bc.jpg)
+
+",182547450
+17,group7/user1,1455135216,1455135216,"![img_4302](https://cloud.githubusercontent.com/assets/3922117/12960357/da308c62-d008-11e5-887f-f12847601a54.JPG)
+",182560129
+20,group7/user3,1455597299,1455597299,Frequency of usage.,184514057
+23,group7/user1,1455640006,1455640006,Thanks this is super helpful!,184754322
+23,group7/user1,1455640738,1455640738,"Also Chapter 3 of the Atom Flight Manual is the official introduction to ""hacking"" atom, its a good overview:
+
+https://atom.io/docs/v1.5.3/hacking-atom-tools-of-the-trade",184759201
+19,group7/user1,1455735462,1455735462,"Bulk development is done for this plug-in feature. 
+
+Final name I ended on is clipit-cmd and it theoretically should be working though much debugging is needed which is why I'm creating a new issue just for that.",185348698
+25,group7/user1,1455738466,1455738466,"Effat did a demo of her panels, making lots of progress!
+
+I did a demo of my debug screens and fatal errors, lots of progress!",185373148
+25,group7/user1,1455738519,1455738519,Great meeting!,185373448
+18,group7/user2,1455738525,1455738525,"- External application that monitors when there's a copy/paste/cut event.
+- Log active window, copied/pasted content, time.
+",185373475
+26,group7/user1,1455738988,1455738988,"Also we can use this issue to post stuff about screen capture resources or what not, if we decide to do the video demo route.",185376732
+24,group7/user1,1455835399,1455835399,"Turns out your tabbing in Coffee Script is incredibly critical, spent a day of debugging only to find that I had a block incorrectly tabbed in my main lib file...",185963795
+21,group7/user4,1456085114,1456085114,"Added a right panel, added copy and pasting, time stamp, select items from panel",186901119
+27,group7/user4,1456085335,1456085335,"To be done :- add sticky features for permanent items like email, address.",186902395
+24,group7/user2,1456114230,1456114271,Question: Does the Clipit read from the system clipboard or from a local Atom clipboard?,186995726
+24,group7/user2,1456114561,1456114561,"Okay, nvm. I just tried it with Atom, and found out it stores the last copied item on the system clipboard.",186996545
+18,group7/user2,1456116531,1456116583,"- Now possible to log all copy/cut events system wide. Stores the string copied, time, and active window (window where the string was copied from).
+- To do: log pastes. 
+    - One solution: integrate paste logging with the extensions since it's the only way (I can think of) that would allow us to only detect pastes in Atom.
+    - Another solution: Check if active window is Atom while pasting, and log only if this is true. (Will look at this first).
+",187009884
+24,group7/user1,1456156709,1456156709,"Sorry for late response, this is how it works in the code:
+
+""atom.clipboard.write element"" where element is ""selectedText = @editor.getSelectedText()"", so it is sort of making its own copy functionality, yet since that functionality is through the same keys as system copy, both its wrapper runs and the system copy runs.
+
+At least I think thats how it all works...
+
+",187243513
+24,group7/user1,1456164895,1456164895,Basic functionality is now implemented and working as intended for Clipit-cmd,187301531
+26,group7/user1,1456165997,1456165997,"Here is a link to the screencap tool that Atom packages use to create those nice Gifs of the packages in use. Of course our demo might still use videos or some such, but it would probably be nice if we added .gifs of each of the packages running to their respective readme.md's.
+
+I will try it out with mine and report at the meeting my thoughts on the tool.
+
+Link to the tool: http://www.cockos.com/licecap/",187309082
+28,group7/user1,1456166099,1456166099,I will talk about that screen cap .gif creator I mentioned in [this issue](https://github.com/cleebp/csc-510-group-g/issues/26).,187309569
+18,group7/user2,1456188284,1456188284,"An interesting problem I just encountered:
+
+Integrating the logging with the Atom extension code would result in only the stuff being copied from within Atom being logged, but having it separate would result in us losing information about what is being pasted since the clipboard is local to Atom.
+
+One solution I have is to use a separate logger for logging copy and cut events (basically when the contents of the clipboard change), and having a separate logger that runs from within the extension. This would basically just be a block of code that writes to a file with the same information as the copy logger.
+
+We could then merge the data, and sort based on the timestamp in order to get an accurate representation of how the extension is being used.
+
+I'll have the block of code ready by the 24th, and we can spend the last few days integrating it to make sure it works fine.",187455387
+29,group7/user3,1456200363,1456200363,"Well, I actually I just need to run apm install in current directory and all dependent modules will be installed.  ",187516657
+26,group7/user2,1456273316,1456273316,"I removed us from the Wed. March 2nd slot with Shaown, since we have to show our work only once.",187983555
+31,group7/user1,1456344509,1456344509,dear god please work,188435616
+36,group7/user1,1456346417,1456346735,RM 3218 Booked from 2pm-4pm.,188446362
+28,group7/user1,1456346888,1456346888,Great meeting guys!,188448174
+38,group7/user3,1456457114,1456498084,"I've been looking for methods of data persistence. The serialize method provided by atom applies typically to classes, while we need to store a global variable history in our case. 
+
+https://www.npmjs.com/package/jsonfile
+
+This package provides a way to read from and write to JSON, but I don't know whether it works with local files, for a browser would forbid cross domain access.",189095198
+38,group7/user2,1456458948,1456459023,"Definitely possible to use this. You can write to the file when Atom closes, or even when you copy/cut and then read from it when Atom opens again or initializes.
+
+You might want to take a look at https://nodejs.org/api/fs.html as well. It's what I'm using for the telemetry part so if you take a look at the code I've added to the telemetry, you should have an example on how to implement reading/writing to a file.
+
+",189100678
+38,group7/user2,1456459286,1456459286,"How'd you implement it would be:
+
+1. Add the package to package.json and then run apm install.
+2. Add `fs = require 'fs'` to the top of the file where you're declaring the external modules/packages being used.
+3. Add the readFile function call to the init method and then populate the clipboard, and call appendFile whenever you copy something so that it's stored in the file. (Alternately there might be a shutdown or close method by Atom, and you could just copy the entire contents of the clipboard when this is called.)",189101558
+38,group7/user3,1456611395,1456611395,"Thanks for the suggestion! I have managed to preserve the data with serialize method. Not in a standard way, but it's simple and effective.",189738519
+39,group7/user4,1456686044,1456686241,"You can have qsort.
+https://atom.io/packages/todo-show",189922908
+36,group7/user1,1456686175,1456686175,"Hey guys running a little late, will be there in ~20ish minutes!",189923351
+39,group7/user3,1456690241,1456690241,Thanks for the suggestion. I implemented them with some C style functions. They now works.,189936274
+37,group7/user1,1456692827,1456692827,Will discuss demos and such.,189944102
+43,group7/user2,1456769774,1456769985,I just checked the calendar and it looks like the same slot (4pm on Thursday) is available with Shaown. We could always switch to that. 3pm works for me though.,190317386
+43,group7/user4,1456769949,1456769949,"I have a class on Thursday at Rick's Hall which ends at 2:45 pm but it
+takes some time to take wolfline bus and come to EB2. Can we choose the
+next slot? Shawon Thursday 3:30-4 pm? If anybody has any conflict with
+3:30-4pm, I can leave my class 10-15 min earlier on Thursday and catch the
+3 pm slot.
+
+Hey guys, Dr. Menzies had something come up during our slot for the demo,
+so he moved us to 3pm on Thursday with Shaown, can everyone make this time?
+
+I know I can but if someone else can't they should speak up with a time
+that does work thats still open.
+
+xD
+
+—
+Reply to this email directly or view it on GitHub
+<https://github.com/cleebp/csc-510-group-g/issues/43>.
+",190318295
+43,group7/user3,1456797575,1456797575,Thursday afternoon works for me. ,190493378
+30,group7/user2,1456803523,1456803523,Integrated with clipit-order.,190525593
+30,group7/user2,1456803882,1456803882,Integrated with clipit-cmd.,190526674
+43,group7/user1,1456845383,1456845383,"Alright, I'll post on Piazza that we could do any of the other times Thursday afternoon, unfortunately they are all booked.
+
+In case we can't get Thursday afternoon the only other time I know I could make is Wednesday afternoon with Shaown, I guess we could meet with him right after our group meeting?",190766265
+44,group7/user1,1456851151,1456851151,"Well that was easier than expected, fully implemented going to commit these changes then play around with the package a bit, maybe try to fix that behavior where after you paste you have to hit the paste command again to get the panel back.",190807947
+44,group7/user1,1456851236,1456851236,"Might also try to alter the behavior a bit so that when you hit ""cmd-c"" (ctrl-c) the item immediately appears in the panel, then when you paste from outside source it'll add to the list as well..",190808872
+44,group7/user1,1456852144,1456852144,Going to start posting in a new issue since the mac integration is technically completed.,190817832
+45,group7/user1,1456852347,1456852347,"2. Working on making the paste command also just paste the most recent item into the editor (work in progress, harder than it should be)
+
+3. Might look at fiddling with the panel .css",190818734
+45,group7/user2,1456852444,1456852444,"Okay, I'll integrate telemetry once you're done. I can probably do it before, but should probably try and avoid those pesky merge conflicts if possible. xD",190819171
+45,group7/user1,1456852551,1456852551,"Sounds good, anything else you think I should look at tweaking for the panel's features?",190819674
+45,group7/user1,1456853702,1456853712,"> 1. Working on making the paste command also just paste the most recent item into the editor (work in progress, harder than it should be)
+
+This is now implemented in my most recent commit, new goal:
+
+- Fix behavior after clicking an item in the panel having to ""reset"" the panel back to the view",190826059
+45,group7/user1,1456855277,1456855277,"> Fix behavior after clicking an item in the panel having to ""reset"" the panel back to the view
+
+Fixed, took awhile to figure out how to do this haha.
+
+Probably taking a break for now, I think the panel is in a good place, I wish I understood the way it displays better and how panels work to make it the full height of the panel, which would help with scrolling through items. But I think its definitely demo-able now!",190834629
+45,group7/user1,1456857747,1456857747,Gonna close this issue since we are theoretically done editing clipit-panel before the demo.,190847197
+47,group7/user1,1456857786,1456857786,"Done with my additions to clipit-panel, you are clear for departure captain *walkie talkie static*... I need a life...",190847518
+48,group7/user1,1456863051,1456863051,Were you able to get it working on your machine Arjun?,190882313
+48,group7/user3,1456866119,1456866119,How do you install the package. I lost all my manually installed packages. I'll test it if I can get them installed again.,190902614
+48,group7/user1,1456866182,1456866182,"I go to the directory in terminal where the package is located, type ""apm install"" then ""apm link"".",190903175
+48,group7/user3,1456866421,1456866421,"There's something wrong with the program, I'll fix it in a while. Sorry about that.",190905023
+48,group7/user3,1456884925,1456884925,I found the reason for this bug. All you need to do is go to baseorder.coffee and comment the 'if' statement within 'active'. Reload the program and then restore the code. The bug should be fixed this time. I guess the problem is that I pushed some irregular items to history. So clear history would work.,191019892
+47,group7/user2,1456890702,1456890702,Done with the integration!,191043981
+37,group7/user2,1456890757,1456890757,Before I forget: Need to merge the telemetry branch with master. We can go over this in the meeting and get it done once we've verified everything works as expected.,191044075
+48,group7/user2,1456890895,1456890922,"Can you fix that submit a pull request? (Or just commit to master directly, but be careful. xD)",191044303
+37,group7/user2,1456937557,1456937557,Will probably be 10-15 minutes late today.,191323047
+43,group7/user1,1456944388,1456944388,"Our demo time is now 3:30pm with Shaown, will close this thread now.",191367975
+26,group7/user1,1456944447,1456944447,"Our demo time is now 3:30pm with Shaown, not sure where exactly though...",191368292
+27,group7/user1,1456944490,1456944490,Going to close this issue since its sort of on our wishlist for the feature but won't actually be included in our final demo tomorrow!,191368522
+50,group7/user1,1456946178,1456946178,AAAAAAAAAAAAAAAAAAAAAAA,191380642
+48,group7/user2,1456946301,1456946301,Fixed.,191381417
+26,group7/user1,1456948322,1456948322,"Here is a tutorial on how to make an envelope
+
+https://www.youtube.com/watch?v=knwh8ODWqKE",191397736
+51,group7/user1,1456949736,1456949736,"we fixed it, ungit to the rescue",191407444
+51,group7/user2,1456949918,1456949918,:fire_engine:,191409298
+26,group7/user1,1457026236,1457026236,"Just emailed Shaown and he said that the meeting will take place in the TA office, which is in EB2 on the first floor in 1229B.",191874777
+35,group7/user1,1457026260,1457026260,Moved to the TODO in the readme for this feature.,191874987
+26,group7/user2,1457037028,1457037028,Where is everyone?!,191949704
+26,group7/user2,1457038965,1457038965,SUCCESS.,191961533
+26,group7/user1,1457040462,1457040462,Go team!,191971740

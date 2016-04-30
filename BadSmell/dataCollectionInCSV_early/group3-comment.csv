@@ -1,0 +1,470 @@
+issueID,user,createtime,updatetime,text,identifier
+3,group3/user3,1452808325,1452808325,"fixed
+#1 ",171792689
+4,group3/user3,1453855116,1453855255,"Methods for mining and summarizing text conversations(Shijie)
+This is a book, not a paper. Let me read the following paper instead:
+- Intelligent Email: Aiding Users with AI (Shijie)",175314287
+4,group3/user2,1453950044,1453950044,"## Alecsa: Attentive Learning for Email Categorization using Structural Aspects 
+
+ - Decision Fusion (different models to predict different type of folders, then combine the prediction together)
+ - attentive learning (3 type of folders: content-aware, time-aware, participant-aware)
+ - has a lot of related work description
+ - performance metric: average accuracy
+ - Data source: Use the following in bash:
+
+```
+wget http://people.cs.umass.edu/~ronb/datasets/enron_flat.tar.gz
+```
+
+ ",175932009
+4,group3/user2,1453950908,1453950908,"## BuzzTrack: topic detection and tracking in email
+
+ - Clustering (unsupervised learning)
+ - Labeling after clustering by using most common words in the subjects
+ - Introduction is useful, describes why we need to regroup inbox, why we don't want to manually group it...
+ - TDT evaluation: New Topic detection and topic tracking.
+ - Performance metric: precision, recall, FP, FN, TP. FP and FN forms a DET curve.
+ - Data: not Enron, data collected by their own, at ETH Zurich",175936152
+4,group3/user4,1453955353,1453955353,"## Automatic Categorization of Email into Folders: Benchmark Experiments on Enron and SRI Corpora
+### Useful notes for our proposal
+ - Email folders do not necessarily correspond to simple semantic topics
+ - They correspond to unfinished todo tasks, project groups, certain recipients, or loose agglomerations of topics.
+ - Users tend to folder some messages by sender, some by event, some by date and in many cases the logic behind a certain foldering choice can be difficult to discern.
+ - Email content and foldering habits differ drastically from one email user to another.
+ - An email foldering system should be adaptive to the working style of individual users.
+
+### Data source
+ - Use the well-known [Enron Email Dataset](http://www.cs.cmu.edu/~enron/)
+ - A smaller but foldered corpus [SRI](http://www.ai.sri.com/project/CALO). 
+ - However, the link for downloading data can not be found anymore. Because the author changed his domain of his homepege. We may write email for the data.
+
+See [this link](http://management.haifa.ac.il/images/info_people/ron_bekkerman_files/document%20classification%20on%20enron%20email%20dataset.pdf) for the data provided by the author. The author's homepage is now at [here](http://management.haifa.ac.il/index.php/en/2013-01-16-13-45-34/info?id=513:rbekkerman/).
+
+### Method and Results
+- Comparing email classification results of four classifiers (Maximum Entropy, Naive Bayes, SVM and Winnow),
+- SVM performs best for most of the cases.
+- Winnow classifier is computationally attractive and easy to implement, 
+- Winnow classifier in many cases achieving statistically similar performance as SVM
+- Evaluation: dividing a dataset into time-based data chunks and incrementally testing classi¯cation performance on each chunk while training on all the previous chunks.",175968705
+4,group3/user4,1453956490,1453956490,Changed the paper from __Adaptive regularization of weight vectors__ to  __Summarizing spoken and written conversations__.,175973156
+4,group3/user3,1453957074,1453957294,"## Intelligent Email: Aiding Users with AI
+
+### Data Source:
+Enron data set
+
+### Summary: 
+The authors take a user-oriented approach to apply AI to the email classifications. The classifications focus on three tasks: summary keyword generation, email reply prediction and attachment prediction.
+
+### Methods: 
+- For the summary keyword generation, unsupervised approach based on latent concept models(LSA and LDA) of a user’s mailbox is used, because they requires no annotated training data and generates keywords that describe each message in the context of other related messages in user’s mailbox.
+- For the reply prediction, the authors introduce user-specific relational features constructed from user profiles. 
+- For attachment prediction, relational features generated from user profiles and additional task-specific features in emails are involved to predict the needs of attachments.
+
+### Evaluation: 
+Recall, Precision, F1 factor. Also cross-user evaluation to test performance on new user.",175977346
+4,group3/user4,1454008622,1454008622,"## A New Algorithm to Categorize E-mail Messages to Folders with Social Networks Analysis
+ - They improve the accuracy with which emails are assigned to folders.
+ - Ant Colony Optimization (ACO) algorithms and Social Networks Analysis (SNA) are used.
+ - Also use the Enron Email dataset.
+ - Final results show their algorithm almost outperform all the algorithms in accuracy.",176352430
+4,group3/user3,1454013389,1454013389,"# Adaptive Ant Colony Decision Forest in Automatic Categorization of Emails
+
+### Data source: 
+Enron Email Dataset
+
+### Methods: 
+The authors transform the email dataset into a decision table using the Ant Colony Decision Forest(ACDF algorithm which is an Ensemble classifier based on the Ant Colony Decision Trees. Each splitting rule of the the decision trees is performed independently for different subset of attributes. And Bagging and Boosting strategy is used for training process. Ant Colony Optimization is a type of AI which is a form of emergent collection intelligence of groups of simple individuals.
+
+### Evaluation: 
+- The evaluations of decision trees in the training stage will be calculated using Equation(8) which is related to the tree size, and classification accuracy of that tree from training dataset. 
+- The Experiment results compares AdaBoost, Bagging, Random Forest, and adaptive ACDF with aACDF giving the highest accuracy.
+
+### Problem And Future Work:
+There is no explicit discussion about the data processing or feature extraction. And the authors state in the futrure stages, the text mining elements in analysis of email content will be incorporated with the pheromne trail of ACO algorithm to produce positive effects. ",176402805
+4,group3/user4,1454013905,1454013905,"## Summarizing Spoken and Written Conversations
+ - Not THAT related to our topic.
+ - Take extractice approach to summarization.
+ - For all ML experiments, utilize logistic regression classifiers. 
+ - Use conversational features in a ML sentence classfication framework.
+ - Evaluation metrics: pyramid precision and weighted f-score.
+ - Data:
+    - For the email summarization, it is on the Enron corpus.
+    - For the conversation part, it uses AMI corpus.
+ - Results: 
+    - The two most useful features are sentence length and CWS. 
+    - The lexical and length features are the most effective feature subclasses.",176406302
+4,group3/user1,1454015167,1454015167,"## Improving Automated Email Tagging with Implicit Feedback
+(A really great paper for our application)
+### Data Source 
+ - They created the datasets on their own by collecting through various web sources. No link provided.
+
+### Motivation
+ - Unprioritized mails
+ - Manual organization of emails
+
+### Current Application
+ - Gmail organize mails using combination of some rules.
+ - An **Email Predictor 2** plugin is already there which is a Microsoft Outlook add - on.
+ - Various features are already provided.
+  - There will be initial mails and tags associated with those are taken as training data.
+  - After prediction, users can give an Explicit feedback and correct the tags.
+  - If user made a mistake in the tag, rollback option is given.
+  - If classifier is not confident then positive feedback will help in correcting those predictions
+
+### Assumptions:
+ - User spend time for longer on emails and changes the tags, so if he corrects the tag then, the remaining tags must be correct.
+
+### Methods
+ - No Implicit Feedback (NoIF) : After prediction, users can just edit/remove/add the tags. Negative prediction and positive prediction will stay with the same level of confidence for the tags.
+ - Simple Implicit Feedback (SIF) : After prediction, users can just edit/remove/add the tags. Negative prediction will gain the confidence and positive prediction will gain the confidence. That it will consider all the tags as correctly.
+- Implicit Feedback without SIF (IFwoSIF) : Counts number of implicit feedback events (like copying, replying, forwarding, saving an attachment, moving to a folder). When count reaches specific threshold, then training examples are immediately created.
+- Implicit Feedback with SIF (IFwSIF) : If the user changes a tag, then implicit feedback examples are immediately created. Else, it continues to count up events until the number of events reach a threshold.
+
+### Results
+ - IFwSIF performs better. 
+
+### Future Paper which can be read
+ - Adaptive regularization of weight vectors
+ - Confidence-Weighted Linear Classification
+
+",176415932
+4,group3/user1,1454015685,1454015685,"## Generating summary keywords for emails using topics
+
+## Dataset
+ - Enron
+
+## Methods
+ - Unsupervised learning
+  - LSA doc query
+  - LSA word association
+  - LDA doc query
+  - LDA word association
+
+## Application
+ - Recipient Prediction
+ - Automated Foldering
+
+## Results
+ - LDA doc out performs all others as well as TF-IDF
+ - Evaluating parameter was Precision and accuracy
+
+## Future Work
+- Working with other latent models.
+
+It can be helpful when we create summary of let say 9-10 keywords to distinguish among each emails. The most common words can be assigned a single ""label"" by us and say all the mails which include these keywords will correspond to that ""label"".",176421429
+5,group3/user2,1454077914,1454098420," - P: not all email folders are content-aware. Other types are time-aware like Machine Learning Course _ Spring 2014, and participant-aware like adviser. Use one single feature set or one single model to classify a mixture of these three types of emails can be misleading. **Supported by Alecsa: Attentive Learning for Email Categorization using Structural Aspects**
+
+ - U: especially for email users who receive hundreds of emails everyday. (for our project)
+
+ - T: email client, perhaps with some plugins.
+ 
+ - G: automatically classify incoming emails into different folders predefined by users.
+
+ - S: different models with different feature set, then do decision fusion.",176782572
+5,group3/user2,1454078340,1454098450," - P: users do not want to make to much effort on providing training set. Can only require dozens of examples in each folder. **Literature Review Required**
+
+ - U: especially for email users who receive hundreds of emails everyday. (for our project)
+
+ - T: email client, perhaps with some plugins.
+ 
+ - G: automatically classify incoming emails into different folders predefined by users.
+
+ - S: 1. incremental learning needed, model will keep training itself as new email comes. Active learning, can have a folder to ask user to manually classify the most confusing email. 2. have at least two  types of incremental models, one values more on the initial training set, one values more on the upcoming emails, have some rule to decide which one dominates. This structure can be more robust.",176786447
+5,group3/user3,1454084864,1454085272,"# PUTGS
+
+### P: 
+Email categorizations depends on specific user behaviors, while not all users will provide explicit feedback to the correctness of email labels.
+
+### U:
+For users who receive huge amount of emails daily in vastly diverse topics. And not all of those emails are necessary to read in details or make a reply.
+
+### T: 
+- Email client receiving real-time email streams.
+- Plugins to monitor user behaviors in the email client to provide implicit user feedback.
+- API to access real-time email streams.
+
+### G:
+Automatically categorize the coming emails into user customized folders. 
+
+### S:
+- Email feature extraction in both formats and contents, i.e. keywords summary, sender address, subject topics, time and event detection. Optional features from reply, signature and attachment.
+- Ensemble classifier using ANN and Decision Tree. ",176846715
+5,group3/user4,1454086669,1454086669,"From the [project page](http://se16.unbox.org/project/feb1.md). 
+> Document some __problem__ ""P"" with some __user group__ ""U"" using some __software tool__ ""T"" to achieve some __goal__ ""G"".
+
+## P: Problem
+ 1. Email users have the tendency to tag their emails into different tags according to the functional differences of emails, such as Urgent, Importan, To-Do, Reminder, Data, Work, Private, ect.
+ 2. However, they don't usually follow a strict pattern or logic for tagging their emails.
+ 3. Their tagging logi may vary as time goes by.
+ 4. Different users may have totally different way for taging their emails.
+ 5. Nowadays, there is no such service like automatic tagging according to the users' previews tagging records.
+
+## U: User
+  - Email heavy users: businessman, layers, managers, professors, ect.
+
+## T: Software Tool
+  - Web-based email services. 
+  - Mobile email applications.
+
+## G: Goal
+  - Provide the automatic tagging service for user emails base on their previous tag records.
+
+## S: Solusion
+  - Build up a email applications that can load all the users email on other email accounts.
+  - Extact user-specific features from their emails that have already been tagged.
+  - Use these features to train classifiers.
+  - Put the new comming emails into different tags, and show that in the user interface.
+
+",176859752
+5,group3/user2,1454096616,1454096616,@dichen001 The problem and solution you describe here should not be in the scale of whole project. Right now you are describing the general problem and the general solution. Just specific one problem that we have not seen yet.,176935282
+5,group3/user2,1454098374,1454098473," - P: users definitely do not want to miss one single import email. Recall values more than precision. **Literature Review Required**
+
+ - U: especially for email users who receive hundreds of emails everyday. (for our project)
+
+ - T: email client, perhaps with some plugins.
+ 
+ - G: automatically classify incoming emails into different folders predefined by users.
+
+ - S: 1. on classifiers, we can address more weight on recall over precision by lowering the threshold; 2. can have one email assigned with multi-labels, it will appear in different folders.",176949848
+5,group3/user1,1454110239,1454110239,"- P: Many of the user events are not captured properly when using an email system, which can provide good amount of information about those emails. Supported by - **Improving Automated Email Tagging with Implicit Feedback**
+- U: Email users whose mailboxes are flooded with unimportant and important mails (for our project).
+- T: Plugin like EP2 for MS OUTLOOK
+- G: Make use of these implicit feedback events for better classification of mails into specific labels.
+- S: Consider implicit events like saving an attachment, replying an email, forwarding, etc. Keep a threshold to identify the important mails once it exceeds the threshold limit. Various methods on implicit feedback can be used.",177017178
+6,group3/user1,1454110803,1454110803,"Everyone please select 1 problem which either you have posted or by anyone of us. **Mention the topic here so that others can choose other ones**. And be ready with 1 page description on the whole of PUTGS by tomorrow. So, that we can start merging them. You are more than welcome to write on some extra problems if you want. As right now we have 5 problems and may be more coming our way.",177019463
+6,group3/user1,1454110839,1454110839,"I am taking my problem of **Many of the user events are not captured properly when using an email system, which can provide good amount of information about those emails**",177019561
+6,group3/user2,1454114521,1454114521,Will take all the three topics of mine if no one else took from them,177032649
+5,group3/user4,1454127743,1454127743,"I will take this one. :smile: 
+- P: Most of the email user have the need to categorize their emails into different folders. However, nearly all the email services only offer passive folder-categorization, which means they only put emails into folders when users think of doing this. Besides, none of the exisiting email systems offer the automatic categorization function.
+- U: Email heavy users.
+- T: An email application.
+- G: Build a email application and integrate the automatic and active email categorization. 
+  - 'Active' and 'automatic' means it will put every new email into one preset folder from day one. Then, it will let users choose if it meet their expectation, or they can put them into other preset folders or create new folder by themself.
+  - For 'automatic', it means it will classify the emails automatically. At first, it is based on the common features of the email categorization, then it will be customized for each user based on their previous email folder record.",177062625
+5,group3/user2,1454128143,1454128143,"It is the whole service our project provides, you need to state a problem that we may face in order to achieve this goal. In a word, you need to change to another topic. The one you just describe will go into the introduction part of our report.
+
+Best Regards,
+Zhe,
+Ph.D. scholar @ CS, NcState
+http://azhe825.github.io
+
+> On Jan 29, 2016, at 11:22 PM, Di (Jack) Chen <notifications@github.com> wrote:
+> 
+> I will take this one. 
+> 
+> P: Most of the email user have the need to categorize their emails into different folders. However, nearly all the email services only offer passive folder-categorization, which means they only put emails into folders when users think of doing this. Besides, none of the exisiting email systems offer the automatic categorization function.
+> U: Email heavy users.
+> T: An email application.
+> G: Build a email application and integrate the automatic and active email categorization.
+> 'Active' and 'automatic' means it will put every new email into one preset folder from day one. Then, it will let users choose if it meet their expectation, or they can put them into other preset folders or create new folder by themself.
+> For 'automatic', it means it will classify the emails automatically. At first, it is based on the common features of the email categorization, then it will be customized for each user based on their previous email folder record.
+> —
+> Reply to this email directly or view it on GitHub.
+> 
+",177064217
+5,group3/user4,1454132223,1454132443,"The **Problem** is existing service is passive categorization. 
+The **Goal** is to make it active, automatic and smart.
+The **Solution** is to categorize every email by default, and actively ask them for feedback.  The implementation is to add an interface level interaction with the user, so that we can put their email into the right folder. My focus here is the new interaction with user for email services, not the training algorithms.",177076829
+6,group3/user3,1454180146,1454180146,"I am focusing on the problem of **email feature extraction** process. Since nowadays, emails are not simply expressed in texts but instead involves lots of multi-media stuff(such as HTML and pictures) which are supported by the MIME format standards. Most research just throw away these infos which might be important for the accuracy of categorization. However, we won't use the multi-media directly, but instead convert some of these info into text format so that we can still apply those mature text mining methods to our project.",177275207
+4,group3/user3,1454189385,1454189385,"Just checked the Enron email data set source:
+http://www.cs.cmu.edu/~enron/
+But the size is not 423MB, it is actually 1.82GB in *.tgz or 2.72GB after decompressing.",177307312
+4,group3/user1,1454190124,1454190124,Jerry can you open it and check how are the folders organised? With recipients name - label -emails,177311606
+4,group3/user3,1454190572,1454190572,"Yes, here are some screenshots of the folders and original email file.
+
+![screen shot 2016-01-30 at 4 43 12 pm](https://cloud.githubusercontent.com/assets/7918460/12698670/f711edbc-c770-11e5-98ec-f96bcf165e92.png)
+
+![screen shot 2016-01-30 at 4 43 48 pm](https://cloud.githubusercontent.com/assets/7918460/12698671/004b43e2-c771-11e5-9381-77d72ce7f215.png)
+
+![screen shot 2016-01-30 at 4 44 23 pm](https://cloud.githubusercontent.com/assets/7918460/12698672/06312be6-c771-11e5-9a5c-87e0a64ed0e0.png)
+
+![screen shot 2016-01-30 at 4 44 52 pm](https://cloud.githubusercontent.com/assets/7918460/12698673/0aef1314-c771-11e5-9513-c00051f069b4.png)
+
+![screen shot 2016-01-30 at 4 47 50 pm](https://cloud.githubusercontent.com/assets/7918460/12698684/451bcc76-c771-11e5-82bc-89e71b362a6e.png)
+",177314603
+8,group3/user2,1454380656,1454380678," - We will NOT use unsupervised learning method since we want to provide users more flexibility. Users can create email folders with any arbitrary name they like. Classifier will be trained especially for this user with his or her folder set. Initially, dozens of emails will be required to put into each email folder as the training examples. The initial classifier can perform poorly due to the lack of training examples, therefore additional training examples will be collected while user is actually using this product (active learning and other method). 
+
+ - LDA can be considered, not as a clustering method but as a feature generation method.
+
+ - We are considering to have several models running simultaneously (maybe two), one is better with smaller training set, the other is better with larger training set. Set some rules to decide at a certain point of time, which model is used to make the final decision (or assign different confidence on the output of each model). This may be the last step of our project.",178322910
+8,group3/user1,1454381776,1454381776,"- On the overlap, the automatic methods to find clusters/categories, doesn't give users much flexibility. They have to set specific rules in advanced section of mailboxes such as Gmail to do that.",178331872
+9,group3/user2,1454627152,1454627152,"Sample code for preprocessing: 
+
+https://github.com/ai-se/e-disc/blob/master/Datasets/Preprocess.py
+
+https://github.com/ai-se/e-disc/blob/master/Datasets/formatData.py
+
+https://github.com/ai-se/e-disc/blob/master/Zhe/winter/test_pre.py
+
+",180095370
+9,group3/user1,1454627495,1454627495,"Zhe, other people wont be able to access them as it is a private repo.
+On Feb 4, 2016 6:06 PM, ""Zhe Yu"" <notifications@github.com> wrote:
+
+> Sample code for preprocessing:
+>
+> https://github.com/ai-se/e-disc/blob/master/Datasets/Preprocess.py
+>
+> https://github.com/ai-se/e-disc/blob/master/Datasets/formatData.py
+>
+> https://github.com/ai-se/e-disc/blob/master/Zhe/winter/test_pre.py
+>
+> —
+> Reply to this email directly or view it on GitHub
+> <https://github.com/azhe825/CSC510/issues/9#issuecomment-180095370>.
+>
+",180097053
+9,group3/user2,1454629211,1454629211,"Only for Jerry
+
+Best Regards,
+Zhe,
+Ph.D. scholar @ CS, NcState
+http://azhe825.github.io
+
+> On Feb 4, 2016, at 6:11 PM, Amritanshu Agrawal <notifications@github.com> wrote:
+> 
+> Zhe, other people wont be able to access them as it is a private repo.
+> On Feb 4, 2016 6:06 PM, ""Zhe Yu"" <notifications@github.com> wrote:
+> 
+> > Sample code for preprocessing:
+> >
+> > https://github.com/ai-se/e-disc/blob/master/Datasets/Preprocess.py
+> >
+> > https://github.com/ai-se/e-disc/blob/master/Datasets/formatData.py
+> >
+> > https://github.com/ai-se/e-disc/blob/master/Zhe/winter/test_pre.py
+> >
+> > —
+> > Reply to this email directly or view it on GitHub
+> > <https://github.com/azhe825/CSC510/issues/9#issuecomment-180095370>.
+> >
+> —
+> Reply to this email directly or view it on GitHub.
+> 
+",180104561
+9,group3/user3,1455516445,1455516445,"I have uploaded my code for parsing each email into one-line entry with the seven largest email user data. The problem is that so far I could not save each data in each user's folder. I am continue working on this. But you can start to use it now. The _emailParserX.py_ is the latest version. The preprocessed data entry is in the following format:
+
+User/Category  ::::::>>>>>>  words of subject + body ",184077448
+15,group3/user1,1455653739,1455653739,"Baseline should be supervised learning, with either of the learners. I think different classifiers will better the different performance metrics.",184860038
+15,group3/user2,1455657304,1455657304,I will use both K-NN and SVM since the implementation of semi-supervised learning for these two can be different.,184877532
+15,group3/user3,1455669973,1455669973,I remember the baseline is simply using the preprocessed feature data as the bag-of-word and annotate the email with existing labels. Is that what we discuss before?,184944243
+15,group3/user2,1455670185,1455670185,"After that, choose a classifier to finish all the process. Your result will act as the baseline result, for us to compare with.",184947739
+9,group3/user4,1456160401,1456160401,"@imaginationsuper  Just found that there is no delimiter between the subject and the body.
+e.g. 
+> /beck-s/2001_plan ::::::>>>>>>  Group ExpensesGuys attached you will find a final cut on the ENA  expense budget  ...
+
+the subject is **Group Expenses**
+the content is **Guys, attached ...**
+
+Also, could we only keep the most related folder name, i.e. **2001_plan** instead of **/beck-s/2001_plan**, as the category?
+",187267223
+9,group3/user3,1456160910,1456160910,"Yes, there are bugs in my code. You can parse and separate the user folder from the most related folder by the '/' character. I will also fix the delimiter after subject. Thanks! @dichen001 ",187271975
+17,group3/user2,1456183950,1456183950,"Recommend term frequency as feature, hashing trick for feature selection",187436744
+18,group3/user3,1456186498,1456186498,"For the cleaned data, does that mean remove all the all_document folders and any folder that has less than 10 emails? ",187446893
+18,group3/user3,1456186594,1456186594,What kind of structured data does the testing method need? We only have words from subject and body.,187447168
+18,group3/user2,1456192320,1456192320,"several txt or csv files, each contains emails received by one person.
+Inside each txt, each line is one email (subject+body, labeled as the folder name, separate label with content by some unique symbol).
+
+Yes, remove folders that has less than 10 emails.",187473672
+19,group3/user4,1456249272,1456249272,Sure. I will give it a try.,187810014
+20,group3/user3,1456278858,1456278858,I am fine with the time and will reorganize my code tomorrow.,188007426
+20,group3/user1,1456279190,1456279190,That time works for me,188009779
+20,group3/user4,1456280879,1456280879,"Work fine for me.
+
+
+
+Sent with MailTrack
+<https://mailtrack.io/install?source=signature&lang=en&referral=dchen20@ncsu.edu&idSignature=22>
+
+On Tue, Feb 23, 2016 at 8:59 PM, Amritanshu Agrawal <
+notifications@github.com> wrote:
+
+> That time works for me
+>
+> —
+> Reply to this email directly or view it on GitHub
+> <https://github.com/azhe825/CSC510/issues/20#issuecomment-188009779>.
+>
+",188017127
+21,group3/user2,1456284071,1456284071,"Yes, done that before.
+Also, feature hashing from scikit learn is another good option: http://scikit-learn.org/stable/modules/feature_extraction.html",188041037
+20,group3/user2,1456284175,1456284175,Registered 10:00 am Friday.,188041611
+9,group3/user2,1456340430,1456340430,https://github.com/ai-se/e-disc/blob/master/Zhe/02-24/src/topics.py,188406492
+9,group3/user3,1456422810,1456422810,"Hi Guys, 
+
+I updated the emailParserX.py code, which is used to collect all the email in the root folder and reorganize the email structure into the following format, in which (I suppose) each email takes one line:
+
+/user_folder/category_folder/ ::::::>>>>>> email_subject_words ****** email_body_words
+
+I will perform word vector conversion using these data in another code script, which is still need some tuning.",188903092
+23,group3/user4,1456425240,1456425240,"Oh just realize there is no consistency issue with this issue, but ignoring these two folder should boost up the pre-processing.",188921042
+24,group3/user1,1456508747,1456508747,"This code will do the job.
+```
+re.sub(r'\s+', ' ', ""abc   xyz     lmn"")+""\n"")
+abc xyz lmn
+```",189388574
+24,group3/user3,1456509054,1456509054,Code updated. Use emailParserX.py to get dataset.txt and dataConversionF.py to convert to word vectors.,189391419
+24,group3/user3,1456509226,1456509226,"The 'L' letter in wordVectors.txt means long int data type, which is produced by the scikit-learn tokenizer",189393604
+26,group3/user3,1456516673,1456516673,"This binary representation is still a sparse matrix(vector). To improve this, you can use the **gensim word2vec** to do this job. It uses a neural network to train the word and express each word using some weight factors.",189456935
+26,group3/user1,1456516851,1456516851,"as I discussed with Jack about this method, jerry can we used this method to do the featurization? gensim can support this?
+
+@azhe825 but even if we can represent the features in the above manner, can we use our scikit learner api to accept these as features?",189457899
+26,group3/user3,1456517822,1456517822,"API and demos of gensim word2vec:
+https://radimrehurek.com/gensim/models/word2vec.html",189464299
+30,group3/user2,1456693065,1456693065,"Can u train on some knowledge base like google news, Wikipedia?
+
+Best Regards,
+Zhe,
+Ph.D. scholar @ CS, NcState
+http://azhe825.github.io
+
+> On Feb 28, 2016, at 3:32 PM, Di (Jack) Chen <notifications@github.com> wrote:
+> 
+> —
+> Reply to this email directly or view it on GitHub.
+> 
+",189945180
+30,group3/user4,1456714953,1456714953,"already tried that at [this commit](https://github.com/azhe825/CSC510/commit/2230b9fb1fa1b56381ae911d3ffeddf9fb0be7d1)
+use a pre-trained model by Google news using 100 billion words. doesn't help much.",190014607
+30,group3/user4,1456715070,1456715070,"I believe this is because simply add the word vector is not the right way.  One possible solution can be found in this [paper](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7363382)
+
+No time to try for this due. Maybe later.",190015374
+32,group3/user1,1456771775,1456771775,Any more results needed to add onto this?,190329855
+31,group3/user2,1456774420,1456774420,Readable results on all datasets?,190348483
+32,group3/user2,1456774499,1456774499,"How is the F score calculated here?
+
+Why do we have some 0 median on some data sets?",190348859
+31,group3/user4,1456774901,1456774901,"No. You have to use the load() in function.py to load the data.
+
+Sent from my iPhone
+
+> On Feb 29, 2016, at 2:33 PM, Zhe Yu <notifications@github.com> wrote:
+> 
+> Readable results on all datasets?
+> 
+> —
+> Reply to this email directly or view it on GitHub.
+> 
+",190350834
+32,group3/user1,1456775058,1456775058,"After doing the unsupervised learning, I get the words based on the top n topics. These words will form the basis of new corpus. Then a specific target label is chosen (positive label), and the rest is chosen as (negative label). I believe that specific label is a problem.",190351645
+32,group3/user2,1456775388,1456775388,"Can u do it for a multi-classification form?  Just feed all the data and labels to the classifier.
+U can use the evaluate function in func.py to calculate F_M score.",190353636
+31,group3/user2,1456775525,1456775525,"Can you make some figures showing the result, see #32 
+
+Use F_M for the performance. See #33 
+
+Run on all data sets if possible.",190354258
+31,group3/user4,1456860947,1456964501,"# KNN:
+![KNN](https://raw.githubusercontent.com/azhe825/CSC510/master/Results/semi_KNN_.png)
+
+# DT
+![MNB](https://raw.githubusercontent.com/azhe825/CSC510/master/Results/semi_DT_.png)
+
+# SVM
+![SVM](https://raw.githubusercontent.com/azhe825/CSC510/master/Results/semi_SVM_.png)
+
+# Summery
+![Summery](https://raw.githubusercontent.com/azhe825/CSC510/master/Results/semi_classifier.png)
+
+![sum](https://raw.githubusercontent.com/azhe825/CSC510/master/Results/comp_classifier.png)",190866995
+31,group3/user2,1456876758,1456876758,Strange result with NB. Need to look into it.  SMOTE+NB causes sth wrong.,190976600
+31,group3/user4,1456887356,1456887356,"@azhe825  removed NB. Cannot find out why.  Use DT instead, and it performs good.",191029679

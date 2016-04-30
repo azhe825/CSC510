@@ -1,0 +1,7 @@
+id,title,description,created_at,due_at,closed_at,user,identifier
+3,Text Mining using NLTK,Get the text mining part i.e. the recommendation system working for use by the plugin.,1454893683,1456635600,1456708061,group2/user1,1569209
+4,Creating the Plugin that uses the Recommendation System,Create the final plugin that uses the recommendation system built using NLTK in python.,1454893762,1456722000,1456708062,group2/user1,1569212
+5,Basic analysis algorithm 1,Implement one of the analysis algorithms and make it ready for integration in the plugin.,1456191813,1456635600,1456708058,group2/user1,1598816
+7,Solution #1,Solution 1 for the recommendation system!,1456707991,1456808400,1460073601,group2/user1,1610699
+8,Solution #2,implementing solution #2,1456708079,1456808400,1460073601,group2/user1,1610704
+9,Solution #3,Think and decide and then implement solution #3,1456708099,1456808400,1460073601,group2/user1,1610705

@@ -1,0 +1,62 @@
+id,time,sha,user,message
+1,1456883371,5618ccd642d69906c9b60f81ad33d707897509cb,group4/user2,Update Readme.md
+2,1456882538,0f2ca1aa147409479b43168dbf0b71f0d9e7b819,group4/user3,removed hidden file readme
+3,1456882410,9abb5f7cd2e4528a58b228841bf6cd23dd42ec48,group4/user3,modified README
+4,1456877850,cfe41bd1651aa7c4f989cbb87ce910470e4bd710,group4/user2,"Update README.md
+
+march1 draft"
+5,1456834465,bbf07202c854e06e45813fffebe7cfd2e048d18b,group4/user4,"Merge pull request #79 from jordy-jose/Solution3
+
+Solution3"
+6,1456688477,987cca46406e2007f966c199c5f50f5705903a6f,group4/user1,Delete IQueryResultSet.java
+7,1456688472,6f0a758baf7be8630464f3f1f6d1427b069ca8ec,group4/user1,Delete IHashService.java
+8,1456688467,f3fd68a9e732fa2b4e3ccb9889c98526e1b26de6,group4/user1,Delete IDatabaseConnection.java
+9,1456688459,88cbdaf31ae88d2a82ed528565764046747eaba4,group4/user1,Delete StatementExecutor.java
+10,1456688453,ebc72456cf489d05e629bcc737353464b376961f,group4/user1,Delete QueryResultSet.java
+11,1456688447,3ed21b45f59c44963a32fb44d6cac9e6cdd5a33b,group4/user1,Delete HashService.java
+12,1456688441,e53143230491ccab3a32a90b9673a0064bc97428,group4/user1,Delete DatabaseConnectionService.java
+13,1456688434,c6e0a51146380cd06179082b74b130e926fec613,group4/user1,Delete DatabaseConnection.java
+14,1456688422,d5cb453f6b5c0b0b504633c16d7ca50ccb6d169a,group4/user1,Delete LoginHelper.class
+15,1456688415,e4ebf1d7a6ca9a9015c5b62fcd88808b24f7f711,group4/user1,Delete Login.class
+16,1456688409,48a6dace45e2f7ed480295e6fa6761142dc9d491,group4/user1,Delete MsHelper.class
+17,1456688395,9ed69ea8ff1de8b04bb94241fdf82dafe6596919,group4/user1,Delete ImsHelp.class
+18,1456688390,cda3b5b4643b8dd0b02fd10b31b94c60f139723e,group4/user1,Delete IStatementExecutor.class
+19,1456688385,0a1b3e07e75fb180af393ce8238195a01aa871de,group4/user1,Delete IQueryResultSet.class
+20,1456688380,a42a8af93c40d71d2df1b97f4fa55467fa476b14,group4/user1,Delete IHashService.class
+21,1456688373,618f2cbf8e357081980ecc8c2cb0b0f75e6d69d1,group4/user1,Delete IDatabaseConnection.class
+22,1456688364,d303c33932ce157916d466bfc6b30f0ec86464a1,group4/user1,Delete StatementExecutor.class
+23,1456688359,bfe314357d43a2cb48fca95d9cfb844c29cfb8f0,group4/user1,Delete QueryResultSet.class
+24,1456688353,86040073cb760d47c815d3683f4b6c62fdb807e9,group4/user1,Delete HashService.class
+25,1456688348,ad42ea985dbef2ce778afac01b9d1e00e9a55c7b,group4/user1,Delete DatabaseConnectionService.class
+26,1456688343,8b2700b903615d4e3bed84978a7bf0b77a4a12c7,group4/user1,Delete DatabaseConnection.class
+27,1456688333,a2a9c5764d8ba7e0ea264e3f87419c036371e495,group4/user1,Delete jbcrypt.jar
+28,1456688324,ce721894d89c7f5b864656f0a740c48df137b94f,group4/user1,Delete mysql-connector-java-5.1.38-bin.jar
+29,1456688054,9e7309afdfe4b8bcc3facd655ff30602a98e8e07,group4/user1,Delete LoginHelper.class
+30,1456688049,1a399bfb841dc49a5f3c198bfe798576ef288713,group4/user1,Delete Login.class
+31,1456688043,51fce1e93d3addd2f7e3243b309d34eff8a62a33,group4/user1,Delete MsHelper.class
+32,1456688030,9ffebced879e2d8fd4acf6a2a2b0d2481baa0718,group4/user1,Delete ImsHelp.class
+33,1456688025,902a55325fdffea2eb2f0880e2a8d41514b85112,group4/user1,Delete IStatementExecutor.class
+34,1456688018,49f485cef70eed6d768ce46ab2e5952df6716363,group4/user1,Delete IQueryResultSet.class
+35,1456688013,8cdaa2ca36d2c994af25d0d93711b11fec6f7388,group4/user1,Delete IHashService.class
+36,1456688008,068abbe4ccff81f7daf61b955aae96027644659b,group4/user1,Delete IDatabaseConnection.class
+37,1456687999,ce863c7b623a1c28a322873f1a66d4ac0ce9d99a,group4/user1,Delete StatementExecutor.class
+38,1456687995,834987338d675d4e4cdcbad2397fccc9faf0ffa0,group4/user1,Delete QueryResultSet.class
+39,1456687990,b45a8f81dcf5dfe9ce4545db67aa8d7159c44c9c,group4/user1,Delete HashService.class
+40,1456687986,f845d9bef2db362467d8cdb7bcd84da1359feb5c,group4/user1,Delete DatabaseConnectionService.class
+41,1456687980,9df2ebfceb5b25d96aee17fbc741eb75e549ea38,group4/user1,Delete DatabaseConnection.class
+42,1456687969,c40ebb8a3af5904602d4d64625beb40567e5cda4,group4/user1,Delete StatementExecutor.java
+43,1456687962,16e0a20d6253d0be2854b171cc01560e6bacbceb,group4/user1,Delete QueryResultSet.java
+44,1456687956,6455cc46b344ce852f878e8075bb9fc673be3a4b,group4/user1,Delete HashService.java
+45,1456687950,58705b5313acbf3aca9d1725a44c8a00409ce221,group4/user1,Delete DatabaseConnectionService.java
+46,1456687944,1240192384235dc62df8f1989540be712bbaf257,group4/user1,Delete DatabaseConnection.java
+47,1456687928,bb3ab3c184c8c76ef6cc3c231f07a318dde6b586,group4/user1,Delete ImsHelp.java
+48,1456687923,33927d012af900f0368b83844d09e2fa80f12861,group4/user1,Delete IStatementExecutor.java
+49,1456687917,fd45952592a786efc849e25ae03d6a267382bcc2,group4/user1,Delete IQueryResultSet.java
+50,1456687911,1872babcbe9920a8e452f00ce199efacc000a2b4,group4/user1,Delete IHashService.java
+51,1456687905,ffd381dd264022740c87b47a07a353c17a65fa58,group4/user1,Delete IDatabaseConnection.java
+52,1456687898,b604864523cb5014c1fdd7b4a54cba9ee574a66c,group4/user1,Delete MsHelper.java
+53,1456687886,cfd6cbf20f24df5752a23f4fcd1f17966c9c8a1a,group4/user1,Delete LoginHelper.java
+54,1456687876,6e448f84655c8f6c0898f4f37784f1307af8a160,group4/user1,Delete Login.java
+55,1456687857,30e41e3c9532525fa75da5426770dc85d6b1d261,group4/user1,Delete jbcrypt.jar
+56,1456687850,900ae2ab0e5e12c746f91de4b4ba831f13adb394,group4/user1,Delete mysql-connector-java-5.1.38-bin.jar
+57,1456687594,91e97763344588e0f1bb379e594696876ede597e,group4/user1,Code changes to include DB functions and form data

@@ -1,0 +1,73 @@
+issueID,time,action,label,user,milestone,identifier
+1,1455575243,closed,closed,group1/user4,,551289880
+1,1455575243,subscribed,subscribed,group1/user3,,551289878
+1,1455575243,mentioned,mentioned,group1/user3,,551289877
+1,1455575051,subscribed,subscribed,group1/user4,,551286486
+1,1455575051,mentioned,mentioned,group1/user4,,551286485
+1,1455574468,subscribed,subscribed,group1/user3,,551275933
+1,1455574468,mentioned,mentioned,group1/user3,,551275932
+1,1454267833,subscribed,subscribed,group1/user4,,533267366
+1,1454267833,mentioned,mentioned,group1/user4,,533267365
+1,1454267799,assigned,group1/user4,group1/user4,,533267215
+1,1454267788,labeled,proj1comment,group1/user6,,533267116
+2,1454819899,closed,closed,group1/user5,,542015114
+3,1454819899,closed,closed,group1/user5,,542015115
+4,1455422181,closed,closed,group1/user2,2,549733777
+4,1455156764,milestoned,Come up with 3 probable solutions for the project problem.,group1/user3,2,546657497
+4,1455156668,assigned,group1/user6,group1/user6,2,546656746
+5,1456028233,closed,closed,group1/user1,4,558034030
+5,1455862702,subscribed,subscribed,group1/user1,4,556149075
+5,1455862702,mentioned,mentioned,group1/user1,4,556149074
+5,1455575669,milestoned,Exploring how to upload images to amazon cloud,group1/user3,4,551296123
+5,1455575669,assigned,group1/user1,group1/user1,4,551296122
+6,1456006455,closed,closed,group1/user2,5,557847066
+6,1455862632,subscribed,subscribed,group1/user2,5,556148495
+6,1455862632,mentioned,mentioned,group1/user2,5,556148494
+6,1455575934,milestoned,extracting text from images,group1/user3,5,551298677
+6,1455575820,assigned,group1/user2,group1/user2,5,551297567
+7,1456011777,closed,closed,group1/user5,,557879823
+7,1455575986,assigned,group1/user5,group1/user5,,551299511
+8,1456644292,closed,closed,group1/user3,,569593724
+8,1456004828,demilestoned,Exploring how to upload images to amazon cloud,group1/user3,,557829222
+8,1456004755,milestoned,Exploring how to upload images to amazon cloud,group1/user3,,557828684
+8,1455576311,subscribed,subscribed,group1/user1,,551303214
+8,1455576311,mentioned,mentioned,group1/user1,,551303213
+9,1456188021,closed,closed,group1/user2,,560708452
+9,1456028383,assigned,group1/user2,group1/user2,,558035257
+10,1456946757,closed,closed,group1/user5,,575165613
+11,1456464424,closed,closed,group1/user2,7,566926158
+11,1456274495,milestoned,Snippet of desktop,group1/user3,7,562688103
+11,1456274283,assigned,group1/user3,group1/user3,7,562683865
+12,1456946488,closed,closed,group1/user5,9,575159071
+12,1456644520,milestoned,integrating client and server side code,group1/user3,9,569597701
+12,1456644512,assigned,group1/user2,group1/user2,9,569597524
+12,1456644512,subscribed,subscribed,group1/user5,9,569597523
+12,1456644512,mentioned,mentioned,group1/user5,9,569597522
+13,1456738283,closed,closed,group1/user1,8,570747332
+13,1456650437,labeled,enhancement,group1/user1,8,569655412
+13,1456650403,milestoned,Chrome Plugin,group1/user1,8,569654537
+13,1456650290,assigned,group1/user1,group1/user1,8,569652059
+14,1456738203,closed,closed,group1/user1,8,570745470
+14,1456650622,labeled,roadblocks,group1/user1,8,569659572
+14,1456650388,milestoned,Chrome Plugin,group1/user1,8,569654135
+14,1456650384,assigned,group1/user1,group1/user1,8,569654025
+15,1456821614,closed,closed,group1/user1,8,572681190
+15,1456738377,milestoned,Chrome Plugin,group1/user1,8,570749844
+15,1456738377,assigned,group1/user1,group1/user1,8,570749843
+15,1456738377,labeled,bug,group1/user1,8,570749840
+16,1456821671,closed,closed,group1/user1,8,572682164
+16,1456738484,labeled,Feature,group1/user1,8,570752151
+16,1456738446,milestoned,Chrome Plugin,group1/user1,8,570751226
+16,1456738446,assigned,group1/user1,group1/user1,8,570751225
+17,1456946201,closed,closed,group1/user1,8,575152808
+17,1456738536,milestoned,Chrome Plugin,group1/user1,8,570753348
+17,1456738536,assigned,group1/user1,group1/user1,8,570753347
+17,1456738536,labeled,Feature,group1/user1,8,570753346
+18,1456946138,closed,closed,group1/user1,8,575151398
+18,1456738593,milestoned,Chrome Plugin,group1/user1,8,570754518
+18,1456738593,assigned,group1/user1,group1/user1,8,570754516
+18,1456738593,labeled,Feature,group1/user1,8,570754515
+19,1456981394,closed,closed,group1/user3,10,575742372
+19,1456981382,assigned,group1/user3,group1/user3,10,575742318
+19,1456768970,milestoned,Solution 1: Desktop App closure,group1/user2,10,571530343
+19,1456768970,labeled,bug,group1/user2,10,571530342

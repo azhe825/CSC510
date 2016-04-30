@@ -1,0 +1,108 @@
+issueID,time,action,label,user,milestone,identifier
+1,1455666773,closed,closed,group2/user2,,552828243
+1,1454342666,labeled,proj1 feedback,group2/user3,,534393161
+2,1455653192,closed,closed,group2/user1,2,552578182
+2,1454893834,assigned,group2/user1,group2/user1,2,542391333
+2,1454893834,unassigned,unassigned,group2/user2,2,542391332
+2,1454893832,assigned,group2/user2,group2/user2,2,542391323
+2,1454893832,unassigned,unassigned,group2/user1,2,542391322
+2,1454893418,assigned,group2/user1,group2/user1,2,542389029
+2,1454893414,milestoned,Data Collection,group2/user1,2,542389004
+2,1454893122,labeled,data-collection,group2/user1,2,542387868
+3,1455667659,closed,closed,group2/user4,2,552841947
+3,1454893458,assigned,group2/user4,group2/user4,2,542389188
+3,1454893453,milestoned,Data Collection,group2/user4,2,542389169
+3,1454893449,labeled,data-collection,group2/user4,2,542389150
+4,1456693674,closed,closed,group2/user2,3,570083871
+4,1454893828,milestoned,Text Mining using NLTK,group2/user2,3,542391315
+4,1454893828,assigned,group2/user2,group2/user2,3,542391314
+4,1454893828,labeled,Text mining,group2/user2,3,542391313
+5,1456707967,closed,closed,group2/user1,3,570250952
+5,1454894020,assigned,group2/user5,group2/user5,3,542392107
+5,1454894016,milestoned,Text Mining using NLTK,group2/user5,3,542392088
+5,1454894009,labeled,Text mining,group2/user5,3,542392062
+6,1456191499,closed,closed,group2/user1,4,560771639
+6,1454894147,assigned,group2/user1,group2/user1,4,542392594
+6,1454894143,labeled,plugin-development,group2/user1,4,542392574
+6,1454894109,milestoned,Creating the Plugin that uses the Recommendation System,group2/user1,4,542392455
+7,1455653919,closed,closed,group2/user1,,552592764
+7,1454895359,labeled,enhancement,group2/user2,,542400698
+8,1456191522,closed,closed,group2/user1,2,560772204
+8,1455653305,labeled,data-collection,group2/user1,2,552580272
+8,1455653300,milestoned,Data Collection,group2/user1,2,552580186
+9,1455946341,closed,closed,group2/user4,,557403842
+10,1456191528,closed,closed,group2/user1,2,560772263
+10,1455948467,milestoned,Data Collection,group2/user1,2,557413334
+10,1455948467,labeled,data-collection,group2/user1,2,557413333
+11,1456191543,closed,closed,group2/user1,2,560772470
+11,1455951754,milestoned,Data Collection,group2/user1,2,557430599
+11,1455951751,labeled,data-collection,group2/user1,2,557430594
+12,1456707957,closed,closed,group2/user1,,570250827
+12,1455991125,labeled,Text mining,group2/user1,,557737085
+13,1456464028,closed,closed,group2/user4,2,566921450
+13,1456086182,milestoned,Data Collection,group2/user1,2,558622626
+13,1456086179,labeled,data-collection,group2/user1,2,558622592
+14,1456193343,closed,closed,group2/user4,2,560811929
+14,1456086281,milestoned,Data Collection,group2/user1,2,558623566
+14,1456086281,labeled,data-collection,group2/user1,2,558623565
+15,1456193330,closed,closed,group2/user4,2,560811737
+15,1456088647,milestoned,Data Collection,group2/user1,2,558650583
+15,1456088645,labeled,data-collection,group2/user1,2,558650552
+16,1456464081,closed,closed,group2/user1,4,566922100
+16,1456193202,reopened,reopened,group2/user1,4,560808975
+16,1456193200,closed,closed,group2/user1,4,560808948
+16,1456193187,reopened,reopened,group2/user1,4,560808580
+16,1456193170,closed,closed,group2/user1,4,560808010
+16,1456193156,milestoned,Creating the Plugin that uses the Recommendation System,group2/user1,4,560807664
+16,1456192489,labeled,plugin-development,group2/user2,4,560793661
+17,1456193166,closed,closed,group2/user1,4,560807906
+17,1456193160,milestoned,Creating the Plugin that uses the Recommendation System,group2/user1,4,560807786
+17,1456192572,labeled,plugin-development,group2/user2,4,560795257
+18,1456708010,closed,closed,group2/user1,3,570251259
+18,1456193461,milestoned,Text Mining using NLTK,group2/user4,3,560814465
+19,1456708014,closed,closed,group2/user1,,570251299
+20,1456464002,closed,closed,group2/user1,,566921134
+21,1456471416,closed,closed,group2/user4,6,567033254
+21,1456464434,unassigned,unassigned,group2/user4,6,566926266
+21,1456464412,assigned,group2/user4,group2/user4,6,566926014
+21,1456464412,unassigned,unassigned,group2/user1,6,566926013
+21,1456464404,assigned,group2/user1,group2/user1,6,566925945
+21,1456464404,unassigned,unassigned,group2/user4,6,566925943
+21,1456464396,assigned,group2/user4,group2/user4,6,566925792
+21,1456464223,labeled,front-end,group2/user1,6,566923792
+21,1456464188,milestoned,Front End,group2/user1,6,566923397
+22,1456708108,closed,closed,group2/user1,,570253207
+23,1456713408,closed,closed,group2/user1,,570330961
+24,1456806059,closed,closed,group2/user2,,572423539
+24,1456806059,merged,merged,group2/user2,,572423538
+24,1456806059,referenced,referenced,group2/user2,,572423537
+25,1456855681,closed,closed,group2/user1,,573431914
+25,1456719089,labeled,front-end,group2/user4,,570411787
+26,1456855704,closed,closed,group2/user1,7,573432365
+26,1456761280,milestoned,Solution #1,group2/user5,7,571319222
+26,1456761280,assigned,group2/user5,group2/user5,7,571319221
+26,1456761280,labeled,Text mining,group2/user5,7,571319218
+27,1456855710,closed,closed,group2/user1,7,573432437
+27,1456761377,milestoned,Solution #1,group2/user5,7,571322619
+27,1456761377,assigned,group2/user2,group2/user2,7,571322618
+27,1456761377,labeled,Text mining,group2/user5,7,571322616
+28,1459406788,closed,closed,group2/user1,8,609345345
+28,1456855861,milestoned,Solution #2,group2/user1,8,573435895
+28,1456761676,assigned,group2/user5,group2/user5,8,571330508
+28,1456761676,subscribed,subscribed,group2/user5,8,571330507
+28,1456761676,mentioned,mentioned,group2/user5,8,571330506
+28,1456761676,labeled,help wanted,group2/user2,8,571330505
+29,1456855894,closed,closed,group2/user2,7,573436543
+29,1456855633,milestoned,Solution #1,group2/user1,7,573430919
+29,1456855631,labeled,help wanted,group2/user1,7,573430872
+30,1456867983,closed,closed,group2/user4,7,573713882
+30,1456855932,milestoned,Solution #1,group2/user1,7,573437225
+30,1456855932,subscribed,subscribed,group2/user4,7,573437224
+30,1456855932,mentioned,mentioned,group2/user4,7,573437223
+30,1456855932,labeled,front-end,group2/user1,7,573437221
+31,1456880238,closed,closed,group2/user1,8,573965788
+31,1456880236,milestoned,Solution #2,group2/user1,8,573965759
+31,1456868055,labeled,front-end,group2/user4,8,573715419
+32,1457066476,closed,closed,group2/user5,8,577281728
+32,1457040343,milestoned,Solution #2,group2/user1,8,576886704
+32,1457040340,labeled,Text mining,group2/user1,8,576886620

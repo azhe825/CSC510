@@ -1,0 +1,52 @@
+id,time,sha,user,message
+1,1456976910,29c6a107f56169e64d44a3141634064548828254,group12/user5,Update README.md
+2,1456976884,22e2fe281ae7c5942d6ad1f9fb57d0517a0803ed,group12/user2,UI Tweaks for demo
+3,1456976840,0a6ae923cf4035ebfb1ac87544567854e7f2d1d8,group12/user2,UI Tweaks for demo
+4,1456976754,cb87d6d680dfa8c3427e3f191e1844cb497d7e4e,group12/user5,Update README.md
+5,1456973215,be4d81f65cebacfc6e3f0f7ee262ff5dddab560b,group12/user2,Updating the telemetry
+6,1456967141,0cbe27d812cd616022b5c36e8b28965cf022f94c,group12/user2,Bill Type
+7,1456896364,8cb0d2a48a875348d75dcf7725b338864ab1d562,group12/user2,Merge branch 'master' of github.com:sandz-in/csc510_group_l
+8,1456896322,cc566a9a1306b508e84b313d71b918acfb54815a,group12/user2,#28 Processing the image to improve result.
+9,1456893062,6800b894e94806d67ac007ea7978572cce4176f9,group12/user4,Update Readme.md
+10,1456891983,82e9554f30a4187ec96e5108765a3eda939d66a9,group12/user2,Updating the readme for the project.
+11,1456891885,f58f674508d87a1a0fe1e85843b4cdb735fb4afe,group12/user2,Updating the readme for the project.
+12,1456890006,e9ed4721c41a7609bc3b28b1f7ccb4ef96d5b041,group12/user4,#38 Added Bill Submission type logic
+13,1456886018,542c8c3ad785e322979f016a7fec7f1c0b77c817,group12/user2,"#34: On save, send the amount and description to backend by making REST API call."
+14,1456882385,0fdbb8ca579c8bee5598a2643b7bbc2853ee0d94,group12/user2,"#34: On save, send the amount and description to backend by making REST API call."
+15,1456880228,7a215ec97571af7d85e7761d07629ba12967b097,group12/user2,#34 Communicating with the backend using interface
+16,1456707877,79a86b3520700fc81406aa16fa40935b2c3819de,group12/user4,#37 Added loggers to Android activities
+17,1456706560,4e65b17b4f1e833171d68f9fccf79dab8d884a38,group12/user4,Fix: Populating bill amount via voice
+18,1456642762,c54d1f4cce50d8427a33d25ebbe10cdcc436c83f,group12/user5,voice
+19,1456639449,8bac6c8f52d84853931e3bb38c97a85a8a683e72,group12/user5,Attempting merge conflict resolves
+20,1456639066,4f56a38fbd2ad864d8a8b612bec44562138bdb39,group12/user1,Integrating camera scan solution
+21,1456636516,c5fe6f8dd3ade51577c7c891dc43dd3faaefe097,group12/user1,Attempting merge conflict resolves
+22,1456635275,33db6d1878b21a0844d91abcb36d15f1264ed609,group12/user4,Changed minSdk
+23,1456633620,e98da48542f387834c5d38b0a729990e788a7043,group12/user3,Adding functionality for the saving the bill amount and description
+24,1456631869,f2cc563af383f3cf683476b0a429ceb32fac5960,group12/user3,Integrating the expense description
+25,1456630459,f45ac648ccb42cd1b043d279a363d8f870a193ac,group12/user3,Integrating SMS Feed
+26,1456629284,987db0a4cee0d4a0d36e66c00690021e6bd6514a,group12/user2,#27: Login screen
+27,1456628982,ec0461912fc2d3101c970ae00fa6fda5e03b28a2,group12/user2,Wrong commit
+28,1456628958,520641c7d8e9c9dcf4ccc722b4a61423ed4d15aa,group12/user2,Wrong commit
+29,1456628905,5a69f9326fc55c214c87443d5e81305d832044ac,group12/user2,Wrong commit
+30,1456628832,9b6640e58320a8ffcc3f16c280377eb539473b9a,group12/user2,Wrong commit
+31,1456628798,8f0a09bf634eb818333792bb91132bde9d73ae55,group12/user2,Wrong commit
+32,1456628752,56069649384b2accfc5b35cab86c9ff0415675f5,group12/user2,Wrong commit
+33,1456628662,ec502bc16ed2160fe8d1b53768dad6db59a64a17,group12/user2,Merging
+34,1456624935,8dcda8feae4ae93e4303cc93afee411709c99312,group12/user5,Deleted Voice app
+35,1456624802,592c6c225c2f66046a57d4323d9be030d746464f,group12/user5,Demo added
+36,1456624413,43d5ff5a9f9e270a54e86ec1f55ad077c38720d8,group12/user3,Committing integration changes
+37,1456621989,54402e9943a72b527213159d8f4597c448df00df,group12/user5,Merge branch 'master' of https://github.com/sandz-in/csc510_group_l
+38,1456621966,07b01ce8dcb6276459f66fe20c56cd02b0092b5b,group12/user5,added voiceApp
+39,1456621493,6a8d36d6a5948c8ffa006631ee0e5b809be3a6ef,group12/user1,added submodule
+40,1456621118,45e781bca6cf15954e4f8bb535338f53c07496bd,group12/user1,#36 Image CLicker readded
+41,1456620920,797133e2f8743287d9e884b69e3bae60223c77ec,group12/user1,Removing the folder
+42,1456620160,021ca9bc4bbd978c2544c30362f9b2993c8cd365,group12/user1,Deleting Image clicker
+43,1456620028,934e66f30db4202bb3a0d99c9bab448a522bbda5,group12/user1,Merge branch 'master' of https://github.com/sandz-in/csc510_group_l
+44,1456619773,285fe14eb4294244ec6b833445b019fb0420e6b1,group12/user4,#29 Basic 2 pane navigation
+45,1456610757,713125ca77094be9bb86aed2a55c52217b746246,group12/user2,#32: Expense POJO in android app.
+46,1456610578,6aafe62e2287b5ad802cf8b22c7983e0e5320c51,group12/user2,#27: Login action called.
+47,1456609409,d613c6c9eda2c9f4038ae4f554346f22bf3284d3,group12/user2,#27: Login screen
+48,1456609220,a9920e5691ec43cf1bace421d30facb4bce9ae76,group12/user2,#27: The master app where all the solutions will be integrated.
+49,1456607669,e05ee38b780e420886da93534e24995e03382830,group12/user4,#29 Adding .gitignore
+50,1456605471,e961be2f1dc7946c96638f9909f4d5e50a4ddae5,group12/user4,#29 Intent Setup
+51,1456603665,7b49012cd501f5a3d1ee59bcd84ad0ce52a05657,group12/user4,#23 Added Regex

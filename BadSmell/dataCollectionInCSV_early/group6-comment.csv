@@ -1,0 +1,129 @@
+issueID,user,createtime,updatetime,text,identifier
+17,group6/user1,1455823819,1455823819,"[sample_json.txt](https://github.com/moharnab123saikia/CSC510-group-f/files/136803/sample_json.txt)
+",185880265
+17,group6/user1,1455823920,1455823920,I have shared the sample JSON for saving the reviews. Could you all please check it once and let me know if anything else has to be added?,185881061
+17,group6/user1,1455824393,1455824393,"{""restaurants"" :[
+	{
+		""restaurant_id_1"" : {
+							""name"" : ""el cerro"",
+							""data"" : {
+										""yelp"" : {
+											""rating"" : ""4.5"",
+											""count"" : ""45"",
+											""reviews"" : [""test"", ""tst2""]
+										},
+										""googleratings"" : {
+											""rating"" : ""5"",
+											""count"" : ""34"",
+											""reviews"" : [""sample""]
+										},
+										""tripadvisor"" : {
+											""rating"" : """",
+											""count"" : """",
+											""reviews"" : [""test"", ""test2""]
+										}
+								}
+						}
+	}, 
+	{
+		""restaurant_id_2"" : {
+							""name"" : ""ruckus"",
+							""data"" : {
+										""yelp"" : {
+											""rating"" : ""5"",
+											""count"" : ""23"",
+											""reviews"" : [""sample""]
+										},
+										""googleratings"" : {
+											""rating"" : ""4.7"",
+											""count"" : ""56"",
+											""reviews"" : [""sample2""]
+										},
+										""tripadvisor"" : {
+											""rating"" : ""4.6"",
+											""count"" : ""27"",
+											""reviews"" : [""test""]
+										}
+								}
+						}
+	}
+	]}",185885090
+17,group6/user4,1455826666,1455826666,Is the review scale not needed?,185897185
+4,group6/user1,1455826675,1455826675,"Let's implement the back-end in Python which has some good APIs to crawl web pages. Ex: Scrapy, BeautifulSoup, etc.",185897226
+17,group6/user1,1455827033,1455827033,"Yes, you are right. I will update the JSON.",185898963
+17,group6/user1,1455827935,1455828150,"""reviews"" : [{
+	""scale"" : ""4"",
+	""review"" : ""test""
+},{
+	""scale"" : ""4.2"",
+	""review"" : ""test1""
+}]
+
+Modified the value for the reviews.",185907968
+17,group6/user1,1455827945,1455827945,Will this be okay?,185908138
+22,group6/user4,1455828474,1455828474,Are we using lollipop or any latest API like marshmallow,185912457
+12,group6/user1,1455891640,1455891640,Can we change the delimiter in the csv file? Google ratings url has multiple commas which is causing a problem in extracting.,186233545
+20,group6/user1,1455898329,1455898329,Beautiful Soup can be used to crawl and extract reviews.,186280620
+12,group6/user1,1455906548,1455906548,Also is it possible to add the restaurant name in one column?,186351311
+2,group6/user4,1455907375,1455907375,Created basic structure for manifest.json,186356017
+22,group6/user2,1455907802,1455907802,We willl be designing for kitkat now. It will work for all with a  minor change in menifest.xml.,186358574
+34,group6/user3,1456091227,1456091227,https://github.com/moharnab123saikia/CSC510-group-f/commit/dce61af04ceeebca2281cbf27c7f2cc20ee7ec62,186925349
+26,group6/user3,1456132201,1456132201,https://github.com/moharnab123saikia/CSC510-group-f/commit/2ffdbf4a61f95f664f9efb1d2f89e1cc832b974d,187081866
+27,group6/user2,1456132770,1456132770,created the AndroidManifest.xml file,187086127
+22,group6/user2,1456133094,1456133094,As of now designed for Android 5.0 (lollipop)- minimum  sdk version required is 21,187089097
+33,group6/user2,1456133230,1456133230,tested the initial app on emulator as well as on running device,187090560
+1,group6/user1,1456165383,1456165383,Three websites are parsed and reviews and ratings are stored in JSON,187305161
+36,group6/user1,1456410972,1456410972,We have to check if there is some means of uploading it to the server through script.,188812718
+36,group6/user2,1456634163,1456634163,Hosted the json file on Amazon s3 and fetching the file through http,189783046
+33,group6/user2,1456634210,1456634210,The sample version of app is running fine in emulator and working device..,189783075
+32,group6/user2,1456634420,1456634420,All these files are created and are working properly.,189783188
+23,group6/user2,1456634481,1456634481,Take top reviews from each of the websites??,189783223
+14,group6/user2,1456634722,1456634722,Wrote a routine for running a background thread to fetch json data using http get and post and used json parser APIs to extract the reviews,189783434
+47,group6/user3,1456646729,1456646729,https://github.com/moharnab123saikia/CSC510-group-f/commit/470b8c8c8621c64f097a9b579c0a9548288eec8f,189817706
+29,group6/user3,1456647977,1456647977,Closing it as we have decided to use foursquare instead of google ratings,189818981
+13,group6/user3,1456648047,1456648047,Closing it as we have chosen Rails for front end development,189819051
+48,group6/user4,1456651750,1456651750,commit 5a14c3afe93439142f6eb771f2207c082aee3176,189831372
+44,group6/user1,1456666819,1456666819,Can we use any inbuilt views in Android? List view or so.,189873557
+7,group6/user3,1456733355,1456790913,@moharnab123saikia  Please add a background image and make some UI changes like displaying individual reviews ,190086964
+11,group6/user3,1456733459,1456733459,Is this done ?,190087681
+30,group6/user3,1456733522,1456733522,Done,190088341
+11,group6/user2,1456734855,1456734855,yeah this is done.,190102298
+44,group6/user2,1456735012,1456735012,list of restaurants are displayed in listview and reviews in textview.,190102745
+23,group6/user2,1456735058,1456735058,Displaying three reviews per restaurant name,190102904
+50,group6/user2,1456735135,1456735135,Are we able to fetch the image url??,190103502
+51,group6/user4,1456735230,1456735230,666caffd3449223cf4db761df1972f1665bdac42,190103794
+21,group6/user4,1456735288,1456735288,currently using the context script environment,190104172
+50,group6/user3,1456742301,1456742301,https://github.com/moharnab123saikia/CSC510-group-f/commit/e6e2fba4969094071f365c5d23a517dd5336799f,190147484
+15,group6/user3,1456742383,1456789056,@rashmisandilya  Can this be closed ?,190147771
+24,group6/user3,1456742491,1456742491,Done. We are able to fetch the reviews from each website,190148118
+10,group6/user4,1456782040,1456782040,currently using scraped JSON data,190408142
+25,group6/user3,1456788905,1456788923,I think this is working properly. @moharnab123saikia  Please close it if you think the implementation is complete,190450462
+56,group6/user3,1456789033,1456789033,@sbalakr2 Can you look into this ?,190451343
+56,group6/user1,1456793948,1456793948,"Yes I will look into it. Should I fetch the restaurants in one area or something like that?
+",190474480
+56,group6/user3,1456794080,1456794080,Yes. I think as of now out scope should be limited to an area. ,190474983
+56,group6/user1,1456794573,1456794573,"So if I search based on area, only few restaurants are found in a page. So looks like I have to trigger a UI call to access pagination.
+",190476896
+56,group6/user3,1456794925,1456794925,"Yes. have a look. If it is too much work, we can skip it.",190477993
+56,group6/user1,1456795241,1456795241,"We can do web interactions with selenium, let me try doing a POC on it. If it works then I will populate the csv.",190479298
+25,group6/user4,1456796098,1456796098,6a803620f1fb8f68dcee40010d95d5ab3cf6783d,190483721
+10,group6/user4,1456796172,1456796172,Will update when the implementation changes,190483904
+15,group6/user2,1456797229,1456797229,The list of restaurants is not that big so and this is added legacy.. For now focussing more on functionality.. So closing this,190491670
+7,group6/user2,1456797307,1456797307,Isn't this done?,190491843
+7,group6/user3,1456797391,1456797391,"Some minor UI editing is left (like background image, individual reviews). @moharnab123saikia  will be working on this tomorrow. ",190492450
+15,group6/user2,1456819750,1456819750,Adding this to March work. Beautification and enhancement for better user experience,190605804
+56,group6/user1,1456842267,1456842267,"It is relatively getting complicated, can be taken as an enhancement in the next deliverable. Closing it right now, added additional restaurants in the csv file.
+",190740120
+21,group6/user4,1456873472,1456873472,Would be an enhancement in the next iteration,190953560
+59,group6/user1,1456874424,1456874424,We should track the type of browser users are using which will help us to understand the requirements.,190958582
+60,group6/user1,1456874686,1456874686,We can get the logs of user surveys in the mobile from the users of the android app and understand how the app is used and what features can be improved/added.,190960833
+58,group6/user3,1456875632,1456875632,we will be using this survey for telemetry purpose https://docs.google.com/forms/u/0/d/1JJj4uUI6TubhzHoF6ydFe7us__1kgEDo7gDa03Y4riE/viewform?ntd=1&ths=true&edit_requested=true&pli=1#password,190969885
+58,group6/user2,1456875733,1456875733,Google Analytics data for pulling the log for  the web scrapper website.,190970202
+60,group6/user2,1456875778,1456875778,Google analytics is another way out for data log.,190970336
+59,group6/user2,1456875834,1456875834,[Google Analytics for browser](https://analytics.google.com/analytics/web/?authuser=0#report/visitors-browser/a74501177w112681598p117712609/),190970522
+60,group6/user1,1456875913,1456875913,"Yes that would be great, we just need to check the feasibility.",190970791
+60,group6/user2,1456877830,1456877830,Sample log file for this issue and google analytic link uploaded. closing!!!!,190984484
+59,group6/user2,1456893127,1456893127,Done,191055717
+7,group6/user2,1456893166,1456893166,"@moharnab123saikia done, right?",191055781
+57,group6/user2,1456893209,1456893209,developed the resto-extension chrome plugin,191055839
+7,group6/user3,1456893419,1456893419,https://github.com/moharnab123saikia/CSC510-group-f/commit/174f38dd67d1e35d4502f0ff0e534050c4b6d170,191056727

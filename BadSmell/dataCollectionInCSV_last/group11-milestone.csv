@@ -1,0 +1,7 @@
+id,title,description,created_at,due_at,closed_at,user,identifier
+1,Project Abstract,(a) some documentation of some user problem and (b) some proof of technology competency by your tools with your team,1453664370,1454302800,1454364767,group11/user1,1539515
+2,Prototype,all your ideas coded up,1453664401,1456808400,1458011116,group11/user1,1539516
+3,Delivery,"the results of assessing how well your tools work. This sill be in two parts:
+
+    A talk to the class (15 mins, sometime in April);
+    A report (due Apr1)",1453664442,1460001600,1460073601,group11/user1,1539517

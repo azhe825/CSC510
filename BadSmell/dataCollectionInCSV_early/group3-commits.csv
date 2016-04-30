@@ -1,0 +1,110 @@
+id,time,sha,user,message
+1,1457047896,c0ccbd210812ea078fd5157db96c2345967cb3a3,group3/user2,Update Mar 1st Report.md
+2,1457014792,18678a7bd6ade7c5824e2d9c190d7558d5ceac71,group3/user2,Update semi-supervised.md
+3,1457014626,2fbc65bf824b08f90bff8e17a5c55b112182969b,group3/user2,compare inc
+4,1457014561,b7241106f0820e6295267e64edfa765454269227,group3/user2,a
+5,1457013306,200e658c42dd82646ec0d8a566e9adbc65a32b39,group3/user2,Update semi-supervised.md
+6,1457013217,6baa701e988511a6f845b05907f520de6f69cff0,group3/user2,Update semi-supervised.md
+7,1457012104,6024982e9a7bf38c50e5f64b0e45bfd748e470bc,group3/user2,Update semi-supervised.md
+8,1456967260,bc086eeb36cc8c1a84ba1c2c653babda11c70645,group3/user4,update my report link
+9,1456967166,6e72e15f5793394411ac1242809caa858f019cd0,group3/user4,upload the Supervised Learning Report
+10,1456964362,624bfed34363db7568fd92df7c4bb9f940fd1784,group3/user4,Merge branch 'master' of https://github.com/azhe825/CSC510
+11,1456964338,1bcdff9a2f39cb612b29979f188338b20ce6297c,group3/user4,add comparation results using different classifiers for different folders
+12,1456955727,015c82863d730ecdfe312bb8cfb1ccda7167d847,group3/user1,Update Unsupervised_Learning.md
+13,1456955481,772f1945aab0278637e738a0064107f4612cacc7,group3/user1,save
+14,1456954938,1768f1fb652084a64a1c39e52f38e4bf1be13a24,group3/user1,Merge branch 'master' of https://github.com/azhe825/CSC510
+15,1456954917,6da5ff1388131d9fc78690523dd9a4e92ae724b3,group3/user1,save
+16,1456946012,ad522ffee686c1d804e5d6fc2a3b3a229b48bf17,group3/user1,save
+17,1456937309,4b4782d0b3e59fa2c09d5d8a0e23d64c592ff09e,group3/user1,Update Mar 1st Report.md
+18,1456937161,c942016b96494a50c3c6084e9ffcbc18309041b6,group3/user1,Create Unsupervised_Learning.md
+19,1456935684,d22991cb755eb168eff0fecbf4c9885fef6dcf2d,group3/user3,Update Data.Collection.and.Pre-processing.md
+20,1456935202,ffcd3b69b9a42309d1f7d984a3d73a384d59b9f7,group3/user3,Update Data.Collection.and.Pre-processing.md
+21,1456935168,11cd6544ff60cb965593e0c584a734b5a74fee4b,group3/user3,Update Data.Collection.and.Pre-processing.md
+22,1456932604,7f9c8e4d9cc201d47983a3101e4a936803cb65f9,group3/user2,Update Mar 1st Report.md
+23,1456932568,b66bc91738c51b911ab7ffdc7f3d37dd372ca49f,group3/user2,Update Mar 1st Report.md
+24,1456931954,a548867c7ff72fd076cfdb0b067c9bc58a396c12,group3/user2,Update semi-supervised.md
+25,1456931927,da50dc0b89e16f535575d48aa11e3d2148168019,group3/user3,Update Data.Collection.and.Pre-processing.md
+26,1456931802,59c14291b5c7d458565b370b6fca8d329d37ee32,group3/user3,Update Mar 1st Report.md
+27,1456931764,f7c5b714dbe22eba3cf9e0a1a1ae78a9a7074265,group3/user3,set up linkage
+28,1456931502,9abeb4f5305a47590d76d0c351ac8d3968bbe09f,group3/user2,Update semi-supervised.md
+29,1456931309,724e410561a6513ef1a774cfa8517bc94daffae3,group3/user2,Delete Mar 1st Report
+30,1456931291,fdbc0dbf60965c886c540053bb3f8ff87df0caed,group3/user2,Create Mar 1st Report.md
+31,1456931254,45c8aeddf9e88c593f055f456110ce92e1a224b1,group3/user2,Update Mar 1st Report
+32,1456931221,bef71f9bdd326b63a58d54a48c7b178374e2201f,group3/user2,Create Mar 1st Report
+33,1456928417,491d2d3d6290957c4bb73fe14ee0613e49091b2f,group3/user2,march report
+34,1456887125,2572b9a016d37aea052913b2f931d4e836608a9d,group3/user4,add draw.py  Merge branch 'master' of https://github.com/azhe825/CSC510
+35,1456887022,0c2c6cbc52f0ccd1cda2696091e5f3f04334ecfa,group3/user4,"remove MNB, using Decision Tree instead"
+36,1456876587,5854b59c7948ae6597f46084a05115eb643c256f,group3/user4,add pic comparing different classifiers
+37,1456861571,90343e065cf12c0233f3eafd319449b782c56689,group3/user1,save
+38,1456860344,ad2ca1173565a450d55261eda0ec76bb8f68a67f,group3/user4,add the modified test.py for batch plotting for multipule classifiers
+39,1456860216,82422a666bc3907d45247210dcd16c2fd3992120,group3/user4,add pictures for each classifier
+40,1456779022,fe2abe8d5c000c5bd4a6f2bd2513af79afc2555d,group3/user2,fix conflict
+41,1456778650,b3564aab648ad5a7d2de93570e043451b1488688,group3/user2,semi
+42,1456771326,71034ced17b11cb9e1589796c2715e81a4654627,group3/user1,save
+43,1456770890,376ecf0971bd4c9873820c4d5e8eab3e132c76c0,group3/user1,Update .gitignore
+44,1456726216,92e710338aeef50667bd2281e86b4044b8de82be,group3/user4,Update README.md
+45,1456726164,85d13ab46e1dbae8ff4a4fe7edd8f6ee94fdcfb9,group3/user4,Update README.md
+46,1456725518,4c6572d78a2b0488768f922c0bf84943efc24431,group3/user4,add Multinomial Naive-Bayes and the results
+47,1456723286,ecca6bf93ff8983699a444d79d3a2dc039caadf0,group3/user4,add the saved results of SVM and KNN
+48,1456722755,82d9a7a27191c8ae3f4ec76ce5c9dc6cb164a127,group3/user4,"add KNN, choose k=10 after testing k={5,10,15,20}"
+49,1456689841,db41e2e189c61b495ed0d437a355a55d5df54359,group3/user4,Merge branch 'master' of https://github.com/azhe825/CSC510
+50,1456689818,03f1fc067f735af455b5742f16844790d7b7fa20,group3/user4,processed data for fast running
+51,1456689442,160c806357d5898f51c43db4896305ba5ff1d819,group3/user4,"When training only 10 emails, Word Vector performs poorly"
+52,1456689105,29680980e8f632a6bc6106c301633fc30e94510b,group3/user4,add new_subdata
+53,1456667787,62b65b84fab84c0c82f7bd319a44040114b44939,group3/user2,normalize
+54,1456638713,5f4257df485adae0192f923f0d7eae1d5cd59461,group3/user4,new_subdata
+55,1456638522,2230b9fb1fa1b56381ae911d3ffeddf9fb0be7d1,group3/user4,use pre-built WordVector model by Google using Google news
+56,1456634223,a9d214fdf01405ddf7e6a2618a2b86d05b497ec5,group3/user4,sub-data
+57,1456629615,f0b92cb3f68334f2fdf76ff8676f9bd22b196212,group3/user4,part data of WordVector representation for each email and related lables
+58,1456629164,b04799a49e22c3eb86a132061498f5d716275085,group3/user4,get the WordVector for the training corpus of each user
+59,1456622621,b13d43d864964a150873f1813670c999aa950d68,group3/user4,add the user_corpus.p (containing the corpus for each user)
+60,1456622564,535ec27c4884048c142f8e7e3eec4c1551f2bb46,group3/user4,modified for the Cleaned Data uploaded by Zhe
+61,1456619299,7c6e55ac70cf8342d5ae162e6e1bc0b298be34f8,group3/user4,classification use WordVector as Features
+62,1456618980,ca76b58481b31fdd889972543795633533ee22cd,group3/user4,get the WordVector model for each user
+63,1456618870,0f579f615e13d21c77a0c2655e029ef769579184,group3/user4,used to get the training corpus for each user
+64,1456615372,970ad1c5cec14e72a760572005703cf19ff6e824,group3/user2,semi
+65,1456607973,4dad439630a6c02f55fb08a9ad42a987d6337354,group3/user2,a
+66,1456601141,46fad2a86d01f0f577912ca70d0609bcc01a6df1,group3/user2,clean
+67,1456600853,ea9f9b6cfee20e682175c830edbde121fb5c9ed6,group3/user2,data_cleaning
+68,1456600820,7955fcca0f73b2d1b143cf4a6822284242930115,group3/user2,data_cleaning
+69,1456600745,f3e6c625b91d720d3487235844f535c4f7a0cc3e,group3/user2,data_cleaning
+70,1456600739,88d1816b14b18846fef480bb7009bef7e50c7466,group3/user2,data_cleaning
+71,1456508958,49705c2b5c5c656552064cb93d4baf42be2883e7,group3/user3,code update: merge continuous whitespaces
+72,1456449975,eb934c8432a38ac571fe56e77ebcb59b6cd44470,group3/user3,"Upload new code for data conversion
+
+Reorganize data conversion code to encapsulate all settings inside functions or default values."
+73,1456438687,40320efb35553744c7b23898602f8584f2042e19,group3/user3,Added files via upload
+74,1456438524,e55da7cc628d36b7ecfe1033566f47d2c540a616,group3/user3,Update: fix bugs in output format
+75,1456432754,bc21f0e80c65d84a16a9e0c047e88b41c8c1515e,group3/user4,make pre-processing 5x faster
+76,1456431796,3fe1eaee4379ac2b15dc90ef4393dce1b4b7fc04,group3/user3,renew
+77,1456431636,63b9cdd3f78d18d89c0141fa0cac03088c7e6533,group3/user4,go back before merge
+78,1456431513,ea4c086f2e5daf4be8d1f71c92270e1d1ed088aa,group3/user4,ignore unuseful folders in the first place
+79,1456429908,cdb2cff542004af7cf1440b39b96a08ee2772887,group3/user3,Update: add words length filter
+80,1456422382,a1d3536671116232cf51f4ca3616862e1090bc9d,group3/user3,Update subject and body separator
+81,1456413469,64de88e0b288c9942b6b12ec0870fee4b3b0a860,group3/user3,Update
+82,1456410379,45ccac1a2e36e8dcf8e7342156a498ea1f8b1996,group3/user3,small bugs in the scikit-learn tokenizer
+83,1456161018,ea56ae8de7f7ce555979856604e6e1ed3740f290,group3/user3,add whitespace delimiter after subject
+84,1455515880,7b1ad127c4294f44a64aa2f5b4e7459557da4b98,group3/user3,Code and test data
+85,1454296950,4fde24006d57946ff8cbfe7e675ee8d6b3d144eb,group3/user2,fix
+86,1454296681,6ed9fe0f508a832d817058702b559a01b1616380,group3/user2,fix
+87,1454296197,bc9e85459eb20db51b77cb8e89ffe473397b7c7a,group3/user2,fix
+88,1454296161,b430b5817d89441e7965b9a6045e93ed2d2028bd,group3/user2,a
+89,1454296044,f4b94bc03915d63326e107aadd88320dae008c8a,group3/user2,Feb
+90,1454295007,8a7aec49cc786e54f4322448162e0b53198bd0e4,group3/user1,save
+91,1454291545,3c2ab44004344b4713f3dff5688ab1d4ce48f31e,group3/user2,Feb
+92,1454289664,94b208efc9a0d5758b847a2b411ee74a47e195e6,group3/user2,Feb
+93,1454289451,abb73e1613a44a34938d040910011438a7665da4,group3/user2,feb
+94,1454284582,f72a69db1509b1624ce645c6b4cbdea464bc0a09,group3/user1,Delete .DS_Store
+95,1454284567,369f25a72d174a5f77bc6a7f1689e4a8aeeaf448,group3/user1,Delete .DS_Store
+96,1454284552,e2946cc082e49dec0241f5a612624db81ef6e417,group3/user1,Delete .DS_Store
+97,1454283280,60b1a564df3ebbfb27ec27309e36b025d985dd59,group3/user1,status
+98,1454283183,d10699dcbb22b6bc4efc73fe8d26b7060684fdb3,group3/user1,Create .gitignore
+99,1454283099,c5c44a2e363e964919f6e8a95eda44def07f25d8,group3/user1,Create README.md
+100,1454283088,0f37f585f7c249065f89ab255f5e14aba9584781,group3/user1,Delete README.md
+101,1454282035,43d180a11c7926d9c3591ba7d6d82a499e5cb2c7,group3/user2,feb
+102,1454267752,56f7dd7493afadd058b6689cdbdc2620753305da,group3/user2,a
+103,1454267696,cbf2c0dbdaced9cd7a4bb942d70138c2970d530b,group3/user2,a
+104,1454264417,46b6ecabfb3b0aa46d8b094ca1ba3fd6cd7d0a5e,group3/user4,Create Feb_Jack.md
+105,1454259131,85235dbcfca8b536dc454f9bcda13d668815fa4a,group3/user1,save
+106,1452283742,233b93a7ac8a0cc1fd7d871667c9ed906096099f,group3/user2,Update README.md
+107,1452283152,6787edfbd77a21a33b6f1eb1c7638dbda478d7ec,group3/user2,Initial commit
