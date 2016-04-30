@@ -1,0 +1,100 @@
+id,time,sha,user,message
+1,1460687641,1e86afbaea6f20e00b8961c9017f42cb6b2721f4,group5/user4,Add new tab on click video
+2,1460663633,1e9c33feaf6ce800281baa6a06cf82c62d8a8eb9,group5/user4,Updated the slides
+3,1460663278,44c520d703e951e4051a5daea54e99e753c3ee31,group5/user4,Delete the old PPT
+4,1460663254,a07b2e8b759a85af663820626d247857eaae8a4b,group5/user2,"Presentation files
+
+Upload the ppt and pdf files"
+5,1460604117,65355782ac1ff908e8ad6fcd338ebe9c30c35971,group5/user4,Added Hover Over Image Video Demo
+6,1460603940,efbf5245721e485c6558973be06821adefc4d054,group5/user4,Added Side Bar Video Demo
+7,1460080315,95f7bee1c9e4e3afff744e777d1bc6145bfdec67,group5/user3,Updated with description
+8,1460080249,62bdd2162ec8344d4f00ebc91d4508f2e5681c4f,group5/user1,"Add Presentation Slide
+
+Add Presentation Slide"
+9,1460080213,11db61103c3b703edaa7477e15ed43b120af8251,group5/user3,Updated README.md file
+10,1460079995,28f72e967dc9d41669d722a06bf015e0573c9b77,group5/user3,Updated Telemetry Link
+11,1460079743,77bf090730dcd3307b7342cb3863e6a276771e95,group5/user3,PDF format of the report
+12,1460079710,2589b8bd33f0300f73c396e013a109e9ee34589c,group5/user3,Final modified edited report
+13,1460079677,c865facec333e97421852e3444d2409fffa86cad,group5/user3,Delete ~$_Final_Report.docx
+14,1460078458,a096c88936383f0d49ac3ba010db25950f99ac60,group5/user1,"Add readme file
+
+Add readme file"
+15,1460078237,e591d410ac4fcfa67627ebc7396cbb1b0899c440,group5/user1,"Add April deliverables
+
+Add April deliverables"
+16,1460078314,f57e6ff1fd5d7a2d013f81883e701a6d065da637,group5/user1,"Merge pull request #57 from DharmendraVaghela/dharmendra
+
+Dharmendra"
+17,1460078125,adbdc5c2da838208b9cca3cfab2e351394271359,group5/user1,"Sort out
+
+Sort out"
+18,1460071101,4ff671b62b20bd624521d31af9564a2e71f2bab4,group5/user3,Logs for solution 3
+19,1460071079,ce44ddebdaccbff92f27d682170d3921f3aba65e,group5/user3,Logs for solution 2
+20,1460071043,0528f417dca726132725f0c6f06dfbce6ee43c21,group5/user3,Logs for solution 1
+21,1460070325,3fa82ab048aad059f22924298d1e53f6185d7c12,group5/user3,Best Solution section added
+22,1460068046,f7c7a0fc3303d0349200e83866eb56406a951af6,group5/user3,Updated References
+23,1460067567,cee16afdf879108d8d2c31d3dd18d9d5999d7861,group5/user3,Added Conclusion
+24,1460004058,2d16a584d26b56630d12893cd5dde4d69c4233b4,group5/user4,Deleted extra file
+25,1460003977,65ba4684cb52618c2e1db0ed20f38e440fc00933,group5/user2,Added Improvisation
+26,1460003554,652dd8ed1011a2f82912cae7d9e49d05f153f757,group5/user3,Final Feedback Form
+27,1460003493,97a01326a36f4f37199fd66561df4d5e42a5f976,group5/user3,"Added files via upload
+
+Report of Initial User feedback"
+28,1459996845,0fadc7e9b65adfb37c5499acfb6b1de2e094c917,group5/user4,Added icon and name in the manifest.json
+29,1459996474,e639f73b01bc03337b2dc126e35e70741a86dfc2,group5/user4,Updated icon and name in the manifest.jason
+30,1459996393,854eede9643815111e79eccf74f934d9f2ae7e38,group5/user4,Updated icon for extension
+31,1459995563,250af38c02745e81b72684002d9b0a8804095740,group5/user4,Renamed New Tab Extension JS file and updated the script as per suggestions
+32,1459991068,09b7e70dfcc410657f91090cc3c2e3ff04f76609,group5/user2,Final Report added
+33,1459988220,092e249e1357dfc8087cc3bf6c9f6a72dd029515,group5/user4,Removed Extra File
+34,1459988088,3079bd8c2f43a76f36b9cd1efa29e0fd331d8a56,group5/user4,Removing extra file
+35,1459987186,56b1206061f7d7dbd273648744728120f023bcaf,group5/user4,Consolidated reports into single folder
+36,1459970514,676ed60fabe1fdded09e0e0f3050b00ffdb8dfc6,group5/user4,Updated the panel position in the screen. Buffered from the top
+37,1459913145,81f5e8dfb84ddd5cb40877fe8fa75801e9b1d274,group5/user4,Updated the console.log
+38,1459912030,aa8c6020fd3b026f98a19f370859bf3a4832847a,group5/user4,Removed commented code
+39,1459911981,622654f6d9026c71929941f483fd4171f603c69e,group5/user4,Updated the image margins
+40,1459911103,3349ab26067223105429c0edc3a5b426f3a21d62,group5/user4,Updated the position vector for preview images
+41,1459910952,32dd76729aeab37e609b83e09856c237cec9c565,group5/user4,Updated the width of the preview images
+42,1459910296,bea2fbe3fedbc5cfee084b2c3e881e85525075a9,group5/user4,Updated the width of the panel
+43,1459910058,0bbdfc2f2cafb1a15eff6a8e53972967ad9474fb,group5/user2,"Fixed the cluttering issue
+
+Changed the CSS and JavaScript to remove cluttering effect on hovering over the image"
+44,1459837590,98095ed71ff2a9c79b90178fff5f40e6354d4f7c,group5/user4,Updated for hover over image and coming back to the original scrolling
+45,1459710375,5d9b1aae6a8457174066e300002100a1b1c963f3,group5/user4,Updated with images in the hyperlink
+46,1459636546,18172eba306d9843e051e5b6b32470b934621144,group5/user1,"Update utils file
+
+Update utils file"
+47,1459636483,be1008f656da208778f5842adb58cb4418ceaf87,group5/user1,Merge remote-tracking branch 'refs/remotes/origin/master' into dharmendra
+48,1459636369,dcef234f26343f25b69a1a01f60df09c777ff103,group5/user1,"Add utils file
+
+Add utils file"
+49,1459636080,d61f096e88ad4ef724d00bae201cabb1d12750b2,group5/user4,Updated hover extension to identify more accurate figure matches
+50,1459631968,47a369c5a329522121c2bc2e2d692431d331dc03,group5/user4,Updated hover function for text adjustment
+51,1459555114,cb88da3a6456d6a06c683bf14ee2016fdf50af43,group5/user2,Fixing the CSS
+52,1459479944,21b075d87f9654cf33113b36ec39e081607d4300,group5/user4,Updated for better display of image
+53,1459466817,c795a252dfd938cec5795aefd53b9df38b76c315,group5/user2,Refactored the code
+54,1457103436,fe72a565fff9a6f08411f4f209e5403bca2b670f,group5/user2,Update README.md
+55,1456892706,e14d5d934ef9c2a51b8ef1985bd5b556839cfb53,group5/user1,"Readme Modification
+
+Link to the solutions"
+56,1456892088,2570de68f6ee33660f5087b9dc5082a87f42d55d,group5/user1,"Merge pull request #39 from DharmendraVaghela/dharmendra
+
+Background event file include"
+57,1456891939,f52618c56bd565040bdea4fe9183e7ceaf7d6de0,group5/user1,"Background event file include
+
+Include background event file for constant listening"
+58,1456891793,3bbf7094ffaf6795561deea04c5af3bfb197e09a,group5/user1,Git Cleanup
+59,1456891597,254343843e126dfe39e1a036c7ddc239d9b7a1ce,group5/user1,"Git cleanup
+
+cleanup previous versions"
+60,1456887187,199228850ecd43d61e8b1f428d5763a5d8d52a7f,group5/user3,Added files via upload
+61,1456886978,cbf886f3c14b8b99da8b6eae463bee8a9a111501,group5/user1,"Delete README.md
+
+Delete previous readme"
+62,1456886809,f1bda84d21fa50347cd98849a861870f2d403293,group5/user3,update to readme file
+63,1456886599,cf81bfa05b1aa6b77b582f6b0aaadc8f87cfe3b6,group5/user3,readme file for project
+64,1456884700,aaee57ea7c5311d704c07ab709d56de29e1aa8f5,group5/user3,Solution Document
+65,1456884479,d84b44cbe5bc63c73b84d133c73a9afaddedbfe0,group5/user3,updated the content
+66,1456883680,991e570ca25a28e21b249dbcb5d21a1db7eb919e,group5/user2,update logfile
+67,1456883255,4e434145a067654a28bb47ced08b807b9ffc7df1,group5/user2,fixed hyperlink creation
+68,1456882648,e08e63eccbd8d2ee6c6e60a31f0c683a3808a6a3,group5/user3,log file
+69,1456880018,176e5f544e58bfcf8e22f29091dc168ab95bb4ec,group5/user4,Implemented using hashmaps
