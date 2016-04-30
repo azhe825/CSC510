@@ -1,0 +1,39 @@
+id,name
+1,"initial thoughts, not a grade yet"
+2,Identifying problem size.
+3,Fine tune questions on Google-form to capture problem-specific data.
+4,Seek approval for the three proposed solutions
+5,Exploring APIS to upload images to amazon cloud
+6,extracting text from images for search engine
+7,setting up server
+8,building basic UI for desktop tool
+9,Explore Pyside widgets
+10,Make changes to collect telemetry on the server side
+11,capturing snippet of desktop
+12,integration and testing 
+13,Cropping screenshots.
+14,Allow messaging between chrome extension popup and tab
+15,Images on high resolution screens appearing blurry.
+16,User signup/login for chrome plugin
+17,Show history panel in chrome extension popup.
+18,Rest API calls from client
+19,Snippet tool
+20,handle private and public data separately on server side for Desktop App
+21,Private and Cross Search
+22,Create separate search  facility for private and public search on desktop app
+23,Add preview and share option.
+24,Meet and assign tasks
+25,handle private and public data separately on server side for Chrome Plugin
+26,Sign up form 
+27,add sign up button for new users
+28,design and add user form to collect user specific data
+29,add separate facility to allow users to take private/public images
+30,Telemetry
+31,Create Login service
+32,Create new Signup service
+33,Create new set of telemetry services after discussing with the team.
+34,User Feedback - chrome extension
+35,sync up meeting
+36,testing solutions on different users and collecting feedback
+37,Complete Integration - work with team
+38,handle invalid login
