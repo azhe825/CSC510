@@ -3,8 +3,9 @@ import csv
 import time
 import datetime
 import matplotlib.pyplot as plt
+import numpy as np
 
-indir = "../../dataCollectionInCSV/"
+indir = "../../dataCollectionInCSV_last/"
 
 tJan = datetime.datetime(year=2016, month=1, day=7) # time for January
 tFeb = datetime.datetime(year=2016, month=2, day=1)
@@ -28,9 +29,9 @@ def milestone_time(filename):
             cr_time = row['created_at']
             cl_time = row['closed_at']
             d_time = row['due_at']
-            create_time[m_id] = cr_time
-            close_time[m_id] = cl_time
-            due_time[m_id] = d_time
+            create_time[m_id] = float(cr_time)
+            close_time[m_id] = float(cl_time)
+            due_time[m_id] = float(d_time)
             sorted(create_time.items())
             sorted(close_time.items())
             sorted(due_time.items())
@@ -69,6 +70,26 @@ def main():
             val.extend(group_milestone[gp][2].values())
             cw.writerow(ids)
             cw.writerow(val)
+    # make bar plot for each group
+    for gp in groups:
+        print gp
+        create_times = np.array(group_milestone[gp][1].values())
+        due_times = np.array(group_milestone[gp][2].values())
+        closed_times = np.array(group_milestone[gp][3].values())
+        size = len(create_times)
+        def time_interval(t_delta):
+            return (datetime.timedelta(seconds=(t_delta))).days
+        due_days = map(time_interval, list(np.subtract(due_times, create_times)))
+        closed_days = map(time_interval, list(np.subtract(closed_times, create_times)))
+        fig = plt.figure()
+        bar_width = 0.4
+        opacity = 0.6
+        index = np.arange(size)
+        barA = plt.bar(index, due_days, bar_width, color='r', alpha=opacity, label='Due')
+        barB = plt.bar(index+bar_width, closed_days, bar_width, color='orange', alpha=opacity, label='Closed')
+        plt.legend()
+        fig.savefig(gp+"-progress.png")
+
 
 if __name__ == "__main__":
     main()
