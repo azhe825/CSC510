@@ -293,7 +293,8 @@ def silentUserNum():
             else:
                 odd = 1
                 groupID = row[0]
-                userCommentNum = [int(num) for num in row[1:]]
+                user = removeTim_TA(row[1:])
+                userCommentNum = [int(num) for num in user[1:]]
                 average = float(sum(userCommentNum))/len(userCommentNum)
                 threshold = 0.5 * average
                 silentUser = 0
@@ -302,6 +303,42 @@ def silentUserNum():
                         silentUser += 1
                 bad_smell[groupID] = {'SilentUser Num': silentUser}
     return bad_smell
+
+
+def relaxedUserNum():
+    "for each group, find if some user far lower than 50% of average Issues Assigned to each User "
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueAssignees.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                user = removeTim_TA(row[1:])
+                userAssignmentNum = [int(num) for num in user]
+                average = float(sum(userAssignmentNum))/len(userAssignmentNum)
+                threshold = 0.5 * average
+                relaxedUser = 0
+                for num in userAssignmentNum:
+                    if num < threshold:
+                        relaxedUser += 1
+                bad_smell[groupID] = {'RelaxedUser Num': relaxedUser}
+    return bad_smell
+
+
+def removeTim_TA(users):
+    if len(users) <= 4:
+        return users
+    else:
+        users.sort(reverse = True)
+    return users[0:4]
+
+
 
 def save_badsmell_csv(outputFile, bad_smell, fileds):
      with open(outputFile, 'w') as csvoutput:
@@ -323,10 +360,20 @@ def get_badSmell(base, csvpath):
     bad_smell1 = issueDiscussionScore()
     bad_smell2 = issueParticipantScore()
     bad_smell3 = silentUserNum()
+    bad_smell4 = relaxedUserNum()
+
     bad_smell = merge_dict(bad_smell1, bad_smell2)
     bad_smell = merge_dict(bad_smell, bad_smell3)
+
     outputFile = os.path.join(base, 'badSmellScoreCSV/PoorCommunication.csv')
     fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3', 'SilentUser Num']
+    save_badsmell_csv(outputFile, bad_smell, fileds)
+
+
+
+    bad_smell = merge_dict(bad_smell, bad_smell4)
+    outputFile = os.path.join(base, 'badSmellScoreCSV/AbsentGroupMember.csv')
+    fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3', 'SilentUser Num', 'RelaxedUser Num']
     save_badsmell_csv(outputFile, bad_smell, fileds)
     print 'done'
 
