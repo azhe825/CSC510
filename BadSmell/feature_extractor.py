@@ -233,33 +233,77 @@ def load_obj(name):
         return pickle.load(f)
 
 
-def get_badSmell(base, csvpath):
-    inputFile = os.path.join(base, 'featureCSV/issueCommentNum.csv')
-    outputFile = os.path.join(base, 'featureCSV/badSmellScores.csv')
+def issueDiscussionScore():
+    "for each issue, get the percentage of issues with < 3 followup comments"
     bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueCommentNum.csv')
     with open(inputFile, 'r') as csvinput:
-        with open(outputFile, 'w') as csvoutput:
-            reader = csv.reader(csvinput)
-            fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4']
-            writer = csv.DictWriter(csvoutput, fieldnames=fileds)
-            writer.writeheader()
-            odd = 1
-            for row in reader:
-                if odd:
-                    odd = 0
-                    continue
-                else:
-                    odd = 1
-                    groupID = row[0]
-                    bad_smell['groupID'] = groupID
-                    commentNum = row[1:]
-                    lessComment3 = [i for i in commentNum if int(i) < 3]
-                    lessComment4 = [i for i in commentNum if int(i) < 4]
-                    # percentage of issues with less than 3 comments
-                    bad_smell['Issue Discussions<3'] = float(len(lessComment3))/len(commentNum)
-                    bad_smell['Issue Discussions<4'] = float(len(lessComment4))/len(commentNum)
-                    writer.writerow(bad_smell)
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                commentNum = row[1:]
+                lessParticipants3 = [i for i in commentNum if int(i) < 3]
+                lessComment4 = [i for i in commentNum if int(i) < 4]
+                # percentage of issues with less than 3 comments
+                bad_smell[groupID] = {'Issue Discussions<3': float(len(lessParticipants3))/len(commentNum)}
+                bad_smell[groupID].update({'Issue Discussions<4': (float(len(lessComment4))/len(commentNum))})
+    return bad_smell
+
+
+def issueParticipantScore():
+    "for each issue, get the percentage of issues with < 50% participants"
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueParticipants.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                participantNum = row[1:]
+                lessParticipants2 = [i for i in participantNum if int(i) < 2]
+                lessParticipants3 = [i for i in participantNum if int(i) < 3]
+                # percentage of issues with less than 3 comments
+                bad_smell[groupID] = {'Issue Participant<2': float(len(lessParticipants2))/len(participantNum)}
+                bad_smell[groupID].update({'Issue Participant<3': (float(len(lessParticipants3))/len(participantNum))})
+    return bad_smell
+
+
+def save_badsmell_csv(outputFile, bad_smell):
+     with open(outputFile, 'w') as csvoutput:
+        fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3']
+        writer = csv.DictWriter(csvoutput, fieldnames=fileds)
+        writer.writeheader()
+        for groupID, bad_smells in bad_smell.iteritems():
+            row = {'groupID': groupID}
+            row.update(bad_smells)
+            writer.writerow(row)
+
+
+def merge_dict(bad_smell1, bad_smell2):
+    for groupID, score in bad_smell1.iteritems():
+        bad_smell1[groupID].update(bad_smell2[groupID])
+    return  bad_smell1
+
+
+def get_badSmell(base, csvpath):
+    bad_smell1 = issueDiscussionScore()
+    bad_smell2 = issueParticipantScore()
+    bad_smell = merge_dict(bad_smell1, bad_smell2)
+    outputFile = os.path.join(base, 'featureCSV/badSmellScores.csv')
+    save_badsmell_csv(outputFile, bad_smell)
     print 'done'
+
 
 
 
