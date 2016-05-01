@@ -86,9 +86,11 @@ def plot_milestone_time(): # also check the milestone usage
         due_days = map(time_interval, list(np.subtract(due_times, create_times)))
         closed_days = map(time_interval, list(np.subtract(closed_times, create_times)))
 
-        wo_due = sum([True if (term>-1 and term<1) else False for term in due_days]) # without due date
+        #wo_due = sum([True if (term>-1 and term<1) else False for term in due_days]) # without due date
+        wo_due = sum([True if (term==0) else False for term in due_days])  # without due date
         wo_due_percentage = float(wo_due) / float(size)
-        wo_close = sum([True if (term>-1 and term<1) else False for term in closed_days]) # without closed date
+        #wo_close = sum([True if (term>-1 and term<1) else False for term in closed_days]) # without closed date
+        wo_close = sum([True if (term==0) else False for term in closed_days])  # without closed date
         wo_close_percentage = float(wo_close) / float(size)
         group_milestone_usage[gp] = [size, wo_due, wo_close, wo_due_percentage, wo_close_percentage]
 
@@ -101,6 +103,7 @@ def plot_milestone_time(): # also check the milestone usage
                        label='Closed')
         plt.legend()
         fig.savefig(gp + "-progress.png")
+        fig.clear()
 
     with open(resultdir+'group-milestone-usage.csv', 'wb') as fout:
         fields = ['group_id', 'total milestones', 'missing due day', 'unclosed', 'percentage missing due', 'percentage of unclosed']

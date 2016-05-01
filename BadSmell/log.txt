@@ -129,6 +129,7 @@ commit page 8
 commit page 9
 commit page 10
 commit page 11
+commit page 12
 committed issues
 committed milestones
 committed events
@@ -276,6 +277,9 @@ commit page 3
 commit page 4
 commit page 5
 commit page 6
+https://api.github.com/repos/moharnab123saikia/CSC510-group-f/commits?page=7
+<urlopen error [Errno 60] Operation timed out>
+Contact TA
 commit page 7
 committed issues
 committed milestones
@@ -523,9 +527,6 @@ milestone 3
 milestone 4
 milestone 5
 milestone 6
-https://api.github.com/repos/sandz-in/csc510_group_l/milestones/7
-<urlopen error [Errno 60] Operation timed out>
-other Contact TA
 milestone 7
 milestone 8
 milestone 9
@@ -649,9 +650,10 @@ https://api.github.com/repos/gvivek19/CSC510-Team-N/commits?page=5
 'NoneType' object has no attribute '__getitem__'
 Contact TA
 commit page 5
+https://api.github.com/repos/gvivek19/CSC510-Team-N/commits?page=6
+'NoneType' object has no attribute '__getitem__'
+Contact TA
 commit page 6
-commit page 7
-commit page 8
 committed issues
 committed milestones
 committed events

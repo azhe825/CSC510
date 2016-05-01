@@ -1,29 +1,29 @@
 id,time,sha,user,message
-1,1460060166,3e59273e60d89533c4fd80560f323c450d8cf703,group13/user3,Delete dummy application
-2,1460059993,b9b0090abb08bc9fc09ca5f650c462bd255eed22,group13/user3,add a folder for final presentation
-3,1460059505,7528552ee84ed42d1eae0b859b62558677e683b6,group13/user3,add final report
-4,1460059368,6b428a7bb0839617cdd14b949b72bba0b041fa11,group13/user3,add final report
-5,1460059029,f75a40a6f7858d81a0948be8a0c2ffb1cdee366c,group13/user3,remove dummy application
-6,1457473492,4622c7671b28a7ddd31e98b35cc8d93a0d4d6f1f,group13/user3,merge nraina
-7,1457472799,2dc41bbad0f8ee6faba9f9dc2db5133b5983b26a,group13/user3,bug fixes
-8,1457110141,69823b840d799a6a09fc02973b97e7476aa1ad3c,group13/user1,"Merge pull request #53 from nikraina/kagarwa
+1,1460060166,3e59273e60d89533c4fd80560f323c450d8cf703,group13/user1,Delete dummy application
+2,1460059993,b9b0090abb08bc9fc09ca5f650c462bd255eed22,group13/user1,add a folder for final presentation
+3,1460059505,7528552ee84ed42d1eae0b859b62558677e683b6,group13/user1,add final report
+4,1460059368,6b428a7bb0839617cdd14b949b72bba0b041fa11,group13/user1,add final report
+5,1460059029,f75a40a6f7858d81a0948be8a0c2ffb1cdee366c,group13/user1,remove dummy application
+6,1457473492,4622c7671b28a7ddd31e98b35cc8d93a0d4d6f1f,group13/user1,merge nraina
+7,1457472799,2dc41bbad0f8ee6faba9f9dc2db5133b5983b26a,group13/user1,bug fixes
+8,1457110141,69823b840d799a6a09fc02973b97e7476aa1ad3c,group13/user2,"Merge pull request #53 from nikraina/kagarwa
 
 Updated parking lot tables for Soln 3 with logs"
-9,1457110048,400d39d31122e97e24178da2fc0e6456d92d963a,group13/user1,Updated parking lot tables for Soln 3 with logs
-10,1457108485,26801dfbb70236b392cb6c73d61972569e19f156,group13/user1,"Merge pull request #52 from nikraina/kagarwa
+9,1457110048,400d39d31122e97e24178da2fc0e6456d92d963a,group13/user2,Updated parking lot tables for Soln 3 with logs
+10,1457108485,26801dfbb70236b392cb6c73d61972569e19f156,group13/user2,"Merge pull request #52 from nikraina/kagarwa
 
 Updated the parking lot tables for the 3 solution"
-11,1457108379,9be0a45d615a590e264c9c21dd989ed6682f45ca,group13/user1,Updated the parking lot tables for the 3 solution
-12,1457068459,5d0c8c04b21d195a92e829c85897d34ee664e8a2,group13/user1,"Merge pull request #51 from nikraina/kagarwa
+11,1457108379,9be0a45d615a590e264c9c21dd989ed6682f45ca,group13/user2,Updated the parking lot tables for the 3 solution
+12,1457068459,5d0c8c04b21d195a92e829c85897d34ee664e8a2,group13/user2,"Merge pull request #51 from nikraina/kagarwa
 
 Added Telemetry to 3 apps"
-13,1457068116,904ba3f4f38fe4fe8404a0c7877fc1287fd63040,group13/user1,Added Telemetry to 3 apps
-14,1457046968,e97d07abdd4a7525c47429787c2bbf89ba38a6cb,group13/user3,telemetry addition using google analytics
-15,1457034221,fe447a7d693cd5a6e7a7a631a0dab17086d9d50e,group13/user3,unfortunately stopped error fixed
-16,1456979518,12f37af24368137171d7322d056b87d44617e7f8,group13/user2,fixed .idea
-17,1456965470,e41e582db7859647c043b5928059d60fef85656a,group13/user2,distance method
-18,1456965131,dcf849119b3bdbb1fc8c4a77467547c880e7caeb,group13/user2,Merge branch 'ahmad'
-19,1456965110,b4060dc4419953d2e7b3943d295054bbcc0d6b1c,group13/user2,Function for distance started
+13,1457068116,904ba3f4f38fe4fe8404a0c7877fc1287fd63040,group13/user2,Added Telemetry to 3 apps
+14,1457046968,e97d07abdd4a7525c47429787c2bbf89ba38a6cb,group13/user1,telemetry addition using google analytics
+15,1457034221,fe447a7d693cd5a6e7a7a631a0dab17086d9d50e,group13/user1,unfortunately stopped error fixed
+16,1456979518,12f37af24368137171d7322d056b87d44617e7f8,group13/user3,fixed .idea
+17,1456965470,e41e582db7859647c043b5928059d60fef85656a,group13/user3,distance method
+18,1456965131,dcf849119b3bdbb1fc8c4a77467547c880e7caeb,group13/user3,Merge branch 'ahmad'
+19,1456965110,b4060dc4419953d2e7b3943d295054bbcc0d6b1c,group13/user3,Function for distance started
 20,1456963758,0043f8df6a9e6004e664a676622f0dfd5bb0c194,group13/user4,Added Old files
 21,1456963701,1f1f4c30248ffe5e75aa334777db76aad3dfb029,group13/user4,Added Map FIles
 22,1456962692,67149399a532c564686f55958e53c35b3750100d,group13/user4,Added the map files
@@ -699,19 +699,19 @@ Added Telemetry to 3 apps"
 #	map_integration/FirstMap/app/src/main/java/com/example/android/mymaps/Map.java
 #	map_integration/FirstMap/build/intermediates/dex-cache/cache.xml
 #	map_integration/FirstMap/local.properties"
-29,1456935545,cbe740de8d00147a76156dae2839d5a42061dbc9,group13/user1,commit
-30,1456935265,34b720f6a8ddb03d029746c5fbb6287ebde9c1e1,group13/user1,commit
-31,1456930466,5a7e8f432e61641a78b34e1bd99ee7c15b220605,group13/user2,Updated Readme
-32,1456888840,896c22baa2f3ffecc4c23fca94bcab2a9912cf96,group13/user2,more lots added
-33,1456886625,122d2e987f55fd5b4793b0806b3f3dd274f49290,group13/user2,removed stray marker
-34,1456885927,8e9ec408b61b0fc57a8de459c8d9848156fd2dd2,group13/user2,All info windows added
-35,1456884977,bdefda3fa3a40b8f235839ac97e3e70a12b25020,group13/user2,Info Window added
-36,1456809377,4f2c1375a1b45937df744da8834001ce4a0cfb9e,group13/user2,Fixed minor bugs
-37,1456808829,509f94d780079a2452b30373ce8456c638202309,group13/user2,More parking lots added
-38,1456808120,7269af04d95b1a061a5253c961b3a926826ebdb9,group13/user2,Added Capability drive
-39,1456799449,e736a47022e0f5f79c5eaea3041121b2541ad573,group13/user2,adding infoWindow
-40,1456797357,e770198d1118ff154698278b8a14f3e11dc61bf5,group13/user2,marker listerner
-41,1456794513,4dcf85e5cf2e88a31576cdcb0bd2aaf3c88495bf,group13/user2,Started work on MarkerListner
+29,1456935545,cbe740de8d00147a76156dae2839d5a42061dbc9,group13/user2,commit
+30,1456935265,34b720f6a8ddb03d029746c5fbb6287ebde9c1e1,group13/user2,commit
+31,1456930466,5a7e8f432e61641a78b34e1bd99ee7c15b220605,group13/user3,Updated Readme
+32,1456888840,896c22baa2f3ffecc4c23fca94bcab2a9912cf96,group13/user3,more lots added
+33,1456886625,122d2e987f55fd5b4793b0806b3f3dd274f49290,group13/user3,removed stray marker
+34,1456885927,8e9ec408b61b0fc57a8de459c8d9848156fd2dd2,group13/user3,All info windows added
+35,1456884977,bdefda3fa3a40b8f235839ac97e3e70a12b25020,group13/user3,Info Window added
+36,1456809377,4f2c1375a1b45937df744da8834001ce4a0cfb9e,group13/user3,Fixed minor bugs
+37,1456808829,509f94d780079a2452b30373ce8456c638202309,group13/user3,More parking lots added
+38,1456808120,7269af04d95b1a061a5253c961b3a926826ebdb9,group13/user3,Added Capability drive
+39,1456799449,e736a47022e0f5f79c5eaea3041121b2541ad573,group13/user3,adding infoWindow
+40,1456797357,e770198d1118ff154698278b8a14f3e11dc61bf5,group13/user3,marker listerner
+41,1456794513,4dcf85e5cf2e88a31576cdcb0bd2aaf3c88495bf,group13/user3,Started work on MarkerListner
 42,1456642346,f23ef71773c97a1a21267160d78b178e2f5588e0,group13/user4,Added about and selection screen
 43,1456631301,e630fdf8b8389a205e3c351673bef1ee839d8785,group13/user4,Added About Page
 44,1456628777,4c6f3a0276eb2661be30884926ee32129cdb3d98,group13/user4,changed text
@@ -1346,74 +1346,74 @@ Added Telemetry to 3 apps"
 #	map_integration/FirstMap/build/intermediates/dex-cache/cache.xml
 #	map_integration/FirstMap/local.properties"
 51,1456624697,bb8c40182640b02172ea5ecff234acb410916325,group13/user4,Added comment
-52,1456533322,a37cb4778abecbf09a35ef076b8d32af794ebc3d,group13/user3,git cleanup
-53,1456533247,497b49dad3ccaf2456320480e911c06d64416b45,group13/user3,git cleanup
-54,1456532692,5c5ae2211a3fe76903f01a71783530927d965812,group13/user3,repo cleanup
+52,1456533322,a37cb4778abecbf09a35ef076b8d32af794ebc3d,group13/user1,git cleanup
+53,1456533247,497b49dad3ccaf2456320480e911c06d64416b45,group13/user1,git cleanup
+54,1456532692,5c5ae2211a3fe76903f01a71783530927d965812,group13/user1,repo cleanup
 55,1456532003,459d3f9f398df4208b77919700076d592dfc3b6c,group13/user4,Changed comment
-56,1456531436,c667c2be3cbe7ced4f18db548da540affc4c1282,group13/user3,user authentication & signup
-57,1456383560,0cc36b9f9d514dddcdfe6a16c2417555036e1112,group13/user3,on click listnere added
-58,1456382599,9a799e3a195fd9ed07a132748fc2feb597aa0549,group13/user3,"add bluce circle, marker fixes"
-59,1456377739,ae476277d305d1822cb7e3fcd8c97965cca372f3,group13/user3,added parking markers
-60,1456347270,6b2ae72ef5d52bbafc11d87abda0bce8797165de,group13/user1,"Merge pull request #31 from nikraina/kagarwa
+56,1456531436,c667c2be3cbe7ced4f18db548da540affc4c1282,group13/user1,user authentication & signup
+57,1456383560,0cc36b9f9d514dddcdfe6a16c2417555036e1112,group13/user1,on click listnere added
+58,1456382599,9a799e3a195fd9ed07a132748fc2feb597aa0549,group13/user1,"add bluce circle, marker fixes"
+59,1456377739,ae476277d305d1822cb7e3fcd8c97965cca372f3,group13/user1,added parking markers
+60,1456347270,6b2ae72ef5d52bbafc11d87abda0bce8797165de,group13/user2,"Merge pull request #31 from nikraina/kagarwa
 
 App Name Updated"
-61,1456347009,c4b869c77964b0e44b84783d1173c47ade6d90c9,group13/user1,App Name Updated
-62,1456278797,f67f7c3464b82bbbfeae6d5d4e2a5ff7fc9e1fa0,group13/user1,"Merge pull request #30 from nikraina/kagarwa
+61,1456347009,c4b869c77964b0e44b84783d1173c47ade6d90c9,group13/user2,App Name Updated
+62,1456278797,f67f7c3464b82bbbfeae6d5d4e2a5ff7fc9e1fa0,group13/user2,"Merge pull request #30 from nikraina/kagarwa
 
 Launcher Icon Changed"
-63,1456278615,d039d2e15a977c46d83842bbbcae4bdf7681458d,group13/user1,Launcher Icon Changed
-64,1456278409,3a694fd07414da840800a191a036a21d3f8fc10b,group13/user1,"Merge pull request #28 from nikraina/kagarwa
+63,1456278615,d039d2e15a977c46d83842bbbcae4bdf7681458d,group13/user2,Launcher Icon Changed
+64,1456278409,3a694fd07414da840800a191a036a21d3f8fc10b,group13/user2,"Merge pull request #28 from nikraina/kagarwa
 
 Map Marker Added"
-65,1456278342,a89f39bdd94deff4eec6b129429825ae1a361de2,group13/user1,Map Marker Added
+65,1456278342,a89f39bdd94deff4eec6b129429825ae1a361de2,group13/user2,Map Marker Added
 66,1456254714,3451f6ab46f7ece87a38748dfb75af00fba5ace8,group13/user4,adding a test file
-67,1456236628,8e0c109befb30c781c3679a9c1d0ab4788165d4c,group13/user1,"Merge pull request #26 from nikraina/kagarwa
+67,1456236628,8e0c109befb30c781c3679a9c1d0ab4788165d4c,group13/user2,"Merge pull request #26 from nikraina/kagarwa
 
 Location Listener Feature Added"
-68,1456236580,127786381f11d0d21932d544621774bac53b7480,group13/user1,Location Listener Feature Added
-69,1456235316,74028df3c0f9a7287d3f55533929905551b9d2b2,group13/user1,"Merge pull request #24 from nikraina/kagarwa
+68,1456236580,127786381f11d0d21932d544621774bac53b7480,group13/user2,Location Listener Feature Added
+69,1456235316,74028df3c0f9a7287d3f55533929905551b9d2b2,group13/user2,"Merge pull request #24 from nikraina/kagarwa
 
 User Current Location added to be set programatically"
-70,1456235260,09079361e81a14be5bc0303092a9098877b0bb8b,group13/user1,User Current Location added to be set programatically
-71,1456231911,3caf668e00b748c0c4dbba4904b4d212e5c24cf3,group13/user1,"Merge pull request #22 from nikraina/kagarwa
+70,1456235260,09079361e81a14be5bc0303092a9098877b0bb8b,group13/user2,User Current Location added to be set programatically
+71,1456231911,3caf668e00b748c0c4dbba4904b4d212e5c24cf3,group13/user2,"Merge pull request #22 from nikraina/kagarwa
 
 User Current Location Feature Added"
-72,1456231874,489017b4fecaf557712e1def8104004b07aa9697,group13/user1,User Current Location Feature Added
-73,1456230391,29bd637dfeeaefa41e375bc8b6050d1440372e9b,group13/user1,"Merge pull request #18 from nikraina/kagarwa
+72,1456231874,489017b4fecaf557712e1def8104004b07aa9697,group13/user2,User Current Location Feature Added
+73,1456230391,29bd637dfeeaefa41e375bc8b6050d1440372e9b,group13/user2,"Merge pull request #18 from nikraina/kagarwa
 
 Zoom Level Updated"
-74,1456230293,a340071231e93de367f18679d97dd65bfc9a608c,group13/user1,Zoom Level Updated
-75,1456229075,f4567da89659c3d2787dfba1acf7fd7369b91b31,group13/user1,"Merge pull request #16 from nikraina/kagarwa
+74,1456230293,a340071231e93de367f18679d97dd65bfc9a608c,group13/user2,Zoom Level Updated
+75,1456229075,f4567da89659c3d2787dfba1acf7fd7369b91b31,group13/user2,"Merge pull request #16 from nikraina/kagarwa
 
 Moved static code from activity_map.xml to MainActitvity.java"
-76,1456228989,09faef24646a9ae4a4427bd8050612eb34939928,group13/user1,Moved static code from activity_map.xml to MainActitvity.java to make it programmable
-77,1456226645,2276b38c4b2be13722e0f64de4affde29e982949,group13/user1,"Merge pull request #14 from nikraina/kagarwa
+76,1456228989,09faef24646a9ae4a4427bd8050612eb34939928,group13/user2,Moved static code from activity_map.xml to MainActitvity.java to make it programmable
+77,1456226645,2276b38c4b2be13722e0f64de4affde29e982949,group13/user2,"Merge pull request #14 from nikraina/kagarwa
 
 removed map:mapType = satellite from activity_map xml"
-78,1456226541,56dd57d3c676bf2d3d4a15886f711c9c66878906,group13/user1,removed map:mapType = satellite from activity_map xml
-79,1456211727,5366460898300dd8d9683ced5b07f990f6ed7525,group13/user3,map opens at NCstate centennial :)
-80,1456210435,cb6bdd8179a4c93e1bacab4a2cf0e81e2a3691c1,group13/user3,map intanciated
-81,1456209188,e96510102d6975b33cd4db0fa84c74869fe22439,group13/user3,map added
+78,1456226541,56dd57d3c676bf2d3d4a15886f711c9c66878906,group13/user2,removed map:mapType = satellite from activity_map xml
+79,1456211727,5366460898300dd8d9683ced5b07f990f6ed7525,group13/user1,map opens at NCstate centennial :)
+80,1456210435,cb6bdd8179a4c93e1bacab4a2cf0e81e2a3691c1,group13/user1,map intanciated
+81,1456209188,e96510102d6975b33cd4db0fa84c74869fe22439,group13/user1,map added
 82,1456030921,83658c00d8f2756dce28d348e93a9fbb1b7d5227,group13/user4,Loading Packages
 83,1456030464,5b89cab5c9803061f9d3e2c711ea45fbcbaa6e68,group13/user4,Basic Setup
-84,1454388830,f429661e47494e823fe40b424a1d22ebb06f23a4,group13/user1,report Latex Update
-85,1454388452,2fd3b02d6965b8f11202387594726120409578d1,group13/user1,report Update 3
-86,1454387222,70d0a1283e8b3da88e0e8d732d2866ea7a5913e7,group13/user1,pdf Update 2
-87,1454385673,1380182934f3c8b4a88aaff84d2de8c329b6e094,group13/user1,PDF Upload
-88,1454385520,3178486e093c5bb7eade3f8f69c6bc6fedce98fc,group13/user1,report Update 2
-89,1454355159,10e659142eacab31a5fcc0eec2a38e0d59a2841a,group13/user1,report update
-90,1454297867,8d43e130d809a75b495f885be8495e31b50f0840,group13/user3,"Merge branch 'master' of https://github.com/nikraina/CSC510-Group-M
+84,1454388830,f429661e47494e823fe40b424a1d22ebb06f23a4,group13/user2,report Latex Update
+85,1454388452,2fd3b02d6965b8f11202387594726120409578d1,group13/user2,report Update 3
+86,1454387222,70d0a1283e8b3da88e0e8d732d2866ea7a5913e7,group13/user2,pdf Update 2
+87,1454385673,1380182934f3c8b4a88aaff84d2de8c329b6e094,group13/user2,PDF Upload
+88,1454385520,3178486e093c5bb7eade3f8f69c6bc6fedce98fc,group13/user2,report Update 2
+89,1454355159,10e659142eacab31a5fcc0eec2a38e0d59a2841a,group13/user2,report update
+90,1454297867,8d43e130d809a75b495f885be8495e31b50f0840,group13/user1,"Merge branch 'master' of https://github.com/nikraina/CSC510-Group-M
 
 adapting the changes"
-91,1454297685,538224c55d535cd26ad9e3c12e01c24203de3372,group13/user3,"Merge branch 'nraina-1'
+91,1454297685,538224c55d535cd26ad9e3c12e01c24203de3372,group13/user1,"Merge branch 'nraina-1'
 
 changes to latex"
-92,1454297673,bfcf393c315ecb074d8e4642bdd0c8b730113e63,group13/user3,addition to latex
-93,1454283074,0c714ef210b10cdc2342a2915f3b9f474236d560,group13/user3,planning commison study
-94,1454208423,85e2fcb1bbf142f1612c5c98362cc58bd1e692f1,group13/user3,Update README.md
-95,1454208213,ef975feb58b43f6e6c3ab143cd8ab1a55a897d19,group13/user3,Merge branch 'nraina-1'
-96,1454208187,044edad282d7ac99a063312eafc271d07974c8db,group13/user3,adding Sharelatex format
-97,1453838983,80e53453f94f48eebefc71fca628a5db0e51d43e,group13/user3,added link to the white paper
-98,1453838884,dc4e644d6e3b88b3249dd6eb4f76321525386498,group13/user3,added doc for collaborative info sharing
-99,1453838292,e0bcbc131500ffaea88ad3868e23dbb99d1da7fa,group13/user3,added data collected so far from google forms
-100,1452562348,a74ecc163d1879fa92ab0f1cd4fb26686f2b8e65,group13/user3,Create README.md
+92,1454297673,bfcf393c315ecb074d8e4642bdd0c8b730113e63,group13/user1,addition to latex
+93,1454283074,0c714ef210b10cdc2342a2915f3b9f474236d560,group13/user1,planning commison study
+94,1454208423,85e2fcb1bbf142f1612c5c98362cc58bd1e692f1,group13/user1,Update README.md
+95,1454208213,ef975feb58b43f6e6c3ab143cd8ab1a55a897d19,group13/user1,Merge branch 'nraina-1'
+96,1454208187,044edad282d7ac99a063312eafc271d07974c8db,group13/user1,adding Sharelatex format
+97,1453838983,80e53453f94f48eebefc71fca628a5db0e51d43e,group13/user1,added link to the white paper
+98,1453838884,dc4e644d6e3b88b3249dd6eb4f76321525386498,group13/user1,added doc for collaborative info sharing
+99,1453838292,e0bcbc131500ffaea88ad3868e23dbb99d1da7fa,group13/user1,added data collected so far from google forms
+100,1452562348,a74ecc163d1879fa92ab0f1cd4fb26686f2b8e65,group13/user1,Create README.md

@@ -1,155 +1,155 @@
 issueID,time,action,label,user,milestone,identifier
-1,1454208539,closed,closed,group13/user3,,532767063
-1,1454208517,milestoned,Due date for assignment 1,group13/user3,,532767014
-1,1452808411,demilestoned,Assignment Due on Feb1,group13/user3,,515534504
-1,1452808294,assigned,group13/user3,group13/user3,,515532540
+1,1454208539,closed,closed,group13/user1,,532767063
+1,1454208517,milestoned,Due date for assignment 1,group13/user1,,532767014
+1,1452808411,demilestoned,Assignment Due on Feb1,group13/user1,,515534504
+1,1452808294,assigned,group13/user1,group13/user1,,515532540
 1,1452808294,unassigned,unassigned,group13/user4,,515532538
 1,1452808291,renamed,renamed,group13/user4,,515532496
 1,1452808286,assigned,group13/user4,group13/user4,,515532408
-1,1452808286,unassigned,unassigned,group13/user2,,515532407
-1,1452808281,assigned,group13/user2,group13/user2,,515532331
-1,1452808235,milestoned,Feb1,group13/user3,,515531587
-2,1454388765,closed,closed,group13/user3,,535294101
-2,1454208827,assigned,group13/user3,group13/user3,,532767872
-2,1454208827,unassigned,unassigned,group13/user2,,532767871
-2,1454208823,assigned,group13/user2,group13/user2,,532767860
-2,1454208823,unassigned,unassigned,group13/user3,,532767859
-2,1454208820,assigned,group13/user3,group13/user3,,532767843
-3,1454208840,assigned,group13/user1,group13/user1,1,532767905
-3,1454208796,milestoned,Feb1 - Report Due for Data Collection,group13/user3,1,532767791
-4,1455858024,closed,closed,group13/user2,2,556094201
-4,1455856519,milestoned,Complete Android Setup and Tutorial,group13/user1,2,556080996
-4,1455856059,assigned,group13/user1,group13/user1,2,556077224
-5,1455856508,milestoned,Complete Android Setup and Tutorial,group13/user1,2,556080896
-5,1455856078,assigned,group13/user1,group13/user1,2,556077448
-7,1456347538,unassigned,unassigned,group13/user1,12,564340474
-7,1456347533,labeled,question,group13/user1,12,564340406
-7,1456347471,demilestoned,Locate all NCSU parking sites and reflect them on the map,group13/user1,12,564338810
-7,1456347471,milestoned,Save NCSU Parking Locations,group13/user1,12,564338809
-7,1456223193,assigned,group13/user1,group13/user1,12,561373970
-7,1456223189,milestoned,Locate all NCSU parking sites and reflect them on the map,group13/user1,12,561373875
-8,1456210094,closed,closed,group13/user3,6,561100834
-8,1455860717,assigned,group13/user3,group13/user3,6,556121958
-8,1455860698,demilestoned,basic simple app with google maps API,group13/user3,6,556121750
-8,1455860698,milestoned,check the possibility of having publish subscribe,group13/user3,6,556121749
-8,1455860693,demilestoned,basic simple app,group13/user3,6,556121688
-8,1455860693,milestoned,basic simple app with google maps API,group13/user3,6,556121687
-8,1455860685,milestoned,basic simple app,group13/user3,6,556121573
-9,1456210029,closed,closed,group13/user3,7,561099543
-9,1456024393,milestoned,Basic app created - integrate google maps with it,group13/user1,7,557998014
-9,1456024393,assigned,group13/user1,group13/user1,7,557998013
-10,1456210511,closed,closed,group13/user3,8,561108837
-10,1456210232,demilestoned,check the possibility of having publish subscribe,group13/user3,8,561103966
-10,1456210232,milestoned,create map object to use the methods,group13/user3,8,561103965
-10,1456210178,milestoned,check the possibility of having publish subscribe,group13/user3,8,561102791
-11,1456223506,closed,closed,group13/user1,9,561380923
-11,1456223491,renamed,renamed,group13/user1,9,561380694
-11,1456223116,assigned,group13/user3,group13/user3,9,561372032
-11,1456223111,labeled,enhancement,group13/user1,9,561371873
-11,1456223094,milestoned,App opens with a biased location wrt campus,group13/user1,9,561371358
-12,1456226720,closed,closed,group13/user1,9,561453421
-12,1456223416,milestoned,App opens with a biased location wrt campus,group13/user1,9,561378866
-12,1456223416,assigned,group13/user1,group13/user1,9,561378865
-12,1456223415,labeled,bug,group13/user1,9,561378864
-13,1456225895,head_ref_deleted,head_ref_deleted,group13/user1,,561436316
-13,1456225887,closed,closed,group13/user1,,561436145
-14,1456226646,closed,closed,group13/user1,,561451645
-14,1456226645,merged,merged,group13/user1,,561451640
-14,1456226645,referenced,referenced,group13/user1,,561451633
-15,1456229128,closed,closed,group13/user1,9,561506625
-15,1456227967,milestoned,App opens with a biased location wrt campus,group13/user1,9,561481096
-15,1456227966,assigned,group13/user1,group13/user1,9,561481095
-15,1456227966,labeled,bug,group13/user1,9,561481093
-16,1456229075,closed,closed,group13/user1,,561505441
-16,1456229075,merged,merged,group13/user1,,561505440
-16,1456229075,referenced,referenced,group13/user1,,561505437
-17,1456230422,closed,closed,group13/user1,9,561534883
-17,1456230251,milestoned,App opens with a biased location wrt campus,group13/user1,9,561530966
-17,1456230251,assigned,group13/user1,group13/user1,9,561530963
-17,1456230251,labeled,bug,group13/user1,9,561530958
-18,1456230391,closed,closed,group13/user1,,561534250
-18,1456230391,merged,merged,group13/user1,,561534249
-18,1456230391,referenced,referenced,group13/user1,,561534248
-19,1456231532,milestoned,App opens with a biased location wrt campus,group13/user1,9,561558119
-19,1456231532,assigned,group13/user1,group13/user1,9,561558118
-19,1456231532,labeled,question,group13/user1,9,561558117
-20,1456231967,closed,closed,group13/user1,11,561566810
-20,1456231592,milestoned,Implement User Current Location Feature,group13/user1,11,561559277
-20,1456231592,assigned,group13/user1,group13/user1,11,561559276
-20,1456231592,labeled,enhancement,group13/user1,11,561559275
-21,1456276581,closed,closed,group13/user1,11,562727150
-21,1456231702,milestoned,Implement User Current Location Feature,group13/user1,11,561561262
-21,1456231702,assigned,group13/user1,group13/user1,11,561561261
-21,1456231702,labeled,help wanted,group13/user1,11,561561260
-22,1456231911,closed,closed,group13/user1,,561565772
-22,1456231911,merged,merged,group13/user1,,561565768
-22,1456231911,referenced,referenced,group13/user1,,561565767
-23,1456235345,closed,closed,group13/user1,11,561644498
-23,1456232064,milestoned,Implement User Current Location Feature,group13/user1,11,561568601
-23,1456232064,assigned,group13/user1,group13/user1,11,561568600
-23,1456232064,labeled,enhancement,group13/user1,11,561568599
-24,1456235317,closed,closed,group13/user1,,561643993
-24,1456235317,merged,merged,group13/user1,,561643991
-24,1456235317,referenced,referenced,group13/user1,,561643990
-25,1456236649,closed,closed,group13/user1,11,561675773
-25,1456235494,milestoned,Implement User Current Location Feature,group13/user1,11,561647818
-25,1456235494,assigned,group13/user1,group13/user1,11,561647816
-25,1456235494,labeled,enhancement,group13/user1,11,561647814
-26,1456236628,closed,closed,group13/user1,,561675417
-26,1456236628,merged,merged,group13/user1,,561675416
-26,1456236628,referenced,referenced,group13/user1,,561675415
-27,1456278440,closed,closed,group13/user1,9,562761411
-27,1456277828,milestoned,App opens with a biased location wrt campus,group13/user1,9,562751119
-27,1456277828,assigned,group13/user1,group13/user1,9,562751117
-27,1456277828,labeled,enhancement,group13/user1,9,562751116
-28,1456278409,closed,closed,group13/user1,,562760934
-28,1456278409,merged,merged,group13/user1,,562760933
-28,1456278409,referenced,referenced,group13/user1,,562760932
-29,1456378989,closed,closed,group13/user1,,564982526
-29,1456278754,assigned,group13/user1,group13/user1,,562768355
-30,1456278797,closed,closed,group13/user1,,562769440
-30,1456278797,merged,merged,group13/user1,,562769439
-30,1456278797,referenced,referenced,group13/user1,,562769437
-31,1456347270,closed,closed,group13/user1,,564333987
-31,1456347270,merged,merged,group13/user1,,564333986
-31,1456347270,referenced,referenced,group13/user1,,564333985
-32,1456940578,closed,closed,group13/user1,12,575026094
-32,1456347516,milestoned,Save NCSU Parking Locations,group13/user1,12,564339951
-32,1456347516,labeled,enhancement,group13/user1,12,564339949
-33,1456940535,closed,closed,group13/user1,14,575025310
-33,1456348256,milestoned,Introduce DESIGN to parking lots,group13/user1,14,564357383
-33,1456348256,assigned,group13/user3,group13/user3,14,564357382
-33,1456348256,labeled,question,group13/user1,14,564357381
-34,1456940422,closed,closed,group13/user1,12,575022853
-34,1456348500,milestoned,Save NCSU Parking Locations,group13/user1,12,564363722
-34,1456348500,assigned,group13/user3,group13/user3,12,564363721
-34,1456348500,labeled,question,group13/user1,12,564363717
-35,1456349081,assigned,group13/user2,group13/user2,,564379320
-35,1456349081,labeled,question,group13/user1,,564379317
-36,1456378568,closed,closed,group13/user3,,564975825
-37,1456381327,closed,closed,group13/user3,,565020345
-38,1456381362,closed,closed,group13/user3,,565020782
-39,1456531634,closed,closed,group13/user3,,568437560
-40,1457034473,closed,closed,group13/user3,,576762571
-40,1456535072,labeled,enhancement,group13/user3,,568491768
-41,1456940385,closed,closed,group13/user1,,575022104
-41,1456535061,labeled,enhancement,group13/user3,,568491663
-42,1456619288,closed,closed,group13/user3,15,569357272
-42,1456535016,labeled,enhancement,group13/user3,15,568490864
-42,1456531839,assigned,group13/user3,group13/user3,15,568441132
-42,1456531820,milestoned,Have a login and Signup,group13/user3,15,568440825
-43,1456619300,closed,closed,group13/user3,15,569357368
-43,1456535000,labeled,enhancement,group13/user3,15,568490568
-43,1456531831,assigned,group13/user3,group13/user3,15,568440996
-43,1456531810,milestoned,Have a login and Signup,group13/user3,15,568440652
-44,1456940318,closed,closed,group13/user1,15,575020586
-44,1456535097,milestoned,Have a login and Signup,group13/user3,15,568492167
-44,1456534982,labeled,bug,group13/user3,15,568490313
-44,1456531878,assigned,group13/user3,group13/user3,15,568441939
+1,1452808286,unassigned,unassigned,group13/user3,,515532407
+1,1452808281,assigned,group13/user3,group13/user3,,515532331
+1,1452808235,milestoned,Feb1,group13/user1,,515531587
+2,1454388765,closed,closed,group13/user1,,535294101
+2,1454208827,assigned,group13/user1,group13/user1,,532767872
+2,1454208827,unassigned,unassigned,group13/user3,,532767871
+2,1454208823,assigned,group13/user3,group13/user3,,532767860
+2,1454208823,unassigned,unassigned,group13/user1,,532767859
+2,1454208820,assigned,group13/user1,group13/user1,,532767843
+3,1454208840,assigned,group13/user2,group13/user2,1,532767905
+3,1454208796,milestoned,Feb1 - Report Due for Data Collection,group13/user1,1,532767791
+4,1455858024,closed,closed,group13/user3,2,556094201
+4,1455856519,milestoned,Complete Android Setup and Tutorial,group13/user2,2,556080996
+4,1455856059,assigned,group13/user2,group13/user2,2,556077224
+5,1455856508,milestoned,Complete Android Setup and Tutorial,group13/user2,2,556080896
+5,1455856078,assigned,group13/user2,group13/user2,2,556077448
+7,1456347538,unassigned,unassigned,group13/user2,12,564340474
+7,1456347533,labeled,question,group13/user2,12,564340406
+7,1456347471,demilestoned,Locate all NCSU parking sites and reflect them on the map,group13/user2,12,564338810
+7,1456347471,milestoned,Save NCSU Parking Locations,group13/user2,12,564338809
+7,1456223193,assigned,group13/user2,group13/user2,12,561373970
+7,1456223189,milestoned,Locate all NCSU parking sites and reflect them on the map,group13/user2,12,561373875
+8,1456210094,closed,closed,group13/user1,6,561100834
+8,1455860717,assigned,group13/user1,group13/user1,6,556121958
+8,1455860698,demilestoned,basic simple app with google maps API,group13/user1,6,556121750
+8,1455860698,milestoned,check the possibility of having publish subscribe,group13/user1,6,556121749
+8,1455860693,demilestoned,basic simple app,group13/user1,6,556121688
+8,1455860693,milestoned,basic simple app with google maps API,group13/user1,6,556121687
+8,1455860685,milestoned,basic simple app,group13/user1,6,556121573
+9,1456210029,closed,closed,group13/user1,7,561099543
+9,1456024393,milestoned,Basic app created - integrate google maps with it,group13/user2,7,557998014
+9,1456024393,assigned,group13/user2,group13/user2,7,557998013
+10,1456210511,closed,closed,group13/user1,8,561108837
+10,1456210232,demilestoned,check the possibility of having publish subscribe,group13/user1,8,561103966
+10,1456210232,milestoned,create map object to use the methods,group13/user1,8,561103965
+10,1456210178,milestoned,check the possibility of having publish subscribe,group13/user1,8,561102791
+11,1456223506,closed,closed,group13/user2,9,561380923
+11,1456223491,renamed,renamed,group13/user2,9,561380694
+11,1456223116,assigned,group13/user1,group13/user1,9,561372032
+11,1456223111,labeled,enhancement,group13/user2,9,561371873
+11,1456223094,milestoned,App opens with a biased location wrt campus,group13/user2,9,561371358
+12,1456226720,closed,closed,group13/user2,9,561453421
+12,1456223416,milestoned,App opens with a biased location wrt campus,group13/user2,9,561378866
+12,1456223416,assigned,group13/user2,group13/user2,9,561378865
+12,1456223415,labeled,bug,group13/user2,9,561378864
+13,1456225895,head_ref_deleted,head_ref_deleted,group13/user2,,561436316
+13,1456225887,closed,closed,group13/user2,,561436145
+14,1456226646,closed,closed,group13/user2,,561451645
+14,1456226645,merged,merged,group13/user2,,561451640
+14,1456226645,referenced,referenced,group13/user2,,561451633
+15,1456229128,closed,closed,group13/user2,9,561506625
+15,1456227967,milestoned,App opens with a biased location wrt campus,group13/user2,9,561481096
+15,1456227966,assigned,group13/user2,group13/user2,9,561481095
+15,1456227966,labeled,bug,group13/user2,9,561481093
+16,1456229075,closed,closed,group13/user2,,561505441
+16,1456229075,merged,merged,group13/user2,,561505440
+16,1456229075,referenced,referenced,group13/user2,,561505437
+17,1456230422,closed,closed,group13/user2,9,561534883
+17,1456230251,milestoned,App opens with a biased location wrt campus,group13/user2,9,561530966
+17,1456230251,assigned,group13/user2,group13/user2,9,561530963
+17,1456230251,labeled,bug,group13/user2,9,561530958
+18,1456230391,closed,closed,group13/user2,,561534250
+18,1456230391,merged,merged,group13/user2,,561534249
+18,1456230391,referenced,referenced,group13/user2,,561534248
+19,1456231532,milestoned,App opens with a biased location wrt campus,group13/user2,9,561558119
+19,1456231532,assigned,group13/user2,group13/user2,9,561558118
+19,1456231532,labeled,question,group13/user2,9,561558117
+20,1456231967,closed,closed,group13/user2,11,561566810
+20,1456231592,milestoned,Implement User Current Location Feature,group13/user2,11,561559277
+20,1456231592,assigned,group13/user2,group13/user2,11,561559276
+20,1456231592,labeled,enhancement,group13/user2,11,561559275
+21,1456276581,closed,closed,group13/user2,11,562727150
+21,1456231702,milestoned,Implement User Current Location Feature,group13/user2,11,561561262
+21,1456231702,assigned,group13/user2,group13/user2,11,561561261
+21,1456231702,labeled,help wanted,group13/user2,11,561561260
+22,1456231911,closed,closed,group13/user2,,561565772
+22,1456231911,merged,merged,group13/user2,,561565768
+22,1456231911,referenced,referenced,group13/user2,,561565767
+23,1456235345,closed,closed,group13/user2,11,561644498
+23,1456232064,milestoned,Implement User Current Location Feature,group13/user2,11,561568601
+23,1456232064,assigned,group13/user2,group13/user2,11,561568600
+23,1456232064,labeled,enhancement,group13/user2,11,561568599
+24,1456235317,closed,closed,group13/user2,,561643993
+24,1456235317,merged,merged,group13/user2,,561643991
+24,1456235317,referenced,referenced,group13/user2,,561643990
+25,1456236649,closed,closed,group13/user2,11,561675773
+25,1456235494,milestoned,Implement User Current Location Feature,group13/user2,11,561647818
+25,1456235494,assigned,group13/user2,group13/user2,11,561647816
+25,1456235494,labeled,enhancement,group13/user2,11,561647814
+26,1456236628,closed,closed,group13/user2,,561675417
+26,1456236628,merged,merged,group13/user2,,561675416
+26,1456236628,referenced,referenced,group13/user2,,561675415
+27,1456278440,closed,closed,group13/user2,9,562761411
+27,1456277828,milestoned,App opens with a biased location wrt campus,group13/user2,9,562751119
+27,1456277828,assigned,group13/user2,group13/user2,9,562751117
+27,1456277828,labeled,enhancement,group13/user2,9,562751116
+28,1456278409,closed,closed,group13/user2,,562760934
+28,1456278409,merged,merged,group13/user2,,562760933
+28,1456278409,referenced,referenced,group13/user2,,562760932
+29,1456378989,closed,closed,group13/user2,,564982526
+29,1456278754,assigned,group13/user2,group13/user2,,562768355
+30,1456278797,closed,closed,group13/user2,,562769440
+30,1456278797,merged,merged,group13/user2,,562769439
+30,1456278797,referenced,referenced,group13/user2,,562769437
+31,1456347270,closed,closed,group13/user2,,564333987
+31,1456347270,merged,merged,group13/user2,,564333986
+31,1456347270,referenced,referenced,group13/user2,,564333985
+32,1456940578,closed,closed,group13/user2,12,575026094
+32,1456347516,milestoned,Save NCSU Parking Locations,group13/user2,12,564339951
+32,1456347516,labeled,enhancement,group13/user2,12,564339949
+33,1456940535,closed,closed,group13/user2,14,575025310
+33,1456348256,milestoned,Introduce DESIGN to parking lots,group13/user2,14,564357383
+33,1456348256,assigned,group13/user1,group13/user1,14,564357382
+33,1456348256,labeled,question,group13/user2,14,564357381
+34,1456940422,closed,closed,group13/user2,12,575022853
+34,1456348500,milestoned,Save NCSU Parking Locations,group13/user2,12,564363722
+34,1456348500,assigned,group13/user1,group13/user1,12,564363721
+34,1456348500,labeled,question,group13/user2,12,564363717
+35,1456349081,assigned,group13/user3,group13/user3,,564379320
+35,1456349081,labeled,question,group13/user2,,564379317
+36,1456378568,closed,closed,group13/user1,,564975825
+37,1456381327,closed,closed,group13/user1,,565020345
+38,1456381362,closed,closed,group13/user1,,565020782
+39,1456531634,closed,closed,group13/user1,,568437560
+40,1457034473,closed,closed,group13/user1,,576762571
+40,1456535072,labeled,enhancement,group13/user1,,568491768
+41,1456940385,closed,closed,group13/user2,,575022104
+41,1456535061,labeled,enhancement,group13/user1,,568491663
+42,1456619288,closed,closed,group13/user1,15,569357272
+42,1456535016,labeled,enhancement,group13/user1,15,568490864
+42,1456531839,assigned,group13/user1,group13/user1,15,568441132
+42,1456531820,milestoned,Have a login and Signup,group13/user1,15,568440825
+43,1456619300,closed,closed,group13/user1,15,569357368
+43,1456535000,labeled,enhancement,group13/user1,15,568490568
+43,1456531831,assigned,group13/user1,group13/user1,15,568440996
+43,1456531810,milestoned,Have a login and Signup,group13/user1,15,568440652
+44,1456940318,closed,closed,group13/user2,15,575020586
+44,1456535097,milestoned,Have a login and Signup,group13/user1,15,568492167
+44,1456534982,labeled,bug,group13/user1,15,568490313
+44,1456531878,assigned,group13/user1,group13/user1,15,568441939
 45,1456634972,closed,closed,group13/user4,,569503049
 45,1456631398,labeled,enhancement,group13/user4,,569469718
 46,1456753279,closed,closed,group13/user4,,571106608
 46,1456639367,labeled,bug,group13/user4,,569538928
 47,1456753269,closed,closed,group13/user4,,571106425
 47,1456640571,labeled,bug,group13/user4,,569550517
-48,1456887020,closed,closed,group13/user2,,574054190
+48,1456887020,closed,closed,group13/user3,,574054190

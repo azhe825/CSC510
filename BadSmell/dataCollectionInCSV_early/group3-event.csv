@@ -1,112 +1,112 @@
 issueID,time,action,label,user,milestone,identifier
-1,1455669812,closed,closed,group3/user2,,552870025
-2,1455669817,closed,closed,group3/user2,,552870073
-3,1454687056,closed,closed,group3/user2,1,540802543
-3,1452808201,milestoned,Feb 1,group3/user3,1,515531065
-3,1452808065,assigned,group3/user3,group3/user3,1,515528743
-4,1455669788,closed,closed,group3/user2,,552869769
-5,1455669774,closed,closed,group3/user2,,552869595
-5,1454122078,unassigned,unassigned,group3/user3,,532189148
+1,1455669812,closed,closed,group3/user3,,552870025
+2,1455669817,closed,closed,group3/user3,,552870073
+3,1454687056,closed,closed,group3/user3,1,540802543
+3,1452808201,milestoned,Feb 1,group3/user1,1,515531065
+3,1452808065,assigned,group3/user1,group3/user1,1,515528743
+4,1455669788,closed,closed,group3/user3,,552869769
+5,1455669774,closed,closed,group3/user3,,552869595
+5,1454122078,unassigned,unassigned,group3/user1,,532189148
 5,1454096616,subscribed,subscribed,group3/user4,,531812330
 5,1454096616,mentioned,mentioned,group3/user4,,531812329
-5,1454093100,assigned,group3/user3,group3/user3,,531732816
-6,1455669761,closed,closed,group3/user2,,552869430
-8,1455669847,closed,closed,group3/user2,,552870396
+5,1454093100,assigned,group3/user1,group3/user1,,531732816
+6,1455669761,closed,closed,group3/user3,,552869430
+8,1455669847,closed,closed,group3/user3,,552870396
 8,1454343563,renamed,renamed,group3/user5,,534415633
 8,1454342998,labeled,proj1 feedback,group3/user5,,534400928
-9,1456935353,closed,closed,group3/user3,2,574893374
+9,1456935353,closed,closed,group3/user1,2,574893374
 9,1456160910,subscribed,subscribed,group3/user4,2,559984192
 9,1456160910,mentioned,mentioned,group3/user4,2,559984191
-9,1456160401,subscribed,subscribed,group3/user3,2,559968705
-9,1456160401,mentioned,mentioned,group3/user3,2,559968704
-9,1454625451,labeled,1. Task,group3/user1,2,539910057
-9,1454625445,milestoned,Implementation Complete Mar 1,group3/user1,2,539909932
-9,1454625437,demilestoned,Feb 1,group3/user1,2,539909783
-9,1454625431,milestoned,Feb 1,group3/user1,2,539909630
-9,1454625104,assigned,group3/user3,group3/user3,2,539902771
-10,1456937352,closed,closed,group3/user1,2,574945300
-10,1456937347,demilestoned,March 1 report,group3/user1,2,574945196
-10,1456937347,milestoned,Implementation Complete Mar 1,group3/user1,2,574945195
-10,1456937342,demilestoned,Implementation Complete Mar 1,group3/user1,2,574945079
-10,1456937342,milestoned,March 1 report,group3/user1,2,574945078
-10,1454625548,milestoned,Implementation Complete Mar 1,group3/user1,2,539912222
-10,1454625548,assigned,group3/user1,group3/user1,2,539912221
-10,1454625548,labeled,1. Task,group3/user1,2,539912220
-11,1456669779,closed,closed,group3/user2,2,569835416
-11,1454686977,demilestoned,Feb 1,group3/user2,2,540800536
-11,1454686977,milestoned,Implementation Complete Mar 1,group3/user2,2,540800535
-11,1454686971,demilestoned,Implementation Complete Mar 1,group3/user2,2,540800399
-11,1454686971,milestoned,Feb 1,group3/user2,2,540800397
-11,1454625687,milestoned,Implementation Complete Mar 1,group3/user1,2,539915432
-11,1454625687,assigned,group3/user2,group3/user2,2,539915431
-11,1454625687,labeled,1. Task,group3/user1,2,539915430
+9,1456160401,subscribed,subscribed,group3/user1,2,559968705
+9,1456160401,mentioned,mentioned,group3/user1,2,559968704
+9,1454625451,labeled,1. Task,group3/user2,2,539910057
+9,1454625445,milestoned,Implementation Complete Mar 1,group3/user2,2,539909932
+9,1454625437,demilestoned,Feb 1,group3/user2,2,539909783
+9,1454625431,milestoned,Feb 1,group3/user2,2,539909630
+9,1454625104,assigned,group3/user1,group3/user1,2,539902771
+10,1456937352,closed,closed,group3/user2,2,574945300
+10,1456937347,demilestoned,March 1 report,group3/user2,2,574945196
+10,1456937347,milestoned,Implementation Complete Mar 1,group3/user2,2,574945195
+10,1456937342,demilestoned,Implementation Complete Mar 1,group3/user2,2,574945079
+10,1456937342,milestoned,March 1 report,group3/user2,2,574945078
+10,1454625548,milestoned,Implementation Complete Mar 1,group3/user2,2,539912222
+10,1454625548,assigned,group3/user2,group3/user2,2,539912221
+10,1454625548,labeled,1. Task,group3/user2,2,539912220
+11,1456669779,closed,closed,group3/user3,2,569835416
+11,1454686977,demilestoned,Feb 1,group3/user3,2,540800536
+11,1454686977,milestoned,Implementation Complete Mar 1,group3/user3,2,540800535
+11,1454686971,demilestoned,Implementation Complete Mar 1,group3/user3,2,540800399
+11,1454686971,milestoned,Feb 1,group3/user3,2,540800397
+11,1454625687,milestoned,Implementation Complete Mar 1,group3/user2,2,539915432
+11,1454625687,assigned,group3/user3,group3/user3,2,539915431
+11,1454625687,labeled,1. Task,group3/user2,2,539915430
 12,1456967388,closed,closed,group3/user4,2,575573216
-12,1454625745,milestoned,Implementation Complete Mar 1,group3/user1,2,539916674
+12,1454625745,milestoned,Implementation Complete Mar 1,group3/user2,2,539916674
 12,1454625745,assigned,group3/user4,group3/user4,2,539916672
-12,1454625745,labeled,1. Task,group3/user1,2,539916670
-13,1456669671,closed,closed,group3/user2,8,569834813
-13,1455669882,labeled,1. Task,group3/user2,8,552870886
-13,1455653184,assigned,group3/user2,group3/user2,8,552577969
-13,1455653176,milestoned,semi-supervised learning solutions,group3/user2,8,552577813
-14,1456930611,closed,closed,group3/user2,8,574765545
-14,1455669875,labeled,1. Task,group3/user2,8,552870792
-14,1455653226,milestoned,semi-supervised learning solutions,group3/user2,8,552578769
-14,1455653226,assigned,group3/user2,group3/user2,8,552578768
+12,1454625745,labeled,1. Task,group3/user2,2,539916670
+13,1456669671,closed,closed,group3/user3,8,569834813
+13,1455669882,labeled,1. Task,group3/user3,8,552870886
+13,1455653184,assigned,group3/user3,group3/user3,8,552577969
+13,1455653176,milestoned,semi-supervised learning solutions,group3/user3,8,552577813
+14,1456930611,closed,closed,group3/user3,8,574765545
+14,1455669875,labeled,1. Task,group3/user3,8,552870792
+14,1455653226,milestoned,semi-supervised learning solutions,group3/user3,8,552578769
+14,1455653226,assigned,group3/user3,group3/user3,8,552578768
 15,1455653334,subscribed,subscribed,group3/user4,,552580779
 15,1455653334,mentioned,mentioned,group3/user4,,552580778
 16,1456967430,closed,closed,group3/user4,,575573710
 17,1456967430,closed,closed,group3/user4,,575573711
-18,1456935375,closed,closed,group3/user3,,574893825
+18,1456935375,closed,closed,group3/user1,,574893825
 19,1456967430,closed,closed,group3/user4,,575573712
 19,1456246873,subscribed,subscribed,group3/user4,,561975220
 19,1456246873,mentioned,mentioned,group3/user4,,561975219
 20,1456967472,closed,closed,group3/user4,,575574165
-21,1456935425,closed,closed,group3/user3,,574895294
-21,1456281610,subscribed,subscribed,group3/user3,,562820483
-21,1456281610,mentioned,mentioned,group3/user3,,562820482
+21,1456935425,closed,closed,group3/user1,,574895294
+21,1456281610,subscribed,subscribed,group3/user1,,562820483
+21,1456281610,mentioned,mentioned,group3/user1,,562820482
 22,1456423140,closed,closed,group3/user4,,566044056
-23,1456935445,closed,closed,group3/user3,,574895840
-23,1456425080,subscribed,subscribed,group3/user3,,566097273
-23,1456425080,mentioned,mentioned,group3/user3,,566097272
-24,1456935465,closed,closed,group3/user3,,574896640
-24,1456508111,subscribed,subscribed,group3/user3,,567883853
-24,1456508111,mentioned,mentioned,group3/user3,,567883852
-25,1456935471,closed,closed,group3/user3,,574896937
-26,1456937626,labeled,Suggestion,group3/user1,,574952474
-26,1456935506,closed,closed,group3/user3,,574898032
-26,1456516851,subscribed,subscribed,group3/user2,,568112168
-26,1456516851,mentioned,mentioned,group3/user2,,568112167
-26,1456516303,subscribed,subscribed,group3/user3,,568096504
-26,1456516303,mentioned,mentioned,group3/user3,,568096503
-27,1456778542,labeled,Suggestion,group3/user2,,571801458
-27,1456520616,subscribed,subscribed,group3/user2,,568203114
-27,1456520616,mentioned,mentioned,group3/user2,,568203113
-28,1456935456,closed,closed,group3/user3,,574896245
-28,1456778554,labeled,Suggestion,group3/user2,,571801859
-29,1456778533,labeled,Suggestion,group3/user2,,571801061
+23,1456935445,closed,closed,group3/user1,,574895840
+23,1456425080,subscribed,subscribed,group3/user1,,566097273
+23,1456425080,mentioned,mentioned,group3/user1,,566097272
+24,1456935465,closed,closed,group3/user1,,574896640
+24,1456508111,subscribed,subscribed,group3/user1,,567883853
+24,1456508111,mentioned,mentioned,group3/user1,,567883852
+25,1456935471,closed,closed,group3/user1,,574896937
+26,1456937626,labeled,Suggestion,group3/user2,,574952474
+26,1456935506,closed,closed,group3/user1,,574898032
+26,1456516851,subscribed,subscribed,group3/user3,,568112168
+26,1456516851,mentioned,mentioned,group3/user3,,568112167
+26,1456516303,subscribed,subscribed,group3/user1,,568096504
+26,1456516303,mentioned,mentioned,group3/user1,,568096503
+27,1456778542,labeled,Suggestion,group3/user3,,571801458
+27,1456520616,subscribed,subscribed,group3/user3,,568203114
+27,1456520616,mentioned,mentioned,group3/user3,,568203113
+28,1456935456,closed,closed,group3/user1,,574896245
+28,1456778554,labeled,Suggestion,group3/user3,,571801859
+29,1456778533,labeled,Suggestion,group3/user3,,571801061
 29,1456691615,labeled,1. Task,group3/user4,,570060950
 29,1456691615,labeled,help wanted,group3/user4,,570060949
 30,1456715095,labeled,bug,group3/user4,,570353786
 30,1456691625,labeled,3. Results,group3/user4,,570061032
 31,1456887370,renamed,renamed,group3/user4,,574061852
-31,1456887356,subscribed,subscribed,group3/user2,,574061566
-31,1456887356,mentioned,mentioned,group3/user2,,574061565
+31,1456887356,subscribed,subscribed,group3/user3,,574061566
+31,1456887356,mentioned,mentioned,group3/user3,,574061565
 31,1456726292,assigned,group3/user4,group3/user4,,570512675
 31,1456725832,labeled,3. Results,group3/user4,,570505978
-32,1456771745,assigned,group3/user1,group3/user1,2,571606245
-32,1456771741,milestoned,Implementation Complete Mar 1,group3/user1,2,571606204
-32,1456771733,labeled,3. Results,group3/user1,2,571606037
-33,1456778513,labeled,Suggestion,group3/user2,,571800448
-34,1456937662,milestoned,March 1 report,group3/user1,3,574953504
-36,1456937539,milestoned,Implement best solution with GUI,group3/user1,10,574950150
-36,1456937539,labeled,enhancement,group3/user1,10,574950149
-37,1456937697,milestoned,Combine all three solutions to have the best,group3/user1,9,574954412
-37,1456937697,labeled,1. Task,group3/user1,9,574954409
-38,1456937736,milestoned,GUI Build,group3/user1,6,574955304
-38,1456937736,labeled,1. Task,group3/user1,6,574955303
-39,1456937815,milestoned,Testing for solutions,group3/user1,4,574957015
-39,1456937815,labeled,1. Task,group3/user1,4,574957014
-40,1456937902,milestoned,Apr1 report,group3/user1,5,574959059
-40,1456937902,labeled,1. Task,group3/user1,5,574959058
-41,1456955495,milestoned,Implementation Complete Mar 1,group3/user1,2,575362395
-41,1456955495,labeled,3. Results,group3/user1,2,575362394
+32,1456771745,assigned,group3/user2,group3/user2,2,571606245
+32,1456771741,milestoned,Implementation Complete Mar 1,group3/user2,2,571606204
+32,1456771733,labeled,3. Results,group3/user2,2,571606037
+33,1456778513,labeled,Suggestion,group3/user3,,571800448
+34,1456937662,milestoned,March 1 report,group3/user2,3,574953504
+36,1456937539,milestoned,Implement best solution with GUI,group3/user2,10,574950150
+36,1456937539,labeled,enhancement,group3/user2,10,574950149
+37,1456937697,milestoned,Combine all three solutions to have the best,group3/user2,9,574954412
+37,1456937697,labeled,1. Task,group3/user2,9,574954409
+38,1456937736,milestoned,GUI Build,group3/user2,6,574955304
+38,1456937736,labeled,1. Task,group3/user2,6,574955303
+39,1456937815,milestoned,Testing for solutions,group3/user2,4,574957015
+39,1456937815,labeled,1. Task,group3/user2,4,574957014
+40,1456937902,milestoned,Apr1 report,group3/user2,5,574959059
+40,1456937902,labeled,1. Task,group3/user2,5,574959058
+41,1456955495,milestoned,Implementation Complete Mar 1,group3/user2,2,575362395
+41,1456955495,labeled,3. Results,group3/user2,2,575362394

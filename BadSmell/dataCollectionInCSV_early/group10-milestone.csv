@@ -1,5 +1,5 @@
 id,title,description,created_at,due_at,closed_at,user,identifier
-1,Feb 1,,1454425577,1454302800,1457049601,group10/user1,1558869
+1,Feb 1,,1454425577,1454302800,1454425577,group10/user1,1558869
 2,Mar 1 http://se16.unbox.org/project/mar1.md,"##Goals
 
 To implement three different solutions to the problem identified in January.
@@ -17,8 +17,10 @@ March will be testing those solutions.
 And April will be building tools to reflect on how effective are teams at building software.
 So this month is all about building tools, not trials of these tools. You succeed this month if some code is running (and not that it has been tested on some sample population).
 
-Next month (March) expect dramatic changes to your code base when your user trials start and you realize that you should be doing XYZ not ABC. So be prepared to be very agile in March.",1454425645,1456808400,1457049601,group10/user1,1558872
+Next month (March) expect dramatic changes to your code base when your user trials start and you realize that you should be doing XYZ not ABC. So be prepared to be very agile in March.",1454425645,1456808400,1454425645,group10/user1,1558872
 5,Solution 1,"1. Search a location
 2. add place in search
 3. draw straight line
-4. get real path",1455728482,1456376400,1457049601,group10/user1,1588943
+4. get real path",1455728482,1456376400,1455728482,group10/user1,1588943
+6,Solution 2,All work in Solution 2,1455728510,1455728510,1455728510,group10/user1,1588944
+7,Solution 3,All work in Solution 3,1455728524,1455728524,1455728524,group10/user1,1588946

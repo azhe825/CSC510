@@ -1,8 +1,9 @@
 id,title,description,created_at,due_at,closed_at,user,identifier
-2,Mozilla plugin study,Learn and the understand the mozilla Add-on SDK,1455839987,1454648400,1455840033,group5/user1,1591971
+1,1,,1454301893,1454301893,1455839885,group5/user1,1554654
+2,Mozilla plugin study,Learn and the understand the mozilla Add-on SDK,1455839987,1454648400,1455840033,group5/user2,1591971
 3,Develop three chrome plugins,"Building three chrome extensions justifying image access in a webpage.
-",1455848393,1456808400,1458687442,group5/user2,1592124
-4,Make plugin available for download,Figuring out how to implement the plugin installation funcitonality,1458687294,1460001600,1460073601,group5/user1,1660970
+",1455848393,1456808400,1458687442,group5/user1,1592124
+4,Make plugin available for download,Figuring out how to implement the plugin installation funcitonality,1458687294,1460001600,1458687294,group5/user2,1660970
 5,Functionality to collect and store logs on Server,"Its better if we can collect logs from the users in an automated manner. With this functionality, users can run the plugin on their own browsers in their PCs and we can collect more number of logs.",1458687321,1459051200,1459988120,group5/user3,1660971
-6,Modify solutions according to users specification,Modification in three solutions based on data collected from users.,1459480220,1460001600,1459988111,group5/user2,1677362
-7,Prepare a report for submission,,1459911266,1460001600,1459988116,group5/user1,1686311
+6,Modify solutions according to users specification,Modification in three solutions based on data collected from users.,1459480220,1460001600,1459988111,group5/user1,1677362
+7,Prepare a report for submission,,1459911266,1460001600,1459988116,group5/user2,1686311

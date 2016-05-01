@@ -9,8 +9,14 @@ id,title,description,created_at,due_at,closed_at,user,identifier
 8,Chrome Plugin,Create Chrome Plugin for taking a screen shot.,1456465527,1456722000,1456947890,group1/user2,1607439
 9,integrating client and server side code,integrate the client and server side code and test,1456644442,1456722000,1456981620,group1/user3,1610000
 10,Solution 1: Desktop App closure,"Complete the Desktop App, proposed solution 1.",1456651235,1456808400,1456981626,group1/user1,1610049
+11,meeting to decide course of action,"Pointers from the meeting :
+
+1) Decide user tasks for evaluation.
+2) Decided on telemetry 
+3) split tasks among members ",1457743267,1457743267,1457744366,group1/user3,1640082
 12,Chrome Plug in changes,Changes to be made to the Chrome plug in,1457743589,1458878400,1459726039,group1/user2,1640089
 13,adding private search and cross search to solution 3,Give users ability to search on his private images as well as cross search on public data.,1457743626,1458792000,1459726034,group1/user3,1640090
 14,Preview and share options for desktop solutions.,,1457744160,1458878400,1459726042,group1/user1,1640096
 15,add sign up option for desktop solutions,"allow users to sign up, collect data about users, privacy agreement",1457744859,1458878400,1459726045,group1/user3,1640103
 16,Server side Changes,Telemetric changes to be made,1457745500,1459396800,1459726047,group1/user2,1640107
+17,testing solutions on different users,,1459536322,1459536322,1459536322,group1/user3,1678631

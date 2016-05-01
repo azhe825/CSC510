@@ -100,4 +100,7 @@ technically linux too"
 52,1456803817,88989f88ceb666fdd7763cb5057a2716693feece,group7/user2,Telemetry added to clipit-cmd
 53,1456803435,fc6e752bc71f1fae18b2466a28625ad059d110d1,group7/user2,Integrate telemetry with clipit-order
 54,1456799149,a475a0a66bbeba6534139b285efb8e85973adafa,group7/user3,Update README.md
-55,1456688028,f883a9f8cd75aca8066aa5e82d75a7f3866b9b4a,group7/user4,Panel feature
+55,1456688742,20a35689a611306fd4ae1db015a35afb6e0073d3,group7/user4,Delete org.plugin.helloworld_master.rar
+56,1456688270,f5527bb773d5ada35e517c52f8e1f1d38a229eca,group7/user2,Merge branch 'reachspirit'
+57,1456688240,3649fcec6543c0da1e75b693016f1657e00aa9cb,group7/user2,Fix merge conflicts
+58,1456688028,f883a9f8cd75aca8066aa5e82d75a7f3866b9b4a,group7/user4,Panel feature
