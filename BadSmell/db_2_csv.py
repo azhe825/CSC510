@@ -35,5 +35,5 @@ def main(indir,outdir):
 
 
 if __name__ == "__main__":
-    main('./dataCollectionInDB_early/','./dataCollectionInCSV_early/')
-    main('./dataCollectionInDB_last/','./dataCollectionInCSV_last/')
+    #main('./dataCollectionInDB_early/','./dataCollectionInCSV_early/')
+    main('./dataCollectionInDB_new/','./dataCollectionInCSV_new/')

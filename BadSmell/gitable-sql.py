@@ -140,13 +140,15 @@ def dumpMilestone1(u, milestones, token, timebound):
   user = milestone['creator']['login']
 
   if due_at==None:
-    return True
+    #return True
+    due_at = created_at
   if due_at>timebound:
     return True
   if closed_at==None:
-    closed_at=timebound+1
-  if closed_at>timebound:
-    closed_at=timebound+1
+    #closed_at=timebound+1
+    closed_at = created_at
+  #if closed_at>timebound:
+    #closed_at=timebound+1
 
 
   milestoneObj = L(ident=identifier,
