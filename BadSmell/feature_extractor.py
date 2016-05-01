@@ -279,9 +279,32 @@ def issueParticipantScore():
     return bad_smell
 
 
-def save_badsmell_csv(outputFile, bad_smell):
+def silentUserNum():
+    "for each group, find if some user far lower than 50% of average Comments Per User "
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/userCommentNum.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                userCommentNum = [int(num) for num in row[1:]]
+                average = float(sum(userCommentNum))/len(userCommentNum)
+                threshold = 0.5 * average
+                silentUser = 0
+                for num in userCommentNum:
+                    if num < threshold:
+                        silentUser += 1
+                bad_smell[groupID] = {'SilentUser Num': silentUser}
+    return bad_smell
+
+def save_badsmell_csv(outputFile, bad_smell, fileds):
      with open(outputFile, 'w') as csvoutput:
-        fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3']
         writer = csv.DictWriter(csvoutput, fieldnames=fileds)
         writer.writeheader()
         for groupID, bad_smells in bad_smell.iteritems():
@@ -299,9 +322,12 @@ def merge_dict(bad_smell1, bad_smell2):
 def get_badSmell(base, csvpath):
     bad_smell1 = issueDiscussionScore()
     bad_smell2 = issueParticipantScore()
+    bad_smell3 = silentUserNum()
     bad_smell = merge_dict(bad_smell1, bad_smell2)
-    outputFile = os.path.join(base, 'badSmellScoreCSC/PoorCommunication.csv')
-    save_badsmell_csv(outputFile, bad_smell)
+    bad_smell = merge_dict(bad_smell, bad_smell3)
+    outputFile = os.path.join(base, 'badSmellScoreCSV/PoorCommunication.csv')
+    fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3', 'SilentUser Num']
+    save_badsmell_csv(outputFile, bad_smell, fileds)
     print 'done'
 
 
