@@ -1,0 +1,660 @@
+getting records from Arjun-Code-Knight/csc510-se-project
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+milestone 11
+milestone 12
+milestone 13
+milestone 14
+milestone 15
+milestone 16
+milestone 17
+milestone 18
+milestone 19
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+commit page 1
+commit page 2
+commit page 3
+https://api.github.com/repos/Arjun-Code-Knight/csc510-se-project/commits?page=4
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 4
+commit page 5
+commit page 6
+commit page 7
+commit page 8
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from ankitkumar93/csc510-se-project
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+milestone 11
+milestone 12
+milestone 13
+milestone 14
+milestone 15
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+comments page 1
+comments page 2
+comments page 3
+commit page 1
+commit page 2
+commit page 3
+commit page 4
+commit page 5
+commit page 6
+commit page 7
+commit page 8
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from azhe825/CSC510
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+milestone 11
+milestone 12
+milestone 13
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+issue page 11
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+comments page 5
+comments page 6
+comments page 7
+comments page 8
+commit page 1
+commit page 2
+commit page 3
+commit page 4
+commit page 5
+commit page 6
+commit page 7
+commit page 8
+commit page 9
+commit page 10
+commit page 11
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from jordy-jose/CSC_510_group_d
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+milestone 11
+milestone 12
+milestone 13
+milestone 14
+milestone 15
+milestone 16
+milestone 17
+milestone 18
+milestone 19
+milestone 20
+milestone 21
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+issue page 11
+issue page 12
+issue page 13
+issue page 14
+issue page 15
+issue page 16
+issue page 17
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+comments page 5
+https://api.github.com/repos/jordy-jose/CSC_510_group_d/commits?page=1
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 1
+commit page 2
+https://api.github.com/repos/jordy-jose/CSC_510_group_d/commits?page=3
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 3
+https://api.github.com/repos/jordy-jose/CSC_510_group_d/commits?page=4
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 4
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from DharmendraVaghela/csc510-grp-e
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+comments page 1
+comments page 2
+comments page 3
+commit page 1
+commit page 2
+https://api.github.com/repos/DharmendraVaghela/csc510-grp-e/commits?page=3
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 3
+https://api.github.com/repos/DharmendraVaghela/csc510-grp-e/commits?page=4
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 4
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from moharnab123saikia/CSC510-group-f
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+issue page 11
+issue page 12
+issue page 13
+issue page 14
+issue page 15
+issue page 16
+issue page 17
+issue page 18
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+comments page 5
+comments page 6
+commit page 1
+commit page 2
+commit page 3
+commit page 4
+commit page 5
+commit page 6
+commit page 7
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from cleebp/csc-510-group-g
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+milestone 11
+milestone 12
+milestone 13
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+issue page 11
+issue page 12
+issue page 13
+issue page 14
+issue page 15
+issue page 16
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+comments page 5
+comments page 6
+comments page 7
+comments page 8
+comments page 9
+comments page 10
+comments page 11
+comments page 12
+commit page 1
+commit page 2
+commit page 3
+https://api.github.com/repos/cleebp/csc-510-group-g/commits?page=4
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 4
+https://api.github.com/repos/cleebp/csc-510-group-g/commits?page=5
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 5
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from nikign/Git-Helper
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+issue page 11
+issue page 12
+issue page 13
+issue page 14
+issue page 15
+issue page 16
+issue page 17
+issue page 18
+issue page 19
+issue page 20
+issue page 21
+issue page 22
+issue page 23
+issue page 24
+issue page 25
+issue page 26
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+comments page 5
+comments page 6
+comments page 7
+https://api.github.com/repos/nikign/Git-Helper/commits?page=1
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 1
+https://api.github.com/repos/nikign/Git-Helper/commits?page=2
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 2
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from shivamgulati1991/CSC510-SE-group-i
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+milestone 11
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+commit page 1
+commit page 2
+commit page 3
+commit page 4
+commit page 5
+commit page 6
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from arnabsaha1011/mypackse
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+issue page 11
+issue page 12
+issue page 13
+issue page 14
+issue page 15
+issue page 16
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+commit page 1
+commit page 2
+commit page 3
+commit page 4
+commit page 5
+https://api.github.com/repos/arnabsaha1011/mypackse/commits?page=6
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 6
+https://api.github.com/repos/arnabsaha1011/mypackse/commits?page=7
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 7
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from alokrk/csc510groupk
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+commit page 1
+https://api.github.com/repos/alokrk/csc510groupk/commits?page=2
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 2
+https://api.github.com/repos/alokrk/csc510groupk/commits?page=3
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 3
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from sandz-in/csc510_group_l
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+https://api.github.com/repos/sandz-in/csc510_group_l/milestones/7
+<urlopen error [Errno 60] Operation timed out>
+other Contact TA
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+milestone 11
+milestone 12
+milestone 13
+milestone 14
+milestone 15
+milestone 16
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+issue page 11
+issue page 12
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+comments page 5
+commit page 1
+commit page 2
+https://api.github.com/repos/sandz-in/csc510_group_l/commits?page=3
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 3
+https://api.github.com/repos/sandz-in/csc510_group_l/commits?page=4
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 4
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from nikraina/CSC510-Group-M
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+milestone 11
+milestone 12
+milestone 13
+milestone 14
+milestone 15
+milestone 16
+milestone 17
+milestone 18
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+commit page 1
+commit page 2
+commit page 3
+commit page 4
+commit page 5
+commit page 6
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!
+getting records from gvivek19/CSC510-Team-N
+milestone 1
+milestone 2
+milestone 3
+milestone 4
+milestone 5
+milestone 6
+milestone 7
+milestone 8
+milestone 9
+milestone 10
+issue page 1
+issue page 2
+issue page 3
+issue page 4
+issue page 5
+issue page 6
+issue page 7
+issue page 8
+issue page 9
+issue page 10
+issue page 11
+issue page 12
+issue page 13
+issue page 14
+comments page 1
+comments page 2
+comments page 3
+comments page 4
+commit page 1
+commit page 2
+commit page 3
+commit page 4
+https://api.github.com/repos/gvivek19/CSC510-Team-N/commits?page=5
+'NoneType' object has no attribute '__getitem__'
+Contact TA
+commit page 5
+commit page 6
+commit page 7
+commit page 8
+committed issues
+committed milestones
+committed events
+committed comments
+committed commits
+done!

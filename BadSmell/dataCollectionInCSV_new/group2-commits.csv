@@ -1,0 +1,110 @@
+id,time,sha,user,message
+1,1460070863,ce9933fffd37f167e4c2e70656b97cdbd395dc2c,group2/user1,Tel Fix
+2,1460070744,c50a322095775bc4861963cb711138f4f8604573,group2/user1,T fix
+3,1460070635,368a1372d08f488682baf99c737b9d27154711cb,group2/user1,T Fix
+4,1460070470,8809cc4b4f31aa6e1cbf3d112b130310d13d8179,group2/user1,Fix
+5,1460070390,84ae3ca3fe6f75493c6c7418d5d2fa0de9bbfd39,group2/user1,Added Telemetry
+6,1460069775,6d76f166e063518b25b937f9cd3e68cfc133c28f,group2/user1,Added Telemetry
+7,1460068535,6cdc7efc2690c20b62fc7dc33b796e51b57635f5,group2/user1,Added Answer Fetch
+8,1460057852,3a6b355be34e3052d0d665be5559a3c24e31986d,group2/user1,Fixed Structure
+9,1460057770,e450f98b9af686d0d3eca44fb5f57782a927910c,group2/user1,Plugin Updated
+10,1460057736,090991cfa03b16e828f196ccdf671f20fbbf3ebb,group2/user1,Updated Plugin
+11,1460057690,3649ae8940477512fdebd6817baac3575dea80a0,group2/user1,Updated Plugin
+12,1460057410,0b18e515d544734aeb92198391785b69ef0f60ee,group2/user1,Fixed Directory Structure
+13,1460057359,453a7fc9e8b15f15ddc9e52e690f91defe1123f8,group2/user1,Fixed DStruct
+14,1460057271,471f0db7f36455b0fb4681701308c3b266b20004,group2/user1,Fixed Directory Structure
+15,1460010876,2999eaadfa9d411370a0f91ca7b823a0fe3f8676,group2/user1,Added Telemetry AUTO
+16,1459999642,5b69262781a5fdd2ac76e2b571c10cc9f0671bd6,group2/user1,DOne
+17,1459999222,67f199810b73cbe420a9003e55b2f1f5c2052023,group2/user1,Fixed Clustering
+18,1459998335,a26d8c6a1c9307c0361d32a7d209a9e778b5c971,group2/user1,SOl3 Fixed
+19,1459986881,9fd36b2e26357b0719483c7b34fc12c04e41cd46,group2/user1,Added Background data collection
+20,1459922492,ede377c05a76fbf615dc812165cf2ff18adbc2d4,group2/user1,Modifeid Clustering
+21,1459834682,ccb4907b3dbca1c96e2bb3997675e74bae5cc2cb,group2/user1,updated clustering for tokenization
+22,1459830094,7b80399507f6632dfd16833661a7c4179221393c,group2/user1,Sol3 Fix
+23,1459406721,2ae70fe35a2985856b823f3a265a53284d061467,group2/user1,Hasher Fix
+24,1459406007,aa1e005f33c27240364d7abb7b63725f09e81943,group2/user1,Modified Bagofwords.py
+25,1459403531,efef81498f5f870285bcbb179a3fcfc99f143cac,group2/user1,Bug Fix
+26,1459402592,04dcc0cfac0f14e0c1c4ffbcd18167cafb64104b,group2/user1,Bug Fix
+27,1459238990,662d8268d8702049c0ec866af2a1d484a50cdef2,group2/user1,Simhash filter in progress
+28,1459238485,00178f23850e80b81472f9f46108deb199ab1df6,group2/user1,Added simhash
+29,1459210355,a08348367f377ad66a86c96ab906a1357007529e,group2/user1,Solution 3 init
+30,1459210102,883ed6925f2ebe282f3ee9295437e172f9e30050,group2/user1,Filters Added
+31,1457077054,cbeddfea90cd323f4280e98f005b1c428acd2701,group2/user2,"Merge branch 'solution2' of https://github.com/ankitkumar93/csc510-se-project into solution2
+
+Conflicts:
+	kmeans.py"
+32,1457077025,fe77a3f748b9bc55ce5dec0385d1eebea9476add,group2/user2,updating k means file
+33,1457076858,8b060ed7bf62ac40a943e7552be1a24b1f2e7c7b,group2/user2,adding updated data file
+34,1457068390,a2aaf530b49d582b02fd5e8ff24c548b74f7acf5,group2/user1,Sol2 Integrated
+35,1457066704,5bdcad59118c64d08bc4494bdbb323e8f88a8dac,group2/user5,updating lda model file
+36,1457066573,0dddfb120a55d29cbfb31b81088d9ed080285fc6,group2/user5,adding new stopwords to the file
+37,1457066388,fc9df06e0d930aa3f20e21d80feed9cc39d59cd9,group2/user5,changing kmeans algo
+38,1457066054,2860000ca1a25cf26c380bf84c57fd4949748014,group2/user2,updating stopwords file
+39,1457065970,9f4abfe285a298ed76ae54ff635ced6c18302067,group2/user2,updating kmeans file
+40,1457065868,4ae7225bd16137c97a820645e4d3bc2ac2ff9253,group2/user2,adding solution 2 data file
+41,1457060204,015277ca77b2374772edc713bcd62f6e558dd266,group2/user2,updating kmeans file
+42,1457059241,068a07fb56b8eba4abcf6c895961209e21bca0b6,group2/user2,updating kmeans file
+43,1457056150,4e08e08194294f9c423d44d6666d32e481ba14fc,group2/user2,adding kmeans file
+44,1457046897,4a20a79ae567cbeacaef73ef4b2884f260d488ed,group2/user1,Solution 2 Added Interfacace
+45,1456890882,ba76549ba18d76b7082361dc3f8baad95cbd1045,group2/user1,March 1 Done
+46,1456890662,e0adee5b0bcc1a6b7d69c19be9f071b24dc404a8,group2/user1,Fixed Survey Response link
+47,1456890569,9b41b2d58461587167cac3534156c29d695b4b9b,group2/user1,Fixed Survey Link Indentation
+48,1456890526,7e84ce1dae567069d724eb2f2ed63a18db35d684,group2/user1,Added Survey Links
+49,1456888588,ab0f6b554c91e4aa83999dd8c0f4f309912ff99f,group2/user5,Updating Telemetry Link
+50,1456888514,5c6121a71b616aa5556e9c8694c3c6563a1363eb,group2/user5,Updating links and bullets
+51,1456887998,5c6bc94f64df8ce662edb46efd5e0856af88bacf,group2/user2,Adding Telemetry file
+52,1456887352,21a00617f8841f65a0f7195b82220214fe7a1a0c,group2/user2,updated links
+53,1456887308,ce563214827b41d10917cb792d5b63a3e4d6923d,group2/user2,Update README.md
+54,1456887227,5282869827ced212b7ed35790f63caca372523db,group2/user2,Update README.md
+55,1456887026,b75b15143599e5bf37f6855089449aa3095f4656,group2/user1,Update and rename Telemetry.md to Evaluation.md
+56,1456886994,a1db10d3be5519bd60e9a4ba9c0ee74a8e86ac49,group2/user2,Update README.md
+57,1456886955,e3bc9264009f1869ff9283cc853a7959f04e1b83,group2/user1,updated indentation
+58,1456886932,08243c84d16c43aa7e265d7ab45b4d43748d9034,group2/user1,Update Telemetry.md
+59,1456886902,ce9be45a98cfde2a10ebe8924e24f27c5b1a2f21,group2/user2,Updating links and bullets
+60,1456886381,d2d6673a745f4adcfb53515566b75443091b15d1,group2/user2,Fixed indentation
+61,1456886282,4a197beab18f8911a6d34e9a89a969518e346e83,group2/user2,updated links
+62,1456886155,f877576c2e969856434c7dad5c3bbee628e6137e,group2/user2,README updated
+63,1456885952,9f92ab4faf9a14288fb8d1f80b9cb207113ef256,group2/user4,Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project
+64,1456885934,d90a103a054b9eac2f55cdac2995fff24bc57a5a,group2/user4,Telemetry
+65,1456864014,bbf490f6d870249e3ff2515be853968dadd03440,group2/user1,Solution 1 Ready
+66,1456811451,080f2a80085c0bbbcca715d4447b24fe2d9e92c3,group2/user2,adding lda clustering file
+67,1456811424,08cc9b691653ab921361f9ff73826517cf7d98ab,group2/user2,adding stopwords BOW file
+68,1456811397,1be2b75b2ea495b49811699ec19ea127ae440fb5,group2/user2,adding Topic Modeling test code file
+69,1456811369,5bd93af043d672c78abf3a7cc5ca25e4fa1044a4,group2/user2,adding test xml file
+70,1456811290,cd48005cfb56fe6402c87362401032c33cf0297c,group2/user2,Adding test post data
+71,1456811264,ec53a79b654cbc1dda87fa4c43434d243cb02395,group2/user2,Adding clustering file
+72,1456811088,2798449116ccf0cac291c75079551231cf2ac7db,group2/user2,solution2 init
+73,1456810985,7cb30e184f05aff719af4aec16af1969e71a413c,group2/user1,Removed Junk Files
+74,1456810805,a59123b5d145623beb45d57fb1440c829e10fd82,group2/user2,Adding updated README file
+75,1456810797,2754583f2360dba0cc12216433c8bdbcce81054a,group2/user5, Moving files to solution 1
+76,1456810739,f1347b037a345a00e48c280f5e4cffbb550da994,group2/user5, Moving files to solution 1
+77,1456810621,64b646d28179c159e7f9b1640811dc6b18c47178,group2/user5, Moving files to solution 1
+78,1456810362,c28b08357137e5a93fbfa8f979b7b87298e6f95a,group2/user5,Adding solution1 db data import
+79,1456806866,0e5c9b09c45210067fa6b789325926e9e02655af,group2/user1,Fixing Master
+80,1456806059,af37a1eacc37b72bead8ccefe79987e67b52925f,group2/user2,"Merge pull request #24 from ankitkumar93/db_import
+
+Db import"
+81,1456805613,946310f5fd40514a233e08cd8a82ecd4b9be2a37,group2/user2,Adding mongodb import export command notes
+82,1456717827,56b34a11d42b14f477de5d82bc25fc331b61466a,group2/user1,Answer Db
+83,1456709422,d37b04ac23518a373f4fe7a222216c786df82ac7,group2/user1,Answer Collection Added
+84,1456681101,adb1f5dd5cfcb298562000bf6fac1868a04f7c45,group2/user2,deleting file as uploaded in wrong branch
+85,1456680901,dd6a1b00f2458554aba8382f6481148506b9521e,group2/user2,Adding Clustering code
+86,1456608335,a3404067e9a92e9f7bcba10abb917c3f66a95d3d,group2/user1,Questios JSON Size Reduced
+87,1456556403,70912c69511936b66434fc6e1ec108319943d674,group2/user1,New HTML Filter Added
+88,1456473523,6234bd0327ca9811565157315c5ef5e2a5e76f15,group2/user1,DB Processor Modified
+89,1456463570,e7687ad45d0c0221eecd72fb877d06e9f244258b,group2/user4,Plugin Done
+90,1456463324,2b6e076d7ba049086a2b0ba0b9c36e7ef3712896,group2/user4,Plugin Done
+91,1456457204,d358fc88f1430e311596d3877e75a75e9728aee0,group2/user1,Plugin Dev Started
+92,1456442757,46be4b59d1115f374bebffbcb9cc1505b397942b,group2/user1,Dump 0 File Online
+93,1456087845,12236cbe3ebe5f37a6623bc2c1eb8e19ff7e7bae,group2/user1,sample db up
+94,1456086034,5c5cfc42a1e74344c3183c404ca2a921c4cd6368,group2/user1,db creator in python
+95,1456083095,158ee61d2696f684931969932f9ff79668554d02,group2/user1,Few Data Dumps
+96,1456033417,a31c0871592da5c613a88820f0494ae8e9664a9e,group2/user1,Small Dump
+97,1456033220,1a83a84c680220fa46a1f7c3d81ec5c81c7b6b70,group2/user1,Few Dumps of Data Created
+98,1455659860,3952076ae36b2bb901449afc17c4d947a6fa0a04,group2/user1,Init Branch
+99,1455653905,e5176223892663212c37601d7cc91cd920c835b4,group2/user1,README Created
+100,1454305347,912326c5e3a2689823759fc56816660de1bf2c08,group2/user1,Feb 1 Report
+101,1454305246,3a1edb6b5c214c2267f07c24e2c3da11bfa4208f,group2/user1,Feb 1 Report
+102,1454305215,a7417634e2cddfdc9cd3db78b358989319c388a4,group2/user1,Merge branch 'master' of https://github.com/ankitkumar93/csc510-se-project
+103,1454305190,d1fcc9bf7fe2871b2f4c228bc7e0bfa45c50bdf2,group2/user1,Feb 1 Report
+104,1452634383,02b9c9ba69eeb0347ac98c6f4642481195a35b55,group2/user1,Ankit Idea TXT

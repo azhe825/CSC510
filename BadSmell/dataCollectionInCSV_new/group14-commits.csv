@@ -1,0 +1,197 @@
+id,time,sha,user,message
+1,1460005577,a9027c4940cf00ba4f048a08c17dea3260d05666,group14/user3,evaluation replace instead of append issue
+2,1460005098,1ceedd2b588736759e5c64152e363237f502f624,group14/user3,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N
+3,1460005081,3d99d64c4113c7e40a90f25107293a534bf02dde,group14/user3,file uploads
+4,1460004582,cad959daeb0b116dae03e3e280ade6868818c15f,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N
+5,1460004575,572357c70e6dfe971209def6ca7cc15334cb266a,group14/user1,Fixed #92
+6,1460001777,4c74a4c11ac93115f6b0dbeccd9a7a1502ce8bcb,group14/user3,filetypes check and bug fixes
+7,1457036593,4d0475c3120892e9d8f4ff46152c0f0ceb897562,group14/user3,bug fixes
+8,1457031159,1773854ec67b2917042ec99a65c5a15402199dd6,group14/user3,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N
+9,1457031154,fe920016182ad6478a2f82e26ae595d84e9142bb,group14/user3,inline feedback viewer
+10,1457027869,90b4f601f1ee4973c05666e5edf89d12f66263c3,group14/user1,Minor fixes
+11,1457026958,0cf462f635fdfca661404144cf30f81a6ea51039,group14/user1,Logout handling
+12,1457026678,ea06ecc10d13c69cb7253bf5ccd1dacda0e80210,group14/user3,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N
+13,1457026673,64a952f66715b62f8afe716b5bfcec92738562e2,group14/user3,stats integration
+14,1457026556,a72a0b850fa324dc58195bc76533f12d9d00e434,group14/user1,Added timer
+15,1457024883,d6825424f1e6fd4fdc31215f5f70cbfa7887f4b9,group14/user1,Minor fixes
+16,1457024054,57c239cbb3618a164d4782b47ae96447b571ea49,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N
+17,1457024048,ca25bc9e005a8e48e69009e04d58b28b2da5d690,group14/user1,Evaluate a file
+18,1457022769,4d5a3e997b3e8c37d040f9ab50671d3d1f3649ea,group14/user3,api fixes in ui
+19,1457022427,577f03c5951e286537f757a6ec33b09be6271e40,group14/user3,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N
+20,1457022388,925d60a07fccf3d36bc61fcc4af1df54da21b9d2,group14/user3,bug fixes
+21,1457021937,3d5453b627d2f1a7afd411e6495abc2b38787108,group14/user1,Page count
+22,1457019478,66f029348cc025642cf5c1d735e148a2dd428a49,group14/user3,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-vivek
+23,1457018905,da917d8b1d38c60ec3d093defdd8d5141151b013,group14/user1,Merge conflicts resolved
+24,1457018829,7195ea6a48d4204e5d9f07b40407f741d9e4a6af,group14/user1,Minor changes
+25,1456893816,a0042696475d2869499241b4e718d525108305a2,group14/user3,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-vivek
+26,1456893809,b9787effd051f9a934689fdebd67c07c0cc42479,group14/user3,Added server log sample
+27,1456893718,52f635c94e1fc449ca98111640159c1b4350d25c,group14/user2,Update README.md
+28,1456893654,512faeeb9ba0eeb62e689d5d191a3e2d8bd19c6b,group14/user2,Update README.md
+29,1456892899,42b1b7e0202d9cd21be25db06f523ae019c420aa,group14/user2,Update README.md
+30,1456891469,49c4976c880fc44ec42eef67a5e56fbb8ef3d589,group14/user3,"Merge pull request #90 from gvivek19/dev-vivek
+
+evaluate ta view"
+31,1456891414,aca5c7678b82135682b624113dd22de8367e8174,group14/user3,evaluate ta view
+32,1456881602,e956fa15c25381779fae8f68e197d244fd95780c,group14/user4,Update README.md
+33,1456880718,a88cafe3ae5d88437fcf833f7f3f6a8df211c7b8,group14/user3,"Merge pull request #89 from gvivek19/dev-vivek
+
+dummy data"
+34,1456880681,f29428703b2dad0beb38f1c51f5960ba0a622f3e,group14/user3,dummy data
+35,1456879441,32bc881079e257557bce234cdd5c7f83410d41a6,group14/user3,"Merge pull request #88 from gvivek19/dev-vivek
+
+Integrations"
+36,1456879379,bda1de3232397b11cf3179e5525cd9982ed3fc9c,group14/user3,integration and linking
+37,1456877920,9a144ecaab1ac3a60ba1bed038f6e2fe1da08811,group14/user3,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-vivek
+38,1456877901,8583ff921272c1baa65678b7953de686a9ddbf92,group14/user3,deadlines page fixes
+39,1456877232,d66d638e7135f083e0224af19147ec0834dd3eba,group14/user3,fixed url redirection parameters issue
+40,1456876933,7dbed6230b42ddb2b37a0ef844b56c2f4b897420,group14/user1,"Merge pull request #85 from gvivek19/dev-gautam
+
+Minor fixes"
+41,1456876894,2421253327986c985d2492c0d4694ee6bcad00a3,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+42,1456876860,d3359bce5b829d3019f2f291c41d0e94adcaa2b6,group14/user3,"Merge pull request #84 from gvivek19/dev-vivek
+
+deadline view changes and integration"
+43,1456876850,55facdfee5e3f65d40f83b6cb03646b30b90f939,group14/user1,Get user type with course
+44,1456876773,441427f2837aaacb79a9cfb4f296b3aee5f62f7c,group14/user3,deadline view changes and integration
+45,1456871061,ec4d37da74b4c914d973c51927020d8d9fdc73f0,group14/user1,"Merge pull request #83 from gvivek19/dev-gautam
+
+File upload"
+46,1456870947,b42372b56824f29a1fd3b06f366a03e78234d9a1,group14/user1,File upload for assignments
+47,1456867665,962f42e83ed6401e9ed1c55dcdb64debde7f2167,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+48,1456867657,7a8c514d1a15e0acb4534434853845893418485f,group14/user1,Fileupload api
+49,1456867401,0695361b0bd7bfe1737a85b86951e184898f906e,group14/user3,"Merge pull request #81 from gvivek19/dev-vivek
+
+create assignment file upload fixes"
+50,1456867369,7e0c03ca6b8d1b4037b5be44f69166fe10023fc9,group14/user3,create assignment file upload fixes
+51,1456866562,bfc61ac7ff37a75be584ac06e6f3917751bf83dd,group14/user1,"Merge pull request #80 from gvivek19/dev-gautam
+
+Fixes in create assignment"
+52,1456866434,10e9eed7f8688eca805ecd630ee6d3c5f1bb0102,group14/user1,Fixes in create assignment
+53,1456863396,be1296c3de31ca957218b39d71d1358f3e3fc664,group14/user3,"Merge pull request #79 from gvivek19/dev-vivek
+
+corrections in assignment creation"
+54,1456863334,c2991a2b20cd0e90881c50686b0582682ede268d,group14/user3,corrections in assignment creation
+55,1456862354,4858c14222d4af8abe64a5a4d4fab9e809b11c38,group14/user1,"Merge pull request #78 from gvivek19/dev-gautam
+
+Fixes in create assignment #77"
+56,1456862314,3b922602f4ecd80a80fd50f5cf15dd512df6f5ca,group14/user1,Fixes in create assignment #77
+57,1456856541,db82a58420e5043b0644272cbf3dd15634730469,group14/user3,"Merge pull request #76 from gvivek19/dev-vivek
+
+Misc. issues"
+58,1456856449,06f6d7a81f21826f4ce0edd09038906e678b3015,group14/user3,slots for file upload in submission page
+59,1456855667,88b78d64198d27fa4119dcf9bca26f230492e444,group14/user3,added deadlines upcoming and past divs
+60,1456854415,e869b9b369d8059bc84f8a38c64209c46c7901d5,group14/user3,create assignment admin ui creation
+61,1456817619,960374f83fdf4d60e64ba0cd5a98471053d39000,group14/user3,"Merge pull request #75 from gvivek19/dev-vivek
+
+create assignment ui"
+62,1456817418,20e898b083fd7d961bd60dc56fe74fd22aa5b248,group14/user3,create assignment ui
+63,1456816733,8269a615cdb5b956c32d6b664dacc5898cb2ee28,group14/user1,"Merge pull request #74 from gvivek19/dev-gautam
+
+Create assignment api"
+64,1456816629,753dd524557e64c82371315e91df625f54291114,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+65,1456816621,65070b6e35610db970511f91f80e92e6ad21b6c2,group14/user1,Create assignment api
+66,1456814274,707ddfba6d4461d4310d48793d44f9ac7f55823f,group14/user2,"Merge pull request #72 from gvivek19/dev-anbu
+
+Stats UI"
+67,1456814060,61d068d71ead9475f099f668a197ee1763d291c9,group14/user2,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-anbu
+68,1456814037,ff1e9d1cac7d6a3ba29d62b5713a5ee80bb3bc59,group14/user2,Stats page
+69,1456813759,8cf68b4d2048571830267191131e2d02cba6641a,group14/user1,"Merge pull request #71 from gvivek19/dev-gautam
+
+Implemented stats api"
+70,1456813709,f9f7ce5a8c4ada192080db9acdd0161a39872b59,group14/user1,Implemented stats api
+71,1456809485,2bd13f19cc1248530408bda71b93835575a8eac9,group14/user2,"Merge pull request #67 from gvivek19/dev-anbu
+
+Merge issue resolved"
+72,1456809329,81a36aafd88dfad39a5d574ab2b92c8bc43c8e57,group14/user2,Merge issue resolved
+73,1456809286,231f4ed51e139b81d7b8ea0b9824b6e13b59348d,group14/user2,Merge conflict resolved
+74,1456809227,d8de3fd3d9a84769845c0d70d4603398621f2535,group14/user1,"Merge pull request #66 from gvivek19/dev-gautam
+
+Add course API"
+75,1456809003,b0efc03fa1db85514e328a9dbd335dbf4eda6ac3,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+76,1456808882,322d25bf0e81f64af27bc238b762b795c05482d9,group14/user1,Added create course api
+77,1456808741,a0e6df4023d482ab24ed082f74719e4333c7e296,group14/user2,New assignment UI
+78,1456808167,6dc1ed32f44766030affbf4ddf82067384f75e28,group14/user2,"Merge pull request #65 from gvivek19/dev-anbu
+
+TA -create new assignment UI"
+79,1456807894,71175e956e3cb15e7ae4f41ae60bb3a86c089530,group14/user2,Merge issue resolved
+80,1456807709,88512e021730ce2b8fd8a16506ddacd21541b91d,group14/user2,New assignment UI
+81,1456802613,f676b058794b4528a23cdd2e7396e53716c36f65,group14/user3,"Merge pull request #64 from gvivek19/dev-vivek
+
+courses list view corrections"
+82,1456802572,9e1d7b4eff25fb53a2fdd14f0db5100cff836fce,group14/user3,courses list view corrections
+83,1456802451,537653a57af14c7debc57cec06dd1535f6f9187a,group14/user1,"Merge pull request #63 from gvivek19/dev-gautam
+
+All API for evaluation"
+84,1456802327,dccf6d2f7298f86eb3e8b011ea139c641d97ae7f,group14/user1,Evaluation grade post handler
+85,1456800852,2bdda8f7c54106df106b397a8106e43710cbeef3,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+86,1456800822,fac28102b9505e13baf31d7627163052944532c3,group14/user1,server/twisted/plugins/cyclone_server_plugin.pyc
+87,1456799653,689748f37be618b95681584bc59d29d591cca44c,group14/user1,"Merge pull request #62 from gvivek19/dev-gautam
+
+Minor fixes"
+88,1456799465,d21e157855d5d6bb56ce794d7e1533dcdafa529e,group14/user3,"Merge pull request #61 from gvivek19/dev-vivek
+
+add course"
+89,1456799371,afe043ced9ffc0fedd39f8e7a53eb8231239c7e7,group14/user3,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-vivek
+90,1456799366,9eac29635711c0db9b18b384042e1e672b9f62b9,group14/user3,add course ui
+91,1456799147,6f7bb0c560c48788ec29d15b2e0c44af7fc9854d,group14/user1,Minor fixes
+92,1456797213,d289c530b0596eb56c06167c7120d7be8051e5f6,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+93,1456797207,5b64ea1c4b77a3a05d394fec0b26dda588763324,group14/user1,Fixed login
+94,1456796918,82770b02f63f73bcf9392996c0581d7c8e1f7f48,group14/user1,"Merge pull request #57 from gvivek19/dev-gautam
+
+Evaluation handler get api"
+95,1456796845,93db24c74b1f4ecf40a17d0812deac9f890771c6,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+96,1456796837,eb955b11d92ff649039c7e89aad0f3a3aee8dfdb,group14/user1,Evaluation get api
+97,1456796492,e0c1251b31a398b8c3ff533016f04b1af3db29bf,group14/user3,"Merge pull request #56 from gvivek19/dev-vivek
+
+login corrections"
+98,1456796427,fb16bf877419634a4c5184bf39675e86bbb45af6,group14/user3,login corrections
+99,1456795517,4a73866a9e23f0541c7cc799edfd135437818bc6,group14/user3,"Merge pull request #55 from gvivek19/dev-vivek
+
+login integration"
+100,1456795446,c756cadef2af9e296269ef6dc77b7a66f60f6cb6,group14/user3,login integration
+101,1456795298,b85c6c18dad9fccd6fae093207c414af55c2f316,group14/user1,"Merge pull request #54 from gvivek19/dev-gautam
+
+File upload mechanism"
+102,1456795241,bd868c91469f17ae0ac9b521260181a6ffb01d21,group14/user1,Merge conflicts resolved
+103,1456795062,c32a4305497a9d65f66267c64325a2d57dacfe8a,group14/user1,Fileupload mixin
+104,1456794703,2529c295596b8a4ce44b63d0659049c468aa4d41,group14/user3,"Merge pull request #53 from gvivek19/dev-vivek
+
+evaluation page"
+105,1456794646,580c4e0bd5f76d6cf60db46ca58becc053f8e36b,group14/user3,evaluation page
+106,1456782275,631144f1d8ec89f05838147350f060fbdab02154,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+107,1456782264,9653ccc367d831ca0af67c274117c472b0afeca9,group14/user1,Removed .pyc files
+108,1456782146,9e8a8dd947a6c3a94273741a07831988ff8ad1b7,group14/user1,"Merge pull request #51 from gvivek19/dev-gautam
+
+Implemented assignment details API"
+109,1456782057,8168d93d286845034d108f9fbdcc250f37a3e81e,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+110,1456782048,396aa785466dec2be9b7bda879070cdbe3d085d3,group14/user1,Assignment details API
+111,1456725426,895f5e68f6741701684499d1db3ecbede285c030,group14/user1,"Merge pull request #39 from gvivek19/dev-gautam
+
+Implemented deadlines API"
+112,1456725338,24dfdbb0897bcafcc944b284d8e582fbdef13979,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+113,1456725331,04bd2d5e8b9afeb2d775aa6b0702aa2dec21cca4,group14/user1,Added deadlines api
+114,1456723235,7be8736c50b05407f984806cc7bfac8e3f2f804b,group14/user1,"Merge pull request #37 from gvivek19/dev-gautam
+
+API for courses"
+115,1456722892,89a385d2245162600197a091b738d87f8f95cc45,group14/user1,Merge branch 'master' of https://github.com/gvivek19/CSC510-Team-N into dev-gautam
+116,1456722882,d73407f12d9d139b9eab32c873d9246b2c2fcc5c,group14/user1,API for courses
+117,1456722306,02f2789cb28b139caf2460b0528d6592a9103f4e,group14/user3,"Merge pull request #36 from gvivek19/dev-vivek
+
+submission and assignment details page"
+118,1456721958,135708a779f35bc4c8af5f6f8115486508ef3a5d,group14/user3,merge conflicts resolved
+119,1456721769,6bce0b9433a3c156d014bc39ce6d5cfd2536ff91,group14/user3,assignment and refactoring
+120,1456721150,768eba92830755d92e77678518848535643b4fa7,group14/user1,"Merge pull request #35 from gvivek19/dev-gautam
+
+Login fixes"
+121,1456721007,dcfe15f5665eae84fba64c8e1192aaf33fbb6eea,group14/user1,Merge conflicts resolved
+122,1456720561,69485ce294d6b841ddeac4bebb14bcbfe8623f08,group14/user1,Fixed login and gitignore
+123,1456719049,f2e282a1bc3128a5235f132f7338486b874b7528,group14/user2,"Merge pull request #34 from gvivek19/dev-anbu
+
+DB changes-password field added"
+124,1456718877,5440ca18eca24f5ef5aec8b0b228118b36e2de9d,group14/user2,Merge conflicts resolved
+125,1456718819,270c1073480f0584928672c26b33f19da9ce6399,group14/user2,DB change
+126,1456707371,b7eb63cd9871128ba39446ab51a422b8e5390725,group14/user3,"Merge pull request #31 from gvivek19/dev-vivek
+
+UI for deadlines list view"
+127,1454386808,6410024eb1c17cbc11721003aa2b22ae0fa01635,group14/user2,Proposal report
+128,1452631681,099cd09c83778a9531cc4699881007802eb43fda,group14/user3,Initial commit
