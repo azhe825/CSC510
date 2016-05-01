@@ -346,7 +346,7 @@ def silentUserNum():
                 for num in userCommentNum:
                     if num < threshold:
                         silentUser += 1
-                bad_smell[groupID] = {'SilentUser Num': silentUser}
+                bad_smell[groupID] = {'SilentUser Num': float(silentUser)/len(user)}
     return bad_smell
 
 
@@ -372,7 +372,7 @@ def relaxedUserNum():
                 for num in userAssignmentNum:
                     if num < threshold:
                         relaxedUser += 1
-                bad_smell[groupID] = {'RelaxedUser Num': relaxedUser}
+                bad_smell[groupID] = {'RelaxedUser Num': float(relaxedUser)/len(user)}
     return bad_smell
 
 
