@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 indir = "../../dataCollectionInCSV_new/"
+resultdir = "../milestone_usage/"
 
 tJan = datetime.datetime(year=2016, month=1, day=7) # time for January
 tFeb = datetime.datetime(year=2016, month=2, day=1)
@@ -38,15 +39,12 @@ def milestone_time(filename):
     group_milestone[group] = (int(groupid), create_time, due_time, close_time)
 
 
-def main():
-    for fn in os.listdir(indir):
-        if not os.path.isdir(fn) and ('milestone' in fn) and ('.csv' in fn):
-            milestone_time(fn)
+def save_milestone_time():
     groups = sorted(group_milestone.keys(), key=lambda x: group_milestone[x][0])
     with open("group_milestone_create_time.csv", "wb") as fout:
         cw = csv.writer(fout)
         for gp in groups:
-            ids = ['groups']
+            ids = ['group']
             ids.extend(group_milestone[gp][1].keys())
             val = [gp.split("group")[1]]
             val.extend(group_milestone[gp][1].values())
@@ -55,7 +53,7 @@ def main():
     with open("group_milestone_close_time.csv", "wb") as fout:
         cw = csv.writer(fout)
         for gp in groups:
-            ids = ['groups']
+            ids = ['group']
             ids.extend(group_milestone[gp][3].keys())
             val = [gp.split("group")[1]]
             val.extend(group_milestone[gp][3].values())
@@ -64,31 +62,66 @@ def main():
     with open("group_milestone_due_time.csv", "wb") as fout:
         cw = csv.writer(fout)
         for gp in groups:
-            ids = ['groups']
+            ids = ['group']
             ids.extend(group_milestone[gp][2].keys())
             val = [gp.split("group")[1]]
             val.extend(group_milestone[gp][2].values())
             cw.writerow(ids)
             cw.writerow(val)
+
+def plot_milestone_time(): # also check the milestone usage
     # make bar plot for each group
+    groups = sorted(group_milestone.keys(), key=lambda x: group_milestone[x][0])
+    group_milestone_usage = dict()
     for gp in groups:
         print gp
         create_times = np.array(group_milestone[gp][1].values())
         due_times = np.array(group_milestone[gp][2].values())
         closed_times = np.array(group_milestone[gp][3].values())
         size = len(create_times)
+
         def time_interval(t_delta):
             return (datetime.timedelta(seconds=(t_delta))).days
+
         due_days = map(time_interval, list(np.subtract(due_times, create_times)))
         closed_days = map(time_interval, list(np.subtract(closed_times, create_times)))
+
+        wo_due = sum([True if (term>-1 and term<1) else False for term in due_days]) # without due date
+        wo_due_percentage = float(wo_due) / float(size)
+        wo_close = sum([True if (term>-1 and term<1) else False for term in closed_days]) # without closed date
+        wo_close_percentage = float(wo_close) / float(size)
+        group_milestone_usage[gp] = [size, wo_due, wo_close, wo_due_percentage, wo_close_percentage]
+
         fig = plt.figure()
         bar_width = 0.4
         opacity = 0.6
         index = np.arange(size)
         barA = plt.bar(index, due_days, bar_width, color='r', alpha=opacity, label='Due')
-        barB = plt.bar(index+bar_width, closed_days, bar_width, color='orange', alpha=opacity, label='Closed')
+        barB = plt.bar(index + bar_width, closed_days, bar_width, color='orange', alpha=opacity,
+                       label='Closed')
         plt.legend()
-        fig.savefig(gp+"-progress.png")
+        fig.savefig(gp + "-progress.png")
+
+    with open(resultdir+'group-milestone-usage.csv', 'wb') as fout:
+        fields = ['group_id', 'total milestones', 'missing due day', 'unclosed', 'percentage missing due', 'percentage of unclosed']
+        cw = csv.writer(fout)
+        cw.writerow(fields)
+        for gp in groups:
+            term = [group_milestone_usage[gp][i] for i in range(len(group_milestone_usage[gp]))]
+            term.insert(0, gp)
+            cw.writerow(term)
+
+
+
+def main():
+    for fn in os.listdir(indir):
+        if not os.path.isdir(fn) and ('milestone' in fn) and ('.csv' in fn):
+            milestone_time(fn)
+    save_milestone_time()
+    plot_milestone_time()
+    #stats_milestone_usage()
+
+
 
 
 if __name__ == "__main__":
