@@ -397,6 +397,27 @@ def issueWoMilestone():
     return bad_smell
 
 
+def issueDelayed():
+    "for each group, find the percentage of issues that is closed after milestone duedate"
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueDelay.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                closeTime = row[1:]
+                delays = [t for t in closeTime if int(t)>0 ]
+                percent = float(len(delays))/len(closeTime)
+                bad_smell[groupID] = {'Issue Delayed': percent}
+    return bad_smell
+
+
 def removeTim_TA(users):
     if len(users) <= 4:
         return users
@@ -429,6 +450,7 @@ def get_badSmell(base, csvpath):
     bad_smell4 = relaxedUserNum()
     bad_smell5 = longOpenIssues()
     bad_smell6 = issueWoMilestone()
+    bad_smell7 = issueDelayed()
 
     bad_smell = merge_dict(bad_smell1, bad_smell2)
     bad_smell = merge_dict(bad_smell, bad_smell3)
@@ -446,8 +468,9 @@ def get_badSmell(base, csvpath):
 
     bad_smell = merge_dict(bad_smell4, bad_smell5)
     bad_smell = merge_dict(bad_smell, bad_smell6)
+    bad_smell = merge_dict(bad_smell, bad_smell7)
     outputFile = os.path.join(base, 'badSmellScoreCSV/PoorPlanning.csv')
-    fileds = ['groupID', 'Duration = 0', 'Duration > 20', 'Duration > 30', 'RelaxedUser Num', 'Issue wo Milstone']
+    fileds = ['groupID', 'Duration = 0', 'Duration > 20', 'Duration > 30', 'RelaxedUser Num', 'Issue wo Milstone', 'Issue Delayed']
     save_badsmell_csv(outputFile, bad_smell, fileds)
     print 'done'
 
