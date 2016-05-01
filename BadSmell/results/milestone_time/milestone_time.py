@@ -110,7 +110,7 @@ def plot_milestone_time(): # also check the milestone usage
             term = [group_milestone_usage[gp][i] for i in range(len(group_milestone_usage[gp]))]
             term.insert(0, gp)
             cw.writerow(term)
-            fig = plt.figure()
+            fig = plt.figure(1, figsize=(6,6))
             ax = plt.axes([0.1, 0.1, 0.8, 0.8])
             labels = ['Complete','Missing Due', 'Missing closed date']
             fracs = [(term[1]-term[2]-term[3]), term[2], term[3]]

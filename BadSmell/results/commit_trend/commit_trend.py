@@ -4,7 +4,8 @@ import datetime
 import time
 import matplotlib.pyplot as plt
 
-indir = './'
+indir = '../../dataCollectionInCSV_new/'
+outdir = './'
 group_commits = dict()
 
 tJan = datetime.datetime(year=2016, month=1, day=7) # time for January
@@ -22,7 +23,7 @@ def commit_trend(filename):
     group = filename.split('-commits')[0]
     groupid = group.split('group')[1]
     #print groupid
-    with open(filename, 'rb') as fin:
+    with open(indir+filename, 'rb') as fin:
         cr = csv.DictReader(fin)
         for row in cr:
             cur_time = int(row["time"])
@@ -38,17 +39,23 @@ def commit_trend(filename):
 
 def main():
     for fn in os.listdir(indir):
-        if (not os.path.isdir(fn)) and fn.__contains__('.csv') and not fn.__contains__('trend'):
+        if (not os.path.isdir(fn)) and fn.__contains__('.csv') and fn.__contains__('-commits'):
             commit_trend(fn)
     groups = sorted(group_commits.keys(), key=lambda x: group_commits[x][0])
     totalDays = int((tMay - tJan).days)
+    deadlineFeb = int((tFeb - tJan).days)
+    deadlineMar = int((tMar - tJan).days)
+    deadlineApr = int((tApr - tJan).days)
     for gp in groups:
         fig = plt.figure()
         data = group_commits[gp][1]
         plt.plot(data, linewidth=2, color='orange')
         #plt.fill_between([i for i in range(len(data))], data, 0, color='orange')
+        plt.axvline(deadlineFeb, linestyle='--')
+        plt.axvline(deadlineMar, linestyle='--')
+        plt.axvline(deadlineApr, linestyle='--')
         plt.axis([0, totalDays, 0, max(data)*1.1])
-        fig.savefig(gp + '-commit_trend.png')
+        fig.savefig(outdir + gp + '-commit_trend.png')
 
 
 if __name__ == "__main__":
