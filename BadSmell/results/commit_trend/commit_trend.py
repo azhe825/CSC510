@@ -46,16 +46,26 @@ def main():
     deadlineFeb = int((tFeb - tJan).days)
     deadlineMar = int((tMar - tJan).days)
     deadlineApr = int((tApr - tJan).days)
-    for gp in groups:
-        fig = plt.figure()
-        data = group_commits[gp][1]
-        plt.plot(data, linewidth=2, color='orange')
-        #plt.fill_between([i for i in range(len(data))], data, 0, color='orange')
-        plt.axvline(deadlineFeb, linestyle='--')
-        plt.axvline(deadlineMar, linestyle='--')
-        plt.axvline(deadlineApr, linestyle='--')
-        plt.axis([0, totalDays, 0, max(data)*1.1])
-        fig.savefig(outdir + gp + '-commit_trend.png')
+    try:
+        fout = open(outdir+'group-commit-trend.csv','wb')
+        cw = csv.writer(fout)
+        cw.writerow(['group_id', 'sum of commits over time'])
+        for gp in groups:
+            print gp
+            fig = plt.figure()
+            data = group_commits[gp][1]
+            plt.plot(data, linewidth=2, color='orange')
+            plt.axvline(deadlineFeb, linestyle='--')
+            plt.axvline(deadlineMar, linestyle='--')
+            plt.axvline(deadlineApr, linestyle='--')
+            plt.axis([0, totalDays, 0, max(data)*1.1])
+            fig.savefig(outdir + gp + '-commit_trend.png')
+            term = data
+            term.insert(0, gp)
+            cw.writerow(term)
+        fout.close()
+    except Exception as e:
+        print(e)
 
 
 if __name__ == "__main__":
