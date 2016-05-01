@@ -300,7 +300,7 @@ def get_badSmell(base, csvpath):
     bad_smell1 = issueDiscussionScore()
     bad_smell2 = issueParticipantScore()
     bad_smell = merge_dict(bad_smell1, bad_smell2)
-    outputFile = os.path.join(base, 'featureCSV/badSmellScores.csv')
+    outputFile = os.path.join(base, 'badSmellScoreCSC/badSmellScores.csv')
     save_badsmell_csv(outputFile, bad_smell)
     print 'done'
 
