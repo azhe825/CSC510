@@ -4,9 +4,7 @@ from pdb import set_trace
 import pickle
 
 
-def extract_feature():
-    base = os.path.abspath(os.path.dirname(__file__))
-    csvpath = os.path.join(base, 'dataCollectionInCSV')
+def extract_feature(base, csvpath):
     events = [event for event in os.listdir(csvpath) if event.__contains__('event')]
     comments = [comment for comment in os.listdir(csvpath) if comment.__contains__('comment')]
     milestones = [milestone for milestone in os.listdir(csvpath) if milestone.__contains__('milestone')]
@@ -137,7 +135,7 @@ def get_duration(times):
 
 
 def generate_assignees_csv(base, group_features):
-    result_file = csvpath = os.path.join(base, 'featureCSV/issueAssignees.csv')
+    result_file = os.path.join(base, 'featureCSV/issueAssignees.csv')
     with open(result_file, 'w') as csvinput:
         for groupID, feature in group_features.iteritems():
             dict = feature['Issue Assignees']
@@ -152,7 +150,7 @@ def generate_assignees_csv(base, group_features):
 
 
 def generate_userCommentNum_csv(base, group_features):
-    result_file = csvpath = os.path.join(base, 'featureCSV/userCommentNum.csv')
+    result_file = os.path.join(base, 'featureCSV/userCommentNum.csv')
     with open(result_file, 'w') as csvinput:
         for groupID, feature in group_features.iteritems():
             dict = feature['User: CommentNum']
@@ -167,7 +165,7 @@ def generate_userCommentNum_csv(base, group_features):
 
 
 def generate_issueDuration_csv(base, group_features):
-    result_file = csvpath = os.path.join(base, 'featureCSV/issueDuration.csv')
+    result_file = os.path.join(base, 'featureCSV/issueDuration.csv')
     with open(result_file, 'w') as csvinput:
         for groupID, feature in group_features.iteritems():
             dict = feature['Issue Duration']
@@ -182,7 +180,7 @@ def generate_issueDuration_csv(base, group_features):
 
 
 def generate_issueDelay_csv(base, group_features):
-    result_file = csvpath = os.path.join(base, 'featureCSV/issueDelay.csv')
+    result_file = os.path.join(base, 'featureCSV/issueDelay.csv')
     with open(result_file, 'w') as csvinput:
         for groupID, feature in group_features.iteritems():
             dict = feature['Issue Delays']
@@ -235,5 +233,110 @@ def load_obj(name):
         return pickle.load(f)
 
 
+def issueDiscussionScore():
+    "for each issue, get the percentage of issues with < 3 followup comments"
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueCommentNum.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                commentNum = row[1:]
+                lessParticipants3 = [i for i in commentNum if int(i) < 3]
+                lessComment4 = [i for i in commentNum if int(i) < 4]
+                # percentage of issues with less than 3 comments
+                bad_smell[groupID] = {'Issue Discussions<3': float(len(lessParticipants3))/len(commentNum)}
+                bad_smell[groupID].update({'Issue Discussions<4': (float(len(lessComment4))/len(commentNum))})
+    return bad_smell
+
+
+def issueParticipantScore():
+    "for each issue, get the percentage of issues with < 50% participants"
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueParticipants.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                participantNum = row[1:]
+                lessParticipants2 = [i for i in participantNum if int(i) < 2]
+                lessParticipants3 = [i for i in participantNum if int(i) < 3]
+                # percentage of issues with less than 3 comments
+                bad_smell[groupID] = {'Issue Participant<2': float(len(lessParticipants2))/len(participantNum)}
+                bad_smell[groupID].update({'Issue Participant<3': (float(len(lessParticipants3))/len(participantNum))})
+    return bad_smell
+
+
+def silentUserNum():
+    "for each group, find if some user far lower than 50% of average Comments Per User "
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/userCommentNum.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                userCommentNum = [int(num) for num in row[1:]]
+                average = float(sum(userCommentNum))/len(userCommentNum)
+                threshold = 0.5 * average
+                silentUser = 0
+                for num in userCommentNum:
+                    if num < threshold:
+                        silentUser += 1
+                bad_smell[groupID] = {'SilentUser Num': silentUser}
+    return bad_smell
+
+def save_badsmell_csv(outputFile, bad_smell, fileds):
+     with open(outputFile, 'w') as csvoutput:
+        writer = csv.DictWriter(csvoutput, fieldnames=fileds)
+        writer.writeheader()
+        for groupID, bad_smells in bad_smell.iteritems():
+            row = {'groupID': groupID}
+            row.update(bad_smells)
+            writer.writerow(row)
+
+
+def merge_dict(bad_smell1, bad_smell2):
+    for groupID, score in bad_smell1.iteritems():
+        bad_smell1[groupID].update(bad_smell2[groupID])
+    return  bad_smell1
+
+
+def get_badSmell(base, csvpath):
+    bad_smell1 = issueDiscussionScore()
+    bad_smell2 = issueParticipantScore()
+    bad_smell3 = silentUserNum()
+    bad_smell = merge_dict(bad_smell1, bad_smell2)
+    bad_smell = merge_dict(bad_smell, bad_smell3)
+    outputFile = os.path.join(base, 'badSmellScoreCSV/PoorCommunication.csv')
+    fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3', 'SilentUser Num']
+    save_badsmell_csv(outputFile, bad_smell, fileds)
+    print 'done'
+
+
+
+
+
+
 if __name__ == "__main__":
-    extract_feature()
+    base = os.path.abspath(os.path.dirname(__file__))
+    csvpath = os.path.join(base, 'dataCollectionInCSV')
+    #extract_feature(base, csvpath)
+    get_badSmell(base, csvpath)
