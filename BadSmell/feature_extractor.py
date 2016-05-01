@@ -14,6 +14,7 @@ def extract_feature(base, csvpath):
     group_features2 = process_comment(csvpath, comments)
     generate_assignees_csv(base, group_features1)
     generate_issueDuration_csv(base, group_features1)
+    generate_issueMilestone_csv(base, group_features1)
     generate_issueDelay_csv(base, group_features1)
     generate_userCommentNum_csv(base, group_features2)
     generate_issueCommentNum_csv(base, group_features2)
@@ -80,6 +81,7 @@ def process_event(csvpath, events):
         groupID = (group.split('-'))[0][5:]
         with open(os.path.join(csvpath, group), 'r') as csvinput:
             issue_times = {}
+            issue_milestone = {}
             issue_delay = {}
             user_assigned = {}
             reader = csv.DictReader(csvinput)
@@ -91,6 +93,10 @@ def process_event(csvpath, events):
                     issue_times[issueID] = [row['time']]
                 else:
                     issue_times[issueID].append(row['time'])
+
+                ## Issue missing milestones
+                if not issue_milestone.get(issueID):
+                    issue_milestone[issueID] = row['milestone']
 
                 ## (2) Issues delay for its milestone
                 if row['action'] == 'closed' and row['milestone'] != '':
@@ -121,6 +127,7 @@ def process_event(csvpath, events):
         group_features[groupID]['Issue Times'] = issue_times
         group_features[groupID]['Issue Delays'] = issue_delay
         group_features[groupID]['Issue Duration'] = {k: get_duration(v) for k,v in issue_times.iteritems()}
+        group_features[groupID]['Issue Milestones'] = issue_milestone
         print  group + ' finished'
     return group_features
 
@@ -184,6 +191,21 @@ def generate_issueDelay_csv(base, group_features):
     with open(result_file, 'w') as csvinput:
         for groupID, feature in group_features.iteritems():
             dict = feature['Issue Delays']
+            issues = dict.keys()
+            input_data = {'groupID': groupID}
+            input_data.update(dict)
+            fileds = ['groupID']
+            fileds.extend(issues)
+            writer = csv.DictWriter(csvinput, fieldnames=fileds)
+            writer.writeheader()
+            writer.writerow(input_data)
+
+
+def generate_issueMilestone_csv(base, group_features):
+    result_file = os.path.join(base, 'featureCSV/issueMilestone.csv')
+    with open(result_file, 'w') as csvinput:
+        for groupID, feature in group_features.iteritems():
+            dict = feature['Issue Milestones']
             issues = dict.keys()
             input_data = {'groupID': groupID}
             input_data.update(dict)
@@ -279,6 +301,29 @@ def issueParticipantScore():
     return bad_smell
 
 
+def longOpenIssues():
+    "for each issue, get the percentage of issues with >=20 days open"
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueDuration.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                duration = row[1:]
+                longOpen0 = [i for i in duration if int(i) == 0]
+                longOpen2 = [i for i in duration if int(i) >= 20]
+                longOpen3 = [i for i in duration if int(i) >= 30]
+                bad_smell[groupID] = {'Duration = 0': float(len(longOpen0))/len(duration)}
+                bad_smell[groupID].update({'Duration > 20': float(len(longOpen2))/len(duration)})
+                bad_smell[groupID].update({'Duration > 30': float(len(longOpen3))/len(duration)})
+    return bad_smell
+
 def silentUserNum():
     "for each group, find if some user far lower than 50% of average Comments Per User "
     bad_smell = {}
@@ -331,6 +376,27 @@ def relaxedUserNum():
     return bad_smell
 
 
+def issueWoMilestone():
+    "for each group, find the percentage of issues without milestone"
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueMilestone.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                milestones = row[1:]
+                noMilestone = [m for m in milestones if not m]
+                percent = float(len(noMilestone))/len(milestones)
+                bad_smell[groupID] = {'Issue wo Milstone': percent}
+    return bad_smell
+
+
 def removeTim_TA(users):
     if len(users) <= 4:
         return users
@@ -361,6 +427,8 @@ def get_badSmell(base, csvpath):
     bad_smell2 = issueParticipantScore()
     bad_smell3 = silentUserNum()
     bad_smell4 = relaxedUserNum()
+    bad_smell5 = longOpenIssues()
+    bad_smell6 = issueWoMilestone()
 
     bad_smell = merge_dict(bad_smell1, bad_smell2)
     bad_smell = merge_dict(bad_smell, bad_smell3)
@@ -374,6 +442,12 @@ def get_badSmell(base, csvpath):
     bad_smell = merge_dict(bad_smell, bad_smell4)
     outputFile = os.path.join(base, 'badSmellScoreCSV/AbsentGroupMember.csv')
     fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3', 'SilentUser Num', 'RelaxedUser Num']
+    save_badsmell_csv(outputFile, bad_smell, fileds)
+
+    bad_smell = merge_dict(bad_smell4, bad_smell5)
+    bad_smell = merge_dict(bad_smell, bad_smell6)
+    outputFile = os.path.join(base, 'badSmellScoreCSV/PoorPlanning.csv')
+    fileds = ['groupID', 'Duration = 0', 'Duration > 20', 'Duration > 30', 'RelaxedUser Num', 'Issue wo Milstone']
     save_badsmell_csv(outputFile, bad_smell, fileds)
     print 'done'
 
