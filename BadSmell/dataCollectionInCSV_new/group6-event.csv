@@ -1,0 +1,471 @@
+issueID,time,action,label,user,milestone,identifier
+1,1456165383,closed,closed,group6/user1,1,560116067
+1,1455824800,unlabeled,enhancement,group6/user1,1,555599258
+1,1455824800,labeled,Web App,group6/user1,1,555599257
+1,1455824583,assigned,group6/user1,group6/user1,1,555595042
+1,1455824580,renamed,renamed,group6/user1,1,555594969
+1,1455068397,labeled,enhancement,group6/user1,1,545202505
+1,1455063442,milestoned,Web Scraping Application,group6/user1,1,545143060
+2,1455907375,closed,closed,group6/user4,2,556946978
+2,1455828472,unlabeled,enhancement,group6/user1,2,555675929
+2,1455828472,labeled,Plugin,group6/user1,2,555675928
+2,1455065711,milestoned,Solution 2: Plugin Development,group6/user4,2,545169802
+2,1455065711,assigned,group6/user4,group6/user4,2,545169800
+2,1455065711,labeled,enhancement,group6/user4,2,545169799
+3,1456651894,closed,closed,group6/user4,1,569670583
+3,1455828952,assigned,group6/user3,group6/user3,1,555685828
+3,1455828952,unassigned,unassigned,group6/user1,1,555685827
+3,1455824823,unlabeled,enhancement,group6/user1,1,555599694
+3,1455824823,labeled,Web App,group6/user1,1,555599693
+3,1455068376,assigned,group6/user1,group6/user1,1,545202249
+3,1455068369,milestoned,Solution 1: Web Scraping Application,group6/user1,1,545202204
+3,1455068365,labeled,enhancement,group6/user1,1,545202149
+4,1455826685,assigned,group6/user1,group6/user1,1,555636033
+4,1455826675,closed,closed,group6/user1,1,555635878
+4,1455824879,unlabeled,enhancement,group6/user1,1,555600744
+4,1455824879,labeled,Web App,group6/user1,1,555600743
+4,1455764462,milestoned,Solution 1: Web Scraping Application,group6/user1,1,554528515
+4,1455764462,labeled,enhancement,group6/user1,1,554528514
+5,1456155585,closed,closed,group6/user1,1,559836766
+5,1455828708,assigned,group6/user1,group6/user1,1,555680503
+5,1455824863,unlabeled,enhancement,group6/user1,1,555600393
+5,1455824863,labeled,Web App,group6/user1,1,555600392
+5,1455764494,milestoned,Solution 1: Web Scraping Application,group6/user1,1,554528946
+5,1455764494,labeled,enhancement,group6/user1,1,554528942
+6,1456091898,closed,closed,group6/user1,1,558685945
+6,1455824846,unlabeled,enhancement,group6/user1,1,555600113
+6,1455824846,labeled,Web App,group6/user1,1,555600112
+6,1455824450,assigned,group6/user1,group6/user1,1,555592484
+6,1455764515,milestoned,Solution 1: Web Scraping Application,group6/user1,1,554529233
+6,1455764515,labeled,enhancement,group6/user1,1,554529229
+7,1456893419,closed,closed,group6/user3,1,574132754
+7,1456893166,subscribed,subscribed,group6/user4,1,574130247
+7,1456893166,mentioned,mentioned,group6/user4,1,574130246
+7,1456797391,subscribed,subscribed,group6/user4,1,572276561
+7,1456797391,mentioned,mentioned,group6/user4,1,572276560
+7,1456790939,labeled,enhancement,group6/user3,1,572134943
+7,1456789003,subscribed,subscribed,group6/user4,1,572094102
+7,1456789003,mentioned,mentioned,group6/user4,1,572094101
+7,1456733311,assigned,group6/user4,group6/user4,1,570628252
+7,1456733311,unassigned,unassigned,group6/user3,1,570628251
+7,1455829139,assigned,group6/user3,group6/user3,1,555689807
+7,1455824778,unlabeled,enhancement,group6/user1,1,555598832
+7,1455824778,labeled,Web App,group6/user1,1,555598831
+7,1455764536,milestoned,Solution 1: Web Scraping Application,group6/user1,1,554529504
+7,1455764536,labeled,enhancement,group6/user1,1,554529503
+8,1455826479,closed,closed,group6/user1,1,555632494
+8,1455826397,unassigned,unassigned,group6/user1,1,555630941
+8,1455826394,assigned,group6/user1,group6/user1,1,555630864
+8,1455826394,unassigned,unassigned,group6/user4,1,555630863
+8,1455826391,assigned,group6/user4,group6/user4,1,555630784
+8,1455826391,unassigned,unassigned,group6/user1,1,555630783
+8,1455826388,assigned,group6/user1,group6/user1,1,555630747
+8,1455774807,labeled,enhancement,group6/user3,1,554627819
+8,1455773922,milestoned,Solution 1: Web Scraping Application,group6/user3,1,554617120
+9,1456621168,closed,closed,group6/user4,1,569372690
+9,1456621137,assigned,group6/user4,group6/user4,1,569372517
+9,1456621137,unassigned,unassigned,group6/user3,1,569372516
+9,1455829086,assigned,group6/user3,group6/user3,1,555688574
+9,1455828379,unlabeled,enhancement,group6/user1,1,555674360
+9,1455828379,labeled,Web App,group6/user1,1,555674359
+9,1455774816,labeled,enhancement,group6/user3,1,554627902
+9,1455773972,milestoned,Solution 1: Web Scraping Application,group6/user3,1,554617523
+10,1456796172,closed,closed,group6/user4,2,572248582
+10,1456733395,assigned,group6/user4,group6/user4,2,570630028
+10,1455828450,unlabeled,enhancement,group6/user1,2,555675575
+10,1455828450,labeled,Plugin,group6/user1,2,555675574
+10,1455774822,labeled,enhancement,group6/user3,2,554627974
+10,1455774138,milestoned,Solution 2: Plugin Development,group6/user3,2,554618982
+11,1456734855,closed,closed,group6/user2,3,570668734
+11,1455907997,assigned,group6/user2,group6/user2,3,556958486
+11,1455828460,unlabeled,enhancement,group6/user1,3,555675744
+11,1455828460,labeled,Android,group6/user1,3,555675743
+11,1455774829,labeled,enhancement,group6/user3,3,554628048
+11,1455774191,milestoned,Solution 3: Android application for reviews,group6/user3,3,554619536
+12,1455828425,unlabeled,enhancement,group6/user1,1,555675140
+12,1455828425,labeled,Web App,group6/user1,1,555675139
+12,1455828423,closed,closed,group6/user3,1,555675093
+12,1455828318,assigned,group6/user3,group6/user3,1,555673269
+12,1455775184,milestoned,Solution 1: Web Scraping Application,group6/user3,1,554631312
+12,1455775184,labeled,enhancement,group6/user3,1,554631311
+13,1456648047,closed,closed,group6/user3,1,569628355
+13,1455829067,assigned,group6/user3,group6/user3,1,555688202
+13,1455828413,unlabeled,enhancement,group6/user1,1,555674909
+13,1455828413,labeled,Web App,group6/user1,1,555674908
+13,1455822086,milestoned,Solution 1: Web Scraping Application,group6/user2,1,555535054
+13,1455822086,labeled,enhancement,group6/user2,1,555535053
+14,1456634722,closed,closed,group6/user2,3,569501218
+14,1455907978,assigned,group6/user2,group6/user2,3,556958113
+14,1455822188,milestoned,Solution 3: Android application for reviews,group6/user2,3,555537170
+14,1455822188,labeled,Android,group6/user2,3,555537169
+15,1460048748,closed,closed,group6/user2,5,618816175
+15,1460001533,labeled,wontfix,group6/user3,5,617802033
+15,1456893386,milestoned,April 1,group6/user2,5,574132552
+15,1456893238,demilestoned,Solution 3: Android application for reviews,group6/user2,5,574130759
+15,1456819668,reopened,reopened,group6/user2,5,572651939
+15,1456797229,closed,closed,group6/user2,5,572273898
+15,1456789056,subscribed,subscribed,group6/user2,5,572095228
+15,1456789056,mentioned,mentioned,group6/user2,5,572095227
+15,1455829047,assigned,group6/user2,group6/user2,5,555687794
+15,1455822317,milestoned,Solution 3: Android application for reviews,group6/user2,5,555540166
+15,1455822317,labeled,Android,group6/user2,5,555540165
+16,1456155603,closed,closed,group6/user1,1,559837755
+16,1455829055,assigned,group6/user1,group6/user1,1,555687959
+16,1455828404,unlabeled,enhancement,group6/user1,1,555674773
+16,1455828404,labeled,Web App,group6/user1,1,555674772
+16,1455822377,milestoned,Solution 1: Web Scraping Application,group6/user2,1,555541685
+16,1455822377,labeled,enhancement,group6/user2,1,555541684
+17,1455898361,closed,closed,group6/user1,1,556749596
+17,1455826681,assigned,group6/user1,group6/user1,1,555635977
+17,1455826681,unassigned,unassigned,group6/user4,1,555635976
+17,1455826674,assigned,group6/user4,group6/user4,1,555635851
+17,1455826674,unassigned,unassigned,group6/user1,1,555635850
+17,1455824747,unlabeled,enhancement,group6/user1,1,555598079
+17,1455824738,labeled,Web App,group6/user1,1,555597922
+17,1455822491,milestoned,Solution 1: Web Scraping Application,group6/user1,1,555544004
+17,1455822491,assigned,group6/user1,group6/user1,1,555544003
+17,1455822491,labeled,enhancement,group6/user1,1,555544002
+18,1456092324,closed,closed,group6/user4,2,558689826
+18,1455828505,labeled,Plugin,group6/user1,2,555676596
+18,1455825158,milestoned,Solution 2: Plugin Development,group6/user4,2,555606263
+18,1455825158,assigned,group6/user4,group6/user4,2,555606261
+19,1456156008,referenced,referenced,group6/user1,2,559848757
+19,1456093999,closed,closed,group6/user4,2,558707798
+19,1455828512,labeled,Plugin,group6/user1,2,555676747
+19,1455825201,milestoned,Solution 2: Plugin Development,group6/user4,2,555607069
+19,1455825201,assigned,group6/user4,group6/user4,2,555607068
+20,1455898329,closed,closed,group6/user1,1,556748529
+20,1455828964,assigned,group6/user1,group6/user1,1,555686066
+20,1455828964,unassigned,unassigned,group6/user4,1,555686064
+20,1455828581,labeled,Web App,group6/user1,1,555678302
+20,1455825520,milestoned,Solution 1: Web Scraping Application,group6/user4,1,555613599
+20,1455825520,assigned,group6/user4,group6/user4,1,555613598
+21,1456873472,closed,closed,group6/user4,2,573837782
+21,1455828276,labeled,Plugin,group6/user1,2,555672611
+21,1455828230,milestoned,Solution 2: Plugin Development,group6/user1,2,555671815
+21,1455828230,assigned,group6/user4,group6/user4,2,555671814
+22,1456133095,closed,closed,group6/user2,3,559270283
+22,1455907701,assigned,group6/user2,group6/user2,3,556952528
+22,1455828302,milestoned,Solution 3: Android application for reviews,group6/user1,3,555672999
+22,1455828302,labeled,Android,group6/user1,3,555672998
+23,1456735058,closed,closed,group6/user2,3,570672144
+23,1456634581,labeled,duplicate,group6/user2,3,569499858
+23,1455907960,assigned,group6/user2,group6/user2,3,556957842
+23,1455828318,milestoned,Solution 3: Android application for reviews,group6/user1,3,555673258
+23,1455828318,labeled,Android,group6/user1,3,555673257
+24,1456742491,closed,closed,group6/user3,1,570849673
+24,1456742478,assigned,group6/user3,group6/user3,1,570849392
+24,1455828722,milestoned,Solution 1: Web Scraping Application,group6/user2,1,555680740
+24,1455828722,labeled,enhancement,group6/user2,1,555680739
+25,1456796109,labeled,Web App,group6/user4,1,572247126
+25,1456796098,closed,closed,group6/user4,1,572246924
+25,1456788923,subscribed,subscribed,group6/user4,1,572092336
+25,1456788923,mentioned,mentioned,group6/user4,1,572092335
+25,1456788859,assigned,group6/user4,group6/user4,1,572090811
+25,1455828824,milestoned,Solution 1: Web Scraping Application,group6/user2,1,555682788
+25,1455828824,labeled,enhancement,group6/user2,1,555682787
+26,1456132201,closed,closed,group6/user3,2,559249011
+26,1456093999,referenced,referenced,group6/user4,2,558707799
+26,1455829016,assigned,group6/user4,group6/user4,2,555687165
+26,1455828882,milestoned,Solution 2: Plugin Development,group6/user2,2,555684232
+26,1455828882,labeled,Plugin,group6/user2,2,555684230
+27,1456132771,closed,closed,group6/user2,3,559262184
+27,1455828962,assigned,group6/user2,group6/user2,3,555686048
+27,1455828939,milestoned,Solution 3: Android application for reviews,group6/user2,3,555685578
+27,1455828939,labeled,Android,group6/user2,3,555685576
+28,1456155566,closed,closed,group6/user1,1,559836086
+28,1455891685,milestoned,Solution 1: Web Scraping Application,group6/user1,1,556607191
+28,1455891685,assigned,group6/user1,group6/user1,1,556607190
+28,1455891685,labeled,Web App,group6/user1,1,556607189
+29,1456647977,closed,closed,group6/user3,1,569627791
+29,1455904135,milestoned,Solution 1: Web Scraping Application,group6/user1,1,556877522
+29,1455904135,labeled,help wanted,group6/user1,1,556877517
+30,1456733522,closed,closed,group6/user3,1,570633020
+30,1456733519,assigned,group6/user3,group6/user3,1,570632947
+30,1455926219,milestoned,Solution 1: Web Scraping Application,group6/user3,1,557273279
+30,1455926219,labeled,Web App,group6/user3,1,557273278
+31,1456651778,closed,closed,group6/user4,1,569669828
+31,1456648000,assigned,group6/user4,group6/user4,1,569628020
+31,1455926247,milestoned,Solution 1: Web Scraping Application,group6/user3,1,557273569
+31,1455926247,labeled,Web App,group6/user3,1,557273567
+32,1456634420,closed,closed,group6/user2,3,569498610
+32,1455959071,milestoned,Solution 3: Android application for reviews,group6/user3,3,557461133
+32,1455959071,labeled,Android,group6/user3,3,557461132
+33,1456634210,closed,closed,group6/user2,3,569496960
+33,1455989544,assigned,group6/user2,group6/user2,3,557729651
+33,1455959095,milestoned,Solution 3: Android application for reviews,group6/user3,3,557461208
+33,1455959095,labeled,Android,group6/user3,3,557461207
+34,1456091227,closed,closed,group6/user3,1,558679086
+34,1456091026,milestoned,Solution 1: Web Scraping Application,group6/user3,1,558676903
+34,1456091026,assigned,group6/user3,group6/user3,1,558676902
+34,1456091026,labeled,Plugin,group6/user3,1,558676901
+34,1456091026,labeled,Web App,group6/user3,1,558676900
+34,1456091026,labeled,Android,group6/user3,1,558676899
+35,1456125075,closed,closed,group6/user3,1,559116767
+35,1456124944,milestoned,Solution 1: Web Scraping Application,group6/user3,1,559114496
+35,1456124944,assigned,group6/user3,group6/user3,1,559114495
+35,1456124944,labeled,Web App,group6/user3,1,559114494
+36,1456634163,closed,closed,group6/user2,3,569496575
+36,1456133382,milestoned,Solution 3: Android application for reviews,group6/user2,3,559277653
+36,1456133382,labeled,Android,group6/user2,3,559277652
+37,1456410145,closed,closed,group6/user1,1,565660866
+37,1456165412,milestoned,Solution 1: Web Scraping Application,group6/user1,1,560117059
+37,1456165412,assigned,group6/user1,group6/user1,1,560117057
+37,1456165412,labeled,Web App,group6/user1,1,560117056
+38,1456410181,closed,closed,group6/user1,1,565662292
+38,1456165440,milestoned,Solution 1: Web Scraping Application,group6/user1,1,560117857
+38,1456165440,assigned,group6/user1,group6/user1,1,560117856
+38,1456165440,labeled,Web App,group6/user1,1,560117855
+39,1456410134,closed,closed,group6/user1,1,565660446
+39,1456165469,milestoned,Solution 1: Web Scraping Application,group6/user1,1,560118613
+39,1456165469,assigned,group6/user1,group6/user1,1,560118612
+39,1456165469,labeled,Web App,group6/user1,1,560118611
+40,1456416619,closed,closed,group6/user1,1,565856254
+40,1456411047,labeled,Web App,group6/user1,1,565689037
+40,1456411025,milestoned,Solution 1: Web Scraping Application,group6/user1,1,565688412
+40,1456411025,assigned,group6/user1,group6/user1,1,565688410
+40,1456411025,labeled,bug,group6/user1,1,565688408
+41,1456631840,closed,closed,group6/user1,1,569474916
+41,1456620101,assigned,group6/user1,group6/user1,1,569364487
+41,1456413674,milestoned,Solution 1: Web Scraping Application,group6/user1,1,565769847
+41,1456413674,labeled,Web App,group6/user1,1,565769846
+41,1456413674,labeled,question,group6/user1,1,565769845
+42,1456631853,closed,closed,group6/user1,1,569475204
+42,1456520313,milestoned,Solution 1: Web Scraping Application,group6/user1,1,568196329
+42,1456520313,assigned,group6/user1,group6/user1,1,568196328
+42,1456520313,labeled,Web App,group6/user1,1,568196327
+43,1456631818,closed,closed,group6/user1,1,569474505
+43,1456620135,milestoned,Solution 1: Web Scraping Application,group6/user1,1,569364846
+43,1456620134,assigned,group6/user1,group6/user1,1,569364845
+43,1456620134,labeled,Web App,group6/user1,1,569364844
+44,1456735013,closed,closed,group6/user2,3,570671430
+44,1456634530,labeled,help wanted,group6/user2,3,569499543
+44,1456634368,milestoned,Solution 3: Android application for reviews,group6/user2,3,569498113
+44,1456634368,labeled,Android,group6/user2,3,569498112
+44,1456634368,labeled,question,group6/user2,3,569498111
+44,1456634368,labeled,enhancement,group6/user2,3,569498110
+45,1456643213,closed,closed,group6/user3,1,569581526
+45,1456640713,renamed,renamed,group6/user3,1,569551921
+45,1456640659,milestoned,Solution 1: Web Scraping Application,group6/user3,1,569551458
+45,1456640659,assigned,group6/user3,group6/user3,1,569551457
+45,1456640659,labeled,Web App,group6/user3,1,569551456
+46,1456646486,closed,closed,group6/user3,1,569615570
+46,1456646451,milestoned,Solution 1: Web Scraping Application,group6/user3,1,569615214
+46,1456646451,assigned,group6/user3,group6/user3,1,569615213
+46,1456646451,labeled,Web App,group6/user3,1,569615212
+47,1456646729,closed,closed,group6/user3,1,569617811
+47,1456646571,milestoned,Solution 1: Web Scraping Application,group6/user3,1,569616339
+47,1456646571,assigned,group6/user3,group6/user3,1,569616338
+47,1456646571,labeled,Web App,group6/user3,1,569616337
+48,1456651753,closed,closed,group6/user4,1,569669602
+48,1456646655,milestoned,Solution 1: Web Scraping Application,group6/user4,1,569617140
+48,1456646655,assigned,group6/user4,group6/user4,1,569617138
+48,1456646655,labeled,Web App,group6/user4,1,569617137
+49,1456668385,closed,closed,group6/user1,1,569824629
+49,1456666865,milestoned,Solution 1: Web Scraping Application,group6/user1,1,569810251
+49,1456666865,assigned,group6/user1,group6/user1,1,569810250
+49,1456666865,labeled,Web App,group6/user1,1,569810249
+49,1456666865,labeled,enhancement,group6/user1,1,569810248
+50,1456742301,closed,closed,group6/user3,1,570845885
+50,1456666946,milestoned,Solution 1: Web Scraping Application,group6/user1,1,569810869
+50,1456666946,assigned,group6/user1,group6/user1,1,569810868
+50,1456666946,labeled,Web App,group6/user1,1,569810867
+50,1456666946,labeled,enhancement,group6/user1,1,569810866
+51,1456735230,closed,closed,group6/user4,1,570675586
+51,1456706887,milestoned,Solution 1: Web Scraping Application,group6/user3,1,570235913
+51,1456706887,assigned,group6/user4,group6/user4,1,570235912
+51,1456706887,labeled,Web App,group6/user3,1,570235911
+51,1456706887,labeled,bug,group6/user3,1,570235910
+52,1456710260,closed,closed,group6/user3,1,570282038
+52,1456706956,milestoned,Solution 1: Web Scraping Application,group6/user3,1,570236720
+52,1456706956,assigned,group6/user3,group6/user3,1,570236719
+52,1456706956,labeled,Web App,group6/user3,1,570236718
+52,1456706956,labeled,bug,group6/user3,1,570236717
+53,1456709284,closed,closed,group6/user3,1,570266836
+53,1456706991,milestoned,Solution 1: Web Scraping Application,group6/user3,1,570237036
+53,1456706991,assigned,group6/user3,group6/user3,1,570237035
+53,1456706991,labeled,Web App,group6/user3,1,570237034
+53,1456706991,labeled,enhancement,group6/user3,1,570237033
+54,1456733128,closed,closed,group6/user3,1,570624980
+54,1456733108,milestoned,Solution 1: Web Scraping Application,group6/user3,1,570624706
+54,1456733108,assigned,group6/user3,group6/user3,1,570624705
+54,1456733108,labeled,Web App,group6/user3,1,570624703
+54,1456733108,labeled,enhancement,group6/user3,1,570624702
+55,1456790293,closed,closed,group6/user4,2,572120670
+55,1456742183,unlabeled,Web App,group6/user4,2,570843029
+55,1456742183,labeled,Plugin,group6/user4,2,570843028
+55,1456742164,labeled,Web App,group6/user4,2,570842491
+55,1456742164,labeled,bug,group6/user4,2,570842490
+55,1456742139,assigned,group6/user4,group6/user4,2,570841803
+55,1456742136,milestoned,Solution 2: Plugin Development,group6/user4,2,570841751
+56,1456842267,closed,closed,group6/user1,1,573090301
+56,1456789033,subscribed,subscribed,group6/user1,1,572094758
+56,1456789033,mentioned,mentioned,group6/user1,1,572094757
+56,1456788970,assigned,group6/user1,group6/user1,1,572093358
+56,1456788970,unassigned,unassigned,group6/user4,1,572093357
+56,1456788947,assigned,group6/user4,group6/user4,1,572092851
+56,1456788947,unassigned,unassigned,group6/user1,1,572092850
+56,1456788756,milestoned,Solution 1: Web Scraping Application,group6/user3,1,572088524
+56,1456788756,assigned,group6/user1,group6/user1,1,572088523
+56,1456788756,labeled,Web App,group6/user3,1,572088522
+56,1456788756,labeled,Android,group6/user3,1,572088521
+56,1456788756,labeled,enhancement,group6/user3,1,572088520
+57,1456893209,closed,closed,group6/user2,2,574130518
+57,1456789070,milestoned,Solution 2: Plugin Development,group6/user4,2,572095528
+57,1456789070,assigned,group6/user4,group6/user4,2,572095527
+57,1456789070,labeled,Plugin,group6/user4,2,572095526
+57,1456789070,labeled,enhancement,group6/user4,2,572095525
+58,1456877851,closed,closed,group6/user1,4,573925547
+58,1456873119,milestoned,Telemetry ,group6/user1,4,573829737
+58,1456873015,labeled,enhancement,group6/user1,4,573827324
+58,1456873009,demilestoned,Solution 1: Web Scraping Application,group6/user1,4,573827173
+58,1456872910,milestoned,Solution 1: Web Scraping Application,group6/user1,4,573824834
+58,1456872910,assigned,group6/user1,group6/user1,4,573824832
+58,1456872910,labeled,Web App,group6/user1,4,573824827
+59,1456893127,closed,closed,group6/user2,4,574129938
+59,1456873165,milestoned,Telemetry ,group6/user3,4,573830910
+59,1456873165,assigned,group6/user4,group6/user4,4,573830909
+59,1456873165,labeled,Plugin,group6/user3,4,573830908
+59,1456873165,labeled,enhancement,group6/user3,4,573830907
+60,1456877830,closed,closed,group6/user2,4,573925345
+60,1456873425,milestoned,Telemetry ,group6/user2,4,573836914
+60,1456873425,labeled,Android,group6/user2,4,573836913
+60,1456873425,labeled,enhancement,group6/user2,4,573836912
+61,1459468270,closed,closed,group6/user1,5,610592940
+61,1459402922,milestoned,April 1,group6/user1,5,609291569
+61,1459402922,labeled,Web App,group6/user1,5,609291568
+61,1459402922,labeled,enhancement,group6/user1,5,609291567
+61,1459402922,assigned,group6/user1,group6/user1,5,609291566
+62,1459541056,closed,closed,group6/user1,5,611751626
+62,1459441308,milestoned,April 1,group6/user1,5,610050849
+62,1459441308,labeled,Web App,group6/user1,5,610050847
+62,1459441308,labeled,enhancement,group6/user1,5,610050846
+62,1459441308,assigned,group6/user1,group6/user1,5,610050843
+63,1459458050,closed,closed,group6/user3,5,610426371
+63,1459457163,milestoned,April 1,group6/user3,5,610403468
+63,1459457163,labeled,Web App,group6/user3,5,610403466
+63,1459457163,labeled,enhancement,group6/user3,5,610403464
+63,1459457163,assigned,group6/user3,group6/user3,5,610403463
+64,1459459026,closed,closed,group6/user3,5,610446104
+64,1459457201,milestoned,April 1,group6/user3,5,610404351
+64,1459457201,labeled,Web App,group6/user3,5,610404349
+64,1459457201,labeled,enhancement,group6/user3,5,610404348
+64,1459457201,assigned,group6/user3,group6/user3,5,610404347
+65,1460052857,closed,closed,group6/user2,5,618912741
+65,1459457237,milestoned,April 1,group6/user3,5,610405204
+65,1459457237,labeled,Web App,group6/user3,5,610405203
+65,1459457237,labeled,enhancement,group6/user3,5,610405202
+65,1459457237,assigned,group6/user3,group6/user3,5,610405201
+66,1459894336,closed,closed,group6/user2,5,615874668
+66,1459457275,milestoned,April 1,group6/user3,5,610406042
+66,1459457275,labeled,Android,group6/user3,5,610406040
+66,1459457275,labeled,enhancement,group6/user3,5,610406039
+66,1459457275,assigned,group6/user2,group6/user2,5,610406038
+67,1459894315,closed,closed,group6/user2,5,615874072
+67,1459457300,milestoned,April 1,group6/user3,5,610406752
+67,1459457300,labeled,Android,group6/user3,5,610406751
+67,1459457300,labeled,enhancement,group6/user3,5,610406750
+67,1459457300,assigned,group6/user2,group6/user2,5,610406749
+68,1459660969,closed,closed,group6/user4,5,612526190
+68,1459457336,milestoned,April 1,group6/user3,5,610407870
+68,1459457336,labeled,Web App,group6/user3,5,610407869
+68,1459457336,labeled,enhancement,group6/user3,5,610407868
+68,1459457336,assigned,group6/user4,group6/user4,5,610407867
+69,1460001701,labeled,bad smell,group6/user3,7,617804649
+69,1460001226,demilestoned,April 1,group6/user3,7,617799495
+69,1460001226,milestoned,Bad smell code,group6/user3,7,617799494
+69,1460001030,milestoned,April 1,group6/user3,7,617796969
+69,1459894295,closed,closed,group6/user2,7,615873522
+69,1459491534,assigned,group6/user2,group6/user2,7,610841184
+69,1459458534,labeled,Android,group6/user2,7,610435897
+70,1460052871,closed,closed,group6/user2,5,618913057
+70,1459462689,assigned,group6/user4,group6/user4,5,610513490
+70,1459462687,milestoned,April 1,group6/user3,5,610513458
+70,1459458580,labeled,Web App,group6/user2,5,610436663
+70,1459458580,labeled,enhancement,group6/user2,5,610436662
+71,1460001034,milestoned,April 1,group6/user3,5,617797001
+71,1459911113,closed,closed,group6/user4,5,616120056
+71,1459491524,assigned,group6/user4,group6/user4,5,610841094
+71,1459458623,labeled,Plugin,group6/user2,5,610437530
+71,1459458623,labeled,enhancement,group6/user2,5,610437529
+72,1459541037,closed,closed,group6/user1,5,611751143
+72,1459491404,milestoned,April 1,group6/user3,5,610839836
+72,1459462373,labeled,Web App,group6/user1,5,610508854
+72,1459462373,labeled,enhancement,group6/user1,5,610508853
+72,1459462373,assigned,group6/user1,group6/user1,5,610508852
+73,1459490484,closed,closed,group6/user3,5,610829784
+73,1459462623,milestoned,April 1,group6/user3,5,610512498
+73,1459462623,labeled,Web App,group6/user3,5,610512497
+73,1459462623,labeled,enhancement,group6/user3,5,610512496
+73,1459462623,assigned,group6/user3,group6/user3,5,610512495
+74,1459490949,closed,closed,group6/user3,5,610835324
+74,1459462650,milestoned,April 1,group6/user3,5,610512895
+74,1459462650,labeled,Web App,group6/user3,5,610512894
+74,1459462650,labeled,enhancement,group6/user3,5,610512893
+74,1459462650,assigned,group6/user3,group6/user3,5,610512892
+75,1460052832,closed,closed,group6/user2,6,618912244
+75,1460000976,milestoned,Evaluation plan,group6/user3,6,617796556
+75,1459990997,assigned,group6/user4,group6/user4,6,617684706
+75,1459912999,labeled,Web App,group6/user2,6,616139316
+75,1459912999,labeled,enhancement,group6/user2,6,616139315
+76,1460048802,closed,closed,group6/user2,6,618817105
+76,1460000999,milestoned,Evaluation plan,group6/user3,6,617796696
+76,1459913054,labeled,Android,group6/user2,6,616139914
+76,1459913054,labeled,enhancement,group6/user2,6,616139913
+77,1460048788,closed,closed,group6/user2,6,618816875
+77,1460000994,milestoned,Evaluation plan,group6/user3,6,617796679
+77,1459974202,renamed,renamed,group6/user2,6,617398808
+77,1459973871,labeled,Android,group6/user2,6,617392003
+77,1459973871,labeled,enhancement,group6/user2,6,617392002
+78,1460048711,closed,closed,group6/user2,6,618815571
+78,1460000559,assigned,group6/user4,group6/user4,6,617792558
+78,1460000553,milestoned,Evaluation plan,group6/user3,6,617792507
+78,1459974189,renamed,renamed,group6/user2,6,617398494
+78,1459973910,labeled,Android,group6/user2,6,617392760
+78,1459973910,labeled,enhancement,group6/user2,6,617392758
+79,1460052807,closed,closed,group6/user2,6,618911742
+79,1460000535,assigned,group6/user4,group6/user4,6,617792356
+79,1460000530,milestoned,Evaluation plan,group6/user3,6,617792311
+79,1459974149,renamed,renamed,group6/user2,6,617397684
+79,1459974011,labeled,Web App,group6/user2,6,617394881
+79,1459974011,labeled,enhancement,group6/user2,6,617394880
+80,1460052790,closed,closed,group6/user2,6,618911373
+80,1460000521,assigned,group6/user4,group6/user4,6,617792235
+80,1460000518,milestoned,Evaluation plan,group6/user3,6,617792208
+80,1459974245,labeled,Web App,group6/user2,6,617399850
+80,1459974245,labeled,enhancement,group6/user2,6,617399849
+81,1460052772,closed,closed,group6/user2,6,618910994
+81,1460001427,demilestoned,Bad smell code,group6/user3,6,617801197
+81,1460001427,milestoned,Evaluation plan,group6/user3,6,617801196
+81,1460001423,demilestoned,Evaluation plan,group6/user3,6,617801164
+81,1460001423,milestoned,Bad smell code,group6/user3,6,617801163
+81,1460000416,assigned,group6/user4,group6/user4,6,617791507
+81,1460000413,milestoned,Evaluation plan,group6/user3,6,617791464
+81,1459997051,labeled,Web App,group6/user2,6,617752169
+82,1460048617,closed,closed,group6/user2,6,618813730
+82,1460000395,assigned,group6/user2,group6/user2,6,617791308
+82,1460000392,milestoned,Evaluation plan,group6/user3,6,617791277
+82,1459997069,labeled,Android,group6/user2,6,617752411
+83,1460048602,closed,closed,group6/user2,6,618813437
+83,1460000377,assigned,group6/user2,group6/user2,6,617791140
+83,1460000372,milestoned,Evaluation plan,group6/user3,6,617791083
+83,1459997220,labeled,Android,group6/user2,6,617753891
+84,1460052844,closed,closed,group6/user2,7,618912514
+84,1460001682,unlabeled,enhancement,group6/user3,7,617804363
+84,1460001682,labeled,bad smell,group6/user3,7,617804362
+84,1460001326,milestoned,Bad smell code,group6/user3,7,617800454
+84,1460001326,labeled,Web App,group6/user3,7,617800453
+84,1460001326,labeled,enhancement,group6/user3,7,617800452
+84,1460001326,assigned,group6/user3,group6/user3,7,617800451
+85,1460048669,closed,closed,group6/user2,7,618814755
+85,1460001674,unlabeled,enhancement,group6/user3,7,617804192
+85,1460001674,labeled,bad smell,group6/user3,7,617804191
+85,1460001384,milestoned,Bad smell code,group6/user3,7,617800861
+85,1460001384,labeled,Android,group6/user3,7,617800860
+85,1460001384,labeled,enhancement,group6/user3,7,617800859
+85,1460001384,assigned,group6/user2,group6/user2,7,617800858
+86,1460052758,closed,closed,group6/user2,7,618910714
+86,1460001657,labeled,bad smell,group6/user3,7,617803923
+86,1460001474,milestoned,Bad smell code,group6/user3,7,617801539
+86,1460001474,labeled,Plugin,group6/user3,7,617801538
+86,1460001474,assigned,group6/user4,group6/user4,7,617801537

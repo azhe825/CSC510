@@ -1,0 +1,84 @@
+id,time,sha,user,message
+1,1460071101,4ff671b62b20bd624521d31af9564a2e71f2bab4,group5/user3,Logs for solution 3
+2,1460071079,ce44ddebdaccbff92f27d682170d3921f3aba65e,group5/user3,Logs for solution 2
+3,1460071043,0528f417dca726132725f0c6f06dfbce6ee43c21,group5/user3,Logs for solution 1
+4,1460070325,3fa82ab048aad059f22924298d1e53f6185d7c12,group5/user3,Best Solution section added
+5,1460068046,f7c7a0fc3303d0349200e83866eb56406a951af6,group5/user3,Updated References
+6,1460067567,cee16afdf879108d8d2c31d3dd18d9d5999d7861,group5/user3,Added Conclusion
+7,1460004058,2d16a584d26b56630d12893cd5dde4d69c4233b4,group5/user4,Deleted extra file
+8,1460003977,65ba4684cb52618c2e1db0ed20f38e440fc00933,group5/user2,Added Improvisation
+9,1460003554,652dd8ed1011a2f82912cae7d9e49d05f153f757,group5/user3,Final Feedback Form
+10,1460003493,97a01326a36f4f37199fd66561df4d5e42a5f976,group5/user3,"Added files via upload
+
+Report of Initial User feedback"
+11,1459996845,0fadc7e9b65adfb37c5499acfb6b1de2e094c917,group5/user4,Added icon and name in the manifest.json
+12,1459996474,e639f73b01bc03337b2dc126e35e70741a86dfc2,group5/user4,Updated icon and name in the manifest.jason
+13,1459996393,854eede9643815111e79eccf74f934d9f2ae7e38,group5/user4,Updated icon for extension
+14,1459995563,250af38c02745e81b72684002d9b0a8804095740,group5/user4,Renamed New Tab Extension JS file and updated the script as per suggestions
+15,1459991068,09b7e70dfcc410657f91090cc3c2e3ff04f76609,group5/user2,Final Report added
+16,1459988220,092e249e1357dfc8087cc3bf6c9f6a72dd029515,group5/user4,Removed Extra File
+17,1459988088,3079bd8c2f43a76f36b9cd1efa29e0fd331d8a56,group5/user4,Removing extra file
+18,1459987186,56b1206061f7d7dbd273648744728120f023bcaf,group5/user4,Consolidated reports into single folder
+19,1459970514,676ed60fabe1fdded09e0e0f3050b00ffdb8dfc6,group5/user4,Updated the panel position in the screen. Buffered from the top
+20,1459913145,81f5e8dfb84ddd5cb40877fe8fa75801e9b1d274,group5/user4,Updated the console.log
+21,1459912030,aa8c6020fd3b026f98a19f370859bf3a4832847a,group5/user4,Removed commented code
+22,1459911981,622654f6d9026c71929941f483fd4171f603c69e,group5/user4,Updated the image margins
+23,1459911103,3349ab26067223105429c0edc3a5b426f3a21d62,group5/user4,Updated the position vector for preview images
+24,1459910952,32dd76729aeab37e609b83e09856c237cec9c565,group5/user4,Updated the width of the preview images
+25,1459910296,bea2fbe3fedbc5cfee084b2c3e881e85525075a9,group5/user4,Updated the width of the panel
+26,1459910058,0bbdfc2f2cafb1a15eff6a8e53972967ad9474fb,group5/user2,"Fixed the cluttering issue
+
+Changed the CSS and JavaScript to remove cluttering effect on hovering over the image"
+27,1459837590,98095ed71ff2a9c79b90178fff5f40e6354d4f7c,group5/user4,Updated for hover over image and coming back to the original scrolling
+28,1459710375,5d9b1aae6a8457174066e300002100a1b1c963f3,group5/user4,Updated with images in the hyperlink
+29,1459636546,18172eba306d9843e051e5b6b32470b934621144,group5/user1,"Update utils file
+
+Update utils file"
+30,1459636483,be1008f656da208778f5842adb58cb4418ceaf87,group5/user1,Merge remote-tracking branch 'refs/remotes/origin/master' into dharmendra
+31,1459636369,dcef234f26343f25b69a1a01f60df09c777ff103,group5/user1,"Add utils file
+
+Add utils file"
+32,1459636080,d61f096e88ad4ef724d00bae201cabb1d12750b2,group5/user4,Updated hover extension to identify more accurate figure matches
+33,1459631968,47a369c5a329522121c2bc2e2d692431d331dc03,group5/user4,Updated hover function for text adjustment
+34,1459555114,cb88da3a6456d6a06c683bf14ee2016fdf50af43,group5/user2,Fixing the CSS
+35,1459479944,21b075d87f9654cf33113b36ec39e081607d4300,group5/user4,Updated for better display of image
+36,1459466817,c795a252dfd938cec5795aefd53b9df38b76c315,group5/user2,Refactored the code
+37,1457103436,fe72a565fff9a6f08411f4f209e5403bca2b670f,group5/user2,Update README.md
+38,1456892706,e14d5d934ef9c2a51b8ef1985bd5b556839cfb53,group5/user1,"Readme Modification
+
+Link to the solutions"
+39,1456892088,2570de68f6ee33660f5087b9dc5082a87f42d55d,group5/user1,"Merge pull request #39 from DharmendraVaghela/dharmendra
+
+Background event file include"
+40,1456891939,f52618c56bd565040bdea4fe9183e7ceaf7d6de0,group5/user1,"Background event file include
+
+Include background event file for constant listening"
+41,1456891793,3bbf7094ffaf6795561deea04c5af3bfb197e09a,group5/user1,Git Cleanup
+42,1456891597,254343843e126dfe39e1a036c7ddc239d9b7a1ce,group5/user1,"Git cleanup
+
+cleanup previous versions"
+43,1456887187,199228850ecd43d61e8b1f428d5763a5d8d52a7f,group5/user3,Added files via upload
+44,1456886978,cbf886f3c14b8b99da8b6eae463bee8a9a111501,group5/user1,"Delete README.md
+
+Delete previous readme"
+45,1456886809,f1bda84d21fa50347cd98849a861870f2d403293,group5/user3,update to readme file
+46,1456886599,cf81bfa05b1aa6b77b582f6b0aaadc8f87cfe3b6,group5/user3,readme file for project
+47,1456884700,aaee57ea7c5311d704c07ab709d56de29e1aa8f5,group5/user3,Solution Document
+48,1456884479,d84b44cbe5bc63c73b84d133c73a9afaddedbfe0,group5/user3,updated the content
+49,1456883680,991e570ca25a28e21b249dbcb5d21a1db7eb919e,group5/user2,update logfile
+50,1456883255,4e434145a067654a28bb47ced08b807b9ffc7df1,group5/user2,fixed hyperlink creation
+51,1456882648,e08e63eccbd8d2ee6c6e60a31f0c683a3808a6a3,group5/user3,log file
+52,1456880018,176e5f544e58bfcf8e22f29091dc168ab95bb4ec,group5/user4,Implemented using hashmaps
+53,1456767288,6c4227b9d18c9d346e3c00ee578858c8fbc57be8,group5/user1,"Merge pull request #22 from DharmendraVaghela/dharmendra
+
+Dharmendra"
+54,1456767114,64a33c2a95efef40c0d0a360644201a77c4cefb2,group5/user1,"Add option page for plug in options
+
+Define functionality of option page with user choices"
+55,1456767030,df3f1849e85474f2ebb19eb1f22d484a9c5e250b,group5/user1,"Include prototype files
+
+Include JS prototype files"
+56,1456766981,2cf7039292a280096a73153d0465dcaf5b26a5f8,group5/user1,"Update manifest
+
+Update manifest for util functions"
+57,1456717443,53ce8e9782a506cba2735bd63fce9a760a0ffc48,group5/user3,changing opacity of side bar

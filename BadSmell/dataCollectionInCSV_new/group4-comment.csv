@@ -1,0 +1,80 @@
+issueID,user,createtime,updatetime,text,identifier
+5,group4/user3,1455155913,1455155913,"To check the feasibility of solution 1 as an Android application
+-Started learning Android App development.
+-Developed two simple applications during the process.
+Solution 1 would make more sense as an easy to use, light weight mobile app.
+This is achievable. Hence, closing the issue.",182671402
+6,group4/user4,1455156463,1455156463,Started learning Database design,182672568
+10,group4/user3,1455169305,1455169305,"checked in the prototype for the Database Connection module demo, along with user authentication functionality.
+planning to give the demo on 11 FEB 3PM.",182721655
+13,group4/user2,1455201090,1455201090,Done,182888893
+15,group4/user2,1455202208,1455202208,http://www.sitepoint.com/twitter-bootstrap-tutorial-handling-complex-designs/,182895279
+10,group4/user3,1455223434,1455223434,Demo given!,183053627
+7,group4/user1,1455430001,1455430001,Ran a dummy end to end system with the technologies finalized.,183827732
+12,group4/user1,1455430034,1455430034,Checked in project to git repo.,183827751
+8,group4/user1,1455430078,1455430078,Checked in code.,183827764
+29,group4/user3,1455662760,1455662760,"Not a good idea to merge to master branch now. Hence, closing the request.",184905604
+26,group4/user3,1455662923,1455662923,Completed. Changes checked in to branch Solution1.,184906254
+27,group4/user3,1455662943,1455662943,Completed. Changes checked in to branch Solution 1,184906352
+28,group4/user3,1455662987,1455662987,Completed. Changes checked in to branch Solution 1.,184906520
+31,group4/user1,1455987371,1455987371,Solution 3 and Solution 2 can share this functionality.,186652378
+31,group4/user1,1456164506,1456164506,Implemented and pushed the changes.,187298533
+32,group4/user1,1456164573,1456164573,Have implemented new LoginHelperService in server code to make data connection.,187298885
+19,group4/user1,1456164618,1456164618,Committed the changes and merged with master,187299093
+30,group4/user4,1456203040,1456203040,"Created A schema with the 2 tables
+One for login
+Another for checking the course requirements for 'Master of Science'",187529203
+46,group4/user4,1456252335,1456252335,Database created ,187831621
+33,group4/user4,1456303997,1456303997,"Created an interface and a new class MsHelper to insert the HashMap data into the database, update the database and also read the table",188144560
+43,group4/user2,1456378588,1456378588,![image](https://cloud.githubusercontent.com/assets/13955480/13310857/bb7fddd6-db57-11e5-8b61-d6d29046e013.jpg),188622227
+42,group4/user2,1456378899,1456378899,"![image2](https://cloud.githubusercontent.com/assets/13955480/13310954/85eac5f4-db58-11e5-87fd-9a0448dc6652.jpg)
+",188622997
+45,group4/user2,1456379840,1456379840,Done,188627453
+39,group4/user1,1456611981,1456611981,Widgets used can be found under CustomWidgets class,189739291
+38,group4/user1,1456612021,1456612021,Login and logout module can be found under LoginHelperService,189739328
+18,group4/user1,1456612060,1456612060,Created dummy dataset demo on MySql to test the app,189739368
+17,group4/user1,1456612094,1456612094,Created Validator class in server code to do the validation.,189739404
+37,group4/user1,1456612138,1456612138,Implemented some basic xml and html project base page structure,189739456
+36,group4/user1,1456612158,1456612158,Basic css implemented,189739476
+56,group4/user3,1456627715,1456627715,implemented and pushed,189767685
+57,group4/user3,1456635768,1456635768,Done!,189783980
+59,group4/user3,1456642753,1456642753,Done,189804096
+60,group4/user3,1456657176,1456657176,Done,189839925
+61,group4/user3,1456663575,1456663575,Done!,189864157
+58,group4/user3,1456686612,1456686612,Done.,189923910
+40,group4/user1,1456689110,1456689110,Pushed generateReportFunction function for validation,189933160
+62,group4/user3,1456692321,1456692321,Done,189943068
+64,group4/user3,1456699196,1456699196,Done,189960572
+65,group4/user3,1456723892,1456723892,Done,190052210
+66,group4/user3,1456724496,1456724496,verified.,190054880
+67,group4/user3,1456724514,1456724514,Verified,190054904
+68,group4/user3,1456724534,1456724534,Verified,190054930
+69,group4/user3,1456724557,1456724557,Verfied,190054963
+70,group4/user3,1456724584,1456724584,Verified,190055015
+71,group4/user3,1456724604,1456724604,Verified,190055043
+72,group4/user3,1456724620,1456724620,Verified,190055071
+23,group4/user3,1456724670,1456724670,achieved.,190055151
+24,group4/user3,1456724688,1456724688,achieved,190055181
+25,group4/user3,1456724703,1456724703,achieved,190055213
+73,group4/user2,1456767479,1456767479,Providing the context (i.e. through form) as if its coming through my pack itself.,190304402
+55,group4/user2,1456767503,1456767503,Done,190304512
+74,group4/user2,1456767926,1456767926,Done,190306443
+76,group4/user2,1456767978,1456767978,Done,190306688
+75,group4/user2,1456767988,1456767988,Done,190306728
+80,group4/user2,1456808377,1456808377,done ,190547014
+77,group4/user2,1456808397,1456808397,done,190547059
+78,group4/user2,1456808407,1456808407,done,190547082
+81,group4/user2,1456808870,1456808870,done,190548551
+82,group4/user2,1456808943,1456808943,done,190548729
+83,group4/user2,1456878029,1456878029,Updated the draft. Sending for review. Closing this issue.,190985416
+84,group4/user3,1456883509,1456883509,completed.,191015220
+84,group4/user2,1456883513,1456883513,Reviewed the updates. ,191015248
+84,group4/user3,1456883634,1456883634,closing the issue!,191015653
+87,group4/user2,1459784818,1459784818,Created initial survey questions for solution3. ,205359946
+87,group4/user2,1459955573,1459955573,@Angelyn Please review the questions and let me know if they need any revisions,206420550
+41,group4/user1,1459961136,1459961136,Closing the issue. Will be documented in report as one of the enhancement.,206459244
+90,group4/user4,1459965475,1459965475,Users were studied and the usage of Solution2 was evaluated,206488635
+87,group4/user4,1459965717,1459965717,I have read the questions. Looks good. We can send them out,206491364
+87,group4/user2,1459965738,1459965738,Thanks! closing this issue.,206491694
+88,group4/user4,1459984547,1459984547,Survey created and sent out.. ,206615953
+85,group4/user3,1459984677,1459984677,Done!,206616540

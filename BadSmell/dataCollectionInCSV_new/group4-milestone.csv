@@ -1,0 +1,35 @@
+id,title,description,created_at,due_at,closed_at,user,identifier
+1,Solution 1 ,"Graduation Requirement Validation system:
+
+In this solution we will provide the user with a tool where he/she can enter the graduation requirements and also provide information about the different activities or courses completed till date. This tool takes these two set of information runs cross-validation to generate a to-do list which user has to complete in order to graduate on the target date.
+
+We maintain user data in Database and use it in future log ins to track the progress made by user as user updates the data. This tool just gives you a single stop destination where you can come and check the things that needs to be done. 
+
+User is responsible for updating the requirements in case anything change in course of time.  ",1455051545,1456722000,1456724743,group4/user1,1573389
+2,Solution 3: Enhancement to the existing tool,"In this solution we aim to pursue a proof of concept of simplifying the existing tool i.e. my pack portal, which currently has all the links and required information scattered; we plan to have a prototype of what the tool should look like so that users find all the information in one place.
+",1455051869,1456722000,1456808632,group4/user2,1573396
+3,Allocating work,Splitting work within the team so that members can work independently for most of the time and collaborate only when required.,1455052185,1455166800,1455129301,group4/user2,1573418
+4,Solution 2,"Recommender and Tracker Tool:
+
+This tool maintains a database of the list of requirements for different courses and tracks. The user provide his or her information when he or she logs in for first time. The tool cross validates the requirements present in the database and shows user the list of things that needs attention and also recommends the ways of achieving the target. 
+
+The database is maintained and updated to accomodate new requirements that can come up in course of time. This tool can be used to plan the roadmap of ones graduation and different options one have to go about it.",1455052508,1456722000,1456752207,group4/user1,1573425
+5,Solution 1 design iteration 1,"Solution 1 focus on creating an android app as a solution for the problem.
+
+By 21st Feb, design the major components of the solution.",1455657392,1456030800,1456624949,group4/user3,1586913
+6,Solution 1 development iteration 1,"Solution 1 focus on building an Android application for solving the problem.
+
+By 21st Feb develop the major components as designed in the iteration 1 of the design.",1455657689,1456030800,1456624952,group4/user3,1586923
+7,Solution 1 design iteration 2,Finalize the design for Solution 1,1455657808,1456549200,1456636146,group4/user3,1586952
+8,Solution 1 development iteration 2,complete the development of Solution 1 as per solution 1 design iteration 2,1455657891,1456722000,1456723933,group4/user3,1586955
+9,Solution 1 testing iteration 1,Perform system test of solution 1 development iteration 1,1455657962,1456030800,1456624945,group4/user3,1586956
+10,Solution 1 testing iteration 2,perform testing of solution 1 development iteration 2,1455658003,1456722000,1456724635,group4/user3,1586957
+11,Solution 2 Testing Iteration,Test solution two with all possible scenarios on the data generated.,1455987722,1455987722,1455987722,group4/user1,1594872
+12,Solution 3: Design Phase Iteration 1,,1456206572,1456206572,1456765261,group4/user2,1599004
+13,Solution 3: Development Phase Iteration 1,,1456207323,1456207323,1456809027,group4/user2,1599014
+14,Solution 3: Testing Phase Iteration1,,1456210731,1456210731,1456809029,group4/user2,1599072
+15,Mar1 deliverable readiness,,1456875710,1456875710,1456886144,group4/user2,1616657
+16,Evaluation of solutions: Creating surveys,"Create surveys for evaluting Solution1, Solution2 and Solution3.",1456881150,1459396800,1456881150,group4/user3,1616760
+17,Observing Users for solutions,Observe users using the 3 solutions and collect information and logs.,1456881449,1459396800,1456881449,group4/user3,1616768
+18,conducting surveys,conduct surveys about the 3 solutions with users.,1456881646,1459396800,1456881646,group4/user3,1616776
+19,Reaching a conclusion,Reach a conclusion regarding which Solution is better and why?,1456881766,1459396800,1456881766,group4/user3,1616779
