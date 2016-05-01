@@ -1,25 +1,25 @@
 issueID,time,action,label,user,milestone,identifier
-1,1454357736,closed,closed,group5/user2,1,534762021
-1,1454301916,milestoned,1,group5/user2,1,533637396
-1,1454301916,assigned,group5/user2,group5/user2,1,533637394
-1,1454301916,labeled,question,group5/user2,1,533637392
+1,1454357736,closed,closed,group5/user1,1,534762021
+1,1454301916,milestoned,1,group5/user1,1,533637396
+1,1454301916,assigned,group5/user1,group5/user1,1,533637394
+1,1454301916,labeled,question,group5/user1,1,533637392
 2,1455848442,closed,closed,group5/user4,,556001853
-2,1455848431,assigned,group5/user1,group5/user1,,556001706
+2,1455848431,assigned,group5/user2,group5/user2,,556001706
 3,1455840323,closed,closed,group5/user4,,555900779
 4,1455840113,closed,closed,group5/user3,,555898026
-5,1456892402,milestoned,Develop three chrome plugins,group5/user2,3,574122190
-5,1456777470,closed,closed,group5/user2,3,571769261
+5,1456892402,milestoned,Develop three chrome plugins,group5/user1,3,574122190
+5,1456777470,closed,closed,group5/user1,3,571769261
 5,1455848314,labeled,question,group5/user4,3,556000005
-5,1455848284,assigned,group5/user2,group5/user2,3,555999488
+5,1455848284,assigned,group5/user1,group5/user1,3,555999488
 6,1455848008,closed,closed,group5/user3,,555995457
 6,1455848006,reopened,reopened,group5/user3,,555995441
 6,1455847998,closed,closed,group5/user4,,555995354
 7,1456887040,closed,closed,group5/user4,,574054513
 7,1455848308,labeled,question,group5/user4,,555999909
-7,1455848280,assigned,group5/user1,group5/user1,,555999400
-8,1455846000,closed,closed,group5/user1,,555972027
-8,1455846000,merged,merged,group5/user1,,555972026
-8,1455846000,referenced,referenced,group5/user1,,555972025
+7,1455848280,assigned,group5/user2,group5/user2,,555999400
+8,1455846000,closed,closed,group5/user2,,555972027
+8,1455846000,merged,merged,group5/user2,,555972026
+8,1455846000,referenced,referenced,group5/user2,,555972025
 9,1456887060,closed,closed,group5/user4,,574054941
 9,1455848273,assigned,group5/user3,group5/user3,,555999258
 9,1455848252,labeled,help wanted,group5/user4,,555998981
@@ -29,115 +29,115 @@ issueID,time,action,label,user,milestone,identifier
 11,1456887091,closed,closed,group5/user4,,574055619
 11,1455848418,assigned,group5/user3,group5/user3,,556001542
 11,1455848402,labeled,help wanted,group5/user4,,556001261
-12,1456884492,closed,closed,group5/user1,,574024479
+12,1456884492,closed,closed,group5/user2,,574024479
 12,1455848575,labeled,question,group5/user3,,556003396
-13,1456892396,milestoned,Develop three chrome plugins,group5/user2,3,574122091
-13,1456777641,closed,closed,group5/user2,3,571773889
-13,1455848702,assigned,group5/user2,group5/user2,3,556005045
+13,1456892396,milestoned,Develop three chrome plugins,group5/user1,3,574122091
+13,1456777641,closed,closed,group5/user1,3,571773889
+13,1455848702,assigned,group5/user1,group5/user1,3,556005045
 14,1456612605,closed,closed,group5/user4,,569291275
-15,1456632449,closed,closed,group5/user2,,569482412
-15,1456632449,merged,merged,group5/user2,,569482411
-15,1456632449,referenced,referenced,group5/user2,,569482410
-16,1456632777,closed,closed,group5/user2,,569485335
-16,1456632777,merged,merged,group5/user2,,569485334
-16,1456632777,referenced,referenced,group5/user2,,569485333
-17,1456892390,milestoned,Develop three chrome plugins,group5/user2,3,574122022
-17,1456778353,closed,closed,group5/user2,3,571796509
-17,1456638450,labeled,question,group5/user2,3,569532407
-17,1456638307,assigned,group5/user2,group5/user2,3,569531135
-18,1456892384,milestoned,Develop three chrome plugins,group5/user2,3,574121895
-18,1456892194,closed,closed,group5/user2,3,574118290
-18,1456638425,assigned,group5/user2,group5/user2,3,569532233
-18,1456638421,labeled,help wanted,group5/user2,3,569532216
+15,1456632449,closed,closed,group5/user1,,569482412
+15,1456632449,merged,merged,group5/user1,,569482411
+15,1456632449,referenced,referenced,group5/user1,,569482410
+16,1456632777,closed,closed,group5/user1,,569485335
+16,1456632777,merged,merged,group5/user1,,569485334
+16,1456632777,referenced,referenced,group5/user1,,569485333
+17,1456892390,milestoned,Develop three chrome plugins,group5/user1,3,574122022
+17,1456778353,closed,closed,group5/user1,3,571796509
+17,1456638450,labeled,question,group5/user1,3,569532407
+17,1456638307,assigned,group5/user1,group5/user1,3,569531135
+18,1456892384,milestoned,Develop three chrome plugins,group5/user1,3,574121895
+18,1456892194,closed,closed,group5/user1,3,574118290
+18,1456638425,assigned,group5/user1,group5/user1,3,569532233
+18,1456638421,labeled,help wanted,group5/user1,3,569532216
 19,1456887013,closed,closed,group5/user4,,574054143
 19,1456761803,assigned,group5/user4,group5/user4,,571333902
 19,1456761795,labeled,help wanted,group5/user3,,571333635
 20,1456884309,closed,closed,group5/user3,,574022380
 20,1456674663,assigned,group5/user3,group5/user3,,569879436
-20,1456674663,unassigned,unassigned,group5/user1,,569879435
-20,1456674655,assigned,group5/user1,group5/user1,,569879401
+20,1456674663,unassigned,unassigned,group5/user2,,569879435
+20,1456674655,assigned,group5/user2,group5/user2,,569879401
 20,1456674655,unassigned,unassigned,group5/user3,,569879400
 20,1456674651,assigned,group5/user3,group5/user3,,569879350
 20,1456674645,labeled,help wanted,group5/user3,,569879302
-21,1456700786,closed,closed,group5/user2,,570165860
-21,1456700786,merged,merged,group5/user2,,570165855
-21,1456700786,referenced,referenced,group5/user2,,570165852
-22,1456767288,closed,closed,group5/user2,,571487989
-22,1456767288,merged,merged,group5/user2,,571487987
-22,1456767288,referenced,referenced,group5/user2,,571487986
-23,1456771030,closed,closed,group5/user2,,571585709
-23,1456771030,merged,merged,group5/user2,,571585708
-23,1456771030,referenced,referenced,group5/user2,,571585705
-24,1456892361,milestoned,Develop three chrome plugins,group5/user2,3,574121384
-24,1456892214,closed,closed,group5/user2,3,574118659
-24,1456777178,assigned,group5/user2,group5/user2,3,571761472
-24,1456777178,labeled,help wanted,group5/user2,3,571761471
-25,1459480602,closed,closed,group5/user2,3,610732287
-25,1456892421,milestoned,Develop three chrome plugins,group5/user2,3,574122530
-25,1456777270,assigned,group5/user2,group5/user2,3,571763929
-25,1456777270,labeled,question,group5/user2,3,571763928
-25,1456777270,labeled,help wanted,group5/user2,3,571763927
-25,1456777270,labeled,enhancement,group5/user2,3,571763926
-26,1456892344,milestoned,Develop three chrome plugins,group5/user2,3,574120911
-26,1456892155,closed,closed,group5/user2,3,574117469
-26,1456777726,assigned,group5/user2,group5/user2,3,571776162
-26,1456777725,labeled,question,group5/user2,3,571776131
-26,1456777724,labeled,enhancement,group5/user2,3,571776127
-26,1456777724,labeled,duplicate,group5/user2,3,571776124
+21,1456700786,closed,closed,group5/user1,,570165860
+21,1456700786,merged,merged,group5/user1,,570165855
+21,1456700786,referenced,referenced,group5/user1,,570165852
+22,1456767288,closed,closed,group5/user1,,571487989
+22,1456767288,merged,merged,group5/user1,,571487987
+22,1456767288,referenced,referenced,group5/user1,,571487986
+23,1456771030,closed,closed,group5/user1,,571585709
+23,1456771030,merged,merged,group5/user1,,571585708
+23,1456771030,referenced,referenced,group5/user1,,571585705
+24,1456892361,milestoned,Develop three chrome plugins,group5/user1,3,574121384
+24,1456892214,closed,closed,group5/user1,3,574118659
+24,1456777178,assigned,group5/user1,group5/user1,3,571761472
+24,1456777178,labeled,help wanted,group5/user1,3,571761471
+25,1459480602,closed,closed,group5/user1,3,610732287
+25,1456892421,milestoned,Develop three chrome plugins,group5/user1,3,574122530
+25,1456777270,assigned,group5/user1,group5/user1,3,571763929
+25,1456777270,labeled,question,group5/user1,3,571763928
+25,1456777270,labeled,help wanted,group5/user1,3,571763927
+25,1456777270,labeled,enhancement,group5/user1,3,571763926
+26,1456892344,milestoned,Develop three chrome plugins,group5/user1,3,574120911
+26,1456892155,closed,closed,group5/user1,3,574117469
+26,1456777726,assigned,group5/user1,group5/user1,3,571776162
+26,1456777725,labeled,question,group5/user1,3,571776131
+26,1456777724,labeled,enhancement,group5/user1,3,571776127
+26,1456777724,labeled,duplicate,group5/user1,3,571776124
 27,1456780982,closed,closed,group5/user4,,571874811
 28,1459632154,closed,closed,group5/user4,,612368713
-28,1456892461,demilestoned,Develop three chrome plugins,group5/user2,,574122875
-28,1456892416,milestoned,Develop three chrome plugins,group5/user2,,574122449
+28,1456892461,demilestoned,Develop three chrome plugins,group5/user1,,574122875
+28,1456892416,milestoned,Develop three chrome plugins,group5/user1,,574122449
 29,1456780978,closed,closed,group5/user4,,571874691
-30,1456814218,closed,closed,group5/user2,,572567893
-30,1456814218,merged,merged,group5/user2,,572567892
-30,1456814218,referenced,referenced,group5/user2,,572567891
-31,1456817148,closed,closed,group5/user2,,572612117
-31,1456817148,merged,merged,group5/user2,,572612116
-31,1456817148,referenced,referenced,group5/user2,,572612115
-32,1456818104,assigned,group5/user2,group5/user2,,572629769
-32,1456818099,labeled,enhancement,group5/user2,,572629668
-32,1456817849,referenced,referenced,group5/user2,,572622124
-32,1456817645,closed,closed,group5/user2,,572618858
-32,1456817645,merged,merged,group5/user2,,572618857
-32,1456817645,referenced,referenced,group5/user2,,572618856
-33,1456817927,referenced,referenced,group5/user2,,572624128
-33,1456817849,closed,closed,group5/user2,,572622121
-33,1456817849,merged,merged,group5/user2,,572622120
-33,1456817849,referenced,referenced,group5/user2,,572622119
-34,1456818215,referenced,referenced,group5/user2,,572631959
-34,1456817927,closed,closed,group5/user2,,572624117
-34,1456817927,merged,merged,group5/user2,,572624115
-34,1456817927,referenced,referenced,group5/user2,,572624114
-35,1456818215,closed,closed,group5/user2,,572631954
-35,1456818215,merged,merged,group5/user2,,572631953
-35,1456818215,referenced,referenced,group5/user2,,572631952
-35,1456818206,labeled,question,group5/user2,,572631780
-35,1456818206,labeled,help wanted,group5/user2,,572631779
-35,1456818206,labeled,enhancement,group5/user2,,572631778
-35,1456818196,assigned,group5/user2,group5/user2,,572631644
-36,1456858182,closed,closed,group5/user2,,573485769
-36,1456858182,merged,merged,group5/user2,,573485767
-36,1456858182,referenced,referenced,group5/user2,,573485766
-36,1456858174,assigned,group5/user2,group5/user2,,573485619
-36,1456858173,labeled,question,group5/user2,,573485591
-36,1456858173,labeled,help wanted,group5/user2,,573485589
-36,1456858173,labeled,enhancement,group5/user2,,573485588
-37,1456884237,closed,closed,group5/user1,,574021328
+30,1456814218,closed,closed,group5/user1,,572567893
+30,1456814218,merged,merged,group5/user1,,572567892
+30,1456814218,referenced,referenced,group5/user1,,572567891
+31,1456817148,closed,closed,group5/user1,,572612117
+31,1456817148,merged,merged,group5/user1,,572612116
+31,1456817148,referenced,referenced,group5/user1,,572612115
+32,1456818104,assigned,group5/user1,group5/user1,,572629769
+32,1456818099,labeled,enhancement,group5/user1,,572629668
+32,1456817849,referenced,referenced,group5/user1,,572622124
+32,1456817645,closed,closed,group5/user1,,572618858
+32,1456817645,merged,merged,group5/user1,,572618857
+32,1456817645,referenced,referenced,group5/user1,,572618856
+33,1456817927,referenced,referenced,group5/user1,,572624128
+33,1456817849,closed,closed,group5/user1,,572622121
+33,1456817849,merged,merged,group5/user1,,572622120
+33,1456817849,referenced,referenced,group5/user1,,572622119
+34,1456818215,referenced,referenced,group5/user1,,572631959
+34,1456817927,closed,closed,group5/user1,,572624117
+34,1456817927,merged,merged,group5/user1,,572624115
+34,1456817927,referenced,referenced,group5/user1,,572624114
+35,1456818215,closed,closed,group5/user1,,572631954
+35,1456818215,merged,merged,group5/user1,,572631953
+35,1456818215,referenced,referenced,group5/user1,,572631952
+35,1456818206,labeled,question,group5/user1,,572631780
+35,1456818206,labeled,help wanted,group5/user1,,572631779
+35,1456818206,labeled,enhancement,group5/user1,,572631778
+35,1456818196,assigned,group5/user1,group5/user1,,572631644
+36,1456858182,closed,closed,group5/user1,,573485769
+36,1456858182,merged,merged,group5/user1,,573485767
+36,1456858182,referenced,referenced,group5/user1,,573485766
+36,1456858174,assigned,group5/user1,group5/user1,,573485619
+36,1456858173,labeled,question,group5/user1,,573485591
+36,1456858173,labeled,help wanted,group5/user1,,573485589
+36,1456858173,labeled,enhancement,group5/user1,,573485588
+37,1456884237,closed,closed,group5/user2,,574021328
 37,1456875628,assigned,group5/user3,group5/user3,,573886193
 37,1456875628,labeled,help wanted,group5/user3,,573886192
 38,1459632105,closed,closed,group5/user4,,612368586
 38,1459632094,labeled,enhancement,group5/user4,,612368556
-38,1456892455,demilestoned,Develop three chrome plugins,group5/user2,,574122841
-38,1456892409,milestoned,Develop three chrome plugins,group5/user2,,574122332
+38,1456892455,demilestoned,Develop three chrome plugins,group5/user1,,574122841
+38,1456892409,milestoned,Develop three chrome plugins,group5/user1,,574122332
 38,1456887167,assigned,group5/user4,group5/user4,,574056999
-39,1456892088,closed,closed,group5/user2,,574116414
-39,1456892088,merged,merged,group5/user2,,574116413
-39,1456892088,referenced,referenced,group5/user2,,574116412
-39,1456892079,labeled,question,group5/user2,,574116325
-39,1456892079,labeled,help wanted,group5/user2,,574116324
-39,1456892079,labeled,enhancement,group5/user2,,574116323
-39,1456892065,assigned,group5/user2,group5/user2,,574116115
+39,1456892088,closed,closed,group5/user1,,574116414
+39,1456892088,merged,merged,group5/user1,,574116413
+39,1456892088,referenced,referenced,group5/user1,,574116412
+39,1456892079,labeled,question,group5/user1,,574116325
+39,1456892079,labeled,help wanted,group5/user1,,574116324
+39,1456892079,labeled,enhancement,group5/user1,,574116323
+39,1456892065,assigned,group5/user1,group5/user1,,574116115
 40,1459632129,closed,closed,group5/user4,,612368646
 40,1459632086,labeled,enhancement,group5/user4,,612368528
 40,1459479991,assigned,group5/user4,group5/user4,,610724448
@@ -145,17 +145,17 @@ issueID,time,action,label,user,milestone,identifier
 41,1459632080,labeled,enhancement,group5/user4,,612368516
 41,1459480016,assigned,group5/user4,group5/user4,,610724799
 42,1459988165,closed,closed,group5/user4,6,617652026
-42,1459480561,milestoned,Modify solutions according to users specification,group5/user2,6,610731926
-42,1459480561,labeled,question,group5/user2,6,610731925
-42,1459480561,labeled,help wanted,group5/user2,6,610731924
-42,1459480561,labeled,enhancement,group5/user2,6,610731923
-42,1459480561,assigned,group5/user2,group5/user2,6,610731922
+42,1459480561,milestoned,Modify solutions according to users specification,group5/user1,6,610731926
+42,1459480561,labeled,question,group5/user1,6,610731925
+42,1459480561,labeled,help wanted,group5/user1,6,610731924
+42,1459480561,labeled,enhancement,group5/user1,6,610731923
+42,1459480561,assigned,group5/user1,group5/user1,6,610731922
 43,1459997001,closed,closed,group5/user4,6,617751561
-43,1459480667,milestoned,Modify solutions according to users specification,group5/user2,6,610732903
-43,1459480667,labeled,question,group5/user2,6,610732902
-43,1459480667,labeled,enhancement,group5/user2,6,610732901
-43,1459480667,labeled,bug,group5/user2,6,610732900
-43,1459480667,assigned,group5/user2,group5/user2,6,610732899
+43,1459480667,milestoned,Modify solutions according to users specification,group5/user1,6,610732903
+43,1459480667,labeled,question,group5/user1,6,610732902
+43,1459480667,labeled,enhancement,group5/user1,6,610732901
+43,1459480667,labeled,bug,group5/user1,6,610732900
+43,1459480667,assigned,group5/user1,group5/user1,6,610732899
 44,1459988165,closed,closed,group5/user4,,617652027
 44,1459632163,assigned,group5/user4,group5/user4,,612368731
 44,1459632062,labeled,bug,group5/user4,,612368454
@@ -164,13 +164,13 @@ issueID,time,action,label,user,milestone,identifier
 46,1459910331,closed,closed,group5/user4,,616110668
 46,1459636139,labeled,enhancement,group5/user4,,612391415
 46,1459636139,assigned,group5/user4,group5/user4,,612391414
-47,1459910166,closed,closed,group5/user1,,616109013
+47,1459910166,closed,closed,group5/user2,,616109013
 48,1459988165,closed,closed,group5/user4,,617652028
 48,1459910361,assigned,group5/user4,group5/user4,,616111090
 49,1459988165,closed,closed,group5/user4,,617652029
-49,1459910415,reopened,reopened,group5/user1,,616111664
-49,1459910411,closed,closed,group5/user1,,616111623
-49,1459910407,labeled,enhancement,group5/user1,,616111563
+49,1459910415,reopened,reopened,group5/user2,,616111664
+49,1459910411,closed,closed,group5/user2,,616111623
+49,1459910407,labeled,enhancement,group5/user2,,616111563
 50,1459988165,closed,closed,group5/user4,,617652030
 50,1459910517,assigned,group5/user4,group5/user4,,616112854
 51,1459988189,closed,closed,group5/user4,,617652559
@@ -178,7 +178,7 @@ issueID,time,action,label,user,milestone,identifier
 52,1459988182,closed,closed,group5/user4,,617652427
 52,1459910627,assigned,group5/user4,group5/user4,,616114364
 53,1459988182,closed,closed,group5/user4,,617652430
-53,1459910860,labeled,enhancement,group5/user1,,616117410
+53,1459910860,labeled,enhancement,group5/user2,,616117410
 54,1459915353,labeled,enhancement,group5/user3,,616163741
 54,1459915353,assigned,group5/user3,group5/user3,,616163740
 55,1459997052,closed,closed,group5/user3,,617752188

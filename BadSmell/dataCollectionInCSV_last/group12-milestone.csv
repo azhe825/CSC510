@@ -1,14 +1,15 @@
 id,title,description,created_at,due_at,closed_at,user,identifier
 1,Feb 1 ,Problem Identification,1454710059,1454302800,1454710546,group12/user1,1567295
 3,March Report,The implemented solutions need to be documented.,1454710222,1456808400,1456971242,group12/user1,1567299
-4,Testing the implemented solutions,The 3 implemented solutions need to be tested,1454710309,1459483200,1460073601,group12/user1,1567302
+4,Testing the implemented solutions,The 3 implemented solutions need to be tested,1454710309,1459483200,1454710309,group12/user1,1567302
 5,Setup environment to implement the solutions ,"whichever member is doing whatever solutions, must setup that environment for it.",1454710417,1454994000,1455727466,group12/user1,1567306
 6,Identify 3 solutions,"1. Image recognition using OCR
 2. Voice input
 3. Auto recognition of expenses from Text messages.",1454710493,1454821200,1456882579,group12/user1,1567308
 8,Proof of concept for the identified solutions,,1454710943,1455339600,1456882581,group12/user1,1567328
 9,Backend for the application,Need to build a backend for the application. The backend will be running a service which will expose the REST API's to the mobile client. The mobile application will communicate with the central repository using the RESTful URL's.,1454975831,1456808400,1456882588,group12/user2,1571640
+10,Creating an improved manual interface for the expense sharing application,The expenses that are given as an input are typed through the keypad of the mobile device. Instead we aim to create an interface through which the values or expenses can be submitted directly,1455174206,1455174206,1456882583,group12/user3,1577084
 11,APIs from the backend,"After setting up the web-application backend, need to expose APIs from the web-service for the mobile client.",1455727798,1456808400,1456892731,group12/user2,1588908
 12,Android app base framework ,We would need a basic framework/platform where all the solutions built would be integrated.,1456603585,1456808400,1456882594,group12/user2,1609675
-13,Enhancements for solutions,,1459142486,1459828800,1460073601,group12/user2,1668507
-14,Enhancements for telemetry,,1459142500,1459915200,1460073601,group12/user2,1668508
+13,Enhancements for solutions,,1459142486,1459828800,1459142486,group12/user2,1668507
+14,Enhancements for telemetry,,1459142500,1459915200,1459142500,group12/user2,1668508

@@ -147,8 +147,8 @@ def dumpMilestone1(u, milestones, token, timebound):
   if closed_at==None:
     #closed_at=timebound+1
     closed_at = created_at
-  #if closed_at>timebound:
-    #closed_at=timebound+1
+  if closed_at>timebound:
+    closed_at=created_at
 
 
   milestoneObj = L(ident=identifier,

@@ -1,14 +1,14 @@
 id,time,sha,user,message
 1,1459229299,1aec92fc180aa8b296593d86cd9c5c20aaeebcfc,group8/user3,Updated compatibility between Mac and Windows
-2,1459228740,681ce75d3445d4796ed592fb29ceeba9512c284d,group8/user2,Merge branch 'master' of https://github.com/nikign/Git-Helper
-3,1459228725,01fa7d7611645b46c343f4a61c255543ead23510,group8/user2,add new crawling data
-4,1459228622,8ae13783bd2d7acd33e43da14ed52dbb0555936d,group8/user1,update search engine data
-5,1459228590,4ed8107a2ec9146ae27f621f1b782ec8b1f327dd,group8/user1,update search engine
-6,1459213502,630598df8a97e5dae870671827643d21e2fc7c91,group8/user2,add
-7,1459213410,d983345368f59af3d602829d52cb1db5bdbc285e,group8/user2,update
-8,1459213327,c7d44d4674bfe016d3027f52bd19bd1311e7276a,group8/user2,ignore the unrelative words
-9,1458967611,d8f759311b16a5d9b5524a0100c2f290697dd5d1,group8/user2,Merge branch 'master' of https://github.com/nikign/Git-Helper
-10,1458967581,59cb505ee46821eb029c4770bd236ddb82994e32,group8/user2,updata rate_result
-11,1458967113,83257aee82fd9584f012c04290ca9988d85f044d,group8/user1,resolve conflict
-12,1458967006,bfb472a846980703716bff5798b4c36a38593dc5,group8/user2,using crawling data to test email
-13,1458962973,3b1648d61ba632c0f302ebbf707c9373d10ed497,group8/user1,"upload crawled web data, build index, enhance git-helper search engine."
+2,1459228740,681ce75d3445d4796ed592fb29ceeba9512c284d,group8/user1,Merge branch 'master' of https://github.com/nikign/Git-Helper
+3,1459228725,01fa7d7611645b46c343f4a61c255543ead23510,group8/user1,add new crawling data
+4,1459228622,8ae13783bd2d7acd33e43da14ed52dbb0555936d,group8/user2,update search engine data
+5,1459228590,4ed8107a2ec9146ae27f621f1b782ec8b1f327dd,group8/user2,update search engine
+6,1459213502,630598df8a97e5dae870671827643d21e2fc7c91,group8/user1,add
+7,1459213410,d983345368f59af3d602829d52cb1db5bdbc285e,group8/user1,update
+8,1459213327,c7d44d4674bfe016d3027f52bd19bd1311e7276a,group8/user1,ignore the unrelative words
+9,1458967611,d8f759311b16a5d9b5524a0100c2f290697dd5d1,group8/user1,Merge branch 'master' of https://github.com/nikign/Git-Helper
+10,1458967581,59cb505ee46821eb029c4770bd236ddb82994e32,group8/user1,updata rate_result
+11,1458967113,83257aee82fd9584f012c04290ca9988d85f044d,group8/user2,resolve conflict
+12,1458967006,bfb472a846980703716bff5798b4c36a38593dc5,group8/user1,using crawling data to test email
+13,1458962973,3b1648d61ba632c0f302ebbf707c9373d10ed497,group8/user2,"upload crawled web data, build index, enhance git-helper search engine."

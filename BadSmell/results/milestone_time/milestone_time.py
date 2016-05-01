@@ -5,7 +5,7 @@ import datetime
 import matplotlib.pyplot as plt
 import numpy as np
 
-indir = "../../dataCollectionInCSV_new/"
+indir = "../../dataCollectionInCSV_last/"
 resultdir = "../milestone_usage/"
 
 tJan = datetime.datetime(year=2016, month=1, day=7) # time for January
@@ -86,9 +86,11 @@ def plot_milestone_time(): # also check the milestone usage
         due_days = map(time_interval, list(np.subtract(due_times, create_times)))
         closed_days = map(time_interval, list(np.subtract(closed_times, create_times)))
 
-        wo_due = sum([True if (term>-1 and term<1) else False for term in due_days]) # without due date
+        #wo_due = sum([True if (term>-1 and term<1) else False for term in due_days]) # without due date
+        wo_due = sum([True if (term<1 and term>-1) else False for term in due_days])  # without due date
         wo_due_percentage = float(wo_due) / float(size)
-        wo_close = sum([True if (term>-1 and term<1) else False for term in closed_days]) # without closed date
+        #wo_close = sum([True if (term>-1 and term<1) else False for term in closed_days]) # without closed date
+        wo_close = sum([True if (term<1 and term>-1) else False for term in closed_days])  # without closed date
         wo_close_percentage = float(wo_close) / float(size)
         group_milestone_usage[gp] = [size, wo_due, wo_close, wo_due_percentage, wo_close_percentage]
 
@@ -101,6 +103,7 @@ def plot_milestone_time(): # also check the milestone usage
                        label='Closed')
         plt.legend()
         fig.savefig(gp + "-progress.png")
+        fig.clear()
 
     with open(resultdir+'group-milestone-usage.csv', 'wb') as fout:
         fields = ['group_id', 'total milestones', 'missing due day', 'unclosed', 'percentage missing due', 'percentage of unclosed']
@@ -110,13 +113,22 @@ def plot_milestone_time(): # also check the milestone usage
             term = [group_milestone_usage[gp][i] for i in range(len(group_milestone_usage[gp]))]
             term.insert(0, gp)
             cw.writerow(term)
-            fig = plt.figure(1, figsize=(6,6))
-            ax = plt.axes([0.1, 0.1, 0.8, 0.8])
-            labels = ['Complete','Missing Due', 'Missing closed date']
-            fracs = [(term[1]-term[2]-term[3]), term[2], term[3]]
-            explode = [0.0, 0.05, 0.05]
-            plt.pie(fracs, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
-            plt.title('Milestone Usage for '+gp, bbox={'facecolor': '0.8', 'pad': 5})
+            fig = plt.figure(1, figsize=(3,6))
+            ax = plt.axes([0.1, 0.1, 0.1, 0.1])
+            plt.title('Milestone Usage for ' + gp, bbox={'facecolor': '0.8', 'pad': 5})
+            plt.subplot(1,2,1)
+            labels = ['Complete','Missing Due']
+            fracs = [(term[1]-term[2]), term[2]]
+            explode = [0.0, 0.05]
+            colors = ['green', 'orange']
+            plt.pie(fracs, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, colors=colors,)
+            plt.subplot(1,2,2)
+            labels = ['Complete', 'Missing closed date']
+            fracs = [(term[1] - term[3]), term[3]]
+            explode = [0.0, 0.05]
+            colors = ['green', 'red']
+            plt.pie(fracs, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, colors=colors,)
+            #plt.title('Milestone Usage for '+gp, bbox={'facecolor': '0.8', 'pad': 5})
             fig.savefig(resultdir+gp+'-milestone-usage.png')
             fig.clear()
 

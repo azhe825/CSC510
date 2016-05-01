@@ -1,39 +1,39 @@
 id,time,sha,user,message
-1,1456892706,e14d5d934ef9c2a51b8ef1985bd5b556839cfb53,group5/user2,"Readme Modification
+1,1456892706,e14d5d934ef9c2a51b8ef1985bd5b556839cfb53,group5/user1,"Readme Modification
 
 Link to the solutions"
-2,1456892088,2570de68f6ee33660f5087b9dc5082a87f42d55d,group5/user2,"Merge pull request #39 from DharmendraVaghela/dharmendra
+2,1456892088,2570de68f6ee33660f5087b9dc5082a87f42d55d,group5/user1,"Merge pull request #39 from DharmendraVaghela/dharmendra
 
 Background event file include"
-3,1456891939,f52618c56bd565040bdea4fe9183e7ceaf7d6de0,group5/user2,"Background event file include
+3,1456891939,f52618c56bd565040bdea4fe9183e7ceaf7d6de0,group5/user1,"Background event file include
 
 Include background event file for constant listening"
-4,1456891793,3bbf7094ffaf6795561deea04c5af3bfb197e09a,group5/user2,Git Cleanup
-5,1456891597,254343843e126dfe39e1a036c7ddc239d9b7a1ce,group5/user2,"Git cleanup
+4,1456891793,3bbf7094ffaf6795561deea04c5af3bfb197e09a,group5/user1,Git Cleanup
+5,1456891597,254343843e126dfe39e1a036c7ddc239d9b7a1ce,group5/user1,"Git cleanup
 
 cleanup previous versions"
 6,1456887187,199228850ecd43d61e8b1f428d5763a5d8d52a7f,group5/user4,Added files via upload
-7,1456886978,cbf886f3c14b8b99da8b6eae463bee8a9a111501,group5/user2,"Delete README.md
+7,1456886978,cbf886f3c14b8b99da8b6eae463bee8a9a111501,group5/user1,"Delete README.md
 
 Delete previous readme"
 8,1456886809,f1bda84d21fa50347cd98849a861870f2d403293,group5/user4,update to readme file
 9,1456886599,cf81bfa05b1aa6b77b582f6b0aaadc8f87cfe3b6,group5/user4,readme file for project
 10,1456884700,aaee57ea7c5311d704c07ab709d56de29e1aa8f5,group5/user4,Solution Document
 11,1456884479,d84b44cbe5bc63c73b84d133c73a9afaddedbfe0,group5/user4,updated the content
-12,1456883680,991e570ca25a28e21b249dbcb5d21a1db7eb919e,group5/user1,update logfile
-13,1456883255,4e434145a067654a28bb47ced08b807b9ffc7df1,group5/user1,fixed hyperlink creation
+12,1456883680,991e570ca25a28e21b249dbcb5d21a1db7eb919e,group5/user2,update logfile
+13,1456883255,4e434145a067654a28bb47ced08b807b9ffc7df1,group5/user2,fixed hyperlink creation
 14,1456882648,e08e63eccbd8d2ee6c6e60a31f0c683a3808a6a3,group5/user4,log file
 15,1456880018,176e5f544e58bfcf8e22f29091dc168ab95bb4ec,group5/user3,Implemented using hashmaps
-16,1456767288,6c4227b9d18c9d346e3c00ee578858c8fbc57be8,group5/user2,"Merge pull request #22 from DharmendraVaghela/dharmendra
+16,1456767288,6c4227b9d18c9d346e3c00ee578858c8fbc57be8,group5/user1,"Merge pull request #22 from DharmendraVaghela/dharmendra
 
 Dharmendra"
-17,1456767114,64a33c2a95efef40c0d0a360644201a77c4cefb2,group5/user2,"Add option page for plug in options
+17,1456767114,64a33c2a95efef40c0d0a360644201a77c4cefb2,group5/user1,"Add option page for plug in options
 
 Define functionality of option page with user choices"
-18,1456767030,df3f1849e85474f2ebb19eb1f22d484a9c5e250b,group5/user2,"Include prototype files
+18,1456767030,df3f1849e85474f2ebb19eb1f22d484a9c5e250b,group5/user1,"Include prototype files
 
 Include JS prototype files"
-19,1456766981,2cf7039292a280096a73153d0465dcaf5b26a5f8,group5/user2,"Update manifest
+19,1456766981,2cf7039292a280096a73153d0465dcaf5b26a5f8,group5/user1,"Update manifest
 
 Update manifest for util functions"
 20,1456717443,53ce8e9782a506cba2735bd63fce9a760a0ffc48,group5/user4,changing opacity of side bar
