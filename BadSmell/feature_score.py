@@ -6,26 +6,45 @@ indir = './badSmellScoreCSV/'
 outdir = './result/'
 
 def lack_of_communication(allBadSmells):
-    # col 2, 3, 4, 5, 10
+    col = [2, 3, 4, 5, 10]
     weights = np.array([1, 1, 1, 1, 1])
     scores = dict()
     for gp in allBadSmells.keys():
-        features = np.array(allBadSmells[gp])
-        scores[gp] = features
-    return 0
+        features = np.array([allBadSmells[gp][i] for i in col])
+        scores[gp] = features.dot(weights)
+    return scores
 
 def delayed_delivery(allBadSmells):
     # col 14, 9
-    return 0
+    col = [9, 14]
+    weights = np.array([1, 1])
+    scores = dict()
+    for gp in allBadSmells.keys():
+        features = np.array([allBadSmells[gp][i] for i in col])
+        scores[gp] = features.dot(weights)
+    return scores
 
 
 def unbalanced_contribution(allBadSmells):
     # col 2,3,4,5, 10, 11
-    return 0
+    col = [2, 3, 4, 5, 10, 11]
+    weights = np.array([1, 1, 1, 1, 1, 10])
+    scores = dict()
+    for gp in allBadSmells.keys():
+        features = np.array([allBadSmells[gp][i] for i in col])
+        scores[gp] = features.dot(weights)
+    return scores
+
 
 def poor_planning(allBadSmells):
-    # col 1, 6, 7, 8, 9, 11, 12, 13, 14
-    return 0
+    # col 1, 6, 7, 8, 12, 13, 15, 16
+    col = [1, 6, 7, 8, 12, 13, 15, 16]
+    weights = np.array([1, 1, 1, 1, 1, 1, 1, 1])
+    scores = dict()
+    for gp in allBadSmells.keys():
+        features = np.array([allBadSmells[gp][i] for i in col])
+        scores[gp] = features.dot(weights)
+    return scores
 
 def main():
     allBadSmells = dict()
@@ -43,8 +62,6 @@ def main():
     score2 = delayed_delivery(allBadSmells)
     score3 = unbalanced_contribution(allBadSmells)
     score4 = poor_planning(allBadSmells)
-
-
     
 
 if __name__ == "__main__":
