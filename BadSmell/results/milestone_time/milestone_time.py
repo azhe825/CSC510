@@ -5,7 +5,7 @@ import datetime
 import matplotlib.pyplot as plt
 import numpy as np
 
-indir = "../../dataCollectionInCSV_last/"
+indir = "../../dataCollectionInCSV_early/"
 resultdir = "../milestone_usage/"
 
 tJan = datetime.datetime(year=2016, month=1, day=7) # time for January
