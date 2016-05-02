@@ -1,7 +1,7 @@
 import csv
 import os
 
-indir = '../../dataCollectionInCSV_last/'
+indir = '../../dataCollectionInCSV_early/'
 outdir = './'
 groupvsissuenumber = dict()
 

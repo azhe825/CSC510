@@ -5,7 +5,7 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 
-indir = '../../dataCollectionInCSV_last/'
+indir = '../../dataCollectionInCSV_early/'
 outdir = './'
 group_commits = dict()
 group_nonlinearity = dict()
