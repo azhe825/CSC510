@@ -30,7 +30,12 @@ def readcsv(file):
     return allBadSmells
 
 if __name__ == "__main__":
-    score=Score()
+    score=Score("./badSmellScoreCSV/allBadSmell.csv")
+    score_early=Score("./badSmellScoreCSV_early/allBadSmell.csv")
+    acc_rule=evaluate(np.array(score),np.array(score_early))
+    set_trace()
+
+
     # train=[0,1,5,6,9,11,12]
     x=range(len(score))
     repeats=50

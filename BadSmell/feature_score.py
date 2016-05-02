@@ -48,9 +48,9 @@ def poor_planning(allBadSmells):
         scores[gp] = 1 if features.dot(weights)>thresVal else 0
     return scores
 
-def Score():
+def Score(Name):
     allBadSmells = dict()
-    with open(indir+'allBadSmell.csv') as fin:
+    with open(Name) as fin:
         cr = csv.reader(fin)
         rNum = 0
         for row in cr:
@@ -78,4 +78,4 @@ def Score():
     
 
 if __name__ == "__main__":
-    Score()
+    Score("./badSmellScoreCSV_early/allBadSmell.csv")
