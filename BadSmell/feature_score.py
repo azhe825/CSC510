@@ -10,7 +10,7 @@ def lack_of_communication(allBadSmells):
     weights = np.array([1, 1, 1, 1, 1])
     scores = dict()
     for gp in allBadSmells.keys():
-        features = np.array([allBadSmells[gp][i] for i in col])
+        features = np.array([allBadSmells[gp][i-1] for i in col])
         scores[gp] = features.dot(weights)
     return scores
 
@@ -20,7 +20,7 @@ def delayed_delivery(allBadSmells):
     weights = np.array([1, 1])
     scores = dict()
     for gp in allBadSmells.keys():
-        features = np.array([allBadSmells[gp][i] for i in col])
+        features = np.array([allBadSmells[gp][i-1] for i in col])
         scores[gp] = features.dot(weights)
     return scores
 
@@ -31,7 +31,7 @@ def unbalanced_contribution(allBadSmells):
     weights = np.array([1, 1, 1, 1, 1, 10])
     scores = dict()
     for gp in allBadSmells.keys():
-        features = np.array([allBadSmells[gp][i] for i in col])
+        features = np.array([allBadSmells[gp][i-1] for i in col])
         scores[gp] = features.dot(weights)
     return scores
 
@@ -42,7 +42,7 @@ def poor_planning(allBadSmells):
     weights = np.array([1, 1, 1, 1, 1, 1, 1, 1])
     scores = dict()
     for gp in allBadSmells.keys():
-        features = np.array([allBadSmells[gp][i] for i in col])
+        features = np.array([allBadSmells[gp][i-1] for i in col])
         scores[gp] = features.dot(weights)
     return scores
 
@@ -56,7 +56,7 @@ def main():
                 header = row
             else:
                 allBadSmells[int(row[0])] = map(float, row[1:])
-                print allBadSmells[row[0]]
+                #print allBadSmells[row[0]]
             rNum += 1
     score1 = lack_of_communication(allBadSmells)
     score2 = delayed_delivery(allBadSmells)
