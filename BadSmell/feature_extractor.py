@@ -8,7 +8,7 @@ def extract_feature(base, csvpath):
     events = [event for event in os.listdir(csvpath) if event.__contains__('event')]
     comments = [comment for comment in os.listdir(csvpath) if comment.__contains__('comment')]
     milestones = [milestone for milestone in os.listdir(csvpath) if milestone.__contains__('milestone')]
-    # milestone_dict = get_milestone_dict(csvpath, milestones)
+    milestone_dict = get_milestone_dict(csvpath, milestones)
     milestone_dict = load_obj(os.path.join(csvpath, 'DictMilestone'))
     group_features1 = process_event(csvpath, events)
     group_features2 = process_comment(csvpath, comments)
@@ -455,21 +455,21 @@ def get_badSmell(base, csvpath):
     bad_smell = merge_dict(bad_smell1, bad_smell2)
     bad_smell = merge_dict(bad_smell, bad_smell3)
 
-    outputFile = os.path.join(base, 'badSmellScoreCSV/PoorCommunication.csv')
+    outputFile = os.path.join(base, 'badSmellScoreCSV/PoorCommunication_early.csv')
     fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3', 'SilentUser Num']
     save_badsmell_csv(outputFile, bad_smell, fileds)
 
 
 
     bad_smell = merge_dict(bad_smell, bad_smell4)
-    outputFile = os.path.join(base, 'badSmellScoreCSV/AbsentGroupMember.csv')
+    outputFile = os.path.join(base, 'badSmellScoreCSV/AbsentGroupMember_early.csv')
     fileds = ['groupID', 'Issue Discussions<3', 'Issue Discussions<4', 'Issue Participant<2', 'Issue Participant<3', 'SilentUser Num', 'RelaxedUser Num']
     save_badsmell_csv(outputFile, bad_smell, fileds)
 
     bad_smell = merge_dict(bad_smell4, bad_smell5)
     bad_smell = merge_dict(bad_smell, bad_smell6)
     bad_smell = merge_dict(bad_smell, bad_smell7)
-    outputFile = os.path.join(base, 'badSmellScoreCSV/PoorPlanning.csv')
+    outputFile = os.path.join(base, 'badSmellScoreCSV/PoorPlanning_early.csv')
     fileds = ['groupID', 'Duration = 0', 'Duration > 20', 'Duration > 30', 'RelaxedUser Num', 'Issue wo Milstone', 'Issue Delayed']
     save_badsmell_csv(outputFile, bad_smell, fileds)
     print 'done'
@@ -481,6 +481,6 @@ def get_badSmell(base, csvpath):
 
 if __name__ == "__main__":
     base = os.path.abspath(os.path.dirname(__file__))
-    csvpath = os.path.join(base, 'dataCollectionInCSV')
-    #extract_feature(base, csvpath)
+    csvpath = os.path.join(base, 'dataCollectionInCSV_early')
+    extract_feature(base, csvpath)
     get_badSmell(base, csvpath)
