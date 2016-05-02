@@ -48,7 +48,7 @@ def poor_planning(allBadSmells):
         scores[gp] = 1 if features.dot(weights)>thresVal else 0
     return scores
 
-def main():
+def Score():
     allBadSmells = dict()
     with open(indir+'allBadSmell.csv') as fin:
         cr = csv.reader(fin)
@@ -69,11 +69,13 @@ def main():
     #print score3
     #print score4
 
-    scoreVec = dict()
+    scoreVec = []
     for gp in allBadSmells.keys():
-        scoreVec[gp] = [score1[gp], score2[gp], score3[gp], score4[gp]]
-        print "group"+str(gp), scoreVec[gp], sum(scoreVec[gp])
+        scoreVec.append([score1[gp], score2[gp], score3[gp], score4[gp]])
+
+
+    return scoreVec
     
 
 if __name__ == "__main__":
-    main()
+    Score()
