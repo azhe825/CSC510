@@ -73,7 +73,6 @@ def Score():
     for gp in allBadSmells.keys():
         scoreVec.append([score1[gp], score2[gp], score3[gp], score4[gp]])
 
-
     return scoreVec
     
     
