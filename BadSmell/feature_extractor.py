@@ -15,7 +15,9 @@ def extract_feature(base, csvpath):
     generate_assignees_csv(base, group_features1)
     generate_issueDuration_csv(base, group_features1)
     generate_issueMilestone_csv(base, group_features1)
+    generate_issueHasLabel_csv(base, group_features1)
     generate_issueDelay_csv(base, group_features1)
+
     generate_userCommentNum_csv(base, group_features2)
     generate_issueCommentNum_csv(base, group_features2)
     generate_issueParticipants_csv(base, group_features2)
@@ -83,6 +85,7 @@ def process_event(csvpath, events):
             issue_times = {}
             issue_milestone = {}
             issue_delay = {}
+            issue_hasLabel = {}
             user_assigned = {}
             reader = csv.DictReader(csvinput)
             ## begin extract information from each row, i.e. event.
@@ -97,6 +100,12 @@ def process_event(csvpath, events):
                 ## Issue missing milestones
                 if not issue_milestone.get(issueID):
                     issue_milestone[issueID] = row['milestone']
+
+                ## Issue missing labels
+                if not issue_milestone.get(issueID):
+                    issue_hasLabel[issueID] = False
+                if row['action'] == 'labeled':
+                    issue_hasLabel[issueID] = True
 
                 ## (2) Issues delay for its milestone
                 if row['action'] == 'closed' and row['milestone'] != '':
@@ -128,6 +137,7 @@ def process_event(csvpath, events):
         group_features[groupID]['Issue Delays'] = issue_delay
         group_features[groupID]['Issue Duration'] = {k: get_duration(v) for k,v in issue_times.iteritems()}
         group_features[groupID]['Issue Milestones'] = issue_milestone
+        group_features[groupID]['Issue hasLabel'] = issue_hasLabel
         print  group + ' finished'
     return group_features
 
@@ -206,6 +216,21 @@ def generate_issueMilestone_csv(base, group_features):
     with open(result_file, 'w') as csvinput:
         for groupID, feature in group_features.iteritems():
             dict = feature['Issue Milestones']
+            issues = dict.keys()
+            input_data = {'groupID': groupID}
+            input_data.update(dict)
+            fileds = ['groupID']
+            fileds.extend(issues)
+            writer = csv.DictWriter(csvinput, fieldnames=fileds)
+            writer.writeheader()
+            writer.writerow(input_data)
+
+
+def generate_issueHasLabel_csv(base, group_features):
+    result_file = os.path.join(base, 'featureCSV/issueHasLabel.csv')
+    with open(result_file, 'w') as csvinput:
+        for groupID, feature in group_features.iteritems():
+            dict = feature['Issue hasLabel']
             issues = dict.keys()
             input_data = {'groupID': groupID}
             input_data.update(dict)
@@ -397,6 +422,28 @@ def issueWoMilestone():
     return bad_smell
 
 
+def issueWoLabel():
+    "for each group, find the percentage of issues without label"
+    bad_smell = {}
+    inputFile = os.path.join(base, 'featureCSV/issueHasLabel.csv')
+    with open(inputFile, 'r') as csvinput:
+        reader = csv.reader(csvinput)
+        odd = 1
+        for row in reader:
+            if odd:
+                odd = 0
+                continue
+            else:
+                odd = 1
+                groupID = row[0]
+                hasLabel = row[1:]
+                noLabel = [l for l in hasLabel if l=='False']
+                percent = float(len(noLabel))/len(hasLabel)
+                bad_smell[groupID] = {'Issue wo Label': percent}
+    return bad_smell
+
+
+
 def issueDelayed():
     "for each group, find the percentage of issues that is closed after milestone duedate"
     bad_smell = {}
@@ -451,6 +498,7 @@ def get_badSmell(base, csvpath):
     bad_smell5 = longOpenIssues()
     bad_smell6 = issueWoMilestone()
     bad_smell7 = issueDelayed()
+    bad_smell8 = issueWoLabel()
 
     bad_smell = merge_dict(bad_smell1, bad_smell2)
     bad_smell = merge_dict(bad_smell, bad_smell3)
@@ -469,8 +517,9 @@ def get_badSmell(base, csvpath):
     bad_smell = merge_dict(bad_smell4, bad_smell5)
     bad_smell = merge_dict(bad_smell, bad_smell6)
     bad_smell = merge_dict(bad_smell, bad_smell7)
+    bad_smell = merge_dict(bad_smell, bad_smell8)
     outputFile = os.path.join(base, 'badSmellScoreCSV/PoorPlanning_early.csv')
-    fileds = ['groupID', 'Duration = 0', 'Duration > 20', 'Duration > 30', 'RelaxedUser Num', 'Issue wo Milstone', 'Issue Delayed']
+    fileds = ['groupID', 'Duration = 0', 'Duration > 20', 'Duration > 30', 'RelaxedUser Num', 'Issue wo Milstone', 'Issue wo Label', 'Issue Delayed']
     save_badsmell_csv(outputFile, bad_smell, fileds)
     print 'done'
 
