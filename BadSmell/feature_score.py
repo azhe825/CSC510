@@ -76,6 +76,7 @@ def Score():
 
     return scoreVec
     
+    
 
 if __name__ == "__main__":
     Score()
